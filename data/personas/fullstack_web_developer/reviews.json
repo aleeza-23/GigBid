@@ -1,0 +1,145 @@
+[
+  {
+    "id": "web-p01-review",
+    "project_id": "web-p01",
+    "persona": "fullstack_web_developer",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Great communication. The work on multi-vendor marketplace mvp paid off - launched on time and processed 1,200 orders in its first quarter.",
+    "date": "2023-10-15",
+    "client_industry": "E-commerce",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "web-p02-review",
+    "project_id": "web-p02",
+    "persona": "fullstack_web_developer",
+    "type": "review",
+    "rating": 4.8,
+    "text": "Great communication. The work on shopify store speed overhaul paid off - largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%.",
+    "date": "2022-09-15",
+    "client_industry": "Fashion Retail",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "web-p03-review",
+    "project_id": "web-p03",
+    "persona": "fullstack_web_developer",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Solid engineer. No-shows fell 22% after SMS reminders went live. Would hire again.",
+    "date": "2024-01-05",
+    "client_industry": "Healthcare",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "web-p04-review",
+    "project_id": "web-p04",
+    "persona": "fullstack_web_developer",
+    "type": "review",
+    "rating": 4.5,
+    "text": "Solid engineer. Page loads dropped from 8 s to 1.2 s and monthly reporting became automatic. Would hire again. Some delays on the final handover, but the result was good.",
+    "date": "2022-03-15",
+    "client_industry": "Manufacturing",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "web-p05-review",
+    "project_id": "web-p05",
+    "persona": "fullstack_web_developer",
+    "type": "review",
+    "rating": 4.5,
+    "text": "Great communication. The work on real-estate listings portal paid off - search latency fell from 1.4 s to 180 ms. Some delays on the final handover, but the result was good.",
+    "date": "2023-04-15",
+    "client_industry": "Real Estate",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "web-p06-review",
+    "project_id": "web-p06",
+    "persona": "fullstack_web_developer",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Solid engineer. 2,300 paying members in the first year. Would hire again.",
+    "date": "2021-03-15",
+    "client_industry": "Education",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "web-p07-review",
+    "project_id": "web-p07",
+    "persona": "fullstack_web_developer",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Solid engineer. Dispatch phone calls dropped 70% while tracking 600 trucks live. Would hire again.",
+    "date": "2023-02-15",
+    "client_industry": "Logistics",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "web-p08-review",
+    "project_id": "web-p08",
+    "persona": "fullstack_web_developer",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Mira understood the problem quickly and delivered: onboarding drop-off fell 31%.",
+    "date": "2024-01-05",
+    "client_industry": "Fintech",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "web-p09-review",
+    "project_id": "web-p09",
+    "persona": "fullstack_web_developer",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Great communication. The work on restaurant ordering progressive web app paid off - 38% of orders moved to the restaurant's own app within six months.",
+    "date": "2022-05-15",
+    "client_industry": "Food & Beverage",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "web-p12-review",
+    "project_id": "web-p12",
+    "persona": "fullstack_web_developer",
+    "type": "review",
+    "rating": 4.8,
+    "text": "Mira understood the problem quickly and delivered: failed-payment recovery improved 19%.",
+    "date": "2024-01-05",
+    "client_industry": "SaaS",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "web-p13-review",
+    "project_id": "web-p13",
+    "persona": "fullstack_web_developer",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Mira understood the problem quickly and delivered: direct bookings rose 27% compared with the previous season.",
+    "date": "2022-12-15",
+    "client_industry": "Travel",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "web-p14-review",
+    "project_id": "web-p14",
+    "persona": "fullstack_web_developer",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Solid engineer. Production regressions fell 60% over two quarters. Would hire again.",
+    "date": "2023-08-15",
+    "client_industry": "SaaS",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "web-p16-review",
+    "project_id": "web-p16",
+    "persona": "fullstack_web_developer",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Solid engineer. Support tickets fell 25% in the first two months. Would hire again.",
+    "date": "2024-01-05",
+    "client_industry": "E-commerce",
+    "data_origin": "synthetic"
+  }
+]

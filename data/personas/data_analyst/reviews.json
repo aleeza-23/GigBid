@@ -1,0 +1,134 @@
+[
+  {
+    "id": "data-p01-review",
+    "project_id": "data-p01",
+    "persona": "data_analyst",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Solid engineer. Weekly reporting time fell from six hours to 15 minutes. Would hire again.",
+    "date": "2023-01-15",
+    "client_industry": "Wholesale Distribution",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "data-p02-review",
+    "project_id": "data-p02",
+    "persona": "data_analyst",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Solid engineer. Budget was reallocated by 20% and acquisition cost fell 17%. Would hire again.",
+    "date": "2023-08-15",
+    "client_industry": "E-commerce",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "data-p03-review",
+    "project_id": "data-p03",
+    "persona": "data_analyst",
+    "type": "review",
+    "rating": 4.5,
+    "text": "Great communication. The work on startup financial model for a seed round paid off - the model was used in a successful $1.2M seed round. Some delays on the final handover, but the result was good.",
+    "date": "2022-05-15",
+    "client_industry": "Startup",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "data-p04-review",
+    "project_id": "data-p04",
+    "persona": "data_analyst",
+    "type": "review",
+    "rating": 4.8,
+    "text": "Great communication. The work on emergency department wait-time analysis paid off - two bottlenecks were fixed and the median wait fell 19 minutes.",
+    "date": "2022-09-15",
+    "client_industry": "Healthcare",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "data-p06-review",
+    "project_id": "data-p06",
+    "persona": "data_analyst",
+    "type": "review",
+    "rating": 4.5,
+    "text": "Solid engineer. The report was used in the NGO's annual donor renewal. Would hire again. Some delays on the final handover, but the result was good.",
+    "date": "2022-02-15",
+    "client_industry": "Nonprofit",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "data-p07-review",
+    "project_id": "data-p07",
+    "persona": "data_analyst",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Solid engineer. The team spotted a month-two drop; an onboarding fix cut churn by 3 points. Would hire again.",
+    "date": "2024-01-05",
+    "client_industry": "SaaS",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "data-p08-review",
+    "project_id": "data-p08",
+    "persona": "data_analyst",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Solid engineer. 48,000 contacts were reduced to 31,000 unique records. Would hire again.",
+    "date": "2023-09-15",
+    "client_industry": "Real Estate",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "data-p09-review",
+    "project_id": "data-p09",
+    "persona": "data_analyst",
+    "type": "review",
+    "rating": 4.0,
+    "text": "Solid engineer. About ten hours of manual data entry a week was removed. Would hire again. Some delays on the final handover, but the result was good.",
+    "date": "2023-05-15",
+    "client_industry": "Logistics",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "data-p12-review",
+    "project_id": "data-p12",
+    "persona": "data_analyst",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Great communication. The work on a/b test analysis toolkit paid off - average test duration fell 30% without raising false positives.",
+    "date": "2024-01-05",
+    "client_industry": "E-commerce",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "data-p13-review",
+    "project_id": "data-p13",
+    "persona": "data_analyst",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Solid engineer. Month-end close went from five days to two. Would hire again.",
+    "date": "2023-03-15",
+    "client_industry": "Accounting",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "data-p15-review",
+    "project_id": "data-p15",
+    "persona": "data_analyst",
+    "type": "review",
+    "rating": 4.8,
+    "text": "Daniyal understood the problem quickly and delivered: overtime was identified as the main driver; attrition fell 4 points the next year.",
+    "date": "2023-09-15",
+    "client_industry": "Human Resources",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "data-p16-review",
+    "project_id": "data-p16",
+    "persona": "data_analyst",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Daniyal understood the problem quickly and delivered: core queries dropped from 40 seconds to 2 seconds.",
+    "date": "2024-01-05",
+    "client_industry": "SaaS",
+    "data_origin": "synthetic"
+  }
+]

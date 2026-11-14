@@ -1,0 +1,112 @@
+[
+  {
+    "id": "ai-p01-review",
+    "project_id": "ai-p01",
+    "persona": "ai_ml_engineer",
+    "type": "review",
+    "rating": 4.0,
+    "text": "Great communication. The work on support ticket triage classifier paid off - routing accuracy rose from 71% to 89% and first-response time fell by 35%. Some delays on the final handover, but the result was good.",
+    "date": "2023-12-15",
+    "client_industry": "SaaS",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "ai-p02-review",
+    "project_id": "ai-p02",
+    "persona": "ai_ml_engineer",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Ayaan understood the problem quickly and delivered: average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set.",
+    "date": "2024-01-05",
+    "client_industry": "Insurance",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "ai-p03-review",
+    "project_id": "ai-p03",
+    "persona": "ai_ml_engineer",
+    "type": "review",
+    "rating": 4.5,
+    "text": "Solid engineer. Forecast error (MAPE) improved from 24% to 11% and waste fell by 18%. Would hire again. Some delays on the final handover, but the result was good.",
+    "date": "2022-04-15",
+    "client_industry": "Food & Beverage",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "ai-p04-review",
+    "project_id": "ai-p04",
+    "persona": "ai_ml_engineer",
+    "type": "review",
+    "rating": 4.0,
+    "text": "Ayaan understood the problem quickly and delivered: recall reached 94% at a 2% false-positive rate, running at 25 frames per second. Some delays on the final handover, but the result was good.",
+    "date": "2023-04-15",
+    "client_industry": "Manufacturing",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "ai-p05-review",
+    "project_id": "ai-p05",
+    "persona": "ai_ml_engineer",
+    "type": "review",
+    "rating": 4.5,
+    "text": "Ayaan understood the problem quickly and delivered: AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers. Some delays on the final handover, but the result was good.",
+    "date": "2022-11-15",
+    "client_industry": "Telecommunications",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "ai-p06-review",
+    "project_id": "ai-p06",
+    "persona": "ai_ml_engineer",
+    "type": "review",
+    "rating": 4.8,
+    "text": "Great communication. The work on semantic resume-to-job matching paid off - nDCG@10 improved from 0.61 to 0.78 and shortlist time halved.",
+    "date": "2023-01-15",
+    "client_industry": "HR Tech",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "ai-p07-review",
+    "project_id": "ai-p07",
+    "persona": "ai_ml_engineer",
+    "type": "review",
+    "rating": 4.8,
+    "text": "Solid engineer. 62% of booking conversations completed without staff involvement. Would hire again.",
+    "date": "2024-01-05",
+    "client_industry": "Healthcare",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "ai-p08-review",
+    "project_id": "ai-p08",
+    "persona": "ai_ml_engineer",
+    "type": "review",
+    "rating": 5.0,
+    "text": "Great communication. The work on payment fraud anomaly detection paid off - precision at the top 100 alerts rose from 0.32 to 0.71.",
+    "date": "2023-03-15",
+    "client_industry": "Fintech",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "ai-p13-review",
+    "project_id": "ai-p13",
+    "persona": "ai_ml_engineer",
+    "type": "review",
+    "rating": 4.0,
+    "text": "Solid engineer. 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice. Would hire again. Some delays on the final handover, but the result was good.",
+    "date": "2024-01-05",
+    "client_industry": "Accounting",
+    "data_origin": "synthetic"
+  },
+  {
+    "id": "ai-p14-review",
+    "project_id": "ai-p14",
+    "persona": "ai_ml_engineer",
+    "type": "review",
+    "rating": 4.8,
+    "text": "Ayaan understood the problem quickly and delivered: the team found a login bug driving 30% of one-star reviews within the first week.",
+    "date": "2022-05-15",
+    "client_industry": "Mobile Apps",
+    "data_origin": "synthetic"
+  }
+]

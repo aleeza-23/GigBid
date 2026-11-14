@@ -1,0 +1,73 @@
+{
+  "seed": 42,
+  "personas": {
+    "ai_ml_engineer": {
+      "dev_jobs": 66,
+      "by_kind": {
+        "in_domain": 34,
+        "off_domain": 10,
+        "scam": 8,
+        "injection": 8,
+        "duplicate": 6
+      },
+      "bid_labels": 15,
+      "skip_labels": 51,
+      "in_domain_bid_rate": 0.382,
+      "proposal_outcomes": {
+        "won": 32,
+        "replied": 50,
+        "ignored": 68
+      },
+      "historical_jobs": 374,
+      "evidence_documents": 197
+    },
+    "fullstack_web_developer": {
+      "dev_jobs": 66,
+      "by_kind": {
+        "in_domain": 34,
+        "off_domain": 10,
+        "scam": 8,
+        "injection": 8,
+        "duplicate": 6
+      },
+      "bid_labels": 19,
+      "skip_labels": 47,
+      "in_domain_bid_rate": 0.412,
+      "proposal_outcomes": {
+        "won": 20,
+        "replied": 52,
+        "ignored": 78
+      },
+      "historical_jobs": 500,
+      "evidence_documents": 198
+    },
+    "data_analyst": {
+      "dev_jobs": 66,
+      "by_kind": {
+        "in_domain": 34,
+        "off_domain": 10,
+        "scam": 8,
+        "injection": 8,
+        "duplicate": 6
+      },
+      "bid_labels": 11,
+      "skip_labels": 55,
+      "in_domain_bid_rate": 0.324,
+      "proposal_outcomes": {
+        "won": 20,
+        "replied": 49,
+        "ignored": 81
+      },
+      "historical_jobs": 500,
+      "evidence_documents": 197
+    }
+  },
+  "totals": {
+    "stream_jobs": 198,
+    "historical_jobs": 1374,
+    "clients": 1554,
+    "dev_rows": 198,
+    "conversation_threads": 30,
+    "evidence_documents": 592
+  }
+}

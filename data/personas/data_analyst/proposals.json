@@ -1,0 +1,3255 @@
+[
+  {
+    "id": "data-prop-001",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0125025ae5e66814eb",
+    "job_title": "Graph Theory and Network Analysis Proof of Concept",
+    "job_category": "Data Analytics",
+    "date": "2024-02-20",
+    "text": "Your Graph Theory and Network Analysis Proof of Concept post asks for data analysis; I have shipped exactly that before.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal. For a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes. For a real estate client in 2022 I cleaned public transaction data and built a repeat-sales index with maps, and the index covered 85 neighbourhoods and guided two purchase decisions.\n\nMy rate for this is $42/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06",
+      "data-p04",
+      "data-p14"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 42.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-002",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-013c7205ae0b246431",
+    "job_title": "Create G4 analytics tracking for Social Selling on LinkedIn",
+    "job_category": "Data Analytics",
+    "date": "2024-02-15",
+    "text": "Your Create G4 analytics tracking for Social Selling on LinkedIn post asks for analytics & tracking setup; I have shipped exactly that before.\n\nFor a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes.\n\nMy rate for this is $43/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 43.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-003",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0163fe181efb2d1362",
+    "job_title": "Remote data analyst",
+    "job_category": "Data Analytics",
+    "date": "2024-02-16",
+    "text": "Your Remote data analyst post asks for data entry; I have shipped exactly that before.\n\nFor a manufacturing client in 2022 I defined 12 KPIs with finance and built one drill-down view, and the suite was adopted by 40 managers within a quarter. For a food delivery client in 2024 I built weekly forecasts with holiday and weather effects and automated refreshes, and weekly forecast error (MAPE) fell from 18% to 9%.\n\nI can deliver this for $117 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p10",
+      "data-p11"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 117.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-004",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01858456dcd6e370da",
+    "job_title": "Creation of advanced Power BI dashboard",
+    "job_category": "Data Visualization",
+    "date": "2024-02-20",
+    "text": "Your Creation of advanced Power BI dashboard post asks for business intelligence; I have shipped exactly that before.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes. For a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points. For a real estate client in 2022 I cleaned public transaction data and built a repeat-sales index with maps, and the index covered 85 neighbourhoods and guided two purchase decisions.\n\nMy rate for this is $13/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01",
+      "data-p07",
+      "data-p14"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 13.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-005",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01e6f4de9c18120a4b",
+    "job_title": "Finance Question Answerer",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-16",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nI can deliver this for $131 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 131.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-006",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01e3c9df71876bf24b",
+    "job_title": "Interactive Sales Data Dashboard",
+    "job_category": "Data Visualization",
+    "date": "2024-02-14",
+    "text": "Your Interactive Sales Data Dashboard post asks for dashboard; I have shipped exactly that before.\n\nFor a saas client in 2024 I built staged, tested models in a warehouse with documented metrics, and core queries dropped from 40 seconds to 2 seconds. For a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes.\n\nMy rate for this is $17/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p16",
+      "data-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 17.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-007",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-015c1564c95c6f5384",
+    "job_title": "Simple AI scraping question",
+    "job_category": "Data Mining",
+    "date": "2024-02-20",
+    "text": "Your Simple AI scraping question post asks for artificial intelligence; I have shipped exactly that before.\n\nFor an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two. For a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes.\n\nI can deliver this for $130 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p13",
+      "data-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 130.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-008",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01e2687afcd1885cb2",
+    "job_title": "Seeking Freelancer for Google Analytics 4 to ChatGPT Integration Project on Upwork",
+    "job_category": "Data Analytics",
+    "date": "2024-02-16",
+    "text": "Your Seeking Freelancer for Google Analytics 4 to ChatGPT Integration Proje post asks for bigquery; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%. For a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points.\n\nMy rate for this is $40/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02",
+      "data-p07"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 40.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-009",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01cff5743f2a99434f",
+    "job_title": "Clean Up/Build Inventory tracking spreadsheet",
+    "job_category": "Data Processing",
+    "date": "2024-02-16",
+    "text": "Your Clean Up/Build Inventory tracking spreadsheet post asks for google sheets; I have shipped exactly that before.\n\nFor a logistics client in 2023 I wrote scripts to import, validate and summarise deliveries automatically, and about ten hours of manual data entry a week was removed.\n\nMy rate for this is $14/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 14.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-010",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01babd73bf7d140e14",
+    "job_title": "Virtual CFO - Creating operating Excel spreadsheet",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-18",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two. For a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter.\n\nI can deliver this for $132 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p13",
+      "data-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 132.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-011",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01a63dfc4b4a293dfa",
+    "job_title": "Setup and test conversion tracking between CogX's Google Analytics and Swoogo",
+    "job_category": "Data Analytics",
+    "date": "2024-02-14",
+    "text": "Your Setup and test conversion tracking between CogX's Google Analytics and post asks for google analytics; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nMy rate for this is $89/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 89.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-012",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0128eae721c25b464a",
+    "job_title": "Data Analysis for Research Paper",
+    "job_category": "Data Analytics",
+    "date": "2024-02-19",
+    "text": "Your Data Analysis for Research Paper post asks for data analysis; I have shipped exactly that before.\n\nFor a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes.\n\nI can deliver this for $178 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 178.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-013",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01109d06e453e74b11",
+    "job_title": "Grafana and Elasticsearch Dashboard Builder",
+    "job_category": "Data Visualization",
+    "date": "2024-02-18",
+    "text": "Your Grafana and Elasticsearch Dashboard Builder post asks for dashboard; I have shipped exactly that before.\n\nFor a human resources client in 2023 I modelled attrition drivers and built a dashboard for managers, and overtime was identified as the main driver; attrition fell 4 points the next year. For a real estate client in 2023 I standardised fields and fuzzy-matched contacts with a review sheet for edge cases, and 48,000 contacts were reduced to 31,000 unique records.\n\nMy rate for this is $31/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p15",
+      "data-p08"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 31.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-014",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01e7821424e15bb8f8",
+    "job_title": "Creating reports",
+    "job_category": "Data Analytics",
+    "date": "2024-02-19",
+    "text": "Your Creating reports post asks for data analysis; I have shipped exactly that before.\n\nFor an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nI can deliver this for $248 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 248.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-015",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01d14aee30e20aa3b1",
+    "job_title": "Excel financial model",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-20",
+    "text": "Your Excel financial model post asks for financial analysis; I have shipped exactly that before.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nMy rate for this is $36/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p05",
+      "data-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 36.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-016",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-015d1e0a4077e4a38d",
+    "job_title": "Financial model for innovative beverage startup",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-14",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a saas client in 2024 I built staged, tested models in a warehouse with documented metrics, and core queries dropped from 40 seconds to 2 seconds.\n\nI can deliver this for $84 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p16"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 84.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-017",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0184e24233e4949a2a",
+    "job_title": "ETL Developer with scraping and GCP experience",
+    "job_category": "Data Engineering",
+    "date": "2024-02-18",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nI can deliver this for $107 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02",
+      "data-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 107.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-018",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0107e947a38881b65c",
+    "job_title": "Excel formulas",
+    "job_category": "Data Analytics",
+    "date": "2024-02-17",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter.\n\nI can deliver this for $111 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 111.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-019",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-018b32852ffc99b638",
+    "job_title": "Pyspark and Delta Lake Developer",
+    "job_category": "Data Engineering",
+    "date": "2024-02-17",
+    "text": "Your Pyspark and Delta Lake Developer post asks for apache spark; I have shipped exactly that before.\n\nFor a logistics client in 2023 I wrote scripts to import, validate and summarise deliveries automatically, and about ten hours of manual data entry a week was removed. For a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nI can deliver this for $82 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p09",
+      "data-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 82.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-020",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01915bb760ccaec2a9",
+    "job_title": "Financial Consultant - PPM, Cap Table Management, Financial Analysis",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-22",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nMy rate for this is $39/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 39.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-021",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0175be749a395d5271",
+    "job_title": "Seeking Data Scientist for Insurance Predictive Modeling",
+    "job_category": "Data Analytics",
+    "date": "2024-02-13",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a human resources client in 2023 I modelled attrition drivers and built a dashboard for managers, and overtime was identified as the main driver; attrition fell 4 points the next year. For a food delivery client in 2024 I built weekly forecasts with holiday and weather effects and automated refreshes, and weekly forecast error (MAPE) fell from 18% to 9%.\n\nMy rate for this is $43/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p15",
+      "data-p11"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 43.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-022",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0179836d559a43c5ea",
+    "job_title": "Google Analytics + Tag Manager Help",
+    "job_category": "Data Analytics",
+    "date": "2024-02-13",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nI can deliver this for $115 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 115.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-023",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01e3c9df71876bf24b",
+    "job_title": "Interactive Sales Data Dashboard",
+    "job_category": "Data Visualization",
+    "date": "2024-02-14",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes. For a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points.\n\nMy rate for this is $14/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01",
+      "data-p07"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 14.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-024",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01d3ba7751443957db",
+    "job_title": "Data Mining and Data Entry",
+    "job_category": "Data Mining",
+    "date": "2024-02-18",
+    "text": "Your Data Mining and Data Entry post asks for data entry; I have shipped exactly that before.\n\nFor a real estate client in 2023 I standardised fields and fuzzy-matched contacts with a review sheet for edge cases, and 48,000 contacts were reduced to 31,000 unique records.\n\nMy rate for this is $10/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p08"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 10.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-025",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-016df94b7d41393347",
+    "job_title": "Looking for seasoned Data Analysts",
+    "job_category": "Data Analytics",
+    "date": "2024-02-19",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor an e-commerce client in 2024 I built a toolkit with power analysis, variance reduction and sequential checks, and average test duration fell 30% without raising false positives. For a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes.\n\nI can deliver this for $173 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p12",
+      "data-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 173.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-026",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01797760557c515450",
+    "job_title": "Recruiting Business Analyst agencies with 3D Graphic Designer",
+    "job_category": "Data Visualization",
+    "date": "2024-02-23",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes. For a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes.\n\nI can deliver this for $137 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01",
+      "data-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 137.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-027",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01171b9db59e227f93",
+    "job_title": "Looking for someone to help us acquire investor funding",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-16",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter.\n\nI can deliver this for $91 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 91.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-028",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01e3f7df1c39f0c882",
+    "job_title": "Financial Projections for a FinTech Project",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-20",
+    "text": "Your Financial Projections for a FinTech Project post asks for financial modeling; I have shipped exactly that before.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nI can deliver this for $105 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 105.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-029",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01a2f6af24aae24d29",
+    "job_title": "Statistics Tutor",
+    "job_category": "Data Analytics",
+    "date": "2024-02-23",
+    "text": "Your Statistics Tutor post asks for mathematics; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nMy rate for this is $29/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 29.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-030",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01f5c0e962cbed2d29",
+    "job_title": "Statistics and Data Analytics/Visualization Tutor",
+    "job_category": "Data Analytics",
+    "date": "2024-02-17",
+    "text": "Your Statistics and Data Analytics/Visualization Tutor post asks for data analysis; I have shipped exactly that before.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal.\n\nMy rate for this is $44/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 44.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-031",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01ad76b6e34dd0afaf",
+    "job_title": "Looking for experienced Data Analysts",
+    "job_category": "Data Analytics",
+    "date": "2024-02-14",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes.\n\nI can deliver this for $158 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 158.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-032",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01a4b184f69face5f7",
+    "job_title": "Excel/Google sheet to track students attendance, payment due, teacher payment due etc",
+    "job_category": "Data Analytics",
+    "date": "2024-02-16",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter.\n\nI can deliver this for $135 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 135.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-033",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01bd280d11faf6ecd1",
+    "job_title": "Data Collection of Real Estate Agents",
+    "job_category": "Data Mining",
+    "date": "2024-02-22",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a real estate client in 2023 I standardised fields and fuzzy-matched contacts with a review sheet for edge cases, and 48,000 contacts were reduced to 31,000 unique records.\n\nI can deliver this for $618 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p08"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 618.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-034",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01cff5743f2a99434f",
+    "job_title": "Clean Up/Build Inventory tracking spreadsheet",
+    "job_category": "Data Processing",
+    "date": "2024-02-16",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a logistics client in 2023 I wrote scripts to import, validate and summarise deliveries automatically, and about ten hours of manual data entry a week was removed. For a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nMy rate for this is $16/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p09",
+      "data-p03"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 16.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-035",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0178c1b946d826cf07",
+    "job_title": "Multi-Site GA4/GTM Audit, BigQuery Setup and More",
+    "job_category": "Data Analytics",
+    "date": "2024-02-16",
+    "text": "Your Multi-Site GA4/GTM Audit, BigQuery Setup and More post asks for bigquery; I have shipped exactly that before.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal. For a human resources client in 2023 I modelled attrition drivers and built a dashboard for managers, and overtime was identified as the main driver; attrition fell 4 points the next year.\n\nI can deliver this for $108 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06",
+      "data-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 108.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-036",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01792665ac56ccff3e",
+    "job_title": "Convert an ACL-Tableau metrics to Alteryx",
+    "job_category": "Data Analytics",
+    "date": "2024-02-17",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes. For a real estate client in 2022 I cleaned public transaction data and built a repeat-sales index with maps, and the index covered 85 neighbourhoods and guided two purchase decisions. For a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes.\n\nI can deliver this for $124 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p04",
+      "data-p14",
+      "data-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 124.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-037",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0160170d4b9dfb8bd9",
+    "job_title": "Twilio Segment Implementation",
+    "job_category": "Data Analytics",
+    "date": "2024-02-14",
+    "text": "Your Twilio Segment Implementation post asks for analytics & tracking setup; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nMy rate for this is $105/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 105.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-038",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01119ff71b4f8a85b3",
+    "job_title": "Iot Modeling and data Analysis",
+    "job_category": "Data Analytics",
+    "date": "2024-02-20",
+    "text": "Your Iot Modeling and data Analysis post asks for data analysis; I have shipped exactly that before.\n\nFor a human resources client in 2023 I modelled attrition drivers and built a dashboard for managers, and overtime was identified as the main driver; attrition fell 4 points the next year. For a manufacturing client in 2022 I defined 12 KPIs with finance and built one drill-down view, and the suite was adopted by 40 managers within a quarter.\n\nI can deliver this for $129 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p15",
+      "data-p10"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 129.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-039",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-018be52a5d367cca9e",
+    "job_title": "Need to obtain private company financials from sources like PrivCo, CapIQ, and Mergent Intellect",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-14",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a manufacturing client in 2022 I defined 12 KPIs with finance and built one drill-down view, and the suite was adopted by 40 managers within a quarter.\n\nI can deliver this for $103 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p10"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 103.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-040",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0199f1374f89c839c8",
+    "job_title": "skilled Tableau dashboard designer and Tableau Server Installation",
+    "job_category": "Data Analytics",
+    "date": "2024-02-22",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two. For an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nI can deliver this for $2650 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p13",
+      "data-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 2650.0
+    },
+    "connects_spent": 16,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-041",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01b1c984776f62a828",
+    "job_title": "Google Trends Expert + Ai Image Generation Needed",
+    "job_category": "Data Analytics",
+    "date": "2024-02-17",
+    "text": "Your Google Trends Expert + Ai Image Generation Needed post asks for google trends; I have shipped exactly that before.\n\nFor a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter.\n\nMy rate for this is $5/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 5.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-042",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0130cf948a996de01e",
+    "job_title": "Excel Expert",
+    "job_category": "Data Analytics",
+    "date": "2024-02-16",
+    "text": "Your Excel Expert post asks for budget planning; I have shipped exactly that before.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nI can deliver this for $129 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 129.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-043",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01db1421dbc4fbcecf",
+    "job_title": "Write a Python Code to have tweets from Twitter API using my account Twitter API",
+    "job_category": "Data Analytics",
+    "date": "2024-02-18",
+    "text": "Your Write a Python Code to have tweets from Twitter API using my account T post asks for python; I have shipped exactly that before.\n\nFor an e-commerce client in 2024 I built a toolkit with power analysis, variance reduction and sequential checks, and average test duration fell 30% without raising false positives. For a human resources client in 2023 I modelled attrition drivers and built a dashboard for managers, and overtime was identified as the main driver; attrition fell 4 points the next year.\n\nI can deliver this for $91 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p12",
+      "data-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 91.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-044",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01b423aed149d4be2c",
+    "job_title": "Writing and desing my resume in Latex for Data Analysis and Data Science Possition",
+    "job_category": "Data Analytics",
+    "date": "2024-02-20",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a food delivery client in 2024 I built weekly forecasts with holiday and weather effects and automated refreshes, and weekly forecast error (MAPE) fell from 18% to 9%. For an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nI can deliver this for $99 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p11",
+      "data-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 99.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-045",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0189bfada9435dea0c",
+    "job_title": "Research Statistical Study",
+    "job_category": "Data Analytics",
+    "date": "2024-02-17",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal.\n\nMy rate for this is $44/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 44.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-046",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01dfdff8e954711af8",
+    "job_title": "Google Tag Manager/ Analytics Specialist",
+    "job_category": "Data Analytics",
+    "date": "2024-02-20",
+    "text": "Your Google Tag Manager/ Analytics Specialist post asks for dashboard; I have shipped exactly that before.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes.\n\nMy rate for this is $22/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 22.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-047",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01f8f726571851bc5b",
+    "job_title": "Data Analyst for Lead Scoring Implementation",
+    "job_category": "Data Analytics",
+    "date": "2024-02-22",
+    "text": "Your Data Analyst for Lead Scoring Implementation post asks for data entry; I have shipped exactly that before.\n\nFor a real estate client in 2023 I standardised fields and fuzzy-matched contacts with a review sheet for edge cases, and 48,000 contacts were reduced to 31,000 unique records. For a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes. For a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal.\n\nI can deliver this for $94 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p08",
+      "data-p01",
+      "data-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 94.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-048",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01646666d3bcd40dcb",
+    "job_title": "Power Query Help",
+    "job_category": "Data Analytics",
+    "date": "2024-02-19",
+    "text": "Your Power Query Help post asks for accounting; I have shipped exactly that before.\n\nFor an e-commerce client in 2024 I built a toolkit with power analysis, variance reduction and sequential checks, and average test duration fell 30% without raising false positives. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nI can deliver this for $112 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p12",
+      "data-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 112.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-049",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01b1c984776f62a828",
+    "job_title": "Google Trends Expert + Ai Image Generation Needed",
+    "job_category": "Data Analytics",
+    "date": "2024-02-17",
+    "text": "Your Google Trends Expert + Ai Image Generation Needed post asks for google trends; I have shipped exactly that before.\n\nFor an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two. For an e-commerce client in 2024 I built a toolkit with power analysis, variance reduction and sequential checks, and average test duration fell 30% without raising false positives.\n\nMy rate for this is $5/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p13",
+      "data-p12"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 5.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-050",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-010117cfae1196c1a5",
+    "job_title": "Data Scientist",
+    "job_category": "Data Analytics",
+    "date": "2024-02-18",
+    "text": "Your Data Scientist post asks for article writing; I have shipped exactly that before.\n\nFor a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes.\n\nI can deliver this for $136 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 136.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-051",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01fd3c7bf3ac52f327",
+    "job_title": "Football club data",
+    "job_category": "Data Mining",
+    "date": "2024-02-13",
+    "text": "Your Football club data post asks for data mining; I have shipped exactly that before.\n\nFor a real estate client in 2023 I standardised fields and fuzzy-matched contacts with a review sheet for edge cases, and 48,000 contacts were reduced to 31,000 unique records. For an e-commerce client in 2024 I built a toolkit with power analysis, variance reduction and sequential checks, and average test duration fell 30% without raising false positives.\n\nI can deliver this for $128 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p08",
+      "data-p12"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 128.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-052",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01d1b440e430ce5c28",
+    "job_title": "Data Integrity Specialist / Jr. Salesforce Admin",
+    "job_category": "Data Processing",
+    "date": "2024-02-15",
+    "text": "Your Data Integrity Specialist / Jr. Salesforce Admin post asks for microsoft excel; I have shipped exactly that before.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nMy rate for this is $26/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 26.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-053",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01ff0a19ca9681a4e8",
+    "job_title": "Dashboard and MIS in Power BI",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-22",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nMy rate for this is $23/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 23.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-054",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01243dc8136d961bda",
+    "job_title": "Community Assistant - Crypto Research Skills",
+    "job_category": "Data Analytics",
+    "date": "2024-02-20",
+    "text": "Your Community Assistant - Crypto Research Skills post asks for crypto marketing; I have shipped exactly that before.\n\nFor a logistics client in 2023 I wrote scripts to import, validate and summarise deliveries automatically, and about ten hours of manual data entry a week was removed.\n\nMy rate for this is $6/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 6.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-055",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-015d1e0a4077e4a38d",
+    "job_title": "Financial model for innovative beverage startup",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-14",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For a logistics client in 2023 I wrote scripts to import, validate and summarise deliveries automatically, and about ten hours of manual data entry a week was removed.\n\nI can deliver this for $89 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p09"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 89.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-056",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01d0f46b952e534172",
+    "job_title": "BI Reporting for telco usage information",
+    "job_category": "Data Analytics",
+    "date": "2024-02-16",
+    "text": "Your BI Reporting for telco usage information post asks for dashboard; I have shipped exactly that before.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes.\n\nMy rate for this is $34/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 34.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-057",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01ad76b6e34dd0afaf",
+    "job_title": "Looking for experienced Data Analysts",
+    "job_category": "Data Analytics",
+    "date": "2024-02-14",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal.\n\nI can deliver this for $165 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 165.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-058",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-010a273e6935459945",
+    "job_title": "Data Analysis Trainee for Digital Campaigns",
+    "job_category": "Data Analytics",
+    "date": "2024-02-23",
+    "text": "Your Data Analysis Trainee for Digital Campaigns post asks for analytics; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%. For a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes. For a human resources client in 2023 I modelled attrition drivers and built a dashboard for managers, and overtime was identified as the main driver; attrition fell 4 points the next year.\n\nMy rate for this is $10/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02",
+      "data-p04",
+      "data-p15"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 10.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-059",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-019fc91171557da44c",
+    "job_title": "Data Studio Reports and Google Analytics",
+    "job_category": "Data Analytics",
+    "date": "2024-02-20",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points.\n\nMy rate for this is $37/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p07"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 37.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-060",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0103e20268cc7a71b6",
+    "job_title": "Data Scientist for Media Buying Analysis \u00f0\u0178\u0161\u20ac",
+    "job_category": "Data Analytics",
+    "date": "2024-02-23",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a logistics client in 2023 I wrote scripts to import, validate and summarise deliveries automatically, and about ten hours of manual data entry a week was removed. For a food delivery client in 2024 I built weekly forecasts with holiday and weather effects and automated refreshes, and weekly forecast error (MAPE) fell from 18% to 9%.\n\nI can deliver this for $136 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p09",
+      "data-p11"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 136.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-061",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01ae0fd8837ccfc9af",
+    "job_title": "Filter 2000 profiles in Linkedin and get 400 quality profiles per week from GDrive File",
+    "job_category": "Data Mining",
+    "date": "2024-02-19",
+    "text": "Your Filter 2000 profiles in Linkedin and get 400 quality profiles per week post asks for accuracy verification; I have shipped exactly that before.\n\nFor a real estate client in 2023 I standardised fields and fuzzy-matched contacts with a review sheet for edge cases, and 48,000 contacts were reduced to 31,000 unique records. For a logistics client in 2023 I wrote scripts to import, validate and summarise deliveries automatically, and about ten hours of manual data entry a week was removed.\n\nI can deliver this for $135 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p08",
+      "data-p09"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 135.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-062",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-011637704199a78ead",
+    "job_title": "Model Manager",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-20",
+    "text": "Your Model Manager post asks for business plan; I have shipped exactly that before.\n\nFor a manufacturing client in 2022 I defined 12 KPIs with finance and built one drill-down view, and the suite was adopted by 40 managers within a quarter. For a saas client in 2024 I built staged, tested models in a warehouse with documented metrics, and core queries dropped from 40 seconds to 2 seconds.\n\nMy rate for this is $19/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p10",
+      "data-p16"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 19.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-063",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01acb4559f24c077db",
+    "job_title": "Social Listening & Monitoring and Insight Reporting Weekly (Native Polish Speaker)",
+    "job_category": "Data Analytics",
+    "date": "2024-02-23",
+    "text": "Your Social Listening & Monitoring and Insight Reporting Weekly (Native Pol post asks for analytical presentation; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nI can deliver this for $134 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 134.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-064",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01d3cfa82a9a878acd",
+    "job_title": "Define private cloud data architecture (hadoop and spark)",
+    "job_category": "Data Engineering",
+    "date": "2024-02-13",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two. For a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points.\n\nMy rate for this is $28/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p13",
+      "data-p07"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 28.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-065",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01858456dcd6e370da",
+    "job_title": "Creation of advanced Power BI dashboard",
+    "job_category": "Data Visualization",
+    "date": "2024-02-20",
+    "text": "Your Creation of advanced Power BI dashboard post asks for business intelligence; I have shipped exactly that before.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes. For a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points. For a real estate client in 2022 I cleaned public transaction data and built a repeat-sales index with maps, and the index covered 85 neighbourhoods and guided two purchase decisions.\n\nMy rate for this is $13/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01",
+      "data-p07",
+      "data-p14"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 13.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-066",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-010133385f29312410",
+    "job_title": "Data Analyst",
+    "job_category": "Data Analytics",
+    "date": "2024-02-22",
+    "text": "Your Data Analyst post asks for analytics; I have shipped exactly that before.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal.\n\nI can deliver this for $109 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 109.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-067",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01f5c0e962cbed2d29",
+    "job_title": "Statistics and Data Analytics/Visualization Tutor",
+    "job_category": "Data Analytics",
+    "date": "2024-02-17",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal. For a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes. For a logistics client in 2023 I wrote scripts to import, validate and summarise deliveries automatically, and about ten hours of manual data entry a week was removed.\n\nMy rate for this is $45/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06",
+      "data-p04",
+      "data-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 45.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-068",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0149913847a8193317",
+    "job_title": "Data Engineer",
+    "job_category": "Data Engineering",
+    "date": "2024-02-19",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a real estate client in 2023 I standardised fields and fuzzy-matched contacts with a review sheet for edge cases, and 48,000 contacts were reduced to 31,000 unique records.\n\nMy rate for this is $44/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p08"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 44.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-069",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0191ec1c2618b8e3b0",
+    "job_title": "GA4 property missing data in reports - everything before 4 months in past",
+    "job_category": "Data Analytics",
+    "date": "2024-02-16",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nI can deliver this for $106 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 106.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-070",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01a6225e3959cbfe5c",
+    "job_title": "Zoho Financial Dashboard Expert",
+    "job_category": "Data Visualization",
+    "date": "2024-02-22",
+    "text": "Your Zoho Financial Dashboard Expert post asks for accounting; I have shipped exactly that before.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes. For a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points.\n\nMy rate for this is $28/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01",
+      "data-p07"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 28.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-071",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01d3ba7751443957db",
+    "job_title": "Data Mining and Data Entry",
+    "job_category": "Data Mining",
+    "date": "2024-02-18",
+    "text": "Your Data Mining and Data Entry post asks for data entry; I have shipped exactly that before.\n\nFor a real estate client in 2023 I standardised fields and fuzzy-matched contacts with a review sheet for edge cases, and 48,000 contacts were reduced to 31,000 unique records.\n\nMy rate for this is $12/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p08"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 12.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-072",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0119e7a35ca2fe427a",
+    "job_title": "Real estate Discounted Cash Flow in Argus",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-18",
+    "text": "Your Real estate Discounted Cash Flow in Argus post asks for financial analysis; I have shipped exactly that before.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nMy rate for this is $33/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 33.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-073",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-015d4064afb3bd5557",
+    "job_title": "Financial analyst",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-20",
+    "text": "Your Financial analyst post asks for business analysis; I have shipped exactly that before.\n\nFor an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nMy rate for this is $20/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 20.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-074",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0158472cb2b52d74a8",
+    "job_title": "Hiring experienced Data Analysts",
+    "job_category": "Data Analytics",
+    "date": "2024-02-19",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes. For a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal.\n\nI can deliver this for $178 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01",
+      "data-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 178.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-075",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-019dcf76cb90dce29b",
+    "job_title": "Data Analyst to analyze, clean and combine multiple csv data sets into a singular source of truth",
+    "job_category": "Data Analytics",
+    "date": "2024-02-13",
+    "text": "Your Data Analyst to analyze, clean and combine multiple csv data sets into post asks for data analysis; I have shipped exactly that before.\n\nFor a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter. For a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nMy rate for this is $121/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p05",
+      "data-p03"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 121.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-076",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-012a2bad58821f4a11",
+    "job_title": "Foreign Trade Currency Trader",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-18",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points. For a logistics client in 2023 I wrote scripts to import, validate and summarise deliveries automatically, and about ten hours of manual data entry a week was removed.\n\nMy rate for this is $22/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p07",
+      "data-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 22.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-077",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01c7f942c9cd05d500",
+    "job_title": "Data Analysis",
+    "job_category": "Data Analytics",
+    "date": "2024-02-22",
+    "text": "Your Data Analysis post asks for data analysis; I have shipped exactly that before.\n\nFor a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter. For a logistics client in 2023 I wrote scripts to import, validate and summarise deliveries automatically, and about ten hours of manual data entry a week was removed.\n\nMy rate for this is $45/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p05",
+      "data-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 45.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-078",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01a0ecf146b5129873",
+    "job_title": "Data Analyst Operational Support",
+    "job_category": "Data Analytics",
+    "date": "2024-02-18",
+    "text": "Your Data Analyst Operational Support post asks for bigquery; I have shipped exactly that before.\n\nFor a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points. For a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes. For an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nMy rate for this is $27/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p07",
+      "data-p01",
+      "data-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 27.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-079",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-011f951ee1273fe306",
+    "job_title": "Crypto Asset Manager",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-17",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter. For a real estate client in 2023 I standardised fields and fuzzy-matched contacts with a review sheet for edge cases, and 48,000 contacts were reduced to 31,000 unique records.\n\nMy rate for this is $126/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p05",
+      "data-p08"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 126.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-080",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01cff5743f2a99434f",
+    "job_title": "Clean Up/Build Inventory tracking spreadsheet",
+    "job_category": "Data Processing",
+    "date": "2024-02-16",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nMy rate for this is $16/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p07",
+      "data-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 16.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-081",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-017014c9e5a49e6fc6",
+    "job_title": "Web Scraping",
+    "job_category": "Data Mining",
+    "date": "2024-02-22",
+    "text": "Your Web Scraping post asks for data scraping; I have shipped exactly that before.\n\nFor a manufacturing client in 2022 I defined 12 KPIs with finance and built one drill-down view, and the suite was adopted by 40 managers within a quarter. For a real estate client in 2022 I cleaned public transaction data and built a repeat-sales index with maps, and the index covered 85 neighbourhoods and guided two purchase decisions.\n\nMy rate for this is $9/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p10",
+      "data-p14"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 9.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-082",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-014dce213c7573e939",
+    "job_title": "Publishing on Amazon a completed Financial Markets Cycle Forecast for 2024",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-18",
+    "text": "Your Publishing on Amazon a completed Financial Markets Cycle Forecast for post asks for financial projection; I have shipped exactly that before.\n\nFor a real estate client in 2023 I standardised fields and fuzzy-matched contacts with a review sheet for edge cases, and 48,000 contacts were reduced to 31,000 unique records. For a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter.\n\nMy rate for this is $95/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p08",
+      "data-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 95.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-083",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-010e17a65adde86d5a",
+    "job_title": "Image registration implementation",
+    "job_category": "Data Engineering",
+    "date": "2024-02-17",
+    "text": "Your Image registration implementation post asks for computer vision; I have shipped exactly that before.\n\nFor an e-commerce client in 2024 I built a toolkit with power analysis, variance reduction and sequential checks, and average test duration fell 30% without raising false positives. For an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nMy rate for this is $38/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p12",
+      "data-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 38.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-084",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01fada1f01820e3795",
+    "job_title": "Excel Sheel Model/Calculator Build to Compute Discount",
+    "job_category": "Data Analytics",
+    "date": "2024-02-23",
+    "text": "Your Excel Sheel Model/Calculator Build to Compute Discount post asks for microsoft excel; I have shipped exactly that before.\n\nFor a logistics client in 2023 I wrote scripts to import, validate and summarise deliveries automatically, and about ten hours of manual data entry a week was removed. For a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes.\n\nI can deliver this for $89 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p09",
+      "data-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 89.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-085",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0107cb5f39a6a4de8b",
+    "job_title": "Expert DAX Power BI support",
+    "job_category": "Data Visualization",
+    "date": "2024-02-13",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a real estate client in 2022 I cleaned public transaction data and built a repeat-sales index with maps, and the index covered 85 neighbourhoods and guided two purchase decisions.\n\nI can deliver this for $133 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p14"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 133.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-086",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01b494adceabc673bc",
+    "job_title": "Simple Financial Model Development",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-16",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nI can deliver this for $185 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p05",
+      "data-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 185.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-087",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-013aa510ef07ca4293",
+    "job_title": "R shiny dashboard with live information from web",
+    "job_category": "Data Visualization",
+    "date": "2024-02-16",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes.\n\nI can deliver this for $84 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 84.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-088",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01be18f406f0049fdf",
+    "job_title": "Looking for Business Analyst agencies with experienced 3D Graphic Designer",
+    "job_category": "Data Visualization",
+    "date": "2024-02-16",
+    "text": "Your Looking for Business Analyst agencies with experienced 3D Graphic Desi post asks for data analysis; I have shipped exactly that before.\n\nFor a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes.\n\nI can deliver this for $544 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 544.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-089",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-016387e8a51ec16ffd",
+    "job_title": "Excel Solver / Optimization Expert",
+    "job_category": "Data Analytics",
+    "date": "2024-02-16",
+    "text": "Your Excel Solver / Optimization Expert post asks for microsoft excel; I have shipped exactly that before.\n\nFor a real estate client in 2022 I cleaned public transaction data and built a repeat-sales index with maps, and the index covered 85 neighbourhoods and guided two purchase decisions.\n\nI can deliver this for $120 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p14"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 120.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-090",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0158472cb2b52d74a8",
+    "job_title": "Hiring experienced Data Analysts",
+    "job_category": "Data Analytics",
+    "date": "2024-02-19",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes. For a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal.\n\nI can deliver this for $175 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01",
+      "data-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 175.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-091",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0107f0f565bcd87b32",
+    "job_title": "I need someone good with excel",
+    "job_category": "Data Analytics",
+    "date": "2024-02-14",
+    "text": "Your I need someone good with excel post asks for microsoft excel; I have shipped exactly that before.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nI can deliver this for $128 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 128.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-092",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0184eaef47e2b0f11f",
+    "job_title": "Cryptocurrency Compliance Analyst",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-20",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter. For a real estate client in 2023 I standardised fields and fuzzy-matched contacts with a review sheet for edge cases, and 48,000 contacts were reduced to 31,000 unique records.\n\nMy rate for this is $97/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p05",
+      "data-p08"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 97.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-093",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01578178cb02bcf96c",
+    "job_title": "Excel Template for Non-Profit Budgeting",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-15",
+    "text": "Your Excel Template for Non-Profit Budgeting post asks for business plan; I have shipped exactly that before.\n\nFor an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two. For a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes.\n\nMy rate for this is $28/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p13",
+      "data-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 28.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-094",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01a6e7f4bcf62928aa",
+    "job_title": "Javascript Program to Detect Statistical Trend Lines in Stock Charts",
+    "job_category": "Data Visualization",
+    "date": "2024-02-17",
+    "text": "Your Javascript Program to Detect Statistical Trend Lines in Stock Charts post asks for data science; I have shipped exactly that before.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal. For an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%. For a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes.\n\nMy rate for this is $30/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06",
+      "data-p02",
+      "data-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 30.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-095",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0130370e7f529a901b",
+    "job_title": "Qualitative Data Analyst",
+    "job_category": "Data Analytics",
+    "date": "2024-02-23",
+    "text": "Your Qualitative Data Analyst post asks for data analysis; I have shipped exactly that before.\n\nFor a real estate client in 2022 I cleaned public transaction data and built a repeat-sales index with maps, and the index covered 85 neighbourhoods and guided two purchase decisions.\n\nMy rate for this is $103/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p14"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 103.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-096",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01c91932ba3c9a3702",
+    "job_title": "Analytics and AI Engineer",
+    "job_category": "Data Analytics",
+    "date": "2024-02-19",
+    "text": "Your Analytics and AI Engineer post asks for analytical presentation; I have shipped exactly that before.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal. For a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nMy rate for this is $113/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06",
+      "data-p03"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 113.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-097",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01acb4559f24c077db",
+    "job_title": "Social Listening & Monitoring and Insight Reporting Weekly (Native Polish Speaker)",
+    "job_category": "Data Analytics",
+    "date": "2024-02-23",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nI can deliver this for $121 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 121.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-098",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01ce5995d50774b13d",
+    "job_title": "Advanced GTM setup Facebook and TikTok",
+    "job_category": "Data Analytics",
+    "date": "2024-02-20",
+    "text": "Your Advanced GTM setup Facebook and TikTok post asks for google tag manager; I have shipped exactly that before.\n\nFor a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes. For a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter.\n\nMy rate for this is $17/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p04",
+      "data-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 17.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-099",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-017fac0166f91e0f41",
+    "job_title": "Excel Data analysis",
+    "job_category": "Data Analytics",
+    "date": "2024-02-20",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a manufacturing client in 2022 I defined 12 KPIs with finance and built one drill-down view, and the suite was adopted by 40 managers within a quarter.\n\nI can deliver this for $121 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p10"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 121.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-100",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01483f70d9f978c63c",
+    "job_title": "Join Our Trading Interview Series and Get Paid!",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-15",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nI can deliver this for $96 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 96.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-101",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01f5c0e962cbed2d29",
+    "job_title": "Statistics and Data Analytics/Visualization Tutor",
+    "job_category": "Data Analytics",
+    "date": "2024-02-17",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal. For a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes.\n\nMy rate for this is $46/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06",
+      "data-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 46.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-102",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-016aeb03a61c245eb5",
+    "job_title": "Google Looker Studio template",
+    "job_category": "Data Visualization",
+    "date": "2024-02-14",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points.\n\nI can deliver this for $132 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 132.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-103",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-019ffe0433c4510a5f",
+    "job_title": "Data Analyst",
+    "job_category": "Data Analytics",
+    "date": "2024-02-22",
+    "text": "Your Data Analyst post asks for data analysis; I have shipped exactly that before.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal.\n\nMy rate for this is $31/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 31.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-104",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01f35cac91e59643f1",
+    "job_title": "QGIS Tutor",
+    "job_category": "Data Analytics",
+    "date": "2024-02-17",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%. For a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes.\n\nMy rate for this is $34/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02",
+      "data-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 34.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-105",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01bfc59613cda74ffc",
+    "job_title": "Consultant in CPG and DTC (Financial Modeling and Partnerships)",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-23",
+    "text": "Your Consultant in CPG and DTC (Financial Modeling and Partnerships) post asks for financial analysis; I have shipped exactly that before.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two. For a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter.\n\nI can deliver this for $167 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p13",
+      "data-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 167.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-106",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-018be52a5d367cca9e",
+    "job_title": "Need to obtain private company financials from sources like PrivCo, CapIQ, and Mergent Intellect",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-14",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nI can deliver this for $124 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 124.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-107",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01fb640ff94dfbd6f5",
+    "job_title": "Java Microservices",
+    "job_category": "Data Engineering",
+    "date": "2024-02-16",
+    "text": "Your Java Microservices post asks for core java; I have shipped exactly that before.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For a food delivery client in 2024 I built weekly forecasts with holiday and weather effects and automated refreshes, and weekly forecast error (MAPE) fell from 18% to 9%.\n\nI can deliver this for $18013 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p11"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 18013.0
+    },
+    "connects_spent": 16,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-108",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0125e2e30bb3bdc1a4",
+    "job_title": "financial projections tailored to a tech startup'",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-19",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nI can deliver this for $128 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 128.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-109",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01f9793906abe01496",
+    "job_title": "Business Intelligence Expert Needed for Barbershop Chain",
+    "job_category": "Data Analytics",
+    "date": "2024-02-16",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a manufacturing client in 2022 I defined 12 KPIs with finance and built one drill-down view, and the suite was adopted by 40 managers within a quarter.\n\nMy rate for this is $572/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p10"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 572.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-110",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01ddb4d5c6fd7a4cfd",
+    "job_title": "Looking for Data Analysts",
+    "job_category": "Data Analytics",
+    "date": "2024-02-19",
+    "text": "Your Looking for Data Analysts post asks for data analysis; I have shipped exactly that before.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes. For a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal. For a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points.\n\nI can deliver this for $180 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01",
+      "data-p06",
+      "data-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 180.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-111",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01ae0fd8837ccfc9af",
+    "job_title": "Filter 2000 profiles in Linkedin and get 400 quality profiles per week from GDrive File",
+    "job_category": "Data Mining",
+    "date": "2024-02-19",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter. For a real estate client in 2023 I standardised fields and fuzzy-matched contacts with a review sheet for edge cases, and 48,000 contacts were reduced to 31,000 unique records.\n\nI can deliver this for $98 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p05",
+      "data-p08"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 98.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-112",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0184e24233e4949a2a",
+    "job_title": "ETL Developer with scraping and GCP experience",
+    "job_category": "Data Engineering",
+    "date": "2024-02-18",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%. For a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points.\n\nI can deliver this for $105 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02",
+      "data-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 105.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-113",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-018be52a5d367cca9e",
+    "job_title": "Need to obtain private company financials from sources like PrivCo, CapIQ, and Mergent Intellect",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-14",
+    "text": "Your Need to obtain private company financials from sources like PrivCo, Ca post asks for business plan; I have shipped exactly that before.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal. For an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nI can deliver this for $137 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06",
+      "data-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 137.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-114",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-014e6d0d69d57196dd",
+    "job_title": "Google analytics tracking and conversion",
+    "job_category": "Data Analytics",
+    "date": "2024-02-13",
+    "text": "Your Google analytics tracking and conversion post asks for conversion report; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nMy rate for this is $45/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 45.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-115",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01b9c747ed8a1be714",
+    "job_title": "Data Engineer / ETL Developer",
+    "job_category": "Data Engineering",
+    "date": "2024-02-19",
+    "text": "Your Data Engineer / ETL Developer post asks for etl; I have shipped exactly that before.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes. For a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points.\n\nI can deliver this for $124 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01",
+      "data-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 124.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-116",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01047726e81a9084b4",
+    "job_title": "Las Vegas Data Analyst-web devs",
+    "job_category": "Data Analytics",
+    "date": "2024-02-16",
+    "text": "Your Las Vegas Data Analyst-web devs post asks for javascript; I have shipped exactly that before.\n\nFor a human resources client in 2023 I modelled attrition drivers and built a dashboard for managers, and overtime was identified as the main driver; attrition fell 4 points the next year.\n\nI can deliver this for $118 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 118.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-117",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0111cf59420830f51d",
+    "job_title": "Data analyst / Inventory management - Marketplaces",
+    "job_category": "Data Analytics",
+    "date": "2024-02-16",
+    "text": "Your Data analyst / Inventory management - Marketplaces post asks for amazon; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%. For a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes. For a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter.\n\nMy rate for this is $28/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02",
+      "data-p04",
+      "data-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 28.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-118",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01ff033da3d40c330b",
+    "job_title": "Project report for loans in India",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-23",
+    "text": "Your Project report for loans in India post asks for article writing; I have shipped exactly that before.\n\nFor an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nI can deliver this for $81 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 81.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-119",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0134c22221c6ab74c4",
+    "job_title": "Full Time Positions Available For General Web Researcher (with room to grow).",
+    "job_category": "Data Visualization",
+    "date": "2024-02-13",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal. For a manufacturing client in 2022 I defined 12 KPIs with finance and built one drill-down view, and the suite was adopted by 40 managers within a quarter.\n\nI can deliver this for $81 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06",
+      "data-p10"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 81.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-120",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01cf40e47d8835d7b2",
+    "job_title": "Engineer or Data to Retrieve Golf Course Database",
+    "job_category": "Data Engineering",
+    "date": "2024-02-19",
+    "text": "Your Engineer or Data to Retrieve Golf Course Database post asks for data engineering; I have shipped exactly that before.\n\nFor a real estate client in 2023 I standardised fields and fuzzy-matched contacts with a review sheet for edge cases, and 48,000 contacts were reduced to 31,000 unique records.\n\nI can deliver this for $835 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p08"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 835.0
+    },
+    "connects_spent": 16,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-121",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01ce5995d50774b13d",
+    "job_title": "Advanced GTM setup Facebook and TikTok",
+    "job_category": "Data Analytics",
+    "date": "2024-02-20",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a human resources client in 2023 I modelled attrition drivers and built a dashboard for managers, and overtime was identified as the main driver; attrition fell 4 points the next year.\n\nMy rate for this is $18/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p15"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 18.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-122",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01315a55cdb5d1daef",
+    "job_title": "Google Sheets Formulae Bug",
+    "job_category": "Data Analytics",
+    "date": "2024-02-18",
+    "text": "Your Google Sheets Formulae Bug post asks for google sheets; I have shipped exactly that before.\n\nFor a logistics client in 2023 I wrote scripts to import, validate and summarise deliveries automatically, and about ten hours of manual data entry a week was removed.\n\nI can deliver this for $102 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p09"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 102.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-123",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-015eabfc0c17d9e688",
+    "job_title": "Teach me about UTM links",
+    "job_category": "Data Analytics",
+    "date": "2024-02-22",
+    "text": "Your Teach me about UTM links post asks for google analytics; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nMy rate for this is $92/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 92.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-124",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01f01268ca568bd51c",
+    "job_title": "Kafka Streaming Profiles Expert",
+    "job_category": "Data Engineering",
+    "date": "2024-02-20",
+    "text": "Your Kafka Streaming Profiles Expert post asks for apache flink; I have shipped exactly that before.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal.\n\nI can deliver this for $114 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 114.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-125",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01aca733999dfbc67b",
+    "job_title": "Full Time Positions Available For Data Analyst or Google Analytics (with room to grow).",
+    "job_category": "Data Analytics",
+    "date": "2024-02-13",
+    "text": "Your Full Time Positions Available For Data Analyst or Google Analytics (wi post asks for data analysis; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%. For a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes.\n\nI can deliver this for $123 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02",
+      "data-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 123.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-126",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0130370e7f529a901b",
+    "job_title": "Qualitative Data Analyst",
+    "job_category": "Data Analytics",
+    "date": "2024-02-23",
+    "text": "Your Qualitative Data Analyst post asks for data analysis; I have shipped exactly that before.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal. For an e-commerce client in 2024 I built a toolkit with power analysis, variance reduction and sequential checks, and average test duration fell 30% without raising false positives.\n\nMy rate for this is $92/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06",
+      "data-p12"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 92.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-127",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01d0f46b952e534172",
+    "job_title": "BI Reporting for telco usage information",
+    "job_category": "Data Analytics",
+    "date": "2024-02-16",
+    "text": "Your BI Reporting for telco usage information post asks for dashboard; I have shipped exactly that before.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes. For a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nMy rate for this is $37/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01",
+      "data-p07",
+      "data-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 37.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-128",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-019503f05958a89c2e",
+    "job_title": "Financial Analyst for Revenue Tracking and Commission Management",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-14",
+    "text": "Your Financial Analyst for Revenue Tracking and Commission Management post asks for accounting principles & practices; I have shipped exactly that before.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two. For a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter.\n\nI can deliver this for $126 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p13",
+      "data-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 126.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-129",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-017b4470e409d908eb",
+    "job_title": "Convert Figma Designs to Website for Data Engineering Site",
+    "job_category": "Data Engineering",
+    "date": "2024-02-17",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal.\n\nI can deliver this for $2415 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 2415.0
+    },
+    "connects_spent": 16,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-130",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01858456dcd6e370da",
+    "job_title": "Creation of advanced Power BI dashboard",
+    "job_category": "Data Visualization",
+    "date": "2024-02-20",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes.\n\nMy rate for this is $13/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 13.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-131",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0197e2ae5fc8c31f74",
+    "job_title": "Trading Tutor",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-15",
+    "text": "Your Trading Tutor post asks for english; I have shipped exactly that before.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nMy rate for this is $46/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 46.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-132",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-010d8f5854c3c9e079",
+    "job_title": "Participate in a User Study: \"How users write SQL queries\" using a \"Text to SQL\" tool.",
+    "job_category": "Data Analytics",
+    "date": "2024-02-22",
+    "text": "Your Participate in a User Study: \"How users write SQL queries\" using a \"Te post asks for sql; I have shipped exactly that before.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes.\n\nI can deliver this for $93 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 93.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-133",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01e2687afcd1885cb2",
+    "job_title": "Seeking Freelancer for Google Analytics 4 to ChatGPT Integration Project on Upwork",
+    "job_category": "Data Analytics",
+    "date": "2024-02-16",
+    "text": "Your Seeking Freelancer for Google Analytics 4 to ChatGPT Integration Proje post asks for bigquery; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nMy rate for this is $31/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 31.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-134",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0107e947a38881b65c",
+    "job_title": "Excel formulas",
+    "job_category": "Data Analytics",
+    "date": "2024-02-17",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a human resources client in 2023 I modelled attrition drivers and built a dashboard for managers, and overtime was identified as the main driver; attrition fell 4 points the next year. For a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes.\n\nI can deliver this for $101 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p15",
+      "data-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 101.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-135",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01de8b5dade0937e1d",
+    "job_title": "Excel Pivot Tables",
+    "job_category": "Data Analytics",
+    "date": "2024-02-22",
+    "text": "Your Excel Pivot Tables post asks for data analysis; I have shipped exactly that before.\n\nFor a retail client in 2021 I classified 4,000 SKUs and set reorder points from demand variability, and stock-outs fell 28% over the next quarter. For a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nI can deliver this for $122 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p05",
+      "data-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 122.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-136",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0174fa93c37066885b",
+    "job_title": "Clickhouse expert needed",
+    "job_category": "Data Engineering",
+    "date": "2024-02-22",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes.\n\nMy rate for this is $43/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 43.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-137",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01b5de88d7d992164e",
+    "job_title": "Real Estate Financial Modeling",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-16",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nMy rate for this is $105/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 105.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-138",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-015d1e0a4077e4a38d",
+    "job_title": "Financial model for innovative beverage startup",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-14",
+    "text": "Your Financial model for innovative beverage startup post asks for financial modeling; I have shipped exactly that before.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nI can deliver this for $90 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 90.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-139",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-011c840fef83b3cef3",
+    "job_title": "Help build out a google sheets to track business performance",
+    "job_category": "Data Analytics",
+    "date": "2024-02-16",
+    "text": "Your Help build out a google sheets to track business performance post asks for google sheets; I have shipped exactly that before.\n\nFor a logistics client in 2023 I wrote scripts to import, validate and summarise deliveries automatically, and about ten hours of manual data entry a week was removed.\n\nMy rate for this is $40/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 40.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-140",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01946a9e88d5f896d9",
+    "job_title": "Business and Financial Plan Specialist",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-13",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nI can deliver this for $82 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 82.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-141",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-010a8363c47d77a385",
+    "job_title": "Urgently Needed: Developer for Reports Management Module with Graph Visualization (1-Month Deadline)",
+    "job_category": "Data Visualization",
+    "date": "2024-02-16",
+    "text": "Your Urgently Needed: Developer for Reports Management Module with Graph Vi post asks for data visualization; I have shipped exactly that before.\n\nFor a wholesale distribution client in 2023 I modelled sales, targets and returns and built a self-serve dashboard, and weekly reporting time fell from six hours to 15 minutes. For a nonprofit client in 2022 I weighted the sample, tested group differences and wrote a plain-language report, and the report was used in the NGO's annual donor renewal. For a saas client in 2024 I built monthly cohorts and a retention curve dashboard from product events, and the team spotted a month-two drop; an onboarding fix cut churn by 3 points.\n\nI can deliver this for $558 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p01",
+      "data-p06",
+      "data-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 558.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-142",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01a345e5bcfdc83675",
+    "job_title": "Data Modelling specialist needed for Churn Rate Prediction Model",
+    "job_category": "Data Analytics",
+    "date": "2024-02-14",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a manufacturing client in 2022 I defined 12 KPIs with finance and built one drill-down view, and the suite was adopted by 40 managers within a quarter.\n\nMy rate for this is $43/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p10"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 43.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-143",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0161f5788f1aa70365",
+    "job_title": "Data analyst for new beginners",
+    "job_category": "Data Analytics",
+    "date": "2024-02-23",
+    "text": "Your Data analyst for new beginners post asks for data entry; I have shipped exactly that before.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nMy rate for this is $44/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 44.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-144",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0172d413b5627461d0",
+    "job_title": "Facebook Conversion Tracking Pixel/CAPI For Shopify Store",
+    "job_category": "Data Analytics",
+    "date": "2024-02-13",
+    "text": "Your Facebook Conversion Tracking Pixel/CAPI For Shopify Store post asks for facebook; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I compared position-based and data-driven attribution on exported event data, and budget was reallocated by 20% and acquisition cost fell 17%.\n\nI can deliver this for $466 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 466.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-145",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01bda2fce06244ace3",
+    "job_title": "Trading Analyst",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-13",
+    "text": "Your Trading Analyst post asks for data analysis; I have shipped exactly that before.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two. For a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes.\n\nI can deliver this for $169 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p13",
+      "data-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 169.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-146",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-01ca84aa3d06091947",
+    "job_title": "CRE Financial Analyst",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-22",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For an accounting client in 2023 I connected the ledger export to templated reports and variance checks, and month-end close went from five days to two.\n\nMy rate for this is $28/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 28.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-147",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-0173023fdb256feb0d",
+    "job_title": "Business Plan - Review, Correct and add Financials and marketing section",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-16",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round.\n\nI can deliver this for $142 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 142.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-148",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-015bd74ba3b1256710",
+    "job_title": "Search Scientific Sales Studies and extract a few insights",
+    "job_category": "Data Analytics",
+    "date": "2024-02-17",
+    "text": "Your Search Scientific Sales Studies and extract a few insights post asks for data analysis; I have shipped exactly that before.\n\nFor a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes.\n\nI can deliver this for $134 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 134.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-149",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-018ce8da1e8828dba1",
+    "job_title": "Financial Analyst and Modeling",
+    "job_category": "Financial Analysis & Modeling",
+    "date": "2024-02-14",
+    "text": "Your Financial Analyst and Modeling post asks for accounting principles & practices; I have shipped exactly that before.\n\nFor a startup client in 2022 I built driver-based revenue, hiring and cash-flow scenarios, and the model was used in a successful $1.2M seed round. For a healthcare client in 2022 I joined triage and bed logs and modelled waits by hour, staff and acuity, and two bottlenecks were fixed and the median wait fell 19 minutes.\n\nMy rate for this is $173/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p03",
+      "data-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 173.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "data-prop-150",
+    "persona": "data_analyst",
+    "type": "proposal",
+    "job_id": "upw-016786b57f4abfd87a",
+    "job_title": "AirFlow Data Engineer",
+    "job_category": "Data Engineering",
+    "date": "2024-02-23",
+    "text": "Your AirFlow Data Engineer post asks for airflow; I have shipped exactly that before.\n\nFor a saas client in 2024 I built staged, tested models in a warehouse with documented metrics, and core queries dropped from 40 seconds to 2 seconds. For a food delivery client in 2024 I built weekly forecasts with holiday and weather effects and automated refreshes, and weekly forecast error (MAPE) fell from 18% to 9%.\n\nI can deliver this for $101 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "data-p16",
+      "data-p11"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 101.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  }
+]

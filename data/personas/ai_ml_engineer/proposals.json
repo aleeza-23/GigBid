@@ -1,0 +1,3273 @@
+[
+  {
+    "id": "ai-prop-001",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-017abfc81598753bc2",
+    "job_title": "NLU Research Engineer \u2013 Advance AI Understanding of Spiritual Wisdom",
+    "job_category": "Deep Learning",
+    "date": "2024-02-15",
+    "text": "Your NLU Research Engineer \u2013 Advance AI Understanding of Spiritual Wisdom post asks for ai bias mitigation; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nMy rate for this is $40/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 40.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-002",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-017faebbf8903e73eb",
+    "job_title": "Artificial Intelligence Virtual Agent",
+    "job_category": "Machine Learning",
+    "date": "2024-02-23",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%.\n\nMy rate for this is $57/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p03"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 57.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-003",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0161c52bc920dc23d2",
+    "job_title": "Deep Learning Model for Real-Time Object Detection and Current State Prediction",
+    "job_category": "Deep Learning",
+    "date": "2024-02-22",
+    "text": "Your Deep Learning Model for Real-Time Object Detection and Current State P post asks for computer vision; I have shipped exactly that before.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second.\n\nI can deliver this for $180 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 180.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-004",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0197e1925c3777593f",
+    "job_title": "Job Title: AI Chatbot Developer (Healthcare Staffing)",
+    "job_category": "AI Chatbot Development",
+    "date": "2024-02-17",
+    "text": "Your Job Title: AI Chatbot Developer (Healthcare Staffing) post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a hr tech client in 2023 I indexed resumes with a bi-encoder and re-scored the shortlist with a reranker, and nDCG@10 improved from 0.61 to 0.78 and shortlist time halved.\n\nI can deliver this for $5646 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 5646.0
+    },
+    "connects_spent": 16,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-005",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0193917c3455529628",
+    "job_title": "Custom AI",
+    "job_category": "Deep Learning",
+    "date": "2024-02-16",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second. For a fintech client in 2023 I combined unsupervised anomaly scores with a supervised model on confirmed cases and streamed scores to the review queue, and precision at the top 100 alerts rose from 0.32 to 0.71.\n\nMy rate for this is $39/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04",
+      "ai-p08"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 39.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-006",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01697e7c8a48b05e87",
+    "job_title": "Create an AI model for our existing software with new ideas.",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice. For a hr tech client in 2023 I indexed resumes with a bi-encoder and re-scored the shortlist with a reranker, and nDCG@10 improved from 0.61 to 0.78 and shortlist time halved.\n\nI can deliver this for $1234 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p13",
+      "ai-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 1234.0
+    },
+    "connects_spent": 16,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-007",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-017a6700620e249119",
+    "job_title": "Seeking a freelancer for AI automation projects",
+    "job_category": "Machine Learning",
+    "date": "2024-02-14",
+    "text": "Your Seeking a freelancer for AI automation projects post asks for ai agent development; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second.\n\nI can deliver this for $161 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 161.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-008",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-017cc4ff871fe10a72",
+    "job_title": "Machine Learning Engineer for Github Repository Implementation",
+    "job_category": "Machine Learning",
+    "date": "2024-02-22",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a business process outsourcing client in 2023 I transcribed and diarised calls in batch, then flagged script violations with a classifier, and 2,000 call hours a month processed at 14% word error rate; QA coverage went from 5% to 100%.\n\nI can deliver this for $285 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p09"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 285.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-009",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01353ebccfed2d003b",
+    "job_title": "AI Specialist",
+    "job_category": "Machine Learning",
+    "date": "2024-02-18",
+    "text": "Your AI Specialist post asks for adobe illustrator; I have shipped exactly that before.\n\nFor a business process outsourcing client in 2023 I transcribed and diarised calls in batch, then flagged script violations with a classifier, and 2,000 call hours a month processed at 14% word error rate; QA coverage went from 5% to 100%.\n\nMy rate for this is $44/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 44.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-010",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01f150838d395aeeee",
+    "job_title": "Design & implement a drowning person detection & rescue system in pools Simulation Based using ROS",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nI can deliver this for $482 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 482.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-011",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-012424029ab4337b33",
+    "job_title": "Gap analysis between two documents using AI",
+    "job_category": "Machine Learning",
+    "date": "2024-02-15",
+    "text": "Your Gap analysis between two documents using AI post asks for ai development; I have shipped exactly that before.\n\nFor an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice.\n\nMy rate for this is $51/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 51.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-012",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01d505adbb740da2bd",
+    "job_title": "Train Diffusion Model for Image Inpainting",
+    "job_category": "Deep Learning",
+    "date": "2024-02-13",
+    "text": "Your Train Diffusion Model for Image Inpainting post asks for computer vision; I have shipped exactly that before.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second. As a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work).\n\nI can deliver this for $5984 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04",
+      "ai-p12"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 5984.0
+    },
+    "connects_spent": 16,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-013",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01b9541a2441cc8cb8",
+    "job_title": "API Integration Specialist & AI Model Builder",
+    "job_category": "Machine Learning",
+    "date": "2024-02-22",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a hr tech client in 2023 I indexed resumes with a bi-encoder and re-scored the shortlist with a reranker, and nDCG@10 improved from 0.61 to 0.78 and shortlist time halved. For an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set.\n\nMy rate for this is $46/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p06",
+      "ai-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 46.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-014",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01ba03e1e38b6bdc09",
+    "job_title": "Artificial Intelligence and Machine Learning",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Your Artificial Intelligence and Machine Learning post asks for artificial intelligence; I have shipped exactly that before.\n\nAs a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work). For a business process outsourcing client in 2023 I transcribed and diarised calls in batch, then flagged script violations with a classifier, and 2,000 call hours a month processed at 14% word error rate; QA coverage went from 5% to 100%. For a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nMy rate for this is $48/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p16",
+      "ai-p09",
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 48.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-015",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01310400f407c36e9e",
+    "job_title": "AI Engineer",
+    "job_category": "Machine Learning",
+    "date": "2024-02-23",
+    "text": "Your AI Engineer post asks for computer vision; I have shipped exactly that before.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second.\n\nI can deliver this for $216 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 216.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-016",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-013a8ef74a0a7d444f",
+    "job_title": "AI Engineer Consultant - DETR Panoptic Model Optimization",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Your AI Engineer Consultant - DETR Panoptic Model Optimization post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second. As a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work). As a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work).\n\nMy rate for this is $58/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04",
+      "ai-p12",
+      "ai-p16"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 58.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-017",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0189296763845a5692",
+    "job_title": "Connect to Copy AI API and existing AI system",
+    "job_category": "Machine Learning",
+    "date": "2024-02-23",
+    "text": "Your Connect to Copy AI API and existing AI system post asks for ai bot; I have shipped exactly that before.\n\nFor a fintech client in 2023 I combined unsupervised anomaly scores with a supervised model on confirmed cases and streamed scores to the review queue, and precision at the top 100 alerts rose from 0.32 to 0.71. For an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test.\n\nI can deliver this for $245 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p08",
+      "ai-p10"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 245.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-018",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01af4ee56e95656903",
+    "job_title": "Build a nocode ai research assistant",
+    "job_category": "Machine Learning",
+    "date": "2024-02-14",
+    "text": "Your Build a nocode ai research assistant post asks for openai api; I have shipped exactly that before.\n\nFor an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set. For a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement. For an ai startup client in 2024 I built a 300-item golden set, an LLM judge calibrated against human labels, and a CI gate, and the judge agreed with human labels at kappa 0.72 and caught 11 regressions before release.\n\nI can deliver this for $300 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p02",
+      "ai-p07",
+      "ai-p11"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 300.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-019",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01d291e14818ec0bc4",
+    "job_title": "GAN - Deep Learning facial movements (First Order Model)",
+    "job_category": "Deep Learning",
+    "date": "2024-02-23",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test.\n\nI can deliver this for $171 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 171.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-020",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-013b23dcd1a64c9ef3",
+    "job_title": "Deep Fake Video Specialist",
+    "job_category": "Deep Learning",
+    "date": "2024-02-16",
+    "text": "Your Deep Fake Video Specialist post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second. As a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work). For an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice.\n\nI can deliver this for $273 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04",
+      "ai-p12",
+      "ai-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 273.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-021",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01d8c3e289ffbc4fe8",
+    "job_title": "Enhancing Accuracy Default Prediction in P2P lending club Dataset",
+    "job_category": "Machine Learning",
+    "date": "2024-02-13",
+    "text": "Your Enhancing Accuracy Default Prediction in P2P lending club Dataset post asks for machine learning; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%. For a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers.\n\nI can deliver this for $213 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p03",
+      "ai-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 213.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-022",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01eec0b62452c10666",
+    "job_title": "AI Consultant/Engineer",
+    "job_category": "Machine Learning",
+    "date": "2024-02-13",
+    "text": "Your AI Consultant/Engineer post asks for ai agent development; I have shipped exactly that before.\n\nFor a mobile apps client in 2022 I classified sentiment, clustered topics and surfaced weekly changes in a dashboard, and the team found a login bug driving 30% of one-star reviews within the first week.\n\nMy rate for this is $18/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p14"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 18.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-023",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-012413f13ea279aa19",
+    "job_title": "Software Developer for Innovative AI Sales Platform",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Your Software Developer for Innovative AI Sales Platform post asks for api; I have shipped exactly that before.\n\nAs a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work). For a fintech client in 2023 I combined unsupervised anomaly scores with a supervised model on confirmed cases and streamed scores to the review queue, and precision at the top 100 alerts rose from 0.32 to 0.71.\n\nMy rate for this is $51/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p16",
+      "ai-p08"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 51.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-024",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-011844b7cae493cc3c",
+    "job_title": "Data Scientist Computer Vision: Object Detection and Anomaly Detection with CNN",
+    "job_category": "Deep Learning",
+    "date": "2024-02-20",
+    "text": "Your Data Scientist Computer Vision: Object Detection and Anomaly Detection post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers. For a fintech client in 2023 I combined unsupervised anomaly scores with a supervised model on confirmed cases and streamed scores to the review queue, and precision at the top 100 alerts rose from 0.32 to 0.71. For an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice.\n\nMy rate for this is $10/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p05",
+      "ai-p08",
+      "ai-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 10.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-025",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01b2e59bc789475659",
+    "job_title": "Data Scientist for Sentiment Analysis and Topic Modeling of Russian Articles",
+    "job_category": "Machine Learning",
+    "date": "2024-02-17",
+    "text": "Your Data Scientist for Sentiment Analysis and Topic Modeling of Russian Ar post asks for data analysis; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a mobile apps client in 2022 I classified sentiment, clustered topics and surfaced weekly changes in a dashboard, and the team found a login bug driving 30% of one-star reviews within the first week. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%.\n\nI can deliver this for $266 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p14",
+      "ai-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 266.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-026",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01019b9705f86e604c",
+    "job_title": "Train AI model using Python",
+    "job_category": "Machine Learning",
+    "date": "2024-02-13",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test.\n\nI can deliver this for $271 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 271.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-027",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0189296763845a5692",
+    "job_title": "Connect to Copy AI API and existing AI system",
+    "job_category": "Machine Learning",
+    "date": "2024-02-23",
+    "text": "Your Connect to Copy AI API and existing AI system post asks for ai bot; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nI can deliver this for $258 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 258.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-028",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01d561d2fa9722dee5",
+    "job_title": "Neural Network Coding",
+    "job_category": "Deep Learning",
+    "date": "2024-02-14",
+    "text": "Your Neural Network Coding post asks for artificial neural network; I have shipped exactly that before.\n\nFor a logistics client in 2023 I packaged models with a registry, a standard serving image and automated rollout, and deployment time fell from two days to 20 minutes. For an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice.\n\nMy rate for this is $47/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p15",
+      "ai-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 47.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-029",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-017327aae5f2cc5479",
+    "job_title": "AI & Machine Learning Content Writer",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Your AI & Machine Learning Content Writer post asks for article; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%.\n\nI can deliver this for $213 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 213.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-030",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-012424029ab4337b33",
+    "job_title": "Gap analysis between two documents using AI",
+    "job_category": "Machine Learning",
+    "date": "2024-02-15",
+    "text": "Your Gap analysis between two documents using AI post asks for ai development; I have shipped exactly that before.\n\nFor a business process outsourcing client in 2023 I transcribed and diarised calls in batch, then flagged script violations with a classifier, and 2,000 call hours a month processed at 14% word error rate; QA coverage went from 5% to 100%.\n\nMy rate for this is $47/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 47.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-031",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01830d072f5183f599",
+    "job_title": "Penta Machine V2-10 Linux",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a logistics client in 2023 I packaged models with a registry, a standard serving image and automated rollout, and deployment time fell from two days to 20 minutes. As a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work).\n\nI can deliver this for $204 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p15",
+      "ai-p16"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 204.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-032",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-011c8aea0fa56f6e26",
+    "job_title": "Short-Term Contract Software Engineer (Generative AI for Graphics)",
+    "job_category": "Machine Learning",
+    "date": "2024-02-13",
+    "text": "Your Short-Term Contract Software Engineer (Generative AI for Graphics) post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second.\n\nMy rate for this is $143/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 143.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-033",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0161c52bc920dc23d2",
+    "job_title": "Deep Learning Model for Real-Time Object Detection and Current State Prediction",
+    "job_category": "Deep Learning",
+    "date": "2024-02-22",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second. As a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work).\n\nI can deliver this for $265 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04",
+      "ai-p12"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 265.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-034",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-017327aae5f2cc5479",
+    "job_title": "AI & Machine Learning Content Writer",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Your AI & Machine Learning Content Writer post asks for article; I have shipped exactly that before.\n\nFor an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice.\n\nI can deliver this for $221 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 221.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-035",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-010a8c8d5dc93f33a3",
+    "job_title": "Build Symbol Recognizer in Python",
+    "job_category": "AI Integration",
+    "date": "2024-02-16",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice. For a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%.\n\nMy rate for this is $19/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p13",
+      "ai-p01",
+      "ai-p03"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 19.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-036",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-016a01c4ed1f9b2e49",
+    "job_title": "Enhance Landbot chatbot to be able to initate conversations with clients.",
+    "job_category": "AI Chatbot Development",
+    "date": "2024-02-19",
+    "text": "Your Enhance Landbot chatbot to be able to initate conversations with clien post asks for c++; I have shipped exactly that before.\n\nFor a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement.\n\nMy rate for this is $24/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p07"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 24.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-037",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-017c8ea3dab6d6dde8",
+    "job_title": "AI Web App Integration Specialist Needed",
+    "job_category": "Machine Learning",
+    "date": "2024-02-22",
+    "text": "Your AI Web App Integration Specialist Needed post asks for ai development; I have shipped exactly that before.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second. For an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test. As a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work).\n\nMy rate for this is $38/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04",
+      "ai-p10",
+      "ai-p16"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 38.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-038",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-016e9f0b7a4a026e10",
+    "job_title": "Sports Betting AI Developer",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a business process outsourcing client in 2023 I transcribed and diarised calls in batch, then flagged script violations with a classifier, and 2,000 call hours a month processed at 14% word error rate; QA coverage went from 5% to 100%. As a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work).\n\nI can deliver this for $669 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p09",
+      "ai-p16"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 669.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-039",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0166edee8f8ad9ba1b",
+    "job_title": "Data Science/Machine Learning expert for predicting Fantasy cricket",
+    "job_category": "Machine Learning",
+    "date": "2024-02-17",
+    "text": "Your Data Science/Machine Learning expert for predicting Fantasy cricket post asks for artificial intelligence; I have shipped exactly that before.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test. As a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work). As a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work).\n\nI can deliver this for $250 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10",
+      "ai-p12",
+      "ai-p16"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 250.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-040",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-018a039d5ff8d66216",
+    "job_title": "**** URGENT QUICK CHATGPT API python setting",
+    "job_category": "AI Integration",
+    "date": "2024-02-13",
+    "text": "Your **** URGENT QUICK CHATGPT API python setting post asks for openai api; I have shipped exactly that before.\n\nFor an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set.\n\nI can deliver this for $209 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 209.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-041",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01c8065b234ccf74dc",
+    "job_title": "AI Specialist",
+    "job_category": "Machine Learning",
+    "date": "2024-02-23",
+    "text": "Your AI Specialist post asks for adobe illustrator; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a hr tech client in 2023 I indexed resumes with a bi-encoder and re-scored the shortlist with a reranker, and nDCG@10 improved from 0.61 to 0.78 and shortlist time halved. For an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set.\n\nMy rate for this is $45/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p06",
+      "ai-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 45.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-042",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0164dcb555f12d6c31",
+    "job_title": "Facial Recognition API",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Your Facial Recognition API post asks for api; I have shipped exactly that before.\n\nFor an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice. For a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second. As a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work).\n\nI can deliver this for $395 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p13",
+      "ai-p04",
+      "ai-p12"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 395.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-043",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01c58c9f9ff6f0cbd2",
+    "job_title": "Gambling A.I. PERSONAL BOT.",
+    "job_category": "AI Chatbot Development",
+    "date": "2024-02-14",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement.\n\nI can deliver this for $274 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 274.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-044",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0133e55db343aa38d0",
+    "job_title": "Easy Work & Product Evaluation -Smoke detector carbon monoxide detector",
+    "job_category": "Machine Learning",
+    "date": "2024-02-18",
+    "text": "Your Easy Work & Product Evaluation -Smoke detector carbon monoxide detecto post asks for electrical engineering; I have shipped exactly that before.\n\nAs a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work).\n\nI can deliver this for $258 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p12"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 258.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-045",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-011c5b8057bd2309b3",
+    "job_title": "[Matlab or Ptython] Algorithmic processing of videos",
+    "job_category": "Machine Learning",
+    "date": "2024-02-13",
+    "text": "Your [Matlab or Ptython] Algorithmic processing of videos post asks for computer vision; I have shipped exactly that before.\n\nFor an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice. For a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second.\n\nI can deliver this for $255 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p13",
+      "ai-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 255.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-046",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-018a41118a5cd86e79",
+    "job_title": "Machine Learning Model Modification for Data Training",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Your Machine Learning Model Modification for Data Training post asks for data science; I have shipped exactly that before.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test. As a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work).\n\nI can deliver this for $256 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10",
+      "ai-p12"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 256.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-047",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01b34cec1e658343d7",
+    "job_title": "AI prompt engineering help",
+    "job_category": "Machine Learning",
+    "date": "2024-02-17",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nAs a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work).\n\nMy rate for this is $42/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p16"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 42.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-048",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-011ecff38956978b6f",
+    "job_title": "Build AI power application to reduce bookkeeping",
+    "job_category": "AI Integration",
+    "date": "2024-02-13",
+    "text": "Your Build AI power application to reduce bookkeeping post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second.\n\nI can deliver this for $242 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 242.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-049",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01955c7132d5d53787",
+    "job_title": "Dreambooth/Lora Expert for optimal training configuration",
+    "job_category": "AI Integration",
+    "date": "2024-02-16",
+    "text": "Your Dreambooth/Lora Expert for optimal training configuration post asks for dreambooth; I have shipped exactly that before.\n\nFor a logistics client in 2023 I packaged models with a registry, a standard serving image and automated rollout, and deployment time fell from two days to 20 minutes. For an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set.\n\nMy rate for this is $45/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p15",
+      "ai-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 45.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-050",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-011d0f4eae09cda6e1",
+    "job_title": "AI integration",
+    "job_category": "AI Integration",
+    "date": "2024-02-16",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test. For a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement.\n\nI can deliver this for $190 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10",
+      "ai-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 190.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-051",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-013a8ef74a0a7d444f",
+    "job_title": "AI Engineer Consultant - DETR Panoptic Model Optimization",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Your AI Engineer Consultant - DETR Panoptic Model Optimization post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second.\n\nMy rate for this is $42/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 42.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-052",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0167179225a458bbc8",
+    "job_title": "ML enginnering / LLMOps Task - on cloud (hugging-face)",
+    "job_category": "Machine Learning",
+    "date": "2024-02-13",
+    "text": "Your ML enginnering / LLMOps Task - on cloud (hugging-face) post asks for azure machine learning; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%.\n\nI can deliver this for $177 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 177.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-053",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01cd06386a5388cc1a",
+    "job_title": "Build a tool that can create question papers and check subjective answers using an image.",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor an ai startup client in 2024 I built a 300-item golden set, an LLM judge calibrated against human labels, and a CI gate, and the judge agreed with human labels at kappa 0.72 and caught 11 regressions before release.\n\nMy rate for this is $19/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p11"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 19.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-054",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01e521075f9494c777",
+    "job_title": "Machine Learning Engineer",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Your Machine Learning Engineer post asks for ai model development; I have shipped exactly that before.\n\nAs a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work). For a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers.\n\nI can deliver this for $24007 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p16",
+      "ai-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 24007.0
+    },
+    "connects_spent": 16,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-055",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-014c864f563a7e0de2",
+    "job_title": "Experienced AI medicine chatbot developer for complex project needed",
+    "job_category": "Machine Learning",
+    "date": "2024-02-17",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nMy rate for this is $38/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 38.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-056",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01c5fb5246ae4fd5c4",
+    "job_title": "Expert Text-to-Speech AI Needed freelancers NO recruiters. For saas like eleven labs",
+    "job_category": "Machine Learning",
+    "date": "2024-02-23",
+    "text": "Your Expert Text-to-Speech AI Needed freelancers NO recruiters. For saas li post asks for ai audio generation; I have shipped exactly that before.\n\nFor a logistics client in 2023 I packaged models with a registry, a standard serving image and automated rollout, and deployment time fell from two days to 20 minutes. For a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement.\n\nI can deliver this for $10377 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p15",
+      "ai-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 10377.0
+    },
+    "connects_spent": 16,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-057",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01323741839b66e587",
+    "job_title": "OCR Technology/Image to Text Scan",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Your OCR Technology/Image to Text Scan post asks for computer vision; I have shipped exactly that before.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second. As a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work). For an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice.\n\nI can deliver this for $188 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04",
+      "ai-p12",
+      "ai-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 188.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-058",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01f150838d395aeeee",
+    "job_title": "Design & implement a drowning person detection & rescue system in pools Simulation Based using ROS",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Your Design & implement a drowning person detection & rescue system in pool post asks for algorithm development; I have shipped exactly that before.\n\nFor a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%.\n\nI can deliver this for $587 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 587.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-059",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0196f48ed86eef161d",
+    "job_title": "Training on AI Model for Chat",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Your Training on AI Model for Chat post asks for ai bot; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a hr tech client in 2023 I indexed resumes with a bi-encoder and re-scored the shortlist with a reranker, and nDCG@10 improved from 0.61 to 0.78 and shortlist time halved.\n\nI can deliver this for $193 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 193.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-060",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0189261982988955f9",
+    "job_title": "Experienced GPT Trainer and Django Expert Needed for Legal Services",
+    "job_category": "AI Integration",
+    "date": "2024-02-15",
+    "text": "Your Experienced GPT Trainer and Django Expert Needed for Legal Services post asks for chatgpt; I have shipped exactly that before.\n\nFor a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement.\n\nI can deliver this for $162 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 162.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-061",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01407ba3dae40bff8a",
+    "job_title": "Python to Flutter Emotion Detection Migration",
+    "job_category": "Machine Learning",
+    "date": "2024-02-17",
+    "text": "Your Python to Flutter Emotion Detection Migration post asks for amazon web services; I have shipped exactly that before.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test. For a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement. For a logistics client in 2023 I packaged models with a registry, a standard serving image and automated rollout, and deployment time fell from two days to 20 minutes.\n\nI can deliver this for $236 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10",
+      "ai-p07",
+      "ai-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 236.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-062",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01160394ed918205b9",
+    "job_title": "Artificial intelligence for mental health",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nI can deliver this for $279 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 279.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-063",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01afb3ed76a6bede24",
+    "job_title": "AI-Powered Composition Assistant Developer- Fixed Price $150",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Your AI-Powered Composition Assistant Developer- Fixed Price $150 post asks for javascript; I have shipped exactly that before.\n\nFor a mobile apps client in 2022 I classified sentiment, clustered topics and surfaced weekly changes in a dashboard, and the team found a login bug driving 30% of one-star reviews within the first week.\n\nI can deliver this for $210 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p14"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 210.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-064",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-010db354b749a9b23f",
+    "job_title": "Python Developer for AI Data Science Project",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Your Python Developer for AI Data Science Project post asks for artificial intelligence; I have shipped exactly that before.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test. For a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers.\n\nMy rate for this is $59/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10",
+      "ai-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 59.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-065",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01532ff487be5011d6",
+    "job_title": "Development And Training of Machine learning Models.",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a mobile apps client in 2022 I classified sentiment, clustered topics and surfaced weekly changes in a dashboard, and the team found a login bug driving 30% of one-star reviews within the first week.\n\nI can deliver this for $185 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p14"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 185.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-066",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-014c364cc2a87fc1be",
+    "job_title": "Build an OCR tool",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Your Build an OCR tool post asks for api; I have shipped exactly that before.\n\nFor a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%. For a fintech client in 2023 I combined unsupervised anomaly scores with a supervised model on confirmed cases and streamed scores to the review queue, and precision at the top 100 alerts rose from 0.32 to 0.71.\n\nI can deliver this for $161 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p03",
+      "ai-p08"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 161.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-067",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-012bfa2c0783e2d083",
+    "job_title": "Sales Forecasting / Time Series",
+    "job_category": "Machine Learning",
+    "date": "2024-02-14",
+    "text": "Your Sales Forecasting / Time Series post asks for data science; I have shipped exactly that before.\n\nFor a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%. For a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers. For a fintech client in 2023 I combined unsupervised anomaly scores with a supervised model on confirmed cases and streamed scores to the review queue, and precision at the top 100 alerts rose from 0.32 to 0.71.\n\nI can deliver this for $198 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p03",
+      "ai-p05",
+      "ai-p08"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 198.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-068",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-010455433293da5546",
+    "job_title": "Ai based exercise recommender",
+    "job_category": "Machine Learning",
+    "date": "2024-02-17",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%.\n\nI can deliver this for $291 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 291.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-069",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-014c7b969a0365f241",
+    "job_title": "Need help developing a classification model for signals",
+    "job_category": "Machine Learning",
+    "date": "2024-02-18",
+    "text": "Your Need help developing a classification model for signals post asks for machine learning; I have shipped exactly that before.\n\nAs a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work).\n\nI can deliver this for $163 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p16"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 163.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-070",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-012770a1362cd6dd58",
+    "job_title": "Code for Jetson board",
+    "job_category": "Deep Learning",
+    "date": "2024-02-18",
+    "text": "Your Code for Jetson board post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second. As a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work).\n\nI can deliver this for $271 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04",
+      "ai-p12"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 271.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-071",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01736872503796514b",
+    "job_title": "Automated Tool for Detecting and Analyzing Steganography",
+    "job_category": "Machine Learning",
+    "date": "2024-02-17",
+    "text": "Your Automated Tool for Detecting and Analyzing Steganography post asks for ai development; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set.\n\nI can deliver this for $262 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 262.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-072",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-014dd418fa7d0e6910",
+    "job_title": "Generative AI/ML, Langchain, GPT, LLAMA, LLMS Python Developer",
+    "job_category": "Machine Learning",
+    "date": "2024-02-14",
+    "text": "Your Generative AI/ML, Langchain, GPT, LLAMA, LLMS Python Developer post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%.\n\nMy rate for this is $17/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p03"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 17.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-073",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-010b1bac8072b5bb2c",
+    "job_title": "Data Scientist - Predictive Analytics for eCommerce",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers. For a fintech client in 2023 I combined unsupervised anomaly scores with a supervised model on confirmed cases and streamed scores to the review queue, and precision at the top 100 alerts rose from 0.32 to 0.71.\n\nMy rate for this is $56/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p05",
+      "ai-p08"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 56.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-074",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-018483f7074e037f17",
+    "job_title": "Validate Product Ideas (Generative AI)",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Your Validate Product Ideas (Generative AI) post asks for ai product management; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%.\n\nMy rate for this is $43/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p03"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 43.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-075",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01b32100be33bd8c89",
+    "job_title": "I'm looking for AI Model trainer that specialize in Machine Learning",
+    "job_category": "Machine Learning",
+    "date": "2024-02-18",
+    "text": "Your I'm looking for AI Model trainer that specialize in Machine Learning post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers. For a fintech client in 2023 I combined unsupervised anomaly scores with a supervised model on confirmed cases and streamed scores to the review queue, and precision at the top 100 alerts rose from 0.32 to 0.71.\n\nI can deliver this for $252 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p05",
+      "ai-p08"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 252.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-076",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01e60ec07284123876",
+    "job_title": "AI Image generator chatbot with CRM integration",
+    "job_category": "Machine Learning",
+    "date": "2024-02-13",
+    "text": "Your AI Image generator chatbot with CRM integration post asks for api; I have shipped exactly that before.\n\nFor a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement.\n\nI can deliver this for $227 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 227.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-077",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01c2572f46b04571bf",
+    "job_title": "Videos like HeyGen AI",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Your Videos like HeyGen AI post asks for ai model development; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set.\n\nI can deliver this for $256 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 256.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-078",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01d84020e3a516abe0",
+    "job_title": "ML Methods for Biosignal Processing",
+    "job_category": "Machine Learning",
+    "date": "2024-02-18",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a business process outsourcing client in 2023 I transcribed and diarised calls in batch, then flagged script violations with a classifier, and 2,000 call hours a month processed at 14% word error rate; QA coverage went from 5% to 100%. For a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nI can deliver this for $221 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p09",
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 221.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-079",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01160394ed918205b9",
+    "job_title": "Artificial intelligence for mental health",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Your Artificial intelligence for mental health post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%.\n\nI can deliver this for $268 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 268.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-080",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0151640633a7dbd4cb",
+    "job_title": "Research Paper Writer in Machine Learning",
+    "job_category": "Machine Learning",
+    "date": "2024-02-17",
+    "text": "Your Research Paper Writer in Machine Learning post asks for academic writing; I have shipped exactly that before.\n\nFor an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice.\n\nMy rate for this is $43/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 43.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-081",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01809f87f663068f56",
+    "job_title": "Role: Conversational AI Engineer - Google Dialogflow (6-Month Contract)",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Your Role: Conversational AI Engineer - Google Dialogflow (6-Month Contract post asks for artificial intelligence; I have shipped exactly that before.\n\nFor an ai startup client in 2024 I built a 300-item golden set, an LLM judge calibrated against human labels, and a CI gate, and the judge agreed with human labels at kappa 0.72 and caught 11 regressions before release. For a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second.\n\nMy rate for this is $11/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p11",
+      "ai-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 11.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-082",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-018b6ca3592c42bd4a",
+    "job_title": "ML/AI for Orthognathic Surgery Image Processing",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set. As a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work).\n\nMy rate for this is $19/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p02",
+      "ai-p12"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 19.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-083",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01df18da231b4d0521",
+    "job_title": "AI Image Generation Website Development",
+    "job_category": "Machine Learning",
+    "date": "2024-02-23",
+    "text": "Your AI Image Generation Website Development post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nI can deliver this for $243 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 243.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-084",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01353ebccfed2d003b",
+    "job_title": "AI Specialist",
+    "job_category": "Machine Learning",
+    "date": "2024-02-18",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a business process outsourcing client in 2023 I transcribed and diarised calls in batch, then flagged script violations with a classifier, and 2,000 call hours a month processed at 14% word error rate; QA coverage went from 5% to 100%.\n\nMy rate for this is $41/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 41.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-085",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0135200f053305dbd7",
+    "job_title": "Custom AI Image Generation Tool",
+    "job_category": "Deep Learning",
+    "date": "2024-02-23",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%. For a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers.\n\nMy rate for this is $64/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p03",
+      "ai-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 64.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-086",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-017abfc81598753bc2",
+    "job_title": "NLU Research Engineer \u2013 Advance AI Understanding of Spiritual Wisdom",
+    "job_category": "Deep Learning",
+    "date": "2024-02-15",
+    "text": "Your NLU Research Engineer \u2013 Advance AI Understanding of Spiritual Wisdom post asks for ai bias mitigation; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a hr tech client in 2023 I indexed resumes with a bi-encoder and re-scored the shortlist with a reranker, and nDCG@10 improved from 0.61 to 0.78 and shortlist time halved. For an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set.\n\nMy rate for this is $62/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p06",
+      "ai-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 62.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-087",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-014ed417498ea1a516",
+    "job_title": "SMS chatbot consultant for platform recommendation: simple taxi booking",
+    "job_category": "AI Chatbot Development",
+    "date": "2024-02-20",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement.\n\nI can deliver this for $198 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 198.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-088",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01dfdcf1c7be57533d",
+    "job_title": "AI Model Development Specialist for Custom Educational Chatbot",
+    "job_category": "Machine Learning",
+    "date": "2024-02-15",
+    "text": "Your AI Model Development Specialist for Custom Educational Chatbot post asks for ai model development; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nI can deliver this for $182 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 182.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-089",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-015d1f503e7ac8e2c6",
+    "job_title": "Sound Classification with Tensorflow",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Your Sound Classification with Tensorflow post asks for ai development; I have shipped exactly that before.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test.\n\nI can deliver this for $245 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 245.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-090",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-012684163202036d05",
+    "job_title": "AI-Powered Trading Indicator Development Specialist Needed",
+    "job_category": "Machine Learning",
+    "date": "2024-02-13",
+    "text": "Your AI-Powered Trading Indicator Development Specialist Needed post asks for data analysis; I have shipped exactly that before.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test. As a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work). For a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nI can deliver this for $338 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10",
+      "ai-p16",
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 338.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-091",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01327b2dd615b1d7f2",
+    "job_title": "Artificial intelligence Officer",
+    "job_category": "Deep Learning",
+    "date": "2024-02-16",
+    "text": "Your Artificial intelligence Officer post asks for artificial intelligence; I have shipped exactly that before.\n\nAs a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work). For a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers. For a fintech client in 2023 I combined unsupervised anomaly scores with a supervised model on confirmed cases and streamed scores to the review queue, and precision at the top 100 alerts rose from 0.32 to 0.71.\n\nMy rate for this is $22/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p16",
+      "ai-p05",
+      "ai-p08"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 22.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-092",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01c7aaf56d130bd108",
+    "job_title": "Develop a chatbot application for Odoo, using machine learning and emotion recognition capabilities.",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a mobile apps client in 2022 I classified sentiment, clustered topics and surfaced weekly changes in a dashboard, and the team found a login bug driving 30% of one-star reviews within the first week.\n\nMy rate for this is $13/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p14"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 13.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-093",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-011d0f4eae09cda6e1",
+    "job_title": "AI integration",
+    "job_category": "AI Integration",
+    "date": "2024-02-16",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test. For a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement.\n\nI can deliver this for $255 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10",
+      "ai-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 255.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-094",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-017636bfbe4c705f3f",
+    "job_title": "Using Ai and Ml to dynamically generst new video from set of existing videos with a dynamic audio",
+    "job_category": "Machine Learning",
+    "date": "2024-02-18",
+    "text": "Your Using Ai and Ml to dynamically generst new video from set of existing post asks for artificial intelligence; I have shipped exactly that before.\n\nAs a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work).\n\nI can deliver this for $648 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p12"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 648.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-095",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01d3df89f57006837c",
+    "job_title": "Generate AI to Create Images of Worn Jewelry",
+    "job_category": "Deep Learning",
+    "date": "2024-02-13",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a business process outsourcing client in 2023 I transcribed and diarised calls in batch, then flagged script violations with a classifier, and 2,000 call hours a month processed at 14% word error rate; QA coverage went from 5% to 100%. For an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test.\n\nMy rate for this is $45/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p09",
+      "ai-p10"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 45.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-096",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-012413f13ea279aa19",
+    "job_title": "Software Developer for Innovative AI Sales Platform",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Your Software Developer for Innovative AI Sales Platform post asks for api; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%.\n\nMy rate for this is $46/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p02",
+      "ai-p03"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 46.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-097",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01864fcd23a44d0425",
+    "job_title": "Data Scientists needed to tag eCommerce products into 4 category levels.",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Your Data Scientists needed to tag eCommerce products into 4 category level post asks for classification; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%.\n\nI can deliver this for $597 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 597.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-098",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-011820448ed197b019",
+    "job_title": "Write an E-book on Machine Learning",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nAs a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work). For a fintech client in 2023 I combined unsupervised anomaly scores with a supervised model on confirmed cases and streamed scores to the review queue, and precision at the top 100 alerts rose from 0.32 to 0.71.\n\nI can deliver this for $921 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p12",
+      "ai-p08"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 921.0
+    },
+    "connects_spent": 16,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-099",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0133e55db343aa38d0",
+    "job_title": "Easy Work & Product Evaluation -Smoke detector carbon monoxide detector",
+    "job_category": "Machine Learning",
+    "date": "2024-02-18",
+    "text": "Your Easy Work & Product Evaluation -Smoke detector carbon monoxide detecto post asks for electrical engineering; I have shipped exactly that before.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test.\n\nI can deliver this for $218 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 218.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-100",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-017e2a0aeeceefd7f3",
+    "job_title": "Voice Conversational AI with Bland AI",
+    "job_category": "Deep Learning",
+    "date": "2024-02-23",
+    "text": "Your Voice Conversational AI with Bland AI post asks for ai development; I have shipped exactly that before.\n\nFor an ai startup client in 2024 I built a 300-item golden set, an LLM judge calibrated against human labels, and a CI gate, and the judge agreed with human labels at kappa 0.72 and caught 11 regressions before release.\n\nI can deliver this for $200 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p11"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 200.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-101",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-017636bfbe4c705f3f",
+    "job_title": "Using Ai and Ml to dynamically generst new video from set of existing videos with a dynamic audio",
+    "job_category": "Machine Learning",
+    "date": "2024-02-18",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement. For an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice.\n\nI can deliver this for $644 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p07",
+      "ai-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 644.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-102",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-013be12f7f3cf96a4a",
+    "job_title": "Need to create tutorials on ML with AWS",
+    "job_category": "Machine Learning",
+    "date": "2024-02-14",
+    "text": "Your Need to create tutorials on ML with AWS post asks for amazon web services; I have shipped exactly that before.\n\nFor an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice. For a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers.\n\nI can deliver this for $227 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p13",
+      "ai-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 227.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-103",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-013ce5ebea62a472cd",
+    "job_title": "Video2X video enhancement Expert Needed",
+    "job_category": "AI Integration",
+    "date": "2024-02-18",
+    "text": "Your Video2X video enhancement Expert Needed post asks for video enhancement; I have shipped exactly that before.\n\nAs a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work). For a fintech client in 2023 I combined unsupervised anomaly scores with a supervised model on confirmed cases and streamed scores to the review queue, and precision at the top 100 alerts rose from 0.32 to 0.71.\n\nI can deliver this for $223 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p12",
+      "ai-p08"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 223.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-104",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-014bb86f43cd844c6a",
+    "job_title": "Diet plan with artificial inteligence",
+    "job_category": "Machine Learning",
+    "date": "2024-02-17",
+    "text": "Your Diet plan with artificial inteligence post asks for ai development; I have shipped exactly that before.\n\nFor an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set. For a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement. For an ai startup client in 2024 I built a 300-item golden set, an LLM judge calibrated against human labels, and a CI gate, and the judge agreed with human labels at kappa 0.72 and caught 11 regressions before release.\n\nI can deliver this for $188 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p02",
+      "ai-p07",
+      "ai-p11"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 188.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-105",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-011dfe2efc0c4d0930",
+    "job_title": "Diffusion-generated image detector",
+    "job_category": "Machine Learning",
+    "date": "2024-02-14",
+    "text": "Your Diffusion-generated image detector post asks for computer vision; I have shipped exactly that before.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second. As a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work).\n\nMy rate for this is $64/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04",
+      "ai-p12"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 64.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-106",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01cac687e25ebd387d",
+    "job_title": "Predictive Modeling (Finance Industry)",
+    "job_category": "Machine Learning",
+    "date": "2024-02-23",
+    "text": "Your Predictive Modeling (Finance Industry) post asks for data analysis; I have shipped exactly that before.\n\nFor a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%. For a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers.\n\nMy rate for this is $205/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p03",
+      "ai-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 205.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-107",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-012d0f0a296ee13fef",
+    "job_title": "Debug jupiter notebook for fine tuning text to speech model",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Your Debug jupiter notebook for fine tuning text to speech model post asks for deep learning; I have shipped exactly that before.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test.\n\nMy rate for this is $58/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 58.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-108",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-015a50ad0aa1684f09",
+    "job_title": "Prompt Engineer with Sales Orientation",
+    "job_category": "AI Chatbot Development",
+    "date": "2024-02-13",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement.\n\nI can deliver this for $253 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 253.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-109",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01d3cd1c122eb624a5",
+    "job_title": "I Need an Open AI WhatsApp Chatbot Developer",
+    "job_category": "AI Chatbot Development",
+    "date": "2024-02-15",
+    "text": "Your I Need an Open AI WhatsApp Chatbot Developer post asks for api; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nMy rate for this is $56/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 56.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-110",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0181a2f38465b937b3",
+    "job_title": "AI based Data extraction and View from PDF",
+    "job_category": "Machine Learning",
+    "date": "2024-02-14",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice.\n\nI can deliver this for $1106 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 1106.0
+    },
+    "connects_spent": 16,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-111",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0172d66868be359ec7",
+    "job_title": "Need Ai model for finding similarity between text",
+    "job_category": "Deep Learning",
+    "date": "2024-02-13",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a hr tech client in 2023 I indexed resumes with a bi-encoder and re-scored the shortlist with a reranker, and nDCG@10 improved from 0.61 to 0.78 and shortlist time halved.\n\nI can deliver this for $256 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 256.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-112",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-011844b7cae493cc3c",
+    "job_title": "Data Scientist Computer Vision: Object Detection and Anomaly Detection with CNN",
+    "job_category": "Deep Learning",
+    "date": "2024-02-20",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers.\n\nMy rate for this is $9/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 9.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-113",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-017471bd13389f3a88",
+    "job_title": "AI Driving Chat System",
+    "job_category": "Machine Learning",
+    "date": "2024-02-18",
+    "text": "Your AI Driving Chat System post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nMy rate for this is $45/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 45.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-114",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-014ed417498ea1a516",
+    "job_title": "SMS chatbot consultant for platform recommendation: simple taxi booking",
+    "job_category": "AI Chatbot Development",
+    "date": "2024-02-20",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement.\n\nI can deliver this for $191 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 191.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-115",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01eb17c72fc76a043f",
+    "job_title": "trainer for AI and ML",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Your trainer for AI and ML post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a business process outsourcing client in 2023 I transcribed and diarised calls in batch, then flagged script violations with a classifier, and 2,000 call hours a month processed at 14% word error rate; QA coverage went from 5% to 100%. For a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nMy rate for this is $42/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p09",
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 42.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-116",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-010a8c8d5dc93f33a3",
+    "job_title": "Build Symbol Recognizer in Python",
+    "job_category": "AI Integration",
+    "date": "2024-02-16",
+    "text": "Your Build Symbol Recognizer in Python post asks for machine learning; I have shipped exactly that before.\n\nFor an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice.\n\nMy rate for this is $20/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 20.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-117",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01809f87f663068f56",
+    "job_title": "Role: Conversational AI Engineer - Google Dialogflow (6-Month Contract)",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Your Role: Conversational AI Engineer - Google Dialogflow (6-Month Contract post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a hr tech client in 2023 I indexed resumes with a bi-encoder and re-scored the shortlist with a reranker, and nDCG@10 improved from 0.61 to 0.78 and shortlist time halved. For an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set.\n\nMy rate for this is $14/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p06",
+      "ai-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 14.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-118",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01160a6b7038d84417",
+    "job_title": "ML/AI Developer Needed",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Your ML/AI Developer Needed post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a mobile apps client in 2022 I classified sentiment, clustered topics and surfaced weekly changes in a dashboard, and the team found a login bug driving 30% of one-star reviews within the first week.\n\nI can deliver this for $1080 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p14"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 1080.0
+    },
+    "connects_spent": 16,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-119",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01e65eaf31b49c98e8",
+    "job_title": "AI Based Invoice system",
+    "job_category": "Machine Learning",
+    "date": "2024-02-14",
+    "text": "Your AI Based Invoice system post asks for api; I have shipped exactly that before.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test. As a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work). As a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work).\n\nMy rate for this is $18/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10",
+      "ai-p12",
+      "ai-p16"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 18.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-120",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-012ef8c8fe67f034d7",
+    "job_title": "Azure GPT Help Needed - Read Websites",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Your Azure GPT Help Needed - Read Websites post asks for ai development; I have shipped exactly that before.\n\nFor an ai startup client in 2024 I built a 300-item golden set, an LLM judge calibrated against human labels, and a CI gate, and the judge agreed with human labels at kappa 0.72 and caught 11 regressions before release.\n\nMy rate for this is $45/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p11"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 45.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-121",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-012424029ab4337b33",
+    "job_title": "Gap analysis between two documents using AI",
+    "job_category": "Machine Learning",
+    "date": "2024-02-15",
+    "text": "Your Gap analysis between two documents using AI post asks for ai development; I have shipped exactly that before.\n\nFor a business process outsourcing client in 2023 I transcribed and diarised calls in batch, then flagged script violations with a classifier, and 2,000 call hours a month processed at 14% word error rate; QA coverage went from 5% to 100%. For a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a hr tech client in 2023 I indexed resumes with a bi-encoder and re-scored the shortlist with a reranker, and nDCG@10 improved from 0.61 to 0.78 and shortlist time halved.\n\nMy rate for this is $39/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p09",
+      "ai-p01",
+      "ai-p06"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 39.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-122",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01fd8cea14478a18c7",
+    "job_title": "AI website - mp3 voice split syllables",
+    "job_category": "Machine Learning",
+    "date": "2024-02-22",
+    "text": "Your AI website - mp3 voice split syllables post asks for ai content creation; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%. For a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers.\n\nI can deliver this for $231 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p03",
+      "ai-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 231.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-123",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0110dd7614ad972d1e",
+    "job_title": "Looking for a technician highly proficient in making chatbots using SIntra.AI",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set. For a hr tech client in 2023 I indexed resumes with a bi-encoder and re-scored the shortlist with a reranker, and nDCG@10 improved from 0.61 to 0.78 and shortlist time halved.\n\nMy rate for this is $5/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p02",
+      "ai-p06"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 5.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-124",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01d540baa08b622160",
+    "job_title": "AI Machine Learning Developer - LLM AI Lead Gen",
+    "job_category": "Machine Learning",
+    "date": "2024-02-20",
+    "text": "Your AI Machine Learning Developer - LLM AI Lead Gen post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers.\n\nI can deliver this for $201 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 201.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-125",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01103d9a847d7e2339",
+    "job_title": "AI Consultant for web traffic distribution",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Your AI Consultant for web traffic distribution post asks for ai model development; I have shipped exactly that before.\n\nAs a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work).\n\nMy rate for this is $44/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p16"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 44.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-126",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-019d1d3fe1c94b61a8",
+    "job_title": "Deploy computer vision model to paperspace",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second.\n\nI can deliver this for $181 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 181.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-127",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01d8dccdb1c829b72a",
+    "job_title": "Create a Computer Vision Model for identifying Northern Pike",
+    "job_category": "Deep Learning",
+    "date": "2024-02-14",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second. For a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers.\n\nMy rate for this is $61/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04",
+      "ai-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 61.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-128",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-018e0843e93fc9f2fb",
+    "job_title": "AI ChatBot connected to SMS and/or WhatsApp for Vacation Rentals",
+    "job_category": "AI Chatbot Development",
+    "date": "2024-02-19",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement.\n\nI can deliver this for $222 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 222.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-129",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01a26a8a47ad7af4b0",
+    "job_title": "Custom AI to Emulate Nuanced Writing Style",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Your Custom AI to Emulate Nuanced Writing Style post asks for artificial intelligence; I have shipped exactly that before.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test.\n\nMy rate for this is $49/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 49.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-130",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-011ecff38956978b6f",
+    "job_title": "Build AI power application to reduce bookkeeping",
+    "job_category": "AI Integration",
+    "date": "2024-02-13",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nAs a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work).\n\nI can deliver this for $211 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p12"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 211.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-131",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-019460153c0758bffc",
+    "job_title": "AI RAG Development and iteration",
+    "job_category": "Machine Learning",
+    "date": "2024-02-14",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%.\n\nMy rate for this is $48/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p02",
+      "ai-p03"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 48.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-132",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0140e616f62f8591fa",
+    "job_title": "Machine learning",
+    "job_category": "Machine Learning",
+    "date": "2024-02-17",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nAs a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work).\n\nI can deliver this for $196 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p16"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 196.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-133",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01eca65b1334078c3f",
+    "job_title": "AI Lights Detection and Definition Application",
+    "job_category": "Deep Learning",
+    "date": "2024-02-13",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%. For a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers.\n\nI can deliver this for $207 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p03",
+      "ai-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 207.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-134",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0140e616f62f8591fa",
+    "job_title": "Machine learning",
+    "job_category": "Machine Learning",
+    "date": "2024-02-17",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nAs a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work). For a business process outsourcing client in 2023 I transcribed and diarised calls in batch, then flagged script violations with a classifier, and 2,000 call hours a month processed at 14% word error rate; QA coverage went from 5% to 100%. For a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nI can deliver this for $185 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p16",
+      "ai-p09",
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 185.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-135",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-012ef8c8fe67f034d7",
+    "job_title": "Azure GPT Help Needed - Read Websites",
+    "job_category": "Machine Learning",
+    "date": "2024-02-19",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test. For an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice.\n\nMy rate for this is $47/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p10",
+      "ai-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 47.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-136",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-012029f0df8c59b319",
+    "job_title": "Cryptocurrency Data Scientist",
+    "job_category": "Machine Learning",
+    "date": "2024-02-17",
+    "text": "Your Cryptocurrency Data Scientist post asks for apache mahout; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%. For a hr tech client in 2023 I indexed resumes with a bi-encoder and re-scored the shortlist with a reranker, and nDCG@10 improved from 0.61 to 0.78 and shortlist time halved.\n\nMy rate for this is $46/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p03",
+      "ai-p06"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 46.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-137",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01b8a8b1558eba2034",
+    "job_title": "Data Science / Computer Vision expert",
+    "job_category": "Deep Learning",
+    "date": "2023-12-21",
+    "text": "Your Data Science / Computer Vision expert post asks for artificial neural network; I have shipped exactly that before.\n\nFor a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second. As a course project I trained a segmentation network on public multispectral tiles; it reached IoU 0.81 on the held-out tiles (coursework, not client work). As a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work).\n\nI can deliver this for $185 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p04",
+      "ai-p12",
+      "ai-p16"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 185.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-138",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-015b57a516569d93cd",
+    "job_title": "Localhost setup and API development for A1111 and ComfyUI workflows",
+    "job_category": "AI Integration",
+    "date": "2024-02-13",
+    "text": "Your Localhost setup and API development for A1111 and ComfyUI workflows post asks for ai app development; I have shipped exactly that before.\n\nFor a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement.\n\nMy rate for this is $37/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p07"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 37.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-139",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01f99121d4619c3b37",
+    "job_title": "custom GPT that can negotiate.",
+    "job_category": "Machine Learning",
+    "date": "2024-02-16",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a hr tech client in 2023 I indexed resumes with a bi-encoder and re-scored the shortlist with a reranker, and nDCG@10 improved from 0.61 to 0.78 and shortlist time halved. For an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set.\n\nI can deliver this for $238 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p06",
+      "ai-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 238.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-140",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01fbb408cd2debc867",
+    "job_title": "Pytorch Character Classification Assignment",
+    "job_category": "Machine Learning",
+    "date": "2024-02-22",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nAs a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work). For a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second. For an e-commerce client in 2022 I trained collaborative-filtering embeddings on clicks and purchases and cached per-user recommendations, and click-through on recommendations rose 12% in a four-week A/B test.\n\nI can deliver this for $162 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p16",
+      "ai-p04",
+      "ai-p10"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 162.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-141",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0140e616f62f8591fa",
+    "job_title": "Machine learning",
+    "job_category": "Machine Learning",
+    "date": "2024-02-17",
+    "text": "Your Machine learning post asks for anaconda; I have shipped exactly that before.\n\nAs a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work).\n\nI can deliver this for $189 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p16"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 189.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-142",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0190adf609e66c0d6e",
+    "job_title": "Help me to set up OpenAI Evals and compare two models",
+    "job_category": "Machine Learning",
+    "date": "2024-02-22",
+    "text": "Your Help me to set up OpenAI Evals and compare two models post asks for data analysis; I have shipped exactly that before.\n\nAs a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work). For a telecommunications client in 2022 I built a churn model on 18 months of usage and billing data and explained each score so agents knew what to offer, and AUC of 0.86; the targeted campaign retained an estimated 9% of at-risk customers. For a fintech client in 2023 I combined unsupervised anomaly scores with a supervised model on confirmed cases and streamed scores to the review queue, and precision at the top 100 alerts rose from 0.32 to 0.71.\n\nI can deliver this for $181 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p16",
+      "ai-p05",
+      "ai-p08"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 181.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-143",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01d8c3e289ffbc4fe8",
+    "job_title": "Enhancing Accuracy Default Prediction in P2P lending club Dataset",
+    "job_category": "Machine Learning",
+    "date": "2024-02-13",
+    "text": "Your Enhancing Accuracy Default Prediction in P2P lending club Dataset post asks for machine learning; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a food & beverage client in 2022 I engineered weather, holiday and promotion features and trained a gradient-boosted model per product family, retrained nightly, and forecast error (MAPE) improved from 24% to 11% and waste fell by 18%.\n\nI can deliver this for $260 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 260.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-144",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01125833b99210c470",
+    "job_title": "Looking for a Pytorch/ Transformer NN expert to analyse Tabular Data",
+    "job_category": "Deep Learning",
+    "date": "2024-02-20",
+    "text": "Your Looking for a Pytorch/ Transformer NN expert to analyse Tabular Data post asks for python; I have shipped exactly that before.\n\nAs a course project I trained a policy-gradient agent in a simulated warehouse; it beat an (s, S) baseline by 7% on simulated cost (coursework, not client work). For a manufacturing client in 2023 I labelled 3,200 images, fine-tuned an object detector and exported it for an edge device next to the conveyor, and recall reached 94% at a 2% false-positive rate, running at 25 frames per second.\n\nI can deliver this for $233 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p16",
+      "ai-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 233.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-145",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-0118a35d066df16a5e",
+    "job_title": "Live voice-swap: using distil-large-v2 and ElevenLabs TTS",
+    "job_category": "AI Chatbot Development",
+    "date": "2024-02-19",
+    "text": "Your Live voice-swap: using distil-large-v2 and ElevenLabs TTS post asks for chatbot development; I have shipped exactly that before.\n\nFor a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement.\n\nI can deliver this for $286 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 286.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-146",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-017abfc81598753bc2",
+    "job_title": "NLU Research Engineer \u2013 Advance AI Understanding of Spiritual Wisdom",
+    "job_category": "Deep Learning",
+    "date": "2024-02-15",
+    "text": "Your NLU Research Engineer \u2013 Advance AI Understanding of Spiritual Wisdom post asks for ai bias mitigation; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%.\n\nMy rate for this is $59/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 59.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-147",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01f51655dcff06b7fc",
+    "job_title": "Scam AI",
+    "job_category": "Machine Learning",
+    "date": "2024-02-23",
+    "text": "Your Scam AI post asks for deep learning; I have shipped exactly that before.\n\nFor an accounting client in 2024 I ran OCR, then asked an LLM to fill a strict schema and validated totals before saving, and 92% field-level accuracy and processing time down from 3 minutes to 10 seconds per invoice. For a healthcare client in 2024 I built a WhatsApp and SMS assistant that reads the clinic calendar and books, moves or cancels slots with a human hand-off, and 62% of booking conversations completed without staff involvement.\n\nI can deliver this for $590 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p13",
+      "ai-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 590.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-148",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01954ead673d22a970",
+    "job_title": "Website Developer Needed for OpenAI Integration",
+    "job_category": "AI Integration",
+    "date": "2024-02-16",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set.\n\nMy rate for this is $11/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 11.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-149",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-017787044f399e5c37",
+    "job_title": "AI Model Training Specialist for OpenAI Assistant Development",
+    "job_category": "Machine Learning",
+    "date": "2024-02-13",
+    "text": "Your AI Model Training Specialist for OpenAI Assistant Development post asks for artificial intelligence; I have shipped exactly that before.\n\nFor a saas client in 2023 I built a TF-IDF and logistic-regression baseline, then fine-tuned a small transformer and served it from asynchronous workers, and routing accuracy rose from 71% to 89% and first-response time fell by 35%. For a hr tech client in 2023 I indexed resumes with a bi-encoder and re-scored the shortlist with a reranker, and nDCG@10 improved from 0.61 to 0.78 and shortlist time halved.\n\nMy rate for this is $46/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p01",
+      "ai-p06"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 46.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "ai-prop-150",
+    "persona": "ai_ml_engineer",
+    "type": "proposal",
+    "job_id": "upw-01b64bb776df343138",
+    "job_title": "Commerical real estate - langchain lambda openAI",
+    "job_category": "Machine Learning",
+    "date": "2024-02-14",
+    "text": "Your Commerical real estate - langchain lambda openAI post asks for chatbot development; I have shipped exactly that before.\n\nFor an insurance client in 2024 I chunked and embedded the policies, combined keyword and vector search, and forced every answer to cite the clause it came from, and average answer time dropped from 6 minutes to 40 seconds with 92% citation precision on a 150-question test set.\n\nMy rate for this is $37/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "ai-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 37.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  }
+]

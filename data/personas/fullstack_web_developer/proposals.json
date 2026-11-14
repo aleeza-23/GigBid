@@ -1,0 +1,3285 @@
+[
+  {
+    "id": "web-prop-001",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-011c57eb1964da6575",
+    "job_title": "Salesforce community email/mobile OTP based logon access to users",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-16",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For an e-commerce client in 2024 I built a streaming chat widget that looks up orders and hands off to a human, and support tickets fell 25% in the first two months.\n\nI can deliver this for $146 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p16"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 146.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-002",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01edce302369ffd352",
+    "job_title": "Web GIS developer",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-22",
+    "text": "Your Web GIS developer post asks for cesium; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a media client in 2023 I migrated 9,000 articles to a headless CMS with a React front end, and editors published three times faster and hosting cost fell 40%.\n\nMy rate for this is $17/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p10"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 17.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-003",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01c4375a73b9dd182e",
+    "job_title": "Web Developer for Numerology Calculators Website",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-14",
+    "text": "Your Web Developer for Numerology Calculators Website post asks for css; I have shipped exactly that before.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nI can deliver this for $240 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15",
+      "web-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 240.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-004",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-012ac36839ab355fce",
+    "job_title": "Wordpress Website Recovery x 2",
+    "job_category": "CMS Development",
+    "date": "2024-02-13",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a saas client in 2024 I built dunning retries, webhook handling and a customer billing portal, and failed-payment recovery improved 19%. For a fintech client in 2024 I redesigned onboarding into short steps with document upload and async checks, and onboarding drop-off fell 31%.\n\nMy rate for this is $30/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p12",
+      "web-p08"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 30.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-005",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-011db17d5b62c5565b",
+    "job_title": "Desing (mainly PNG) to HTML code converter for email",
+    "job_category": "Front-End Development",
+    "date": "2024-02-14",
+    "text": "Your Desing (mainly PNG) to HTML code converter for email post asks for css; I have shipped exactly that before.\n\nFor a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nI can deliver this for $138 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p09",
+      "web-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 138.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-006",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01c63dc2b4af32da6b",
+    "job_title": "Python Flask WebSocket Endpoint with Twilio Media Streams",
+    "job_category": "Back-End Development",
+    "date": "2024-02-14",
+    "text": "Your Python Flask WebSocket Endpoint with Twilio Media Streams post asks for api; I have shipped exactly that before.\n\nFor a saas client in 2023 I wrote browser tests for the 40 most-used flows and gated deploys on them, and production regressions fell 60% over two quarters. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nI can deliver this for $199 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p14",
+      "web-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 199.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-007",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-018c48c1c84e118bb1",
+    "job_title": "Server-Side Tracking Developer: Google Tag Manager, Google Cloud Platform Experience Required",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-20",
+    "text": "Your Server-Side Tracking Developer: Google Tag Manager, Google Cloud Platf post asks for google analytics; I have shipped exactly that before.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%.\n\nI can deliver this for $407 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 407.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-008",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0103888ef289ad607a",
+    "job_title": "Solidity developer skilled at Bep20 token",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-19",
+    "text": "Your Solidity developer skilled at Bep20 token post asks for binance coin; I have shipped exactly that before.\n\nFor a healthcare client in 2024 I built scheduling, patient reminders and a staff dashboard with role-based access, and no-shows fell 22% after SMS reminders went live.\n\nMy rate for this is $117/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p03"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 117.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-009",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01b5358af2edb6bb79",
+    "job_title": "Customisations of WordPress Plugin",
+    "job_category": "CMS Development",
+    "date": "2024-02-15",
+    "text": "Your Customisations of WordPress Plugin post asks for woocommerce; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nI can deliver this for $152 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 152.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-010",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-013ef01d846289c4f5",
+    "job_title": "Build multi-traders by using PHP with Laravel or Typescript",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-20",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic. For a fintech client in 2024 I redesigned onboarding into short steps with document upload and async checks, and onboarding drop-off fell 31%.\n\nI can deliver this for $138 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p04",
+      "web-p08"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 138.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-011",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0170995d397620477a",
+    "job_title": "Website Development",
+    "job_category": "Front-End Development",
+    "date": "2024-02-20",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nI can deliver this for $130 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15",
+      "web-p06",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 130.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-012",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01544f9485475b1494",
+    "job_title": "Chrome Extension Webhook Integration",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-14",
+    "text": "Your Chrome Extension Webhook Integration post asks for api; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nI can deliver this for $153 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 153.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-013",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01f9eaf7b5488d4eb1",
+    "job_title": "Shopify App Review Assistance",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-22",
+    "text": "Your Shopify App Review Assistance post asks for app development; I have shipped exactly that before.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a saas client in 2023 I wrote browser tests for the 40 most-used flows and gated deploys on them, and production regressions fell 60% over two quarters. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms.\n\nI can deliver this for $139 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p14",
+      "web-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 139.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-014",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-019324af83cf6b6887",
+    "job_title": "Twilio Configuration",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-16",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a healthcare client in 2024 I built scheduling, patient reminders and a staff dashboard with role-based access, and no-shows fell 22% after SMS reminders went live.\n\nI can deliver this for $178 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 178.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-015",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01e7d55b52376d29dd",
+    "job_title": "Web development with api integration",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-19",
+    "text": "Your Web development with api integration post asks for api; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nI can deliver this for $195 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 195.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-016",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-016f23ba1fc8fc53ac",
+    "job_title": "Setup and Manage Amazon Store",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-23",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%.\n\nMy rate for this is $24/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 24.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-017",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01b593f8386c5b973a",
+    "job_title": "Web App Developer",
+    "job_category": "Front-End Development",
+    "date": "2024-02-20",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%. For a media client in 2023 I migrated 9,000 articles to a headless CMS with a React front end, and editors published three times faster and hosting cost fell 40%.\n\nMy rate for this is $35/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15",
+      "web-p10"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 35.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-018",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01fb4482fb6922aea1",
+    "job_title": "Full Stack Developer Needed",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-15",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter.\n\nI can deliver this for $4502 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 4502.0
+    },
+    "connects_spent": 16,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-019",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01b61b41b93ba1531b",
+    "job_title": "PHP Developer (Symfony Framework)",
+    "job_category": "Back-End Development",
+    "date": "2024-02-16",
+    "text": "Your PHP Developer (Symfony Framework) post asks for api; I have shipped exactly that before.\n\nFor a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nI can deliver this for $171 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p04",
+      "web-p05",
+      "web-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 171.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-020",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0163191689075ede05",
+    "job_title": "Shopify store",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-22",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%.\n\nI can deliver this for $163 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 163.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-021",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0160af85675e2bbcbc",
+    "job_title": "MindBody Integration for Schedule and Pay Fess",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-23",
+    "text": "Your MindBody Integration for Schedule and Pay Fess post asks for android; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nI can deliver this for $175 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 175.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-022",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-012bc12108d2b2294e",
+    "job_title": "Build Custom Shopify Theme Using Mockups/Assets + Integrate 1 API and FTP Feed",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-19",
+    "text": "Your Build Custom Shopify Theme Using Mockups/Assets + Integrate 1 API and post asks for api; I have shipped exactly that before.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a saas client in 2023 I wrote browser tests for the 40 most-used flows and gated deploys on them, and production regressions fell 60% over two quarters. For a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic.\n\nI can deliver this for $819 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p14",
+      "web-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 819.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-023",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0160af85675e2bbcbc",
+    "job_title": "MindBody Integration for Schedule and Pay Fess",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-23",
+    "text": "Your MindBody Integration for Schedule and Pay Fess post asks for android; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nI can deliver this for $197 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 197.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-024",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01c3192d11e87cdb1b",
+    "job_title": "Working on a already developed backend part of a project",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-19",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season. For a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nI can deliver this for $204 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p13",
+      "web-p04",
+      "web-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 204.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-025",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0105a29e4afbfe9d13",
+    "job_title": "WP Astra Block Editor/Gutenberg Expert",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-17",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nI can deliver this for $158 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 158.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-026",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-010354949ee4938b1d",
+    "job_title": "Revamp My Shopify E-commerce Website Banner Display",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-16",
+    "text": "Your Revamp My Shopify E-commerce Website Banner Display post asks for shopify; I have shipped exactly that before.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a saas client in 2023 I wrote browser tests for the 40 most-used flows and gated deploys on them, and production regressions fell 60% over two quarters.\n\nI can deliver this for $146 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p14"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 146.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-027",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0178c9a652dcec2430",
+    "job_title": "Junior-Mid Full Stack Developer (Python, JavaScript & Django)",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-16",
+    "text": "Your Junior-Mid Full Stack Developer (Python, JavaScript & Django) post asks for django; I have shipped exactly that before.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months. For a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season.\n\nI can deliver this for $203 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p09",
+      "web-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 203.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-028",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0108a6550d149269cd",
+    "job_title": "WordPress Developer Needed: Enhance and Optimize Existing Website\"",
+    "job_category": "CMS Development",
+    "date": "2024-02-22",
+    "text": "Your WordPress Developer Needed: Enhance and Optimize Existing Website\" post asks for communication skills; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nMy rate for this is $19/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p15"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 19.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-029",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01d96b51a3aab5a684",
+    "job_title": "Senior Software Engineer: Expert in Laravel, React, Node.js, AWS & CI/CD",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-18",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a media client in 2023 I migrated 9,000 articles to a headless CMS with a React front end, and editors published three times faster and hosting cost fell 40%. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms.\n\nI can deliver this for $162 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p10",
+      "web-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 162.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-030",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01e3d4b55b3a659559",
+    "job_title": "Ongoing maintenance of a WordPress restaurant website, mostly CMS development",
+    "job_category": "CMS Development",
+    "date": "2024-02-13",
+    "text": "Your Ongoing maintenance of a WordPress restaurant website, mostly CMS deve post asks for cms development; I have shipped exactly that before.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nMy rate for this is $31/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15",
+      "web-p06"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 31.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-031",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01138184b5d23d2af7",
+    "job_title": "Financial Tracking Module Development",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-13",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live.\n\nI can deliver this for $129 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 129.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-032",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01b4a4dc188722044d",
+    "job_title": "Umbraco Website Updates",
+    "job_category": "CMS Development",
+    "date": "2024-02-20",
+    "text": "Your Umbraco Website Updates post asks for asp.net; I have shipped exactly that before.\n\nFor a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%. For a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%.\n\nMy rate for this is $28/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p09",
+      "web-p15",
+      "web-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 28.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-033",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-011604681a40fdd293",
+    "job_title": "Premium Shopify Website for Drop Shipping",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-13",
+    "text": "Your Premium Shopify Website for Drop Shipping post asks for api integration; I have shipped exactly that before.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nI can deliver this for $126 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p05",
+      "web-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 126.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-034",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01a95cef7688b16789",
+    "job_title": "Shopify Coder needed for small job",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-14",
+    "text": "Your Shopify Coder needed for small job post asks for css; I have shipped exactly that before.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nI can deliver this for $182 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p06",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 182.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-035",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-013ae20415b14f3076",
+    "job_title": "Looking for quick help to fix a plugin bug",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-14",
+    "text": "Your Looking for quick help to fix a plugin bug post asks for javascript; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nMy rate for this is $29/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 29.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-036",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01d0426e19e7cf22bf",
+    "job_title": "Write integration tests for a TS+React SaaS app",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-23",
+    "text": "Your Write integration tests for a TS+React SaaS app post asks for cypress; I have shipped exactly that before.\n\nFor a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live. For an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter. For a healthcare client in 2024 I built scheduling, patient reminders and a staff dashboard with role-based access, and no-shows fell 22% after SMS reminders went live.\n\nMy rate for this is $42/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p07",
+      "web-p01",
+      "web-p03"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 42.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-037",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01f35db5e032748920",
+    "job_title": "Hiring a Talented HTML/CSS/Bootstrap Developer ( 100% Hiring )",
+    "job_category": "Front-End Development",
+    "date": "2024-02-13",
+    "text": "Your Hiring a Talented HTML/CSS/Bootstrap Developer ( 100% Hiring ) post asks for bootstrap; I have shipped exactly that before.\n\nFor a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms.\n\nI can deliver this for $160 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 160.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-038",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01371167ba5fcb28a7",
+    "job_title": "Need a Wordpress Developer to Make changes in Design on an Existing website",
+    "job_category": "CMS Development",
+    "date": "2024-02-22",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live. For a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic.\n\nI can deliver this for $134 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p07",
+      "web-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 134.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-039",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01bafad0c836942836",
+    "job_title": "Make a website which takes pdf as input and lets you ask questions related to that pdf",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-16",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic.\n\nI can deliver this for $145 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 145.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-040",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0187b0e58268b3a861",
+    "job_title": "Build a script for switching between Android multi users via Teamviewer",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-17",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a saas client in 2024 I built dunning retries, webhook handling and a customer billing portal, and failed-payment recovery improved 19%. For a media client in 2023 I migrated 9,000 articles to a headless CMS with a React front end, and editors published three times faster and hosting cost fell 40%.\n\nMy rate for this is $39/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p12",
+      "web-p10"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 39.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-041",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01c2ef59a87a3d5799",
+    "job_title": "Flash USDT (For auditing purpose)",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-14",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nI can deliver this for $22295 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 22295.0
+    },
+    "connects_spent": 16,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-042",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-012864210368a46514",
+    "job_title": "Web developer",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-17",
+    "text": "Your Web developer post asks for api; I have shipped exactly that before.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nI can deliver this for $1144 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15",
+      "web-p09",
+      "web-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 1144.0
+    },
+    "connects_spent": 16,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-043",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01231969058a853edd",
+    "job_title": "Urgently need a Full Stack Developer",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-14",
+    "text": "Your Urgently need a Full Stack Developer post asks for amazon web services; I have shipped exactly that before.\n\nFor a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For a fintech client in 2024 I redesigned onboarding into short steps with document upload and async checks, and onboarding drop-off fell 31%.\n\nMy rate for this is $10/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p05",
+      "web-p08"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 10.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-044",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01a95cef7688b16789",
+    "job_title": "Shopify Coder needed for small job",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-14",
+    "text": "Your Shopify Coder needed for small job post asks for css; I have shipped exactly that before.\n\nFor a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live. For a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season.\n\nI can deliver this for $168 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p07",
+      "web-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 168.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-045",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01e7d55b52376d29dd",
+    "job_title": "Web development with api integration",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-19",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic.\n\nI can deliver this for $167 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 167.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-046",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0136e69dcbe3f79702",
+    "job_title": "Fatal error: Problem with Wordpress Website! I can't go into the backend",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-13",
+    "text": "Your Fatal error: Problem with Wordpress Website! I can't go into the backe post asks for php; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic. For a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season.\n\nI can deliver this for $177 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p04",
+      "web-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 177.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-047",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-014f8b01d5bd909cad",
+    "job_title": "Insert Yelp API into Wordpress page",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-19",
+    "text": "Your Insert Yelp API into Wordpress page post asks for api; I have shipped exactly that before.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nI can deliver this for $155 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15",
+      "web-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 155.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-048",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01a3de534b3155458c",
+    "job_title": "Website Backend Developer",
+    "job_category": "Back-End Development",
+    "date": "2024-02-16",
+    "text": "Your Website Backend Developer post asks for web development; I have shipped exactly that before.\n\nFor a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For a saas client in 2023 I wrote browser tests for the 40 most-used flows and gated deploys on them, and production regressions fell 60% over two quarters.\n\nI can deliver this for $187 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p05",
+      "web-p14"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 187.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-049",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-018a63f0f08c9ebaad",
+    "job_title": "SaaS - Build a Mass Cold Emailing platform",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-23",
+    "text": "Your SaaS - Build a Mass Cold Emailing platform post asks for api; I have shipped exactly that before.\n\nFor a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic.\n\nI can deliver this for $497 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 497.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-050",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01a4703b5a1b6e67f7",
+    "job_title": "Website Virus Fixation & Website migration",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-20",
+    "text": "Your Website Virus Fixation & Website migration post asks for php; I have shipped exactly that before.\n\nFor a saas client in 2023 I wrote browser tests for the 40 most-used flows and gated deploys on them, and production regressions fell 60% over two quarters. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nI can deliver this for $147 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p14",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 147.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-051",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0178e2d1d61cc910f3",
+    "job_title": "Wordpress Theme Developer (Redux, Composer, Vite)",
+    "job_category": "Front-End Development",
+    "date": "2024-02-18",
+    "text": "Your Wordpress Theme Developer (Redux, Composer, Vite) post asks for css; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nMy rate for this is $20/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p13",
+      "web-p15"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 20.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-052",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01168daed5b0ec9c8a",
+    "job_title": "Three.js Animate the lips as the viseme using the MS Azure events",
+    "job_category": "Front-End Development",
+    "date": "2024-02-16",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live. For an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter.\n\nMy rate for this is $53/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p07",
+      "web-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 53.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-053",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01f95e7196333ed3d0",
+    "job_title": "Need a wordpress plugin developer for calculator",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-17",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nI can deliver this for $327 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p15",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 327.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-054",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-010acf20495c2bf132",
+    "job_title": "Node/Flutter/React Full Stack developer",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-20",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter.\n\nMy rate for this is $9/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 9.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-055",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-018f9ef51ea7ac642a",
+    "job_title": "Looking for Someone who will Work on Shopify Website",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-20",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nI can deliver this for $149 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 149.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-056",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-014ce9f13be7223e01",
+    "job_title": "Looking for PHP + Wordpress Developer",
+    "job_category": "CMS Development",
+    "date": "2024-02-16",
+    "text": "Your Looking for PHP + Wordpress Developer post asks for mysql; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter.\n\nMy rate for this is $52/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 52.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-057",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0147a5a812f223b90e",
+    "job_title": "List of E-commerce Fulfilment Providers in the EU (URL only)",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-18",
+    "text": "Your List of E-commerce Fulfilment Providers in the EU (URL only) post asks for data entry; I have shipped exactly that before.\n\nFor a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nI can deliver this for $141 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p05",
+      "web-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 141.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-058",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-012b4acb58c93aaabc",
+    "job_title": "Shopify Expert Required for Tunning Website",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-23",
+    "text": "Your Shopify Expert Required for Tunning Website post asks for shopify; I have shipped exactly that before.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms.\n\nMy rate for this is $11/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15",
+      "web-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 11.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-059",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01d5b8e35a4be11424",
+    "job_title": "Solana Developer",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-19",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nI can deliver this for $183 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p09",
+      "web-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 183.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-060",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0125901c9ac4b347d9",
+    "job_title": "WP Elementor Site Performance Optimization",
+    "job_category": "Front-End Development",
+    "date": "2024-02-19",
+    "text": "Your WP Elementor Site Performance Optimization post asks for css; I have shipped exactly that before.\n\nFor a saas client in 2023 I built an admin panel with permissions and an audit trail, and replaced all five spreadsheets and passed a customer security review.\n\nI can deliver this for $354 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p11"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 354.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-061",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01f95e7196333ed3d0",
+    "job_title": "Need a wordpress plugin developer for calculator",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-17",
+    "text": "Your Need a wordpress plugin developer for calculator post asks for chatgpt api integration; I have shipped exactly that before.\n\nFor a saas client in 2023 I wrote browser tests for the 40 most-used flows and gated deploys on them, and production regressions fell 60% over two quarters.\n\nI can deliver this for $278 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p14"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 278.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-062",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01afb67f78765946de",
+    "job_title": "Full Stack Developer - React App + Website + AI training/implementation",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-14",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live.\n\nMy rate for this is $35/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p01",
+      "web-p05",
+      "web-p07"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 35.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-063",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0170995d397620477a",
+    "job_title": "Website Development",
+    "job_category": "Front-End Development",
+    "date": "2024-02-20",
+    "text": "Your Website Development post asks for css; I have shipped exactly that before.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nI can deliver this for $121 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 121.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-064",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01891c256145ba44bd",
+    "job_title": "Build a Solana blockchain smart contract case study for a community group. Escrow transaction.",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-23",
+    "text": "Your Build a Solana blockchain smart contract case study for a community gr post asks for smart contract; I have shipped exactly that before.\n\nFor a media client in 2023 I migrated 9,000 articles to a headless CMS with a React front end, and editors published three times faster and hosting cost fell 40%. For a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season.\n\nMy rate for this is $49/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p10",
+      "web-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 49.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-065",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01d2670599e2cb5556",
+    "job_title": "Full-stack Developer with Bigcommerce API integration",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-20",
+    "text": "Your Full-stack Developer with Bigcommerce API integration post asks for api; I have shipped exactly that before.\n\nFor a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For a healthcare client in 2024 I built scheduling, patient reminders and a staff dashboard with role-based access, and no-shows fell 22% after SMS reminders went live. For a fintech client in 2024 I redesigned onboarding into short steps with document upload and async checks, and onboarding drop-off fell 31%.\n\nMy rate for this is $29/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p05",
+      "web-p03",
+      "web-p08"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 29.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-066",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0122cac82873ab72f3",
+    "job_title": "Squarespace Website Development with User Progress Tracking",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-18",
+    "text": "Your Squarespace Website Development with User Progress Tracking post asks for html; I have shipped exactly that before.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nI can deliver this for $1040 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15",
+      "web-p05",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 1040.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-067",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-014087e66361cbb408",
+    "job_title": "Expert in Javascript XHR requests for join our team",
+    "job_category": "Front-End Development",
+    "date": "2024-02-13",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nMy rate for this is $22/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 22.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-068",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0108a4a4bf47f75c6b",
+    "job_title": "IPSpecialist Lab Portal - Backend",
+    "job_category": "Back-End Development",
+    "date": "2024-02-17",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season.\n\nI can deliver this for $122 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p04",
+      "web-p06",
+      "web-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 122.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-069",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-010a5200ba33cc2a58",
+    "job_title": "ISO person familiar with website insight tools (like Hotjar).",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-13",
+    "text": "Your ISO person familiar with website insight tools (like Hotjar). post asks for full-stack development; I have shipped exactly that before.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms.\n\nMy rate for this is $60/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15",
+      "web-p06",
+      "web-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 60.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-070",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01759fef400afcd703",
+    "job_title": "Web Developer/WordPress Site Manager",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-22",
+    "text": "Your Web Developer/WordPress Site Manager post asks for api; I have shipped exactly that before.\n\nFor a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nMy rate for this is $14/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p04",
+      "web-p06"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 14.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-071",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01a9dd786e5f031bea",
+    "job_title": "Javascript Dev Needed - React / Firebase - Experienced Devs Only! Short term intensive position",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-14",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live. For an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter.\n\nMy rate for this is $50/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p07",
+      "web-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 50.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-072",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0137cfcb2cf3a15175",
+    "job_title": "Shopify & Magento Plug-ins for Virtual Try-On",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-14",
+    "text": "Your Shopify & Magento Plug-ins for Virtual Try-On post asks for app development; I have shipped exactly that before.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%.\n\nI can deliver this for $160 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 160.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-073",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-018be109da7622a3ec",
+    "job_title": "FullSTack PHP Developer with Design Knowledge",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-23",
+    "text": "Your FullSTack PHP Developer with Design Knowledge post asks for custom php; I have shipped exactly that before.\n\nFor a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season. For a healthcare client in 2024 I built scheduling, patient reminders and a staff dashboard with role-based access, and no-shows fell 22% after SMS reminders went live. For a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic.\n\nMy rate for this is $35/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p13",
+      "web-p03",
+      "web-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 35.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-074",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0122927c9bab01bcb2",
+    "job_title": "Job Title: Angular/AWS Developer",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-13",
+    "text": "Your Job Title: Angular/AWS Developer post asks for amazon api gateway; I have shipped exactly that before.\n\nFor a fintech client in 2024 I redesigned onboarding into short steps with document upload and async checks, and onboarding drop-off fell 31%. For a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live. For an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter.\n\nI can deliver this for $152 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p08",
+      "web-p07",
+      "web-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 152.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-075",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-019d9461470fd32642",
+    "job_title": "Wordpress full stack developer",
+    "job_category": "CMS Development",
+    "date": "2024-02-13",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season. For a saas client in 2023 I built an admin panel with permissions and an audit trail, and replaced all five spreadsheets and passed a customer security review.\n\nMy rate for this is $47/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p13",
+      "web-p11"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 47.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-076",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-014b7236522bd43d92",
+    "job_title": "Keycloak Setup w/ Supabase and OpenID 3rd Party App",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-13",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live.\n\nMy rate for this is $36/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p07"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 36.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-077",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01827a933c1ad44b16",
+    "job_title": "Shopify Website Invoicing",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-19",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season.\n\nI can deliver this for $204 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 204.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-078",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-016d63c4f15b09a61c",
+    "job_title": "Kentico 12 Portal Website Change needed",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-23",
+    "text": "Your Kentico 12 Portal Website Change needed post asks for kentico; I have shipped exactly that before.\n\nFor an e-commerce client in 2024 I built a streaming chat widget that looks up orders and hands off to a human, and support tickets fell 25% in the first two months.\n\nI can deliver this for $167 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p16"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 167.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-079",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-012fcfeee252e66080",
+    "job_title": "Looking for a nodejs and postgres backend engineer",
+    "job_category": "Back-End Development",
+    "date": "2024-02-22",
+    "text": "Your Looking for a nodejs and postgres backend engineer post asks for node.js; I have shipped exactly that before.\n\nFor a saas client in 2023 I wrote browser tests for the 40 most-used flows and gated deploys on them, and production regressions fell 60% over two quarters.\n\nMy rate for this is $55/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p14"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 55.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-080",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01bafad0c836942836",
+    "job_title": "Make a website which takes pdf as input and lets you ask questions related to that pdf",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-16",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter. For a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live.\n\nI can deliver this for $163 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p01",
+      "web-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 163.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-081",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0127d429e7e74945cb",
+    "job_title": "Shopify Store Design Expert Needed for Quick Project",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-16",
+    "text": "Your Shopify Store Design Expert Needed for Quick Project post asks for adobe illustrator; I have shipped exactly that before.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nI can deliver this for $127 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 127.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-082",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0163128192ffa7ad7c",
+    "job_title": "Laravel developer needed to save user input from field",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-22",
+    "text": "Your Laravel developer needed to save user input from field post asks for google maps api; I have shipped exactly that before.\n\nFor a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season. For a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic.\n\nMy rate for this is $40/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p13",
+      "web-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 40.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-083",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01a791860057dde4e8",
+    "job_title": "Python Project for Voice Call API Integration",
+    "job_category": "Back-End Development",
+    "date": "2024-02-19",
+    "text": "Your Python Project for Voice Call API Integration post asks for api; I have shipped exactly that before.\n\nFor a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live.\n\nI can deliver this for $475 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p05",
+      "web-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 475.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-084",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-016d04a0606bc956f4",
+    "job_title": "eCommerce Business Setup & Management",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-17",
+    "text": "Your eCommerce Business Setup & Management post asks for administrative support; I have shipped exactly that before.\n\nFor a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live. For a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic.\n\nMy rate for this is $11/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p07",
+      "web-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 11.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-085",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01f1992155a2a8f153",
+    "job_title": "Expert Developer Needed for Comprehensive Code and Payment System Audit",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-18",
+    "text": "Your Expert Developer Needed for Comprehensive Code and Payment System Audi post asks for amazon web services; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter. For a fintech client in 2024 I redesigned onboarding into short steps with document upload and async checks, and onboarding drop-off fell 31%. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms.\n\nMy rate for this is $55/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p01",
+      "web-p08",
+      "web-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 55.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-086",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0171d9cfea8a852f6b",
+    "job_title": "Desarrollador de Paginas webs",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-20",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a healthcare client in 2024 I built scheduling, patient reminders and a staff dashboard with role-based access, and no-shows fell 22% after SMS reminders went live. For a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live.\n\nI can deliver this for $168 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p03",
+      "web-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 168.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-087",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01e77ae154eba236a9",
+    "job_title": "\u00f0\u0178\u0152\u00b1Write frontend exam interface",
+    "job_category": "Front-End Development",
+    "date": "2024-02-18",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months. For a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nI can deliver this for $1214 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p09",
+      "web-p02",
+      "web-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 1214.0
+    },
+    "connects_spent": 16,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-088",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01102b97ca256f5326",
+    "job_title": "Software Developer with OpenAI expertise",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-17",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a healthcare client in 2024 I built scheduling, patient reminders and a staff dashboard with role-based access, and no-shows fell 22% after SMS reminders went live. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nMy rate for this is $73/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p03",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 73.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-089",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01e891b64674fef3cc",
+    "job_title": "Website coder",
+    "job_category": "Front-End Development",
+    "date": "2024-02-18",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nMy rate for this is $49/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15",
+      "web-p06",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 49.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-090",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01afb67f78765946de",
+    "job_title": "Full Stack Developer - React App + Website + AI training/implementation",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-14",
+    "text": "Your Full Stack Developer - React App + Website + AI training/implementatio post asks for api; I have shipped exactly that before.\n\nFor an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms.\n\nMy rate for this is $42/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p01",
+      "web-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 42.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-091",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01f42d36d69537d786",
+    "job_title": "Shopify store product upload",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-18",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nI can deliver this for $193 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 193.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-092",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01c74a636ad04890b3",
+    "job_title": "Expert Web Software Developer for DOOH Taxi Top LED Screen Project",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-20",
+    "text": "Your Expert Web Software Developer for DOOH Taxi Top LED Screen Project post asks for adaptive web design; I have shipped exactly that before.\n\nFor a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms.\n\nMy rate for this is $35/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 35.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-093",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-018c38e925eb7f9010",
+    "job_title": "Python Engineer with Open-Source, Cloud or API experiences.",
+    "job_category": "Back-End Development",
+    "date": "2024-02-15",
+    "text": "Your Python Engineer with Open-Source, Cloud or API experiences. post asks for api; I have shipped exactly that before.\n\nFor a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic.\n\nMy rate for this is $11/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 11.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-094",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01a0cd3848e14b2397",
+    "job_title": "Search for functionality on one website and add it to another.",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-13",
+    "text": "Your Search for functionality on one website and add it to another. post asks for css; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nI can deliver this for $162 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 162.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-095",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-013cc756c6dc241fe6",
+    "job_title": "Shopify Website Creation",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-18",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms.\n\nI can deliver this for $193 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 193.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-096",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-013a60d145aacd3ee4",
+    "job_title": "Website Developer",
+    "job_category": "Front-End Development",
+    "date": "2024-02-22",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a saas client in 2023 I built an admin panel with permissions and an audit trail, and replaced all five spreadsheets and passed a customer security review.\n\nI can deliver this for $121 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p11"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 121.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-097",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01eb563926c7767b6d",
+    "job_title": "Javascript paperdoll system",
+    "job_category": "Front-End Development",
+    "date": "2024-02-19",
+    "text": "Your Javascript paperdoll system post asks for css; I have shipped exactly that before.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nI can deliver this for $240 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 240.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-098",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-018443023c7ea9e93b",
+    "job_title": "Python developer needed (web3 script & hosting support)",
+    "job_category": "Back-End Development",
+    "date": "2024-02-16",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic. For a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live. For an e-commerce client in 2024 I built a streaming chat widget that looks up orders and hands off to a human, and support tickets fell 25% in the first two months.\n\nMy rate for this is $42/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p04",
+      "web-p07",
+      "web-p16"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 42.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-099",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-015952a9748984e558",
+    "job_title": "Software Developer and Project Manager (ADHOC)",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-13",
+    "text": "Your Software Developer and Project Manager (ADHOC) post asks for database development; I have shipped exactly that before.\n\nFor a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season.\n\nMy rate for this is $12/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p04",
+      "web-p06",
+      "web-p13"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 12.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-100",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0171d9cfea8a852f6b",
+    "job_title": "Desarrollador de Paginas webs",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-20",
+    "text": "Your Desarrollador de Paginas webs post asks for css; I have shipped exactly that before.\n\nFor an e-commerce client in 2024 I built a streaming chat widget that looks up orders and hands off to a human, and support tickets fell 25% in the first two months. For a media client in 2023 I migrated 9,000 articles to a headless CMS with a React front end, and editors published three times faster and hosting cost fell 40%.\n\nI can deliver this for $181 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p16",
+      "web-p10"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 181.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-101",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0136e69dcbe3f79702",
+    "job_title": "Fatal error: Problem with Wordpress Website! I can't go into the backend",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-13",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nI can deliver this for $140 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 140.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-102",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-011c85a0dbfded19cb",
+    "job_title": "Wordpress submission module for music links",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-20",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nMy rate for this is $58/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 58.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-103",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01c9f9df1f319d0ace",
+    "job_title": "Back-end Developer for CMS Customization with Custom Stripe Integration",
+    "job_category": "Back-End Development",
+    "date": "2024-02-16",
+    "text": "Your Back-end Developer for CMS Customization with Custom Stripe Integratio post asks for api; I have shipped exactly that before.\n\nFor a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For a saas client in 2024 I built dunning retries, webhook handling and a customer billing portal, and failed-payment recovery improved 19%. For an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter.\n\nMy rate for this is $38/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p05",
+      "web-p12",
+      "web-p01"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 38.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-104",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01bb518cf65e3d593a",
+    "job_title": "Wordress Admin User Issues",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-13",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic.\n\nI can deliver this for $175 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 175.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-105",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-018443023c7ea9e93b",
+    "job_title": "Python developer needed (web3 script & hosting support)",
+    "job_category": "Back-End Development",
+    "date": "2024-02-16",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic.\n\nMy rate for this is $34/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 34.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-106",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0102877e4553229b2d",
+    "job_title": "Shopify Builder (TECH PRODUCT/PET PRODUCTS)",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-16",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms.\n\nMy rate for this is $53/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p05"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 53.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-107",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01024a9df85f49c588",
+    "job_title": "Design an Online Order Form for an ecommerce Site",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-22",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic.\n\nMy rate for this is $31/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p04"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 31.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-108",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-011e19e7aab91d7dfa",
+    "job_title": "Shopify Developer",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-20",
+    "text": "Your Shopify Developer post asks for ecommerce website development; I have shipped exactly that before.\n\nFor a fintech client in 2024 I redesigned onboarding into short steps with document upload and async checks, and onboarding drop-off fell 31%.\n\nI can deliver this for $200 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p08"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 200.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-109",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01b19945d79a60cfde",
+    "job_title": "Create & Manage Drop Shipping Store",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-19",
+    "text": "Your Create & Manage Drop Shipping Store post asks for administrative support; I have shipped exactly that before.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For a saas client in 2023 I wrote browser tests for the 40 most-used flows and gated deploys on them, and production regressions fell 60% over two quarters.\n\nMy rate for this is $17/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p05",
+      "web-p14"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 17.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-110",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-015ee58fa02f1be44d",
+    "job_title": "English teaching website engagement architecture",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-16",
+    "text": "Your English teaching website engagement architecture post asks for elearning design; I have shipped exactly that before.\n\nFor a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nMy rate for this is $60/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p09",
+      "web-p06"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 60.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-111",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01b81ad60784f4a891",
+    "job_title": "Looking for an expert NodeJS and Postgres **data engineer** / backend engineer.",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-17",
+    "text": "Your Looking for an expert NodeJS and Postgres **data engineer** / backend post asks for css; I have shipped exactly that before.\n\nFor a healthcare client in 2024 I built scheduling, patient reminders and a staff dashboard with role-based access, and no-shows fell 22% after SMS reminders went live.\n\nMy rate for this is $47/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p03"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 47.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-112",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0126677fe87ec63776",
+    "job_title": "Multiple integrations for multiple services",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-13",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor an e-commerce client in 2024 I built a streaming chat widget that looks up orders and hands off to a human, and support tickets fell 25% in the first two months. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms.\n\nI can deliver this for $206 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p16",
+      "web-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 206.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-113",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01e2524f8b1335494c",
+    "job_title": "Seeking a Versatile Full Stack .NET and React Developer for Exciting Projects",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-18",
+    "text": "Your Seeking a Versatile Full Stack .NET and React Developer for Exciting P post asks for .net framework; I have shipped exactly that before.\n\nFor a fintech client in 2024 I redesigned onboarding into short steps with document upload and async checks, and onboarding drop-off fell 31%. For a media client in 2023 I migrated 9,000 articles to a headless CMS with a React front end, and editors published three times faster and hosting cost fell 40%.\n\nI can deliver this for $120 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p08",
+      "web-p10"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 120.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-114",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0132e055d1a6c21633",
+    "job_title": "Solidity Developer",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-20",
+    "text": "Your Solidity Developer post asks for blockchain architecture; I have shipped exactly that before.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nMy rate for this is $39/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 39.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-115",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01f6e6efad10dc4e12",
+    "job_title": "Need Go High Level Expert to work on our account configuration",
+    "job_category": "CMS Development",
+    "date": "2024-02-13",
+    "text": "Your Need Go High Level Expert to work on our account configuration post asks for a/b testing; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nI can deliver this for $145 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 145.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-116",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01e62ed19dc4133ac1",
+    "job_title": "Horse Racing Form Website to code",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-20",
+    "text": "Your Horse Racing Form Website to code post asks for python; I have shipped exactly that before.\n\nFor a media client in 2023 I migrated 9,000 articles to a headless CMS with a React front end, and editors published three times faster and hosting cost fell 40%. For a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live.\n\nMy rate for this is $34/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p10",
+      "web-p07"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 34.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-117",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-011bb19966c9de79ca",
+    "job_title": "Joomla Website Modification Specialist",
+    "job_category": "CMS Development",
+    "date": "2024-02-13",
+    "text": "Your Joomla Website Modification Specialist post asks for css; I have shipped exactly that before.\n\nFor a fintech client in 2024 I redesigned onboarding into short steps with document upload and async checks, and onboarding drop-off fell 31%. For a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%.\n\nI can deliver this for $168 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p08",
+      "web-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 168.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-118",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-012ec08eb4536d3664",
+    "job_title": "Website Development",
+    "job_category": "Front-End Development",
+    "date": "2024-02-19",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a fintech client in 2024 I redesigned onboarding into short steps with document upload and async checks, and onboarding drop-off fell 31%.\n\nI can deliver this for $149 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p08"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 149.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-119",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-010a5200ba33cc2a58",
+    "job_title": "ISO person familiar with website insight tools (like Hotjar).",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-13",
+    "text": "Your ISO person familiar with website insight tools (like Hotjar). post asks for full-stack development; I have shipped exactly that before.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%. For an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nMy rate for this is $62/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15",
+      "web-p06"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 62.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-120",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01c33064b7e76fe5ce",
+    "job_title": "Looking for figma to wordpress developer",
+    "job_category": "CMS Development",
+    "date": "2024-02-16",
+    "text": "Your Looking for figma to wordpress developer post asks for woocommerce; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nI can deliver this for $133 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 133.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-121",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-015c3bc72a23d311db",
+    "job_title": "Wordpress build from supplied design",
+    "job_category": "Front-End Development",
+    "date": "2024-02-22",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live.\n\nMy rate for this is $46/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p07"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 46.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-122",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01c098459d538fbec1",
+    "job_title": "Full Stack Developer",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-13",
+    "text": "Your Full Stack Developer post asks for golang; I have shipped exactly that before.\n\nFor a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live.\n\nMy rate for this is $59/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p07"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 59.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-123",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01fad011b892784fc0",
+    "job_title": "2 Product Shopify Store",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-22",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms.\n\nI can deliver this for $150 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 150.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-124",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0182fcc8c704f61fdc",
+    "job_title": "Angular Developer",
+    "job_category": "Front-End Development",
+    "date": "2024-02-18",
+    "text": "Your Angular Developer post asks for angular; I have shipped exactly that before.\n\nFor a saas client in 2023 I wrote browser tests for the 40 most-used flows and gated deploys on them, and production regressions fell 60% over two quarters.\n\nMy rate for this is $41/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p14"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 41.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-125",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01142342250b6f6c9e",
+    "job_title": "Python Developer for Building Payment System with Discord Bot API and Stripe API",
+    "job_category": "Back-End Development",
+    "date": "2024-02-17",
+    "text": "Your Python Developer for Building Payment System with Discord Bot API and post asks for api; I have shipped exactly that before.\n\nFor a saas client in 2024 I built dunning retries, webhook handling and a customer billing portal, and failed-payment recovery improved 19%. For an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms.\n\nI can deliver this for $216 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p12",
+      "web-p01",
+      "web-p05"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 216.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-126",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-012d9dd377d9e0c13f",
+    "job_title": "Shopify Developer Required for App Approval",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-16",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic.\n\nI can deliver this for $199 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p04"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 199.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-127",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-018f9ef51ea7ac642a",
+    "job_title": "Looking for Someone who will Work on Shopify Website",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-20",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nI can deliver this for $204 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p15"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 204.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-128",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01564ff35072d1de9d",
+    "job_title": "Senior Full Stack Developer (.NET + React)",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-20",
+    "text": "Your Senior Full Stack Developer (.NET + React) post asks for microsoft azure; I have shipped exactly that before.\n\nFor a saas client in 2024 I built dunning retries, webhook handling and a customer billing portal, and failed-payment recovery improved 19%. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nMy rate for this is $35/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p12",
+      "web-p15"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 35.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-129",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-013bc93389c4223244",
+    "job_title": "Web App Next JS +Lavarel",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-16",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a healthcare client in 2024 I built scheduling, patient reminders and a staff dashboard with role-based access, and no-shows fell 22% after SMS reminders went live. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter.\n\nI can deliver this for $221 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p03",
+      "web-p05",
+      "web-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 221.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-130",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01a982ab7b5ab31c06",
+    "job_title": "Edit a Form on a jimdo website with custom code",
+    "job_category": "Front-End Development",
+    "date": "2024-02-14",
+    "text": "Your Edit a Form on a jimdo website with custom code post asks for css; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nMy rate for this is $57/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 57.0
+    },
+    "connects_spent": 12,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-131",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-010075d84b264aa8e6",
+    "job_title": "Implement Server Side Tracking via Google Tag Manager",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-16",
+    "text": "Your Implement Server Side Tracking via Google Tag Manager post asks for google analytics; I have shipped exactly that before.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nMy rate for this is $41/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p15"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 41.0
+    },
+    "connects_spent": 12,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-132",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01b19945d79a60cfde",
+    "job_title": "Create & Manage Drop Shipping Store",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-19",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For a saas client in 2023 I wrote browser tests for the 40 most-used flows and gated deploys on them, and production regressions fell 60% over two quarters.\n\nMy rate for this is $15/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02",
+      "web-p05",
+      "web-p14"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 15.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-133",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01cb7f7e1a776889c7",
+    "job_title": "Support/Consulting for MongoDB-React.js project",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-13",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter. For a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For a logistics client in 2023 I streamed GPS pings to a live map with delay alerts, and dispatch phone calls dropped 70% while tracking 600 trucks live.\n\nI can deliver this for $186 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p01",
+      "web-p05",
+      "web-p07"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 186.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-134",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01183ffb8fc9232c33",
+    "job_title": "Build a chat-gpt integration with email providers to generate automated replies",
+    "job_category": "Back-End Development",
+    "date": "2024-02-16",
+    "text": "Hello, I am a passionate and hardworking professional with great experience.\n\nFor an e-commerce client in 2024 I built a streaming chat widget that looks up orders and hands off to a human, and support tickets fell 25% in the first two months.\n\nI can deliver this for $1360 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p16"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 1360.0
+    },
+    "connects_spent": 16,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-135",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0161062fe389a68e6e",
+    "job_title": "Booking and Scheduling System(BACKEND)",
+    "job_category": "Back-End Development",
+    "date": "2024-02-15",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a manufacturing client in 2022 I refactored slow queries, moved reports to background queues and added an API, and page loads dropped from 8 s to 1.2 s and monthly reporting became automatic. For a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season. For an e-commerce client in 2023 I built vendor onboarding, split payments and live order chat in nine weeks, and launched on time and processed 1,200 orders in its first quarter.\n\nI can deliver this for $2596 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p04",
+      "web-p13",
+      "web-p01"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 2596.0
+    },
+    "connects_spent": 16,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-136",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01bd21159826e08139",
+    "job_title": "Clone, Modify, Website, add appointment schedule",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-16",
+    "text": "Your Clone, Modify, Website, add appointment schedule post asks for web development; I have shipped exactly that before.\n\nFor a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For a saas client in 2023 I wrote browser tests for the 40 most-used flows and gated deploys on them, and production regressions fell 60% over two quarters.\n\nI can deliver this for $152 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p05",
+      "web-p14"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 152.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-137",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0110e2a20fa60d4e2f",
+    "job_title": "SMTP Mailer for Multiple Wordpress Websites - Give Advise and Set Up Mailer",
+    "job_category": "Back-End Development",
+    "date": "2024-02-22",
+    "text": "Greetings, I am very interested in your project and can start immediately.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year.\n\nMy rate for this is $41/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 41.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-138",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01421175f0564e4b1b",
+    "job_title": "Build a basic Mattermost Application",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-13",
+    "text": "Dear Sir/Madam, I have read your job description carefully and I am the perfect fit.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%.\n\nMy rate for this is $15/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 15.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-139",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01452e1c52d58c5acc",
+    "job_title": "Hiring Developer To Help Build Stock/Finance News Website",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-16",
+    "text": "Your Hiring Developer To Help Build Stock/Finance News Website post asks for statistics; I have shipped exactly that before.\n\nFor a nonprofit client in 2021 I fixed semantics, focus order and contrast and tested with assistive technology, and the site met WCAG 2.1 AA and donations rose 11%.\n\nMy rate for this is $52/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p15"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 52.0
+    },
+    "connects_spent": 12,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-140",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-016d63c4f15b09a61c",
+    "job_title": "Kentico 12 Portal Website Change needed",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-23",
+    "text": "Your Kentico 12 Portal Website Change needed post asks for kentico; I have shipped exactly that before.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%.\n\nI can deliver this for $258 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 258.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-141",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-013185f8e0a333b5e7",
+    "job_title": "Correctly setting up Shopify product inventory",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-13",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor an e-commerce client in 2024 I built a streaming chat widget that looks up orders and hands off to a human, and support tickets fell 25% in the first two months.\n\nI can deliver this for $145 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p16"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 145.0
+    },
+    "connects_spent": 4,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-142",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0133144e5242c4f61b",
+    "job_title": "Dynamic Full Stack Developer for Innovative Projects!",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-14",
+    "text": "Your Dynamic Full Stack Developer for Innovative Projects! post asks for api; I have shipped exactly that before.\n\nFor a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season. For a media client in 2023 I migrated 9,000 articles to a headless CMS with a React front end, and editors published three times faster and hosting cost fell 40%.\n\nI can deliver this for $190 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p13",
+      "web-p10"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 190.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-143",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01d73b94b78e54b289",
+    "job_title": "Full Stack Developer",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-20",
+    "text": "Your Full Stack Developer post asks for api; I have shipped exactly that before.\n\nFor a healthcare client in 2024 I built scheduling, patient reminders and a staff dashboard with role-based access, and no-shows fell 22% after SMS reminders went live.\n\nI can deliver this for $187 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p03"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 187.0
+    },
+    "connects_spent": 4,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-144",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01eade0e0197612912",
+    "job_title": "Configure Apache and write PHP code to connect to remote SQL instance using Windows AD domain creds",
+    "job_category": "Back-End Development",
+    "date": "2024-02-18",
+    "text": "Your Configure Apache and write PHP code to connect to remote SQL instance post asks for apache http server; I have shipped exactly that before.\n\nFor a saas client in 2023 I wrote browser tests for the 40 most-used flows and gated deploys on them, and production regressions fell 60% over two quarters.\n\nI can deliver this for $194 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p14"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 194.0
+    },
+    "connects_spent": 4,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-145",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0111efc52c3b6d3fb8",
+    "job_title": "Crypto payment Gateway integration",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-23",
+    "text": "Your Crypto payment Gateway integration post asks for api; I have shipped exactly that before.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%.\n\nMy rate for this is $25/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 25.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-146",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0103d11162aa092164",
+    "job_title": "Magento M2 specialist needed for Back-End improvent",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-18",
+    "text": "Your Magento M2 specialist needed for Back-End improvent post asks for ecommerce; I have shipped exactly that before.\n\nFor a real estate client in 2023 I built a server-rendered front end with faceted geo-search, and search latency fell from 1.4 s to 180 ms. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nI can deliver this for $473 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p05",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 473.0
+    },
+    "connects_spent": 8,
+    "outcome": "won",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-147",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-012b4acb58c93aaabc",
+    "job_title": "Shopify Expert Required for Tunning Website",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-23",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor a fashion retail client in 2022 I rewrote the theme's heaviest sections, deferred apps and compressed media, and largest contentful paint fell from 5.1 s to 1.9 s and conversion rose 14%.\n\nMy rate for this is $9/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p02"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 9.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-148",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-01674d376b78d1604e",
+    "job_title": "Update Woocommerce Checkout Gateway Plugin - add compatibility with Woocommerce Checkout Blocks",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-08",
+    "text": "Hi there! I can do this job. Please check my profile.\n\nFor an education client in 2021 I set up memberships, course delivery and recurring payments with a custom theme, and 2,300 paying members in the first year. For a travel client in 2022 I built direct booking with availability, deposits and itinerary maps, and direct bookings rose 27% compared with the previous season.\n\nI can deliver this for $321 fixed.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p06",
+      "web-p13"
+    ],
+    "bid": {
+      "type": "fixed",
+      "amount_usd": 321.0
+    },
+    "connects_spent": 8,
+    "outcome": "replied",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-149",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-014735f9fbe18490b2",
+    "job_title": "Trailer antilock system development",
+    "job_category": "Full Stack Development",
+    "date": "2024-02-23",
+    "text": "Your Trailer antilock system development post asks for automotive engineering; I have shipped exactly that before.\n\nFor a fintech client in 2024 I redesigned onboarding into short steps with document upload and async checks, and onboarding drop-off fell 31%. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nMy rate for this is $42/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p08",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 42.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  },
+  {
+    "id": "web-prop-150",
+    "persona": "fullstack_web_developer",
+    "type": "proposal",
+    "job_id": "upw-0173b916e4365a08ff",
+    "job_title": "Shopify Site Fix and Inventory Assistance",
+    "job_category": "Ecommerce Website Development",
+    "date": "2024-02-16",
+    "text": "Your Shopify Site Fix and Inventory Assistance post asks for ecommerce website development; I have shipped exactly that before.\n\nFor a saas client in 2024 I built dunning retries, webhook handling and a customer billing portal, and failed-payment recovery improved 19%. For a food & beverage client in 2022 I built an installable ordering app that works offline and syncs orders, and 38% of orders moved to the restaurant's own app within six months.\n\nMy rate for this is $27/hour.\n\nCould you share what success looks like for you in the first two weeks?",
+    "cited_project_ids": [
+      "web-p12",
+      "web-p09"
+    ],
+    "bid": {
+      "type": "hourly",
+      "amount_usd": 27.0
+    },
+    "connects_spent": 8,
+    "outcome": "ignored",
+    "data_origin": "synthetic",
+    "note": "Synthetic proposal written against a real historical job post."
+  }
+]
