@@ -1,26 +1,100 @@
+# GigBid configuration. Every model, threshold and budget lives here, never in code.
+#
+# The change request on 2 November will introduce a new rule or cost affecting bidding.
+# That is the reason this file exists in this shape: a new Connects rule should be a few
+# lines here, not a hunt through the nodes.
+
 marketplace:
-  mode: gigsim
-  max_requests_per_minute: 20
+  # The only mode switch in the system. agent/marketplace_port.py is the only reader.
+  mode: gigsim          # gigsim | upwork_live
+  max_requests_per_minute: 20   # under GigSim's 30, so we are never the rude caller
+
+mcp:
+  transport: stdio      # stdio locally; MCP_TRANSPORT=http in the deployed stack
 
 models:
+  # "open" is required and is what the deployed link runs on. "paid" is optional and is
+  # only justified where it measurably beats open on the dev set.
   profile: open
+
+  profiles:
+    open:
+      # Hosted open-weight models. The deployed link has no GPU, so a hosted provider is
+      # the only way to honour "the deployed link must work on the open profile", and the
+      # assignment names Groq as an acceptable one. Swap base_url for OpenRouter,
+      # Together, or a local Ollama at http://localhost:11434/v1 without touching code.
+      provider: groq
+      base_url: https://api.groq.com/openai/v1
+      api_key_env: GROQ_API_KEY
+      small: openai/gpt-oss-20b     # routers, classifiers, risk checks
+      large: openai/gpt-oss-120b    # writer, critic, client liaison
+    paid:
+      provider: anthropic
+      base_url: https://api.anthropic.com/v1
+      api_key_env: ANTHROPIC_API_KEY
+      small: claude-haiku-5-5
+      large: claude-opus-5-5
+
+  # Route by node (required). Cheap, frequent nodes get the small model; the Writer and
+  # Critic get the strongest one affordable. "small"/"large" resolve inside the active
+  # profile, so switching profile moves every node at once.
   nodes:
-    scout: qwen3-4b
-    analyst: qwen3-4b
-    risk_assessor: qwen3-4b
-    fit_matcher: qwen3-4b
-    pricing: qwen3-4b
-    writer: configure-your-model
-    critic: configure-your-model
-    client_liaison: configure-your-model
+    scout: small
+    analyst: small
+    risk_assessor: small
+    fit_matcher: small
+    pricing: small
+    verifier: small
+    compliance: small
+    intent: small
+    writer: large
+    critic: large
+    client_liaison: large
+
+  # Open models in both profiles, as required. Both run acceptably on CPU.
   embeddings: nomic-embed-text
   reranker: bge-reranker-v2-m3
 
+  # Sampling. Low temperature everywhere: these nodes extract structure and cite
+  # evidence, and creativity here shows up as fabricated experience.
+  temperature: 0.2
+  writer_temperature: 0.5
+  max_output_tokens: 2000
+  request_timeout_sec: 60
+
 budgets:
   max_graph_steps: 30
-  max_revisions: 2
+  max_revisions: 2            # the Critic may send a draft back at most twice (C4)
   max_tokens_per_job: 12000
+  max_tokens_per_proposal: 20000
+  # Declared budgets, reported against in the R&D report (R8).
+  p95_latency_job_analysis_sec: 25
+  p95_latency_proposal_sec: 90
+  usd_per_job_analysed: 0.01
+  usd_per_proposal: 0.05
 
 thresholds:
   minimum_fit_score: 0.60
   maximum_risk_score: 0.70
+  # Below this coverage the decision node skips rather than bidding, and says which
+  # requirement decided it.
+  minimum_requirement_coverage: 0.50
+  # A client with many posts and no hires is the strongest scam signal in this corpus.
+  scam_hire_rate_below: 0.05
+  scam_min_posts_for_signal: 5
+  # Never bid under the persona's floor, whatever the market says.
+  respect_profile_floor: true
+
+retrieval:
+  # Which RAG variant ships. Chosen by measurement in Part B (R6), not by default.
+  # Until that evaluation runs, the Portfolio server's built-in BM25 ranker answers.
+  variant: builtin_bm25
+  k: 8
+  rerank_top_n: 4
+  outcome_aware: false
+
+safety:
+  # Job posts and client messages are untrusted data (E4, R9).
+  delimit_untrusted_input: true
+  mask_pii_in_logs: true
+  injection_patterns_file: data/policy_pack/marketplace_policy.md
