@@ -3,21 +3,70 @@ name = "gigbid-student-project"
 version = "0.1.0"
 description = "Student scaffold for the AI-4016 GigBid assignment"
 requires-python = ">=3.11"
+# Pinned, as the assignment requires. Versions are the ones the results in
+# evals/results/ were produced with; bumping one means re-running the evals.
 dependencies = [
-  "fastapi",
-  "uvicorn[standard]",
-  "pydantic",
-  "pyyaml",
-  "langgraph",
-  "langchain",
-  "langchain-mcp-adapters",
-  "mcp",
-  "httpx",
-  "python-dotenv",
+  "fastapi==0.162.4",
+  "uvicorn[standard]==0.54.0",
+  "pydantic==2.14.3",
+  "pyyaml==6.0.3",
+  "langgraph==1.2.20",
+  "langchain==1.4.10",
+  "langchain-mcp-adapters==0.3.2",
+  "mcp==1.30.0",
+  "httpx==0.28.1",
+  "python-dotenv==1.2.4",
 ]
 
 [project.optional-dependencies]
-dev = ["pytest", "pytest-asyncio", "ruff", "mypy"]
+dev = [
+  "pytest==9.2.0",
+  "pytest-asyncio==1.4.1.post1",
+  "ruff==0.17.4",
+  "mypy==2.4.1",
+]
+data = ["pandas==3.1.1", "pyarrow==26.0.1", "kagglehub==1.0.3"]
+# Live Upwork mode only: Fernet encryption for the per-user OAuth token store (A4).
+# Kept out of the default install so the graded GigSim path needs no crypto library.
+live = ["cryptography==50.0.2"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["agent*", "apps*", "data*", "evals*", "gigsim*", "mcp_servers*", "rag*",
+           "tests*", "worker*"]
 
 [tool.ruff]
 line-length = 100
+# Portfolio corpus code is data for RAG, not project code.
+extend-exclude = ["data/personas"]
+
+[tool.ruff.lint]
+ignore = [
+  # A6 requires a graceful degraded mode, and several places have to survive *any*
+  # failure in a dependency rather than propagate it: a broken RAG variant must not take
+  # the tool layer down, an unreachable MCP server must not fail the other four, and a
+  # failed client cleanup must not mask the error that caused it. Every such site carries
+  # a comment saying what it is swallowing and why.
+  "BLE001",
+  "S110",
+  # Multi-line prose inside tuples and lists is deliberate throughout this codebase
+  # (tool descriptions, warnings, approval text), not a missing comma.
+  "ISC004",
+  # A sequence of guard clauses reads better than one inverted boolean return.
+  "SIM103",
+]
+
+[tool.ruff.lint.per-file-ignores]
+# FastAPI declares Query/Body/Header in argument defaults by design.
+"gigsim/server.py" = ["B008"]
+"apps/api/**" = ["B008"]
+# Its `# noqa: BLE001` became redundant when BLE001 moved into the global ignore list
+# above. Ignored here rather than edited, to keep gigsim/ untouched.
+"gigsim/llm_client.py" = ["RUF100"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "strict"
+asyncio_default_fixture_loop_scope = "function"
+# The MCP server tests live beside the servers they cover (the layout the assignment
+# asks for), so they have to be named here or CI silently skips them.
+testpaths = ["tests", "mcp_servers"]
