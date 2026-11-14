@@ -1,0 +1,293 @@
+{
+  "approval_payload": {
+    "trace_id": "tr-db56febcccc641c6",
+    "job": {
+      "job_id": "upw-01ec355919ffed209e",
+      "title": "Correlation Coefficient Program",
+      "client_id": "cli-01017",
+      "connects_cost": 4
+    },
+    "risk": {
+      "client_hire_rate": 0.714,
+      "client_payment_verified": true,
+      "client_jobs_posted": 7,
+      "injection_text_removed": false
+    },
+    "fit": {
+      "coverage": 0.833,
+      "requirement_matrix": [
+        {
+          "requirement": "Python",
+          "covered": true,
+          "evidence": [
+            {
+              "id": "data-p04-readme",
+              "citation": "portfolio://readme/data-p04-readme",
+              "score": 5.493,
+              "project": "er-waits",
+              "type": "readme"
+            },
+            {
+              "id": "data-p12-readme",
+              "citation": "portfolio://readme/data-p12-readme",
+              "score": 5.493,
+              "project": "ab-toolkit",
+              "type": "readme"
+            },
+            {
+              "id": "data-p14-readme",
+              "citation": "portfolio://readme/data-p14-readme",
+              "score": 5.4386,
+              "project": "housing-index",
+              "type": "readme"
+            }
+          ]
+        },
+        {
+          "requirement": "Data Analysis",
+          "covered": true,
+          "evidence": [
+            {
+              "id": "data-cv",
+              "citation": "portfolio://cv/data-cv",
+              "score": 11.651,
+              "project": null,
+              "type": "cv"
+            },
+            {
+              "id": "data-p14-case",
+              "citation": "portfolio://case_study/data-p14-case",
+              "score": 6.1656,
+              "project": "Neighbourhood housing price index",
+              "type": "case_study"
+            },
+            {
+              "id": "data-p15-case",
+              "citation": "portfolio://case_study/data-p15-case",
+              "score": 4.9952,
+              "project": "Employee attrition analysis",
+              "type": "case_study"
+            }
+          ]
+        },
+        {
+          "requirement": "Statistics",
+          "covered": true,
+          "evidence": [
+            {
+              "id": "data-p11-readme",
+              "citation": "portfolio://readme/data-p11-readme",
+              "score": 5.6165,
+              "project": "demand-prophet",
+              "type": "readme"
+            },
+            {
+              "id": "data-p06-readme",
+              "citation": "portfolio://readme/data-p06-readme",
+              "score": 5.533,
+              "project": "survey-r",
+              "type": "readme"
+            },
+            {
+              "id": "data-p11-case",
+              "citation": "portfolio://case_study/data-p11-case",
+              "score": 5.3756,
+              "project": "Weekly demand forecasting",
+              "type": "case_study"
+            }
+          ]
+        },
+        {
+          "requirement": "Mathematics",
+          "covered": true,
+          "evidence": [
+            {
+              "id": "data-prop-029",
+              "citation": "portfolio://proposal/data-prop-029",
+              "score": 5.5664,
+              "project": null,
+              "type": "proposal"
+            }
+          ]
+        },
+        {
+          "requirement": "Microsoft Excel",
+          "covered": true,
+          "evidence": [
+            {
+              "id": "data-p13-case",
+              "citation": "portfolio://case_study/data-p13-case",
+              "score": 11.1493,
+              "project": "Month-end financial reporting automation",
+              "type": "case_study"
+            },
+            {
+              "id": "data-p03-case",
+              "citation": "portfolio://case_study/data-p03-case",
+              "score": 8.7984,
+              "project": "Startup financial model for a seed round",
+              "type": "case_study"
+            },
+            {
+              "id": "data-p05-case",
+              "citation": "portfolio://case_study/data-p05-case",
+              "score": 8.7096,
+              "project": "Inventory ABC analysis and reorder points",
+              "type": "case_study"
+            }
+          ]
+        },
+        {
+          "requirement": "R",
+          "covered": false,
+          "evidence": []
+        }
+      ]
+    },
+    "price": {
+      "bid_rate_usd": 30.0,
+      "profile_floor_usd": 30.0,
+      "market_p50_usd": 30.0,
+      "rationale": "max(profile floor $30.0, market p50 $30.0)"
+    },
+    "draft": {
+      "cover_letter": "You need python, which is the core of what I do.\n\nI delivered exactly this on er-waits; the write-up is at portfolio://readme/data-p04-readme and covers the approach and the measured result.\n\nMy rate for this work is $30/hour. What does success look like for you in the first two weeks?",
+      "source": "offline-template"
+    },
+    "verification": {
+      "claims": 4,
+      "citations": [
+        "data-p04-readme"
+      ],
+      "unresolvable_citations": []
+    },
+    "dry_run_preview": {
+      "dry_run": true,
+      "job_id": "upw-01ec355919ffed209e",
+      "would_send": {
+        "cover_letter": "You need python, which is the core of what I do.\n\nI delivered exactly this on er-waits; the write-up is at portfolio://readme/data-p04-readme and covers the approach and the measured result.\n\nMy rate for this work is $30/hour. What does success look like for you in the first two weeks?",
+        "screening_answers": [],
+        "bid_rate": 30.0,
+        "estimated_duration_days": null
+      },
+      "connects_cost": 4,
+      "connects_balance_after": 76,
+      "within_weekly_budget": true,
+      "warnings": [],
+      "marketplace": "gigsim",
+      "mode": null
+    },
+    "idempotency_key_if_approved": "proposal-upw-01ec355919ffed209e-7745024d0271",
+    "awaiting": "human approval - this script never submits",
+    "elapsed_sec": 0.43,
+    "cost": {
+      "calls": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0,
+      "latency_ms": 0.0,
+      "offline": false,
+      "profile": "open",
+      "provider": "groq",
+      "usd": null
+    }
+  },
+  "tool_calls": [
+    {
+      "n": 1,
+      "server": "marketplace",
+      "tool": "marketplace_health",
+      "note": "status=ok"
+    },
+    {
+      "n": 2,
+      "server": "marketplace",
+      "tool": "search_jobs",
+      "note": "198 open jobs, 60 fetched"
+    },
+    {
+      "n": 3,
+      "server": "marketplace",
+      "tool": "get_job",
+      "note": "Correlation Coefficient Program (skill overlap 5)"
+    },
+    {
+      "n": 4,
+      "server": "marketplace",
+      "tool": "get_client_history",
+      "note": "posted=7 hires=5 hire_rate=0.714 verified=True"
+    },
+    {
+      "n": 5,
+      "server": "portfolio",
+      "tool": "list_skills",
+      "note": "41 skills, 0 unbacked"
+    },
+    {
+      "n": 6,
+      "server": "portfolio",
+      "tool": "search_evidence",
+      "note": "Python                             -> data-p04-readme (5.5)"
+    },
+    {
+      "n": 7,
+      "server": "portfolio",
+      "tool": "search_evidence",
+      "note": "Data Analysis                      -> data-cv (11.7)"
+    },
+    {
+      "n": 8,
+      "server": "portfolio",
+      "tool": "search_evidence",
+      "note": "Statistics                         -> data-p11-readme (5.6)"
+    },
+    {
+      "n": 9,
+      "server": "portfolio",
+      "tool": "search_evidence",
+      "note": "Mathematics                        -> data-prop-029 (5.6)"
+    },
+    {
+      "n": 10,
+      "server": "portfolio",
+      "tool": "search_evidence",
+      "note": "Microsoft Excel                    -> data-p13-case (11.1)"
+    },
+    {
+      "n": 11,
+      "server": "portfolio",
+      "tool": "search_evidence",
+      "note": "R                                  -> NO EVIDENCE"
+    },
+    {
+      "n": 12,
+      "server": "marketplace",
+      "tool": "get_rate_stats",
+      "note": "market p50=$30.0 floor=$30.0 -> bid $30.0"
+    },
+    {
+      "n": 13,
+      "server": "marketplace",
+      "tool": "get_connects_balance",
+      "note": "balance=80 remaining_this_week=40"
+    },
+    {
+      "n": 14,
+      "server": "local",
+      "tool": "writer",
+      "note": "286 chars, source=offline-template"
+    },
+    {
+      "n": 15,
+      "server": "local",
+      "tool": "verify_claims",
+      "note": "4 claims, 1 citations, 0 unresolvable"
+    },
+    {
+      "n": 16,
+      "server": "marketplace",
+      "tool": "create_proposal_draft",
+      "note": "cost=4 connects, balance_after=76"
+    }
+  ]
+}
