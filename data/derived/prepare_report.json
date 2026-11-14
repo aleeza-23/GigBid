@@ -1,0 +1,21 @@
+{
+  "jobs_raw_rows": 53058,
+  "emails_masked": 46,
+  "phones_masked": 3,
+  "jobs_after_min_length": 51124,
+  "jobs_after_id_dedup": 51044,
+  "jobs_near_duplicates_flagged": 2599,
+  "jobs_final_rows": 51044,
+  "jobs_by_domain": {
+    "other": 42614,
+    "fullstack_web": 6651,
+    "data_analysis": 1263,
+    "ai_ml": 516
+  },
+  "contracts_raw_rows": 1292791,
+  "contracts_with_valid_hourly_rate": 493298,
+  "contracts_matched_ai_ml": 7286,
+  "contracts_matched_fullstack_web": 26669,
+  "contracts_matched_data_analysis": 18278,
+  "freelancers_rows": 12000
+}

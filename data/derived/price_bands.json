@@ -1,0 +1,2539 @@
+{
+  "by_domain": {
+    "ai_ml": {
+      "fixed_budget_usd": {
+        "p10": 28.0,
+        "p25": 50.0,
+        "p50": 200.0,
+        "p75": 600.0,
+        "p90": 1500.0,
+        "n": 217
+      },
+      "hourly_low_usd": {
+        "p10": 5.0,
+        "p25": 10.0,
+        "p50": 18.0,
+        "p75": 30.0,
+        "p90": 30.0,
+        "n": 191
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 30.0,
+        "p50": 40.0,
+        "p75": 70.0,
+        "p90": 88.0,
+        "n": 187
+      },
+      "top_skills": {
+        "Machine Learning": 301,
+        "Python": 267,
+        "Artificial Intelligence": 210,
+        "Deep Learning": 116,
+        "Data Science": 106,
+        "TensorFlow": 93,
+        "Natural Language Processing": 84,
+        "Neural Network": 49,
+        "Chatbot Development": 49,
+        "Computer Vision": 48,
+        "Artificial Neural Network": 38,
+        "AI Development": 34,
+        "Data Analysis": 32,
+        "API": 32,
+        "PyTorch": 28,
+        "JavaScript": 24,
+        "AI Model Development": 22,
+        "OpenAI API": 22,
+        "AI Chatbot": 18,
+        "OpenCV": 17,
+        "AI Model Training": 17,
+        "AI Model Integration": 16,
+        "ChatGPT API": 16,
+        "AI Agent Development": 15,
+        "AI App Development": 15,
+        "Deep Neural Network": 14,
+        "AI Bot": 14,
+        "API Integration": 13,
+        "Stable Diffusion": 12,
+        "AI Implementation": 11,
+        "ChatGPT": 11,
+        "Chatbot Integration": 11,
+        "Machine Learning Model": 10,
+        "Keras": 10,
+        "Web Development": 10,
+        "Python Scikit-Learn": 9,
+        "C++": 9,
+        "Java": 9,
+        "R": 8,
+        "LLM Prompt Engineering": 8
+      }
+    },
+    "data_analysis": {
+      "fixed_budget_usd": {
+        "p10": 15.0,
+        "p25": 30.0,
+        "p50": 100.0,
+        "p75": 240.0,
+        "p90": 800.0,
+        "n": 427
+      },
+      "hourly_low_usd": {
+        "p10": 7.0,
+        "p25": 10.0,
+        "p50": 20.0,
+        "p75": 35.0,
+        "p90": 50.0,
+        "n": 612
+      },
+      "hourly_high_usd": {
+        "p10": 18.0,
+        "p25": 30.0,
+        "p50": 50.0,
+        "p75": 75.0,
+        "p90": 100.0,
+        "n": 600
+      },
+      "top_skills": {
+        "Data Analysis": 398,
+        "Microsoft Excel": 375,
+        "Data Visualization": 257,
+        "Python": 191,
+        "Financial Analysis": 181,
+        "Financial Modeling": 160,
+        "Data Entry": 121,
+        "Google Analytics": 116,
+        "Microsoft Power BI": 106,
+        "SQL": 105,
+        "Statistics": 105,
+        "Financial Projection": 99,
+        "Data Science": 97,
+        "Data Mining": 90,
+        "Forecasting": 81,
+        "Business Intelligence": 78,
+        "Dashboard": 74,
+        "Google Tag Manager": 68,
+        "R": 61,
+        "Google Sheets": 51,
+        "Data Scraping": 49,
+        "Analytics": 48,
+        "Marketing Analytics": 48,
+        "Business Plan": 46,
+        "JavaScript": 43,
+        "Data Modeling": 42,
+        "Financial Planning": 42,
+        "Tableau": 42,
+        "Machine Learning": 38,
+        "Google Ads": 36,
+        "Looker Studio": 35,
+        "Business Analysis": 34,
+        "Microsoft Power BI Data Visualization": 33,
+        "Quantitative Analysis": 33,
+        "ETL Pipeline": 32,
+        "IBM SPSS": 31,
+        "Company Valuation": 31,
+        "Accounting Principles & Practices": 29,
+        "Statistical Analysis": 29,
+        "Mathematics": 29
+      }
+    },
+    "fullstack_web": {
+      "fixed_budget_usd": {
+        "p10": 15.0,
+        "p25": 40.0,
+        "p50": 150.0,
+        "p75": 500.0,
+        "p90": 1500.0,
+        "n": 2538
+      },
+      "hourly_low_usd": {
+        "p10": 5.0,
+        "p25": 10.0,
+        "p50": 15.0,
+        "p75": 25.0,
+        "p90": 30.0,
+        "n": 2919
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 35.0,
+        "p75": 50.0,
+        "p90": 70.0,
+        "n": 2843
+      },
+      "top_skills": {
+        "Web Development": 2366,
+        "JavaScript": 2246,
+        "CSS": 1403,
+        "HTML": 1341,
+        "WordPress": 1235,
+        "PHP": 1211,
+        "Web Design": 1165,
+        "API": 1072,
+        "Shopify": 884,
+        "React": 757,
+        "API Integration": 605,
+        "Web Application": 599,
+        "Python": 586,
+        "Node.js": 562,
+        "HTML5": 491,
+        "WooCommerce": 352,
+        "MySQL": 341,
+        "Shopify Templates": 312,
+        "Java": 291,
+        "TypeScript": 258,
+        "Ecommerce Website Development": 257,
+        "RESTful API": 210,
+        "Laravel": 207,
+        "Graphic Design": 188,
+        "Ecommerce Website": 187,
+        "MongoDB": 184,
+        "Landing Page": 174,
+        "CSS 3": 170,
+        "Website": 165,
+        "Amazon Web Services": 164,
+        "Shopify Theme": 161,
+        "PostgreSQL": 160,
+        "API Development": 153,
+        "C#": 153,
+        "Next.js": 146,
+        "WordPress Plugin": 135,
+        ".NET Framework": 125,
+        "Blockchain": 120,
+        "Angular": 118,
+        "jQuery": 117
+      }
+    },
+    "other": {
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 25.0,
+        "p50": 100.0,
+        "p75": 300.0,
+        "p90": 900.0,
+        "n": 16474
+      },
+      "hourly_low_usd": {
+        "p10": 4.0,
+        "p25": 7.0,
+        "p50": 12.0,
+        "p75": 20.0,
+        "p90": 35.0,
+        "n": 17237
+      },
+      "hourly_high_usd": {
+        "p10": 10.0,
+        "p25": 18.0,
+        "p50": 30.0,
+        "p75": 50.0,
+        "p90": 75.0,
+        "n": 16643
+      },
+      "top_skills": {
+        "Graphic Design": 5509,
+        "English": 3226,
+        "Content Writing": 3093,
+        "Data Entry": 2996,
+        "Social Media Marketing": 2893,
+        "Adobe Photoshop": 2795,
+        "Web Design": 2718,
+        "Lead Generation": 2618,
+        "Video Editing": 2595,
+        "Adobe Illustrator": 2251,
+        "WordPress": 1915,
+        "Web Development": 1807,
+        "Facebook": 1752,
+        "Instagram": 1652,
+        "Marketing Strategy": 1636,
+        "Writing": 1610,
+        "Social Media Management": 1595,
+        "Search Engine Optimization": 1578,
+        "Video Production": 1538,
+        "Logo Design": 1481,
+        "Communications": 1414,
+        "Microsoft Excel": 1371,
+        "Sales": 1333,
+        "Administrative Support": 1331,
+        "Virtual Assistance": 1274,
+        "Copywriting": 1258,
+        "Email Communication": 1180,
+        "Adobe Premiere Pro": 1126,
+        "Customer Service": 1071,
+        "Creative Writing": 1058,
+        "Video Post-Editing": 1056,
+        "Adobe After Effects": 1043,
+        "Illustration": 977,
+        "Data Scraping": 967,
+        "Google Ads": 957,
+        "SEO Keyword Research": 947,
+        "Android": 928,
+        "Market Research": 908,
+        "Cold Calling": 878,
+        "Article Writing": 841
+      }
+    }
+  },
+  "by_category": {
+    "2D Animation": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 27.5,
+        "p50": 80.0,
+        "p75": 200.0,
+        "p90": 600.0,
+        "n": 75
+      },
+      "hourly_high_usd": {
+        "p10": 16.2,
+        "p25": 22.0,
+        "p50": 30.0,
+        "p75": 35.0,
+        "p90": 45.0,
+        "n": 45
+      }
+    },
+    "3D Animation": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 50.0,
+        "p50": 100.0,
+        "p75": 300.0,
+        "p90": 600.0,
+        "n": 151
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 35.0,
+        "p50": 35.0,
+        "p75": 45.0,
+        "p90": 55.5,
+        "n": 100
+      }
+    },
+    "3D Modeling & Rendering": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 15.0,
+        "p25": 40.0,
+        "p50": 100.0,
+        "p75": 300.0,
+        "p90": 500.0,
+        "n": 210
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 20.0,
+        "p50": 30.0,
+        "p75": 40.0,
+        "p90": 60.0,
+        "n": 93
+      }
+    },
+    "AI Integration": {
+      "domain": "ai_ml",
+      "fixed_budget_usd": {
+        "p10": 50.0,
+        "p25": 50.0,
+        "p50": 100.0,
+        "p75": 387.5,
+        "p90": 1079.9,
+        "n": 22
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 27.5,
+        "p50": 30.0,
+        "p75": 57.5,
+        "p90": 80.0,
+        "n": 15
+      }
+    },
+    "Accounting": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 25.0,
+        "p50": 60.0,
+        "p75": 200.0,
+        "p90": 500.0,
+        "n": 181
+      },
+      "hourly_high_usd": {
+        "p10": 10.0,
+        "p25": 15.0,
+        "p50": 25.0,
+        "p75": 55.0,
+        "p90": 100.0,
+        "n": 289
+      }
+    },
+    "Acting": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 30.0,
+        "p50": 80.0,
+        "p75": 150.0,
+        "p90": 480.0,
+        "n": 72
+      },
+      "hourly_high_usd": {
+        "p10": 10.0,
+        "p25": 28.5,
+        "p50": 60.0,
+        "p75": 70.0,
+        "p90": 80.0,
+        "n": 36
+      }
+    },
+    "Architectural Design": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 19.5,
+        "p25": 50.0,
+        "p50": 100.0,
+        "p75": 262.5,
+        "p90": 1377.2,
+        "n": 80
+      },
+      "hourly_high_usd": {
+        "p10": 25.0,
+        "p25": 33.0,
+        "p50": 35.0,
+        "p75": 43.0,
+        "p90": 67.0,
+        "n": 99
+      }
+    },
+    "Article & Blog Writing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 30.0,
+        "p50": 50.0,
+        "p75": 185.0,
+        "p90": 750.0,
+        "n": 55
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 20.0,
+        "p50": 30.0,
+        "p75": 55.0,
+        "p90": 72.2,
+        "n": 33
+      }
+    },
+    "Audio Editing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 30.0,
+        "p50": 55.0,
+        "p75": 200.0,
+        "p90": 485.0,
+        "n": 30
+      },
+      "hourly_high_usd": {
+        "p10": 10.8,
+        "p25": 27.5,
+        "p50": 33.0,
+        "p75": 45.0,
+        "p90": 50.0,
+        "n": 43
+      }
+    },
+    "Automation Testing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 27.5,
+        "p50": 135.0,
+        "p75": 437.5,
+        "p90": 1690.0,
+        "n": 18
+      },
+      "hourly_high_usd": {
+        "p10": 12.0,
+        "p25": 22.5,
+        "p50": 30.0,
+        "p75": 35.0,
+        "p90": 55.0,
+        "n": 31
+      }
+    },
+    "Back-End Development": {
+      "domain": "fullstack_web",
+      "fixed_budget_usd": {
+        "p10": 17.0,
+        "p25": 40.0,
+        "p50": 150.0,
+        "p75": 425.0,
+        "p90": 1000.0,
+        "n": 255
+      },
+      "hourly_high_usd": {
+        "p10": 17.0,
+        "p25": 30.0,
+        "p50": 35.0,
+        "p75": 50.0,
+        "p90": 75.0,
+        "n": 291
+      }
+    },
+    "Bookkeeping": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 18.75,
+        "p50": 67.5,
+        "p75": 200.0,
+        "p90": 400.0,
+        "n": 48
+      },
+      "hourly_high_usd": {
+        "p10": 9.0,
+        "p25": 15.0,
+        "p50": 20.0,
+        "p75": 40.0,
+        "p90": 50.0,
+        "n": 199
+      }
+    },
+    "Brand Identity Design": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 25.0,
+        "p50": 100.0,
+        "p75": 200.0,
+        "p90": 795.0,
+        "n": 252
+      },
+      "hourly_high_usd": {
+        "p10": 23.0,
+        "p25": 30.0,
+        "p50": 35.0,
+        "p75": 46.0,
+        "p90": 60.0,
+        "n": 137
+      }
+    },
+    "Business & Corporate Law": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.5,
+        "p25": 68.75,
+        "p50": 137.5,
+        "p75": 400.0,
+        "p90": 1000.0,
+        "n": 92
+      },
+      "hourly_high_usd": {
+        "p10": 50.0,
+        "p25": 100.0,
+        "p50": 150.0,
+        "p75": 150.0,
+        "p90": 186.0,
+        "n": 158
+      }
+    },
+    "Business & Proposal Writing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 50.0,
+        "p50": 150.0,
+        "p75": 475.0,
+        "p90": 1000.0,
+        "n": 58
+      },
+      "hourly_high_usd": {
+        "p10": 26.5,
+        "p25": 48.75,
+        "p50": 65.0,
+        "p75": 95.0,
+        "p90": 100.0,
+        "n": 44
+      }
+    },
+    "Business Analysis & Strategy": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 30.0,
+        "p25": 46.25,
+        "p50": 125.0,
+        "p75": 500.0,
+        "p90": 1532.1,
+        "n": 18
+      },
+      "hourly_high_usd": {
+        "p10": 11.4,
+        "p25": 20.0,
+        "p50": 50.0,
+        "p75": 80.0,
+        "p90": 132.5,
+        "n": 38
+      }
+    },
+    "Business Applications Development": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 74.0,
+        "p25": 200.0,
+        "p50": 250.0,
+        "p75": 1000.0,
+        "p90": 1560.0,
+        "n": 17
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 20.0,
+        "p50": 40.0,
+        "p75": 50.0,
+        "p90": 60.0,
+        "n": 47
+      }
+    },
+    "CAD": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 12.5,
+        "p25": 20.0,
+        "p50": 50.0,
+        "p75": 150.0,
+        "p90": 300.0,
+        "n": 86
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 25.0,
+        "p50": 30.0,
+        "p75": 48.75,
+        "p90": 68.8,
+        "n": 114
+      }
+    },
+    "CMS Development": {
+      "domain": "fullstack_web",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 24.5,
+        "p50": 55.0,
+        "p75": 200.0,
+        "p90": 500.0,
+        "n": 216
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 20.0,
+        "p50": 27.0,
+        "p75": 40.0,
+        "p90": 60.0,
+        "n": 195
+      }
+    },
+    "Campaign Management": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 100.0,
+        "p50": 375.0,
+        "p75": 525.0,
+        "p90": 1500.0,
+        "n": 68
+      },
+      "hourly_high_usd": {
+        "p10": 14.4,
+        "p25": 25.0,
+        "p50": 35.0,
+        "p75": 50.0,
+        "p90": 80.0,
+        "n": 139
+      }
+    },
+    "Career Coaching": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 7.5,
+        "p25": 50.0,
+        "p50": 100.0,
+        "p75": 150.0,
+        "p90": 150.0,
+        "n": 16
+      },
+      "hourly_high_usd": {
+        "p10": 27.5,
+        "p25": 71.0,
+        "p50": 71.0,
+        "p75": 87.75,
+        "p90": 100.0,
+        "n": 22
+      }
+    },
+    "Cartoons & Comics": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 15.0,
+        "p25": 42.5,
+        "p50": 150.0,
+        "p75": 325.0,
+        "p90": 750.0,
+        "n": 103
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 30.0,
+        "p50": 35.0,
+        "p75": 43.75,
+        "p90": 60.0,
+        "n": 94
+      }
+    },
+    "Civil Engineering": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 55.0,
+        "p50": 100.0,
+        "p75": 450.0,
+        "p90": 1200.0,
+        "n": 21
+      },
+      "hourly_high_usd": {
+        "p10": 12.3,
+        "p25": 20.0,
+        "p50": 30.0,
+        "p75": 35.0,
+        "p90": 95.5,
+        "n": 42
+      }
+    },
+    "Community Management": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 19.5,
+        "p25": 55.0,
+        "p50": 130.0,
+        "p75": 475.0,
+        "p90": 1410.0,
+        "n": 14
+      },
+      "hourly_high_usd": {
+        "p10": 9.3,
+        "p25": 13.5,
+        "p50": 20.0,
+        "p75": 27.5,
+        "p90": 48.5,
+        "n": 34
+      }
+    },
+    "Content Strategy": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 12.0,
+        "p25": 53.75,
+        "p50": 125.0,
+        "p75": 537.5,
+        "p90": 1090.0,
+        "n": 42
+      },
+      "hourly_high_usd": {
+        "p10": 10.0,
+        "p25": 20.0,
+        "p50": 30.0,
+        "p75": 49.0,
+        "p90": 50.0,
+        "n": 81
+      }
+    },
+    "Copy Editing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 30.0,
+        "p50": 75.0,
+        "p75": 200.0,
+        "p90": 500.0,
+        "n": 111
+      },
+      "hourly_high_usd": {
+        "p10": 15.3,
+        "p25": 30.0,
+        "p50": 44.0,
+        "p75": 44.25,
+        "p90": 65.0,
+        "n": 112
+      }
+    },
+    "Creative Writing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 25.0,
+        "p50": 70.0,
+        "p75": 200.0,
+        "p90": 1000.0,
+        "n": 568
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 22.0,
+        "p50": 40.0,
+        "p75": 40.0,
+        "p90": 61.0,
+        "n": 479
+      }
+    },
+    "Customer Success": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 17.0,
+        "p25": 30.0,
+        "p50": 38.0,
+        "p75": 125.0,
+        "p90": 1853.2,
+        "n": 33
+      },
+      "hourly_high_usd": {
+        "p10": 9.0,
+        "p25": 15.0,
+        "p50": 21.5,
+        "p75": 30.0,
+        "p90": 63.5,
+        "n": 26
+      }
+    },
+    "Data Analytics": {
+      "domain": "data_analysis",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 30.0,
+        "p50": 60.0,
+        "p75": 150.0,
+        "p90": 500.0,
+        "n": 203
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 30.0,
+        "p50": 50.0,
+        "p75": 75.0,
+        "p90": 91.8,
+        "n": 253
+      }
+    },
+    "Data Engineering": {
+      "domain": "data_analysis",
+      "fixed_budget_usd": {
+        "p10": 50.0,
+        "p25": 230.0,
+        "p50": 600.0,
+        "p75": 1750.0,
+        "p90": 21000.0,
+        "n": 35
+      },
+      "hourly_high_usd": {
+        "p10": 16.8,
+        "p25": 30.0,
+        "p50": 50.0,
+        "p75": 80.0,
+        "p90": 110.0,
+        "n": 37
+      }
+    },
+    "Data Entry": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 5.0,
+        "p25": 10.0,
+        "p50": 40.0,
+        "p75": 150.0,
+        "p90": 1000.0,
+        "n": 447
+      },
+      "hourly_high_usd": {
+        "p10": 5.0,
+        "p25": 8.5,
+        "p50": 20.0,
+        "p75": 39.0,
+        "p90": 55.0,
+        "n": 359
+      }
+    },
+    "Data Extraction": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 25.0,
+        "p50": 50.0,
+        "p75": 122.5,
+        "p90": 400.0,
+        "n": 223
+      },
+      "hourly_high_usd": {
+        "p10": 10.0,
+        "p25": 15.0,
+        "p50": 20.0,
+        "p75": 32.5,
+        "p90": 50.0,
+        "n": 171
+      }
+    },
+    "Data Visualization": {
+      "domain": "data_analysis",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 28.75,
+        "p50": 65.0,
+        "p75": 170.0,
+        "p90": 500.0,
+        "n": 72
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 30.0,
+        "p50": 49.0,
+        "p75": 60.0,
+        "p90": 100.0,
+        "n": 113
+      }
+    },
+    "Database Administration": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 31.25,
+        "p50": 87.5,
+        "p75": 200.0,
+        "p90": 495.0,
+        "n": 22
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 22.0,
+        "p50": 40.0,
+        "p75": 65.0,
+        "p90": 99.0,
+        "n": 58
+      }
+    },
+    "Database Development": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 30.0,
+        "p50": 100.0,
+        "p75": 275.0,
+        "p90": 2000.0,
+        "n": 29
+      },
+      "hourly_high_usd": {
+        "p10": 19.8,
+        "p25": 24.25,
+        "p50": 45.0,
+        "p75": 70.0,
+        "p90": 70.5,
+        "n": 40
+      }
+    },
+    "Deep Learning": {
+      "domain": "ai_ml",
+      "fixed_budget_usd": {
+        "p10": 21.0,
+        "p25": 75.0,
+        "p50": 150.0,
+        "p75": 325.0,
+        "p90": 1430.0,
+        "n": 32
+      },
+      "hourly_high_usd": {
+        "p10": 28.0,
+        "p25": 40.0,
+        "p50": 50.0,
+        "p75": 80.0,
+        "p90": 84.0,
+        "n": 19
+      }
+    },
+    "Desktop Software Development": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 12.0,
+        "p25": 30.0,
+        "p50": 120.0,
+        "p75": 500.0,
+        "p90": 2000.0,
+        "n": 101
+      },
+      "hourly_high_usd": {
+        "p10": 23.0,
+        "p25": 35.0,
+        "p50": 40.0,
+        "p75": 50.0,
+        "p90": 58.5,
+        "n": 64
+      }
+    },
+    "DevOps Engineering": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 30.0,
+        "p50": 50.0,
+        "p75": 150.0,
+        "p90": 340.0,
+        "n": 77
+      },
+      "hourly_high_usd": {
+        "p10": 23.0,
+        "p25": 39.75,
+        "p50": 45.0,
+        "p75": 60.0,
+        "p90": 60.0,
+        "n": 116
+      }
+    },
+    "Digital Project Management": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 100.0,
+        "p50": 400.0,
+        "p75": 500.0,
+        "p90": 2000.0,
+        "n": 83
+      },
+      "hourly_high_usd": {
+        "p10": 10.4,
+        "p25": 15.0,
+        "p50": 30.0,
+        "p75": 50.0,
+        "p90": 78.0,
+        "n": 165
+      }
+    },
+    "Dropshipping & Order Processing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 13.5,
+        "p25": 30.0,
+        "p50": 100.0,
+        "p75": 200.0,
+        "p90": 325.0,
+        "n": 28
+      },
+      "hourly_high_usd": {
+        "p10": 5.0,
+        "p25": 6.0,
+        "p50": 10.0,
+        "p75": 21.25,
+        "p90": 57.5,
+        "n": 36
+      }
+    },
+    "Ecommerce Website Development": {
+      "domain": "fullstack_web",
+      "fixed_budget_usd": {
+        "p10": 15.0,
+        "p25": 30.0,
+        "p50": 100.0,
+        "p75": 300.0,
+        "p90": 999.6,
+        "n": 495
+      },
+      "hourly_high_usd": {
+        "p10": 12.0,
+        "p25": 20.0,
+        "p50": 26.0,
+        "p75": 40.0,
+        "p90": 60.0,
+        "n": 550
+      }
+    },
+    "Editorial Design": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 18.5,
+        "p25": 20.0,
+        "p50": 30.0,
+        "p75": 85.0,
+        "p90": 285.0,
+        "n": 28
+      },
+      "hourly_high_usd": {
+        "p10": 19.7,
+        "p25": 26.0,
+        "p50": 35.0,
+        "p75": 50.0,
+        "p90": 60.0,
+        "n": 30
+      }
+    },
+    "Electrical Engineering": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 35.0,
+        "p50": 100.0,
+        "p75": 400.0,
+        "p90": 1000.0,
+        "n": 41
+      },
+      "hourly_high_usd": {
+        "p10": 13.8,
+        "p25": 25.0,
+        "p50": 38.0,
+        "p75": 50.0,
+        "p90": 64.0,
+        "n": 37
+      }
+    },
+    "Electronic Engineering": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 100.0,
+        "p50": 200.0,
+        "p75": 512.5,
+        "p90": 2000.0,
+        "n": 44
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 50.0,
+        "p75": 64.0,
+        "p90": 85.0,
+        "n": 31
+      }
+    },
+    "Email Marketing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 20.0,
+        "p50": 50.0,
+        "p75": 200.0,
+        "p90": 710.0,
+        "n": 129
+      },
+      "hourly_high_usd": {
+        "p10": 14.5,
+        "p25": 25.0,
+        "p50": 35.0,
+        "p75": 60.0,
+        "p90": 75.0,
+        "n": 236
+      }
+    },
+    "Email, Phone & Chat Support": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 19.6,
+        "p25": 40.0,
+        "p50": 250.0,
+        "p75": 500.0,
+        "p90": 910.0,
+        "n": 107
+      },
+      "hourly_high_usd": {
+        "p10": 5.0,
+        "p25": 8.0,
+        "p50": 15.0,
+        "p75": 23.0,
+        "p90": 42.0,
+        "n": 271
+      }
+    },
+    "Executive Virtual Assistance": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 36.0,
+        "p25": 150.0,
+        "p50": 300.0,
+        "p75": 600.0,
+        "p90": 1000.0,
+        "n": 17
+      },
+      "hourly_high_usd": {
+        "p10": 6.8,
+        "p25": 10.0,
+        "p50": 12.0,
+        "p75": 20.0,
+        "p90": 30.0,
+        "n": 49
+      }
+    },
+    "Fashion Design": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 31.5,
+        "p25": 50.0,
+        "p50": 100.0,
+        "p75": 300.0,
+        "p90": 1200.0,
+        "n": 54
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 27.5,
+        "p50": 45.0,
+        "p75": 47.5,
+        "p90": 70.0,
+        "n": 51
+      }
+    },
+    "Financial Analysis & Modeling": {
+      "domain": "data_analysis",
+      "fixed_budget_usd": {
+        "p10": 25.0,
+        "p25": 50.0,
+        "p50": 100.0,
+        "p75": 300.0,
+        "p90": 675.0,
+        "n": 84
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 40.0,
+        "p50": 61.0,
+        "p75": 91.0,
+        "p90": 150.0,
+        "n": 153
+      }
+    },
+    "Financial Management/CFO": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 19.0,
+        "p25": 250.0,
+        "p50": 750.0,
+        "p75": 4189.75,
+        "p90": 14500.0,
+        "n": 10
+      },
+      "hourly_high_usd": {
+        "p10": 14.0,
+        "p25": 30.0,
+        "p50": 60.0,
+        "p75": 125.0,
+        "p90": 160.0,
+        "n": 31
+      }
+    },
+    "Firmware Development": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 16.5,
+        "p25": 62.5,
+        "p50": 225.0,
+        "p75": 600.0,
+        "p90": 960.0,
+        "n": 22
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 25.0,
+        "p50": 45.0,
+        "p75": 58.0,
+        "p90": 58.2,
+        "n": 30
+      }
+    },
+    "Front-End Development": {
+      "domain": "fullstack_web",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 30.0,
+        "p50": 100.0,
+        "p75": 300.0,
+        "p90": 800.0,
+        "n": 400
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 30.0,
+        "p75": 45.0,
+        "p90": 70.0,
+        "n": 416
+      }
+    },
+    "Full Stack Development": {
+      "domain": "fullstack_web",
+      "fixed_budget_usd": {
+        "p10": 17.3,
+        "p25": 50.0,
+        "p50": 200.0,
+        "p75": 800.0,
+        "p90": 2500.0,
+        "n": 1172
+      },
+      "hourly_high_usd": {
+        "p10": 17.0,
+        "p25": 26.0,
+        "p50": 35.0,
+        "p75": 50.0,
+        "p90": 70.0,
+        "n": 1391
+      }
+    },
+    "General Research Services": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 6.6,
+        "p25": 15.0,
+        "p50": 30.0,
+        "p75": 140.0,
+        "p90": 300.0,
+        "n": 179
+      },
+      "hourly_high_usd": {
+        "p10": 5.0,
+        "p25": 8.0,
+        "p50": 17.0,
+        "p75": 30.0,
+        "p90": 50.0,
+        "n": 119
+      }
+    },
+    "General Translation Services": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 7.0,
+        "p25": 20.0,
+        "p50": 50.0,
+        "p75": 200.0,
+        "p90": 1000.0,
+        "n": 432
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 26.0,
+        "p75": 30.0,
+        "p90": 45.8,
+        "n": 333
+      }
+    },
+    "General Virtual Assistance": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 7.0,
+        "p25": 19.5,
+        "p50": 75.0,
+        "p75": 225.0,
+        "p90": 800.0,
+        "n": 451
+      },
+      "hourly_high_usd": {
+        "p10": 5.0,
+        "p25": 7.0,
+        "p50": 10.0,
+        "p75": 20.0,
+        "p90": 35.0,
+        "n": 892
+      }
+    },
+    "Ghostwriting": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 50.0,
+        "p25": 100.0,
+        "p50": 500.0,
+        "p75": 1000.0,
+        "p90": 1780.0,
+        "n": 132
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 30.0,
+        "p50": 40.0,
+        "p75": 50.0,
+        "p90": 77.5,
+        "n": 46
+      }
+    },
+    "Grant Writing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 13.0,
+        "p25": 20.0,
+        "p50": 50.0,
+        "p75": 300.0,
+        "p90": 2160.0,
+        "n": 17
+      },
+      "hourly_high_usd": {
+        "p10": 40.0,
+        "p25": 67.5,
+        "p50": 80.0,
+        "p75": 95.0,
+        "p90": 135.0,
+        "n": 35
+      }
+    },
+    "Graphic Design": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 8.0,
+        "p25": 20.0,
+        "p50": 50.0,
+        "p75": 100.0,
+        "p90": 300.0,
+        "n": 1514
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 35.0,
+        "p75": 50.0,
+        "p90": 54.5,
+        "n": 1102
+      }
+    },
+    "HR Administration": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 16.8,
+        "p25": 100.0,
+        "p50": 200.0,
+        "p75": 1000.0,
+        "p90": 1000.0,
+        "n": 17
+      },
+      "hourly_high_usd": {
+        "p10": 8.4,
+        "p25": 20.0,
+        "p50": 30.0,
+        "p75": 45.0,
+        "p90": 60.0,
+        "n": 33
+      }
+    },
+    "Illustration": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 25.0,
+        "p50": 50.0,
+        "p75": 200.0,
+        "p90": 521.0,
+        "n": 208
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 34.0,
+        "p75": 40.0,
+        "p90": 50.0,
+        "n": 108
+      }
+    },
+    "Image Editing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 5.0,
+        "p25": 10.0,
+        "p50": 25.0,
+        "p75": 70.0,
+        "p90": 150.0,
+        "n": 240
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 20.0,
+        "p50": 35.0,
+        "p75": 39.0,
+        "p90": 50.0,
+        "n": 133
+      }
+    },
+    "Information Security": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 15.0,
+        "p25": 36.25,
+        "p50": 100.0,
+        "p75": 250.0,
+        "p90": 500.0,
+        "n": 66
+      },
+      "hourly_high_usd": {
+        "p10": 26.0,
+        "p25": 40.0,
+        "p50": 70.0,
+        "p75": 70.0,
+        "p90": 110.0,
+        "n": 71
+      }
+    },
+    "Instructional Design": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 26.0,
+        "p25": 87.5,
+        "p50": 400.0,
+        "p75": 556.25,
+        "p90": 1760.0,
+        "n": 14
+      },
+      "hourly_high_usd": {
+        "p10": 22.0,
+        "p25": 28.75,
+        "p50": 50.0,
+        "p75": 50.0,
+        "p90": 68.0,
+        "n": 28
+      }
+    },
+    "Intellectual Property Law": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 50.0,
+        "p50": 100.0,
+        "p75": 312.5,
+        "p90": 1030.0,
+        "n": 28
+      },
+      "hourly_high_usd": {
+        "p10": 45.0,
+        "p25": 92.5,
+        "p50": 150.0,
+        "p75": 180.0,
+        "p90": 185.7,
+        "n": 28
+      }
+    },
+    "Interior Design": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 28.5,
+        "p25": 50.0,
+        "p50": 100.0,
+        "p75": 255.0,
+        "p90": 630.0,
+        "n": 48
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 30.0,
+        "p50": 35.0,
+        "p75": 50.0,
+        "p90": 81.0,
+        "n": 55
+      }
+    },
+    "Language Localization": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 50.0,
+        "p75": 150.0,
+        "p90": 500.0,
+        "n": 33
+      },
+      "hourly_high_usd": {
+        "p10": 15.5,
+        "p25": 20.0,
+        "p50": 22.5,
+        "p75": 35.0,
+        "p90": 35.0,
+        "n": 12
+      }
+    },
+    "Language Tutoring": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 30.0,
+        "p50": 100.0,
+        "p75": 275.0,
+        "p90": 800.0,
+        "n": 39
+      },
+      "hourly_high_usd": {
+        "p10": 10.0,
+        "p25": 17.0,
+        "p50": 20.0,
+        "p75": 22.0,
+        "p90": 30.0,
+        "n": 61
+      }
+    },
+    "Lead Generation": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 5.0,
+        "p25": 20.0,
+        "p50": 69.5,
+        "p75": 200.0,
+        "p90": 800.0,
+        "n": 458
+      },
+      "hourly_high_usd": {
+        "p10": 5.0,
+        "p25": 7.0,
+        "p50": 12.0,
+        "p75": 25.0,
+        "p90": 40.0,
+        "n": 411
+      }
+    },
+    "Local Photography": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 43.0,
+        "p25": 90.0,
+        "p50": 150.0,
+        "p75": 320.0,
+        "p90": 770.0,
+        "n": 84
+      },
+      "hourly_high_usd": {
+        "p10": 12.9,
+        "p25": 40.0,
+        "p50": 51.0,
+        "p75": 80.0,
+        "p90": 142.5,
+        "n": 74
+      }
+    },
+    "Logistics & Supply Chain Management": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 50.0,
+        "p50": 100.0,
+        "p75": 325.0,
+        "p90": 1200.0,
+        "n": 11
+      },
+      "hourly_high_usd": {
+        "p10": 18.0,
+        "p25": 25.0,
+        "p50": 40.0,
+        "p75": 45.0,
+        "p90": 100.0,
+        "n": 37
+      }
+    },
+    "Logo Design": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 30.0,
+        "p50": 100.0,
+        "p75": 250.0,
+        "p90": 500.0,
+        "n": 237
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 30.0,
+        "p50": 39.0,
+        "p75": 50.0,
+        "p90": 70.0,
+        "n": 149
+      }
+    },
+    "Machine Learning": {
+      "domain": "ai_ml",
+      "fixed_budget_usd": {
+        "p10": 25.0,
+        "p25": 50.0,
+        "p50": 175.0,
+        "p75": 712.5,
+        "p90": 1255.0,
+        "n": 148
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 30.0,
+        "p50": 40.0,
+        "p75": 70.0,
+        "p90": 90.0,
+        "n": 146
+      }
+    },
+    "Management Consulting": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 47.5,
+        "p25": 77.5,
+        "p50": 275.0,
+        "p75": 1000.0,
+        "p90": 2300.0,
+        "n": 20
+      },
+      "hourly_high_usd": {
+        "p10": 32.5,
+        "p25": 50.0,
+        "p50": 75.0,
+        "p75": 120.0,
+        "p90": 122.5,
+        "n": 56
+      }
+    },
+    "Manual Testing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 5.0,
+        "p25": 10.0,
+        "p50": 15.0,
+        "p75": 50.0,
+        "p90": 100.0,
+        "n": 88
+      },
+      "hourly_high_usd": {
+        "p10": 10.0,
+        "p25": 19.5,
+        "p50": 25.0,
+        "p75": 45.0,
+        "p90": 81.5,
+        "n": 108
+      }
+    },
+    "Manual Transcription": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 5.0,
+        "p25": 10.0,
+        "p50": 30.0,
+        "p75": 100.0,
+        "p90": 240.0,
+        "n": 43
+      },
+      "hourly_high_usd": {
+        "p10": 10.0,
+        "p25": 10.0,
+        "p50": 17.0,
+        "p75": 17.0,
+        "p90": 20.0,
+        "n": 44
+      }
+    },
+    "Market Research": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 25.0,
+        "p50": 65.0,
+        "p75": 200.0,
+        "p90": 356.0,
+        "n": 105
+      },
+      "hourly_high_usd": {
+        "p10": 10.0,
+        "p25": 15.0,
+        "p50": 28.0,
+        "p75": 55.0,
+        "p90": 100.0,
+        "n": 101
+      }
+    },
+    "Marketing Automation": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 30.0,
+        "p50": 75.0,
+        "p75": 250.0,
+        "p90": 500.0,
+        "n": 65
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 40.0,
+        "p75": 75.0,
+        "p90": 85.0,
+        "n": 167
+      }
+    },
+    "Marketing Copywriting": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 8.8,
+        "p25": 30.0,
+        "p50": 100.0,
+        "p75": 300.0,
+        "p90": 1120.0,
+        "n": 115
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 30.0,
+        "p50": 50.0,
+        "p75": 60.0,
+        "p90": 97.0,
+        "n": 171
+      }
+    },
+    "Marketing Strategy": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 21.5,
+        "p25": 100.0,
+        "p50": 325.0,
+        "p75": 1000.0,
+        "p90": 3000.0,
+        "n": 64
+      },
+      "hourly_high_usd": {
+        "p10": 13.6,
+        "p25": 25.0,
+        "p50": 60.0,
+        "p75": 90.0,
+        "p90": 100.0,
+        "n": 154
+      }
+    },
+    "Mathematics": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 32.5,
+        "p50": 50.0,
+        "p75": 200.0,
+        "p90": 500.0,
+        "n": 23
+      },
+      "hourly_high_usd": {
+        "p10": 9.4,
+        "p25": 15.0,
+        "p50": 22.5,
+        "p75": 36.25,
+        "p90": 53.0,
+        "n": 28
+      }
+    },
+    "Mechanical Engineering": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 76.25,
+        "p50": 137.5,
+        "p75": 250.0,
+        "p90": 675.0,
+        "n": 54
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 40.0,
+        "p75": 60.0,
+        "p90": 80.0,
+        "n": 51
+      }
+    },
+    "Mobile App Development": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 61.25,
+        "p50": 250.0,
+        "p75": 500.0,
+        "p90": 1500.0,
+        "n": 710
+      },
+      "hourly_high_usd": {
+        "p10": 17.8,
+        "p25": 25.0,
+        "p50": 30.0,
+        "p75": 45.0,
+        "p90": 50.0,
+        "n": 379
+      }
+    },
+    "Mobile Game Development": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 40.0,
+        "p50": 100.0,
+        "p75": 450.0,
+        "p90": 1650.0,
+        "n": 38
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 25.0,
+        "p50": 35.0,
+        "p75": 45.0,
+        "p90": 53.0,
+        "n": 13
+      }
+    },
+    "Motion Graphics": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 30.0,
+        "p50": 100.0,
+        "p75": 350.0,
+        "p90": 970.0,
+        "n": 94
+      },
+      "hourly_high_usd": {
+        "p10": 16.5,
+        "p25": 25.0,
+        "p50": 38.0,
+        "p75": 50.0,
+        "p90": 50.0,
+        "n": 44
+      }
+    },
+    "Music Production": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 9.2,
+        "p25": 27.5,
+        "p50": 70.0,
+        "p75": 100.0,
+        "p90": 210.0,
+        "n": 39
+      },
+      "hourly_high_usd": {
+        "p10": 7.0,
+        "p25": 17.5,
+        "p50": 35.0,
+        "p75": 54.0,
+        "p90": 58.0,
+        "n": 11
+      }
+    },
+    "Network Administration": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 16.0,
+        "p25": 25.0,
+        "p50": 50.0,
+        "p75": 200.0,
+        "p90": 500.0,
+        "n": 37
+      },
+      "hourly_high_usd": {
+        "p10": 15.8,
+        "p25": 35.0,
+        "p50": 55.0,
+        "p75": 75.0,
+        "p90": 100.0,
+        "n": 49
+      }
+    },
+    "Packaging Design": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 40.0,
+        "p50": 100.0,
+        "p75": 150.0,
+        "p90": 420.0,
+        "n": 39
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 40.0,
+        "p75": 40.0,
+        "p90": 64.0,
+        "n": 46
+      }
+    },
+    "Paralegal Services": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 30.0,
+        "p25": 55.0,
+        "p50": 100.0,
+        "p75": 337.5,
+        "p90": 500.0,
+        "n": 23
+      },
+      "hourly_high_usd": {
+        "p10": 12.0,
+        "p25": 23.0,
+        "p50": 40.0,
+        "p75": 60.0,
+        "p90": 98.0,
+        "n": 72
+      }
+    },
+    "Personal Virtual Assistance": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 15.0,
+        "p50": 40.0,
+        "p75": 137.5,
+        "p90": 245.5,
+        "n": 22
+      },
+      "hourly_high_usd": {
+        "p10": 6.0,
+        "p25": 7.0,
+        "p50": 12.0,
+        "p75": 20.0,
+        "p90": 45.0,
+        "n": 21
+      }
+    },
+    "Presentation Design": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 11.6,
+        "p25": 30.0,
+        "p50": 80.0,
+        "p75": 200.0,
+        "p90": 300.0,
+        "n": 207
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 30.0,
+        "p50": 48.0,
+        "p75": 65.0,
+        "p90": 78.5,
+        "n": 174
+      }
+    },
+    "Product & Industrial Design": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 42.0,
+        "p25": 100.0,
+        "p50": 200.0,
+        "p75": 775.0,
+        "p90": 1500.0,
+        "n": 47
+      },
+      "hourly_high_usd": {
+        "p10": 27.0,
+        "p25": 31.25,
+        "p50": 50.0,
+        "p75": 60.0,
+        "p90": 79.5,
+        "n": 58
+      }
+    },
+    "Product Management": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 18.0,
+        "p25": 30.0,
+        "p50": 200.0,
+        "p75": 1500.0,
+        "p90": 3500.0,
+        "n": 13
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 50.0,
+        "p75": 60.0,
+        "p90": 90.0,
+        "n": 31
+      }
+    },
+    "Proofreading": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 20.0,
+        "p50": 60.0,
+        "p75": 150.0,
+        "p90": 300.0,
+        "n": 113
+      },
+      "hourly_high_usd": {
+        "p10": 24.3,
+        "p25": 25.0,
+        "p50": 35.0,
+        "p75": 40.0,
+        "p90": 61.4,
+        "n": 94
+      }
+    },
+    "Public Relations": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 48.9,
+        "p25": 100.0,
+        "p50": 390.0,
+        "p75": 1000.0,
+        "p90": 2550.0,
+        "n": 30
+      },
+      "hourly_high_usd": {
+        "p10": 40.0,
+        "p25": 49.0,
+        "p50": 55.0,
+        "p75": 75.0,
+        "p90": 110.2,
+        "n": 55
+      }
+    },
+    "Recruiting & Talent Sourcing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 47.5,
+        "p50": 200.0,
+        "p75": 1086.0,
+        "p90": 3600.0,
+        "n": 100
+      },
+      "hourly_high_usd": {
+        "p10": 8.1,
+        "p25": 15.0,
+        "p50": 22.0,
+        "p75": 28.75,
+        "p90": 50.0,
+        "n": 122
+      }
+    },
+    "SEO": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 25.0,
+        "p50": 100.0,
+        "p75": 300.0,
+        "p90": 1000.0,
+        "n": 459
+      },
+      "hourly_high_usd": {
+        "p10": 8.0,
+        "p25": 10.0,
+        "p50": 20.0,
+        "p75": 40.0,
+        "p90": 60.0,
+        "n": 395
+      }
+    },
+    "Sales & Business Development": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 39.0,
+        "p25": 101.5,
+        "p50": 400.0,
+        "p75": 1000.0,
+        "p90": 5582.5,
+        "n": 230
+      },
+      "hourly_high_usd": {
+        "p10": 7.0,
+        "p25": 10.0,
+        "p50": 20.0,
+        "p75": 50.0,
+        "p90": 80.0,
+        "n": 322
+      }
+    },
+    "Scripting & Automation": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 15.0,
+        "p25": 30.0,
+        "p50": 75.0,
+        "p75": 200.0,
+        "p90": 500.0,
+        "n": 404
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 30.0,
+        "p50": 45.0,
+        "p75": 60.0,
+        "p90": 75.0,
+        "n": 332
+      }
+    },
+    "Scriptwriting": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 20.0,
+        "p50": 50.0,
+        "p75": 250.0,
+        "p90": 800.0,
+        "n": 189
+      },
+      "hourly_high_usd": {
+        "p10": 15.9,
+        "p25": 25.0,
+        "p50": 50.0,
+        "p75": 75.0,
+        "p90": 75.0,
+        "n": 64
+      }
+    },
+    "Search Engine Marketing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 30.0,
+        "p50": 100.0,
+        "p75": 300.0,
+        "p90": 1000.0,
+        "n": 106
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 35.0,
+        "p75": 63.0,
+        "p90": 100.0,
+        "n": 211
+      }
+    },
+    "Social Media Marketing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 35.0,
+        "p50": 100.0,
+        "p75": 300.0,
+        "p90": 1000.0,
+        "n": 847
+      },
+      "hourly_high_usd": {
+        "p10": 10.0,
+        "p25": 15.0,
+        "p50": 25.0,
+        "p75": 45.0,
+        "p90": 60.0,
+        "n": 1287
+      }
+    },
+    "Social Media Strategy": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 25.0,
+        "p50": 120.0,
+        "p75": 400.0,
+        "p90": 1100.0,
+        "n": 31
+      },
+      "hourly_high_usd": {
+        "p10": 7.0,
+        "p25": 15.0,
+        "p50": 25.0,
+        "p75": 40.0,
+        "p90": 65.0,
+        "n": 41
+      }
+    },
+    "Solution Architecture": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 67.5,
+        "p50": 200.0,
+        "p75": 1050.0,
+        "p90": 2000.0,
+        "n": 23
+      },
+      "hourly_high_usd": {
+        "p10": 28.5,
+        "p25": 46.25,
+        "p50": 60.0,
+        "p75": 90.0,
+        "p90": 90.6,
+        "n": 58
+      }
+    },
+    "Sourcing & Procurement": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 25.0,
+        "p50": 50.0,
+        "p75": 100.0,
+        "p90": 200.0,
+        "n": 61
+      },
+      "hourly_high_usd": {
+        "p10": 12.0,
+        "p25": 20.0,
+        "p50": 30.0,
+        "p75": 40.0,
+        "p90": 59.0,
+        "n": 73
+      }
+    },
+    "Structural Engineering": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 76.25,
+        "p50": 325.0,
+        "p75": 1150.0,
+        "p90": 2100.0,
+        "n": 30
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 20.0,
+        "p50": 50.0,
+        "p75": 90.0,
+        "p90": 135.0,
+        "n": 27
+      }
+    },
+    "Systems Administration": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 70.0,
+        "p75": 200.0,
+        "p90": 500.0,
+        "n": 133
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 35.0,
+        "p50": 56.0,
+        "p75": 80.0,
+        "p90": 100.0,
+        "n": 195
+      }
+    },
+    "Tax Preparation": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 30.0,
+        "p25": 85.0,
+        "p50": 200.0,
+        "p75": 500.0,
+        "p90": 865.0,
+        "n": 70
+      },
+      "hourly_high_usd": {
+        "p10": 25.0,
+        "p25": 55.0,
+        "p50": 80.0,
+        "p75": 125.0,
+        "p90": 125.0,
+        "n": 116
+      }
+    },
+    "Tech Support": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 12.0,
+        "p25": 20.0,
+        "p50": 50.0,
+        "p75": 150.0,
+        "p90": 360.0,
+        "n": 45
+      },
+      "hourly_high_usd": {
+        "p10": 10.0,
+        "p25": 14.75,
+        "p50": 20.0,
+        "p75": 41.25,
+        "p90": 75.0,
+        "n": 76
+      }
+    },
+    "Technical Writing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 20.0,
+        "p25": 65.0,
+        "p50": 137.5,
+        "p75": 300.0,
+        "p90": 1000.0,
+        "n": 56
+      },
+      "hourly_high_usd": {
+        "p10": 14.4,
+        "p25": 22.5,
+        "p50": 35.0,
+        "p75": 47.5,
+        "p90": 71.0,
+        "n": 59
+      }
+    },
+    "Telemarketing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 30.0,
+        "p25": 100.0,
+        "p50": 275.0,
+        "p75": 1000.0,
+        "p90": 2050.0,
+        "n": 70
+      },
+      "hourly_high_usd": {
+        "p10": 6.0,
+        "p25": 8.0,
+        "p50": 10.0,
+        "p75": 20.0,
+        "p90": 30.4,
+        "n": 219
+      }
+    },
+    "Training & Development": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 50.0,
+        "p25": 82.5,
+        "p50": 250.0,
+        "p75": 475.0,
+        "p90": 2350.0,
+        "n": 22
+      },
+      "hourly_high_usd": {
+        "p10": 9.0,
+        "p25": 20.0,
+        "p50": 28.0,
+        "p75": 50.0,
+        "p90": 65.0,
+        "n": 27
+      }
+    },
+    "UX/UI Design": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 25.0,
+        "p25": 50.0,
+        "p50": 150.0,
+        "p75": 500.0,
+        "p90": 1020.0,
+        "n": 240
+      },
+      "hourly_high_usd": {
+        "p10": 17.0,
+        "p25": 25.0,
+        "p50": 40.0,
+        "p75": 50.0,
+        "p90": 60.0,
+        "n": 240
+      }
+    },
+    "Video Editing": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 20.0,
+        "p50": 50.0,
+        "p75": 180.0,
+        "p90": 500.0,
+        "n": 901
+      },
+      "hourly_high_usd": {
+        "p10": 10.0,
+        "p25": 16.0,
+        "p50": 30.0,
+        "p75": 39.0,
+        "p90": 50.0,
+        "n": 743
+      }
+    },
+    "Video Game Development": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 48.75,
+        "p50": 150.0,
+        "p75": 500.0,
+        "p90": 2750.0,
+        "n": 76
+      },
+      "hourly_high_usd": {
+        "p10": 20.0,
+        "p25": 30.0,
+        "p50": 40.0,
+        "p75": 50.0,
+        "p90": 62.5,
+        "n": 46
+      }
+    },
+    "Video Production": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 25.0,
+        "p50": 80.0,
+        "p75": 300.0,
+        "p90": 1000.0,
+        "n": 302
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 30.0,
+        "p50": 36.0,
+        "p75": 50.0,
+        "p90": 76.4,
+        "n": 140
+      }
+    },
+    "Videography": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 49.0,
+        "p25": 135.0,
+        "p50": 300.0,
+        "p75": 787.5,
+        "p90": 1230.0,
+        "n": 70
+      },
+      "hourly_high_usd": {
+        "p10": 35.0,
+        "p25": 50.0,
+        "p50": 65.0,
+        "p75": 100.0,
+        "p90": 118.0,
+        "n": 112
+      }
+    },
+    "Voice Talent": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 10.0,
+        "p25": 15.0,
+        "p50": 40.0,
+        "p75": 150.0,
+        "p90": 500.0,
+        "n": 265
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 60.0,
+        "p75": 66.25,
+        "p90": 80.0,
+        "n": 104
+      }
+    },
+    "Web Design": {
+      "domain": "other",
+      "fixed_budget_usd": {
+        "p10": 15.0,
+        "p25": 50.0,
+        "p50": 100.0,
+        "p75": 325.0,
+        "p90": 993.0,
+        "n": 1088
+      },
+      "hourly_high_usd": {
+        "p10": 15.0,
+        "p25": 25.0,
+        "p50": 30.0,
+        "p75": 44.0,
+        "p90": 60.0,
+        "n": 1017
+      }
+    }
+  }
+}
