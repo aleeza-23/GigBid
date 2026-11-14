@@ -10,5 +10,12 @@ node_modules/
 dist/
 build/
 data/processed/
-evals/results/*
-!evals/results/.gitkeep
+# evals/results/ IS committed, deliberately: the assignment requires every number in
+# the README and the report to trace to a file in here, and CI checks that. Only the
+# scratch subdirectory is ignored.
+evals/results/scratch/
+
+# Audit log, idempotency store, workspace holds, encrypted OAuth tokens.
+# Runtime state and, in the token case, secrets. Never committed.
+data/audit/
+*.egg-info/
