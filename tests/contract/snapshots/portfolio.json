@@ -1,0 +1,183 @@
+{
+  "prompts": [
+    "answer_screening_question",
+    "draft_proposal_paragraph",
+    "portfolio_gaps",
+    "prove_requirement",
+    "should_i_bid"
+  ],
+  "resource_templates": [
+    "portfolio://case/{case_id}",
+    "portfolio://profile/{persona}",
+    "portfolio://project/{project_id}",
+    "portfolio://proposal/{proposal_id}",
+    "portfolio://wins/{persona}"
+  ],
+  "server": "gigbid-portfolio",
+  "tools": {
+    "get_case_study": {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Load one case study in full, plus the repo, code and review for the same project.\n\nUse after search_evidence points at a case study and you need the whole thing,\nincluding the numbers in its results section. Accepts an evidence id ('ai-p01-case')\nor a project id ('ai-p01').",
+      "input_schema": {
+        "properties": {
+          "case_id": {
+            "description": "Evidence id, for example 'ai-p01-case', or a project id like 'ai-p01'.",
+            "maxLength": 64,
+            "minLength": 2,
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "title": "Case Id",
+            "type": "string"
+          },
+          "persona": {
+            "anyOf": [
+              {
+                "enum": [
+                  "ai_ml_engineer",
+                  "fullstack_web_developer",
+                  "data_analyst"
+                ],
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Persona"
+          }
+        },
+        "required": [
+          "case_id"
+        ],
+        "title": "get_case_studyArguments",
+        "type": "object"
+      }
+    },
+    "list_skills": {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "List the persona's skills and how much evidence backs each one.\n\nReturns evidence_count and won_proposals per skill, plus `unbacked_skills`: skills\ndeclared on the profile with nothing behind them. Never claim an unbacked skill.\nCall this before writing a proposal to check what you are allowed to assert.",
+      "input_schema": {
+        "properties": {
+          "min_evidence": {
+            "default": 0,
+            "description": "Only skills with at least this much evidence.",
+            "maximum": 50,
+            "minimum": 0,
+            "title": "Min Evidence",
+            "type": "integer"
+          },
+          "persona": {
+            "description": "Whose portfolio to search.",
+            "enum": [
+              "ai_ml_engineer",
+              "fullstack_web_developer",
+              "data_analyst"
+            ],
+            "title": "Persona",
+            "type": "string"
+          }
+        },
+        "required": [
+          "persona"
+        ],
+        "title": "list_skillsArguments",
+        "type": "object"
+      }
+    },
+    "portfolio_health": {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Check the corpus is loadable and report what is indexed.\n\nA6 requires a clear degraded mode. The UI calls this to decide whether to show the\nPortfolio server as available before a run starts rather than failing mid-graph.",
+      "input_schema": {
+        "properties": {},
+        "title": "portfolio_healthArguments",
+        "type": "object"
+      }
+    },
+    "search_evidence": {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Find portfolio evidence supporting ONE requirement.\n\nPass a single requirement in the client's own words, not the whole job post. Returns\nevidence items with type, source, date and outcome, each with a `citation` to quote in\na proposal. Filter by type, skill, date, industry or proposal outcome. Set\noutcome_aware=true to prefer phrasing from proposals that won.",
+      "input_schema": {
+        "properties": {
+          "filters": {
+            "anyOf": [
+              {
+                "additionalProperties": true,
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Filters"
+          },
+          "k": {
+            "default": 5,
+            "description": "How many items to return.",
+            "maximum": 20,
+            "minimum": 1,
+            "title": "K",
+            "type": "integer"
+          },
+          "outcome_aware": {
+            "default": false,
+            "description": "Boost evidence from proposals that won or got replies. Useful when choosing phrasing; switch it off when you want neutral coverage.",
+            "title": "Outcome Aware",
+            "type": "boolean"
+          },
+          "persona": {
+            "description": "Whose portfolio to search.",
+            "enum": [
+              "ai_ml_engineer",
+              "fullstack_web_developer",
+              "data_analyst"
+            ],
+            "title": "Persona",
+            "type": "string"
+          },
+          "requirement": {
+            "description": "One requirement in the client's words, for example 'build a dbt model for a Snowflake warehouse'. Pass requirements one at a time rather than the whole job post: the corpus describes each project several ways and a single blended query returns the average of all of them.",
+            "maxLength": 2000,
+            "minLength": 3,
+            "title": "Requirement",
+            "type": "string"
+          },
+          "text_limit": {
+            "default": 1200,
+            "description": "Max characters of text per item.",
+            "maximum": 8000,
+            "minimum": 200,
+            "title": "Text Limit",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "requirement",
+          "persona"
+        ],
+        "title": "search_evidenceArguments",
+        "type": "object"
+      }
+    }
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "prompts": [],
+  "resource_templates": [],
+  "server": "gigbid-workspace",
+  "tools": {
+    "create_email_draft": {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Create an email draft for the user to review and send.\n\nThis server cannot send email; it has no send tool. The draft waits for the user.\nUse `thread_ref` to tie the draft to a marketplace conversation so the UI can show\nthem together.",
+      "input_schema": {
+        "properties": {
+          "body": {
+            "title": "Body",
+            "type": "string"
+          },
+          "subject": {
+            "title": "Subject",
+            "type": "string"
+          },
+          "thread_ref": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "default": null,
+            "title": "Thread Ref"
+          },
+          "to": {
+            "title": "To",
+            "type": "string"
+          }
+        },
+        "required": [
+          "to",
+          "subject",
+          "body"
+        ],
+        "title": "create_email_draftArguments",
+        "type": "object"
+      }
+    },
+    "create_interview_hold": {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": false,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Hold a slot tentatively for an interview.\n\n`start` is ISO 8601; a bare local time is read in the user's timezone. The hold is\ntentative, not a confirmed meeting, and it is refused if it clashes with an existing\none. Call this only after the client picks a time, not for every slot you offered.",
+      "input_schema": {
+        "properties": {
+          "duration_minutes": {
+            "default": 30,
+            "title": "Duration Minutes",
+            "type": "integer"
+          },
+          "notes": {
+            "default": "",
+            "title": "Notes",
+            "type": "string"
+          },
+          "start": {
+            "title": "Start",
+            "type": "string"
+          },
+          "title": {
+            "default": "Interview",
+            "title": "Title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "start"
+        ],
+        "title": "create_interview_holdArguments",
+        "type": "object"
+      }
+    },
+    "free_interview_slots": {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Find open interview slots in the freelancer's calendar.\n\nReturns slots inside working hours on weekdays, starting tomorrow, one per day so the\noptions are spread across the week. Call this before offering times to a client; a\nslot offered without checking is a slot you may have to withdraw.",
+      "input_schema": {
+        "properties": {
+          "days_ahead": {
+            "default": 7,
+            "title": "Days Ahead",
+            "type": "integer"
+          },
+          "duration_minutes": {
+            "default": 30,
+            "title": "Duration Minutes",
+            "type": "integer"
+          },
+          "limit": {
+            "default": 5,
+            "title": "Limit",
+            "type": "integer"
+          }
+        },
+        "title": "free_interview_slotsArguments",
+        "type": "object"
+      }
+    },
+    "list_interview_holds": {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "List the tentative interview holds currently on the calendar, soonest first.\n\nReleased holds are excluded. Use this before offering new slots to see what is\nalready promised, and to find the hold_id to release when a client reschedules or\ngoes quiet.",
+      "input_schema": {
+        "properties": {},
+        "title": "list_interview_holdsArguments",
+        "type": "object"
+      }
+    },
+    "release_interview_hold": {
+      "annotations": {
+        "destructiveHint": true,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": false
+      },
+      "description": "Release a tentative hold, freeing the slot.\n\nCall when a client goes quiet or reschedules. Reports released=false when the hold was\nalready gone, which is a success, not an error.",
+      "input_schema": {
+        "properties": {
+          "hold_id": {
+            "title": "Hold Id",
+            "type": "string"
+          }
+        },
+        "required": [
+          "hold_id"
+        ],
+        "title": "release_interview_holdArguments",
+        "type": "object"
+      }
+    },
+    "workspace_health": {
+      "annotations": {
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": false,
+        "readOnlyHint": true
+      },
+      "description": "Is the workspace backend usable? Drives the degraded-mode banner.",
+      "input_schema": {
+        "properties": {},
+        "title": "workspace_healthArguments",
+        "type": "object"
+      }
+    }
+  }
+}
