@@ -1,0 +1,23 @@
+[
+  {
+    "freelancer_id": "ai_ml_engineer",
+    "display_name": "Ayaan Qureshi (synthetic persona)",
+    "connects_balance": 80,
+    "weekly_connects_budget": 40,
+    "data_origin": "synthetic"
+  },
+  {
+    "freelancer_id": "fullstack_web_developer",
+    "display_name": "Mira Lopez (synthetic persona)",
+    "connects_balance": 80,
+    "weekly_connects_budget": 40,
+    "data_origin": "synthetic"
+  },
+  {
+    "freelancer_id": "data_analyst",
+    "display_name": "Daniyal Khan (synthetic persona)",
+    "connects_balance": 80,
+    "weekly_connects_budget": 40,
+    "data_origin": "synthetic"
+  }
+]
