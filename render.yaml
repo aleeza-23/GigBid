@@ -109,6 +109,16 @@ services:
       # Fill in after the first deploy: https://gigbid-gigsim.onrender.com
       - key: GIGSIM_BASE_URL
         sync: false
+      # A free instance that has gone to sleep takes 20 to 60 seconds to answer, and the
+      # router returns 502 until it does. The defaults (3 attempts over ~2s) give up long
+      # before that and the inbox reports the marketplace as unavailable when it is only
+      # waking up. These values ride out a cold start.
+      - key: GIGSIM_MAX_ATTEMPTS
+        value: "5"
+      - key: GIGSIM_TIMEOUT
+        value: "30"
+      - key: GIGSIM_MAX_BACKOFF
+        value: "20"
       # Fill in after the first deploy: https://gigbid-web.onrender.com
       - key: CORS_ORIGINS
         sync: false

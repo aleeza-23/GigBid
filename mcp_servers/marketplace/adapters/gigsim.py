@@ -43,15 +43,27 @@ class GigSimAdapter:
         self,
         base_url: str | None = None,
         token: str | None = None,
-        timeout: float = 15.0,
-        max_attempts: int = 3,
+        timeout: float | None = None,
+        max_attempts: int | None = None,
         transport: httpx.AsyncBaseTransport | None = None,
     ) -> None:
         self.base_url = (base_url or os.getenv("GIGSIM_BASE_URL", "http://localhost:8081")).rstrip(
             "/"
         )
         self.token = token or os.getenv("GIGSIM_API_TOKEN", "gigsim-dev-token")
-        self.max_attempts = max_attempts
+        # Three attempts over about two seconds is right for a marketplace that is up and
+        # occasionally flaky, which is what the defaults assume. It is wrong for a free
+        # hosting plan that suspends an idle service: there, the first request after a
+        # quiet spell waits twenty seconds or more while the instance starts, and the
+        # router answers 502 until it does. The API then reported the marketplace as
+        # unavailable while the simulator was merely waking up.
+        #
+        # So both are environment-tunable, and a deployment on a plan that sleeps sets
+        # them generously. Defaults are unchanged, so local runs and the test suite are
+        # not slowed down by somebody else's hosting plan.
+        self.max_attempts = max_attempts or int(os.getenv("GIGSIM_MAX_ATTEMPTS", "3"))
+        timeout = timeout if timeout is not None else float(os.getenv("GIGSIM_TIMEOUT", "15"))
+        self.max_backoff = float(os.getenv("GIGSIM_MAX_BACKOFF", "8"))
         # transport is for tests: pass an ASGI transport to exercise the port against the
         # simulator in-process, with no server and no sockets.
         self._client = httpx.AsyncClient(
@@ -79,13 +91,14 @@ class GigSimAdapter:
                     last = MarketplaceUnavailable(f"{response.status_code} from marketplace")
                     if attempt < self.max_attempts:
                         await asyncio.sleep(
-                            retry_after or min(8.0, 0.5 * 2**attempt) + random.random() * 0.25
+                            retry_after
+                            or min(self.max_backoff, 0.5 * 2**attempt) + random.random() * 0.25
                         )
                     continue
                 raise MarketplaceRejected(response.status_code, _detail(response))
 
             if attempt < self.max_attempts:
-                await asyncio.sleep(min(8.0, 0.5 * 2**attempt) + random.random() * 0.25)
+                await asyncio.sleep(min(self.max_backoff, 0.5 * 2**attempt) + random.random() * 0.25)
 
         # The base URL belongs in this message. "All connection attempts failed" with no
         # address is indistinguishable between a sleeping simulator, a wrong host and an
