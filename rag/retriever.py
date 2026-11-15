@@ -149,7 +149,11 @@ def describe() -> dict[str, Any]:
         "configured": configured,
         "available": [{"id": s["id"], "name": s["name"], "group": s["group"]} for s in list_variants()],
         "unavailable": [{"id": s["id"], "error": s["error"]} for s in broken],
-        "embeddings_backend": ((cfg.get("retrieval") or {}).get("embeddings") or {}).get(
+        # EMBED_BACKEND first, the way get_embedder() resolves it. Reading only the file
+        # made /health report `local` on a deployment running `lsa`, which is the one
+        # field a reviewer would check to see whether the numbers are spec-compliant.
+        "embeddings_backend": os.getenv("EMBED_BACKEND")
+        or ((cfg.get("retrieval") or {}).get("embeddings") or {}).get(
             "backend", "lsa"
         ),
     }
