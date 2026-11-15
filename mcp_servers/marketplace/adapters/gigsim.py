@@ -87,8 +87,13 @@ class GigSimAdapter:
             if attempt < self.max_attempts:
                 await asyncio.sleep(min(8.0, 0.5 * 2**attempt) + random.random() * 0.25)
 
+        # The base URL belongs in this message. "All connection attempts failed" with no
+        # address is indistinguishable between a sleeping simulator, a wrong host and an
+        # unset GIGSIM_BASE_URL falling back to localhost, and on a deployment the third
+        # is by far the most likely. Naming the address turns a guess into a fix.
         raise MarketplaceUnavailable(
-            f"{method} {path} failed after {self.max_attempts} attempts: {last}"
+            f"{method} {self.base_url}{path} failed after {self.max_attempts} "
+            f"attempts: {last}"
         )
 
     # --------------------------------------------------------------------- reads
