@@ -86,8 +86,16 @@ services:
       - key: OPENAI_API_KEY
         sync: false
       # Embeddings. Groq serves no embeddings endpoint, so this is Together or OpenRouter.
+      # `lsa` because this deployment has no embeddings provider: Groq serves no
+      # embeddings endpoint, so the `api` backend needs a Together or OpenRouter key and
+      # fails the first retrieval without one. `lsa` is numpy-only and fits in 512MB.
+      #
+      # It is TF-IDF plus SVD fitted on the corpus, NOT an open-weight pretrained model,
+      # so it does not satisfy B2 and no reported number may come from it. Every figure in
+      # evals/results/ was measured locally with BAAI/bge-small-en-v1.5. To make the
+      # deployment spec-compliant, set TOGETHER_API_KEY and change this to `api`.
       - key: EMBED_BACKEND
-        value: api
+        value: lsa
       - key: EMBED_BASE_URL
         value: https://api.together.xyz/v1
       - key: EMBED_MODEL
