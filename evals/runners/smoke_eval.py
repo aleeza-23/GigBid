@@ -95,7 +95,8 @@ def check(measured: dict[str, float], thresholds: dict[str, Any]) -> list[dict[s
 def main() -> None:
     parser = argparse.ArgumentParser(description="CI quality gate (E2)")
     parser.add_argument("--limit", type=int, default=30, help="jobs to evaluate")
-    parser.add_argument("--variant", default="V3")
+    # The shipped variant, so the gate guards what users get.
+    parser.add_argument("--variant", default="V12")
     parser.add_argument(
         "--write-baseline",
         action="store_true",
@@ -112,6 +113,27 @@ def main() -> None:
 
     report = run(args.variant, None, args.limit)
     measured = extract(report)
+
+    # Claim verification, from the labelled probe set. It needs no provider key and takes
+    # a couple of milliseconds a probe, so the unsupported-claims threshold can be a real
+    # gate in CI instead of being skipped for want of a drafting run. The probes are
+    # generated from the corpora by evals/runners/verify_eval.py.
+    try:
+        from evals.runners.verify_eval import aggregate, build_probes, score_probe
+        from mcp_servers.portfolio.corpus import VALID_PERSONAS
+
+        scored = [
+            score_probe(probe)
+            for persona in list(VALID_PERSONAS)
+            for probe in build_probes(persona, 6)
+        ]
+        verification = aggregate(scored)
+        missed = verification["fabrications"] - verification["fabrications_caught"]
+        measured["unsupported_claims_per_proposal"] = round(missed / max(1, len(scored)), 3)
+        measured["fabrication_recall"] = verification["fabrication_recall"]
+    except Exception as exc:  # pragma: no cover - the gate must still report the rest
+        print(f"  (claim verification could not run: {type(exc).__name__}: {exc})")
+
     rows = check(measured, thresholds)
 
     width = max(len(str(row["metric"])) for row in rows)

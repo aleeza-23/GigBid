@@ -32,7 +32,7 @@ RESULTS = ROOT / "evals" / "results"
 def declared() -> dict[str, Any]:
     from agent.marketplace_port import load_config
 
-    budgets = (load_config().get("budgets") or {})
+    budgets = load_config().get("budgets") or {}
     return {
         "p95_latency_job_analysis_sec": budgets.get("p95_latency_job_analysis_sec"),
         "p95_latency_proposal_sec": budgets.get("p95_latency_proposal_sec"),
@@ -102,7 +102,7 @@ def percentile(values: list[float], fraction: float) -> float | None:
     ordered = sorted(values)
     if len(ordered) == 1:
         return round(ordered[0], 3)
-    index = min(len(ordered) - 1, int(round(fraction * (len(ordered) - 1))))
+    index = min(len(ordered) - 1, round(fraction * (len(ordered) - 1)))
     return round(ordered[index], 3)
 
 

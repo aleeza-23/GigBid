@@ -45,7 +45,7 @@ DEFAULT_MIN_MARGIN = 0.15
 
 def agency_config(runnable_config: Any = None) -> dict[str, Any]:
     """The `agency` block, with defaults. Absent or disabled means single-member mode."""
-    block = dict((app_config(runnable_config).get("agency") or {}))
+    block = dict(app_config(runnable_config).get("agency") or {})
     block.setdefault("enabled", False)
     block.setdefault("members", [])
     block.setdefault("min_coverage", DEFAULT_MIN_COVERAGE)

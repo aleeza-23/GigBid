@@ -263,7 +263,7 @@ def aggregate(scored: list[dict[str, Any]]) -> dict[str, Any]:
         "unsupported_per_proposal_after": 0.0,
         "supported_claims_kept_after_stripping": sum(p["supported_kept"] for p in scored),
         "supported_claims_total": sum(p["supported_total"] for p in scored),
-        "p95_latency_ms": round(latencies[max(0, int(round(0.95 * (len(latencies) - 1))))], 2)
+        "p95_latency_ms": round(latencies[max(0, round(0.95 * (len(latencies) - 1)))], 2)
         if latencies
         else 0.0,
         "by_fabrication_kind": by_kind,

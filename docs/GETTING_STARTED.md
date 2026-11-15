@@ -1,52 +1,83 @@
-# Getting Started
+# Getting started
 
-## 1. Understand the product
-GigBid assists a freelancer with job discovery, risk assessment, portfolio matching, pricing,
-proposal drafting and client conversations. The freelancer remains in control of every external
-action.
+For someone opening this repository for the first time and wanting to run it or change it.
+The README has the quick start; this is the orientation.
 
-## 2. Suggested implementation order
-1. Inspect the provided GigSim API and its documentation.
-2. Implement one marketplace port with a GigSim adapter.
-3. Build a read-only Portfolio MCP server.
-4. Define typed Pydantic hand-offs for job, risk, fit, pricing and proposal data.
-5. Implement a basic end-to-end path for one job.
-6. Add portfolio ingestion and a baseline dense retriever (V0).
-7. Add claim verification before the Critic.
-8. Add the parallel LangGraph branches and bounded critique loop.
-9. Add an interrupt-based approval flow and persistence.
-10. Build the UI and stream progress.
-11. Add evaluation, tracing, tests, deployment and your chosen extension.
+## Run it
 
-## 3. Suggested folder responsibilities
-- `apps/api`: FastAPI endpoints and streaming bridge.
-- `apps/web`: React/Next.js TypeScript user interface.
-- `agent`: graph state, nodes, prompts, model config and memory rules.
-- `rag`: portfolio ingestion, retrievers, variants and claim verification.
-- `mcp_servers`: tool servers for portfolio, marketplace and workspace.
-- `worker`: scheduled scouting and long-running jobs.
-- `data/sample`: tiny illustrative data only.
-- `evals`: your own development evaluation scripts and results.
-- `tests`: unit, integration, contract and end-to-end tests.
-- `docs`: architecture, tools, runbook, data card and AI usage notes.
+```bash
+python -m venv .venv && . .venv/Scripts/activate   # or .venv/bin/activate
+make install
+cp .env.example .env
+make seed      # synthetic personas, clients, scams, injections, labelled dev set
+make ingest    # chunk and index the portfolio corpora
+```
 
-## 4. First end-to-end experiment
-Use one synthetic job from `data/sample/jobs.json` and one profile from
-`data/sample/freelancers.json`. Retrieve relevant evidence from `portfolio_items.json`.
-Return a structured recommendation and a proposal draft that cites evidence IDs.
-Do not implement automatic sending.
+Then three terminals: `make gigsim`, `make api`, `make web`. Sign in at
+`http://localhost:3000` with `reviewer` and the password in `REVIEWER_PASSWORD`.
 
-## 5. Questions to answer in your R&D report
-- Which tool design gave the most accurate tool selection and arguments?
-- Which RAG variant improved evidence retrieval on your development set?
-- Did better retrieval improve simulated client replies? Why or why not?
-- When did a single agent perform better than a multi-agent graph?
-- What failed, how did you diagnose it, and what changed after the fix?
-- How did you test prompt-injection resistance and human approval?
+A provider key in `.env` (`OPENAI_API_KEY` works for Groq) turns on drafting. Without one
+everything still runs: rule-based decisions are unaffected, drafts become placeholders, and
+the UI shows a banner saying so. `make persistence` and `GET /health` both report what is
+degraded and why.
 
-## 6. Before committing
-- Confirm `.env` and credentials are not tracked.
-- Confirm the supplied `gigsim/` directory has not been modified.
-- Confirm every proposal claim has traceable evidence.
-- Confirm external actions require explicit human approval.
-- Record actual measurements; never invent evaluation numbers.
+## Read it in this order
+
+1. `docs/ARCHITECTURE.md` — the two graphs, the state, what is parallel and what is not.
+2. `docs/TOOLS.md` — every MCP tool, its annotations, and which agent may call it.
+3. `agent/graphs/bid_graph.py` — the graph itself. The module docstring explains the three
+   things in it that are easy to get wrong.
+4. `rag/variants/v12_decompose_hybrid.py` — the retrieval configuration that ships, and the
+   measurements that chose it over reranking.
+5. `rag/verify.py` — claim verification, which is what stops the Writer inventing
+   experience.
+6. `docs/DATA_CARD.md` — where the data comes from and what is synthetic.
+
+## Folder responsibilities
+
+| Path | What belongs there |
+|---|---|
+| `mcp_servers/` | Tool surface. Three servers plus the shared auth, audit and idempotency code |
+| `rag/` | Ingestion, retrieval variants, claim verification. No agent logic |
+| `agent/` | State, hand-offs, nodes, graphs, prompts, memory, tracing |
+| `apps/api/` | HTTP surface. Thin: routers resume graphs, they do not contain decisions |
+| `apps/web/` | Next.js app. Server-side rendering plus one proxy route to the API |
+| `worker/` | Scheduled sweeps and the dedupe ledger |
+| `evals/` | Runners and committed results. Nothing here is imported by the product |
+| `gigsim/` | The provided simulator. Unchanged |
+
+## Changing things
+
+**Rules, thresholds, prompts and model routing are configuration.** `agent/config.yaml`
+holds the thresholds, budgets, retrieval choice, model profiles and the agency-mode block;
+`agent/prompts/*.md` holds the prompts, versioned so a trace records which version ran.
+Changing a rule should not mean changing code, which is what made the GigSim policy update
+a configuration edit.
+
+**Adding a retrieval variant:** write it in `rag/variants/`, export a `VARIANT` dict, add
+it to the list in `rag/retriever.py`, then `make rag-eval`. Set
+`retrieval.variant` once the numbers say to.
+
+**Adding a tool:** add it to the server, give every parameter an `Annotated` alias with its
+constraints (FastMCP reads the signature, not a metadata dict), add it to the right agent's
+allowlist in `agent/mcp_client.py`, then `make snapshot-update` and read the diff. That
+diff is the point of the snapshot.
+
+**Adding a node:** nodes take `(state, config)` and return a state update. Every field
+written by more than one node needs a reducer in `agent/state.py`; a plain field written by
+two parallel branches is a lost update. Use `call_model` from `agent/nodes/_common.py` so
+the call is traced and the prompt version is recorded.
+
+## Before committing
+
+```bash
+make lint
+make test
+make test-graphs
+```
+
+`make e2e` needs a built frontend and starts GigSim, the API and Next.js itself on private
+ports. CI runs lint, the tests, the tool-schema snapshots and `make smoke-eval`, which
+fails the build if a measured value drops below a threshold in `evals/thresholds.json`.
+
+Never commit `.env`, real client data from live mode, or tokens. `data/audit/` is ignored.

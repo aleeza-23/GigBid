@@ -1,8 +1,9 @@
 """Fit Matcher: map every requirement to portfolio evidence. Portfolio read only (A6).
 
-One retrieval per requirement, which is V1's whole argument and the single largest gain
-measured in Part B: +27.0 Recall@5 over the blended-query baseline, and +25.5 on jobs with
-four or more requirements (`evals/results/rag_eval.json`).
+One retrieval per requirement, which is the one component Part B found worth its cost:
++6.9 Recall@5 over the blended-query baseline, for about 50 ms a query
+(`evals/results/rag_eval.json`). Reranking, measured the same way, cost 9.8 points, which
+is why the shipped variant has none.
 
 Retrieval runs through the configured variant, so whichever design the evaluation picked
 is the one that ships (R6). Coverage is computed by rule, because it is a counting
