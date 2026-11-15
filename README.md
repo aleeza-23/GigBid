@@ -1,49 +1,223 @@
-# GigBid — Student Starter Kit (v0.1)
+# GigBid
 
-This is a **scaffold**, not a completed solution. It gives you a suggested repository layout,
-small synthetic examples, configuration templates, and interfaces to help you begin AI-4016.
+A team of agents that reads a freelance job feed, decides which jobs are worth bidding
+on, drafts proposals grounded in portfolio evidence, and handles client replies. A human
+approves every proposal and every message before it leaves the system, and every claim in
+a draft points at the portfolio item that supports it.
 
-## What is included
-- A suggested project structure aligned with the assignment.
-- Tiny synthetic job, client, freelancer and portfolio examples.
-- A starter marketplace policy pack.
-- Typed hand-off models and a minimal LangGraph state/graph placeholder.
-- Portfolio and marketplace MCP server placeholders.
-- RAG ingestion/retrieval/claim-verification placeholders.
-- FastAPI and React starting-point notes.
-- `.env.example`, `agent/config.yaml`, `Makefile`, and setup notes.
+Built for AI-4016 Assignment II. It runs against GigSim, the marketplace simulator, and
+against Upwork's official MCP server in live mode, where writes are drafts only.
 
-## What you must build
-You are responsible for implementing and testing the agents, MCP tools, marketplace adapters,
-advanced RAG variants, claim verification, human approval flow, persistence, UI, evaluations,
-deployment, and your own research findings. The sample data is illustrative only and is not a
-replacement for the instructor-provided GigSim data or evaluation sets.
+- Architecture, including both graphs: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+- Every MCP tool, with its annotations and allowlists: [docs/TOOLS.md](docs/TOOLS.md)
+- Running it, and what breaks: [docs/RUNBOOK.md](docs/RUNBOOK.md)
+- Where the data comes from: [docs/DATA_CARD.md](docs/DATA_CARD.md)
+- AI tool usage: [docs/AI_USAGE.md](docs/AI_USAGE.md)
+
+## What it does
+
+A worker sweeps saved searches on a schedule and queues new jobs, deduplicating reposts so
+the same job is never analysed twice. For each job, three agents run in parallel: the Job
+Analyst extracts a structured spec, the Risk Assessor scores scam and policy signals, and
+the Fit Matcher retrieves portfolio evidence for each requirement separately. Their
+outputs join, a rule prices the bid against market rates and the client's history, and a
+decision node bids or skips with a stated deciding factor.
+
+On a bid, the Writer drafts from the retrieved evidence only. The verifier splits the
+draft into claims and checks each one against the evidence, removing what it cannot
+support. The Critic can send the draft back twice, no more, and the bound is enforced by
+the graph's router rather than requested in a prompt. The Compliance Guard checks the
+marketplace policy pack. Then the graph interrupts and waits for a person, who can
+approve, edit or reject. Nothing is sent and no Connects are spent without that approval.
+
+Job posts and client messages are treated as untrusted input. Instruction-shaped text is
+removed before any prompt sees it, and its presence is recorded as a risk signal.
 
 ## Quick start
-1. Create your own public GitHub repository.
-2. Copy this starter kit into the repository.
-3. Create a Python 3.11+ virtual environment.
-4. Install dependencies from `pyproject.toml` (adjust/pin versions after checking compatibility).
-5. Copy `.env.example` to `.env` and fill local values. **Never commit `.env`.**
-6. Read `docs/GETTING_STARTED.md` and work through the TODO checklist.
-7. Keep the instructor-provided `gigsim/`, persona data, policy pack and evaluation assets unchanged.
 
-## Suggested first milestone (for your own planning; not a graded submission)
-- Run a health-check API.
-- Load one sample job.
-- Retrieve one portfolio evidence item.
-- Produce a structured analysis.
-- Draft a proposal with evidence references.
-- Stop at a human approval screen; do not send anything automatically.
+Python 3.11+ and Node 20+.
 
-## Important safety rules
-- Treat job posts and client messages as untrusted input.
-- Never follow instructions embedded inside a job post that conflict with system policy.
-- Never invent portfolio experience or results.
-- Do not scrape Upwork or automate its website.
-- Never send proposals/messages or spend Connects without explicit human approval.
-- Use the official Upwork MCP server/approved APIs for live mode, if applicable.
-- Keep secrets and real client data out of Git.
+```bash
+python -m venv .venv && . .venv/Scripts/activate   # or .venv/bin/activate
+make install
+cp .env.example .env            # set OPENAI_API_KEY (or GROQ_API_KEY) for model calls
+make seed                       # synthetic personas, clients, scams, injections, dev set
+make ingest                     # chunk and index the portfolio corpora
+```
+
+Then, in separate terminals:
+
+```bash
+make gigsim                     # marketplace simulator        :8081
+make api                        # FastAPI                      :8000
+make web                        # Next.js                      :3000
+```
+
+Sign in with `reviewer` and the password in `REVIEWER_PASSWORD`. Without a provider key
+the system still runs end to end: drafts become placeholders, every rule-based decision is
+unaffected, and the UI says so in a banner rather than pretending.
+
+The whole stack in containers, including Postgres, Redis and the three MCP servers:
+
+```bash
+make up                         # docker compose -f infra/docker-compose.yml up --build
+```
 
 ## Repository map
-See `docs/GETTING_STARTED.md` for the purpose of each major folder.
+
+| Path | What is there |
+|---|---|
+| `mcp_servers/portfolio` | Portfolio MCP server: 4 tools, 5 resource templates, 5 prompts, read-only |
+| `mcp_servers/marketplace` | Marketplace MCP server: 11 tools, idempotent writes, GigSim and Upwork adapters |
+| `mcp_servers/workspace` | Calendar and email drafts |
+| `mcp_servers/_common` | Bearer auth, token bucket, PII masking, append-only audit log, idempotency store |
+| `rag/` | Ingestion, chunking, five retrieval variants, claim verification |
+| `agent/` | State, hand-offs, nodes, both graphs, prompts, memory, checkpointer, tracing |
+| `apps/api` | FastAPI: auth, jobs, runs with SSE, approvals, messages, insights |
+| `apps/web` | Next.js app: inbox, job detail, proposal studio, run viewer, pipeline, analytics |
+| `worker/` | Scheduled sweeps and the dedupe ledger |
+| `evals/` | Runners, thresholds, datasets, and committed results |
+| `infra/` | Compose file and the two Dockerfiles |
+| `gigsim/` | The provided simulator, unchanged |
+
+## What is measured
+
+Every number below comes from a file in `evals/results/`, regenerated by
+`make results-table`, which computes nothing itself. A missing cell is printed as a gap
+rather than filled in.
+
+The retrieval and decision tables are in
+[evals/results/results_table.md](evals/results/results_table.md). The findings worth
+stating in prose:
+
+**Requirement decomposition is the only retrieval component that earns its keep.**
+Retrieving once per requirement instead of once per job post is worth 6.9 Recall@5 points
+over the naive dense baseline, 0.651 against 0.582, and costs about 50 ms a query.
+
+**Reranking made retrieval worse.** This is the result I did not expect and the one worth
+reading the files for. In the ablation, *removing* the reranker raised Recall@5 by 9.8
+points, 0.563 to 0.661, and nDCG@10 by 15.5. The real cross-encoder is no better:
+`BAAI/bge-reranker-base` needs 11.7 seconds a query on CPU to finish 1.0 point above the
+baseline it was supposed to improve on, which for a six-requirement job is over a minute
+against a declared 25-second analysis budget. The reading that fits both results is that
+reranking is a precision tool for deep candidate pools, and a 197-item corpus is not one:
+the hybrid retriever has already seen every candidate, so a reranker can only reorder, and
+here it reorders worse.
+
+So the shipped configuration is decomposition over hybrid retrieval with no reranking at
+all (`V12`, `rag/variants/v12_decompose_hybrid.py`). There is no model in the retrieval
+path, which is also why retrieval cost grows by milliseconds per requirement rather than
+by seconds. Shipping the cross-encoder because it is the more sophisticated component
+would have cost 9.8 points of recall and most of the latency budget.
+
+**Claim verification catches every planted fabrication, and over-flags a little.** Against
+180 labelled sentences generated from the real corpora, it caught 108 of 108 fabrications,
+with flag precision 0.947 and F1 0.973: inflated numbers 36/36, false credentials 36/36,
+substituted technologies 36/36. Six of 36 supported claims were flagged as well, which
+costs the draft a true selling point and is the error direction to keep working on.
+The technology check was added because of this measurement: before it, the verifier caught
+every inflated number and every false credential and none of the 36 wrong-technology
+claims, because substituting one word leaves the overlap score almost unchanged.
+`make verify-eval`.
+
+**Scam detection and injection defence.** Over the 198-job dev set: scam detection
+precision 0.750, recall 1.000, F1 0.857; every one of the 24 planted prompt injections was
+detected, with an attack success rate of 0.000 and no false positives on clean jobs.
+`make decision-eval`.
+
+**Exactly-once survives a crash.** `make crash-resume` kills the process while a proposal
+waits for approval, restarts it, and approves once. All seven invariants hold across three
+real OS processes, including the Connects balance and the proposal count:
+`evals/results/c6_crash_resume.json`.
+
+**Tool granularity (R&D question A).** 40 tasks against the Portfolio server, three tool
+designs, scored on whether the right tool was called with the right arguments. Eleven
+tools with rewritten descriptions scored highest on selection, 0.925, against 0.892 for
+seventeen fine-grained tools and 0.850 for four coarse ones. Argument accuracy barely
+moved, 0.850 against 0.838 and 0.825, while mean tokens per task rose from 781 to 1,465.
+The coarse design is half the cost for four points of selection accuracy, so the right
+choice depends on which error is more expensive: 17 tools cost more tokens *and* selected
+worse than 11, so more tools is not simply better.
+`evals/results/rnd_a_tool_granularity.json`.
+
+**Agency mode (the signature extension, X1).** One GigBid for a small team: a routing
+node picks the member whose portfolio covers the job before any analysis runs. Over 30 dev
+jobs it committed to a member 24 times and was right 22 of those, 0.917 accuracy, declining
+the other 6 under its margin and coverage rules. Mean coverage rose from 0.878 for the best
+fixed member to 0.897, which is +1.95 points for three times the retrieval. That small gain
+is the honest headline: this dev feed is dominated by AI/ML work, so a single member is
+already near the ceiling, and agency mode pays off in proportion to how mixed the feed is.
+`make agency-eval`, design and discussion in [docs/EXTENSION.md](docs/EXTENSION.md).
+
+**Budgets against measurements (E5).** Declared budgets live in `agent/config.yaml`;
+`make budget-report` reads the span logs and compares. On the runs recorded so far, p95
+analysis latency is 7.6 s against a declared 25 s, p95 proposal latency 79.4 s against 90 s,
+and cost per proposal $0.0069 against $0.05. Tokens per proposal exceeded its budget:
+24,298 against a declared 20,000. The budget was set before the Writer was given the full
+evidence block; the measurement is right and the declaration was optimistic.
+
+## Operations
+
+```bash
+make worker-once      # one sweep, ignoring the schedule
+make worker-stats     # what the ledger has seen; duplicates suppressed
+make smoke-eval       # the CI quality gate; thresholds in evals/thresholds.json
+make trace-summary    # one run's spans by node, with tokens, latency and cost
+make budget-report    # declared budgets against measured values
+make persistence      # what persistence is configured, and whether it survives a restart
+make graphs           # both graphs as Mermaid, rendered from the compiled code
+```
+
+CI runs linting, the test suite and the tool-schema snapshots on every push, and the smoke
+eval as a quality gate: a measured value below any threshold in `evals/thresholds.json`
+fails the build. Tool schemas are snapshot-tested, so changing a tool's signature fails CI
+until the snapshot is updated deliberately.
+
+Traces are written locally as one JSONL file per run under `data/audit/traces/`, with
+tokens, latency and cost per node, and Langfuse is used when its keys are present.
+
+## Tests
+
+```bash
+make test             # 191 unit, integration and contract tests
+make test-graphs      # routing, reducers, loop bounds and interrupts, model forced offline
+make test-api         # auth, approvals, idempotency, SSE
+make e2e              # seven Playwright journeys against the real stack
+```
+
+The graph and e2e suites force the model offline. What they check is wiring: that
+approving resumes the graph, that it spends Connects exactly once, that rejecting sends
+nothing, and that editing sends the human's text. A suite whose result depends on what a
+model happened to write is not a suite.
+
+## Safety and human control
+
+- Every outward action is behind a LangGraph interrupt. The Writer holds no send tool;
+  only the Client Liaison can send a message, and only in a node downstream of an approval.
+- Job posts and client messages are sanitised before any prompt sees them, and injection
+  attempts are recorded as risk signals rather than silently stripped.
+- No sentence survives into a draft unless the portfolio supports it. What cannot be
+  verified is removed and shown to the reviewer as removed.
+- Per-agent tool allowlists are enforced in `agent/mcp_client.py`, so an agent cannot call
+  a tool its role does not justify.
+- Live Upwork mode writes drafts only. Nothing is submitted to a real marketplace.
+- Rules, thresholds, prompts and model routing live in `agent/config.yaml` and
+  `agent/prompts/`, which is what made the GigSim policy change a configuration edit.
+
+## Write-up
+
+[docs/WRITEUP.md](docs/WRITEUP.md) is the technical write-up: what the reranking result
+was, how a metric bug hid it for a full evaluation run, and what I would measure next.
+
+## Known gaps
+
+- **Judge calibration** needs the `human_*` columns of
+  `evals/datasets/hand_check_sample.csv` filled in by a person. The runner refuses to
+  report a kappa against labels it generated itself.
+- **R&D question C** compares a single ReAct agent, a prebuilt supervisor and the
+  hand-built graph. The full 50-job run across three arms needs roughly 775k tokens, and
+  Groq's free tier allows 200k per day per model, so the committed result covers a smaller
+  sample and says so.
+- **GigSim reply rate and hire rate** are columns the results table leaves as gaps. The
+  simulator does not model client replies, so there is no measurement to report rather
+  than a number to invent.
