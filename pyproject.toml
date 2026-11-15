@@ -2,7 +2,7 @@
 name = "gigbid-student-project"
 version = "0.1.0"
 description = "Student scaffold for the AI-4016 GigBid assignment"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 # Pinned, as the assignment requires. Versions are the ones the results in
 # evals/results/ were produced with; bumping one means re-running the evals.
 dependencies = [

@@ -7,7 +7,7 @@
 # Build it from the repository root:
 #   docker build -f infra/docker/Dockerfile.python -t gigbid-python .
 
-FROM python:3.11-slim AS base
+FROM python:3.13-slim AS base
 
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1 \

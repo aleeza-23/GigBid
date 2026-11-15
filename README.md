@@ -97,7 +97,7 @@ removed before any prompt sees it, and its presence is recorded as a risk signal
 
 ## Quick start
 
-Python 3.11+ and Node 20+.
+Python 3.12+ and Node 20+. Developed and measured on 3.13.
 
 ```bash
 python -m venv .venv && . .venv/Scripts/activate   # or .venv/bin/activate
