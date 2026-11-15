@@ -171,6 +171,54 @@ class SentenceTransformerEmbedder:
         return _normalise(np.asarray(vectors, dtype=np.float32))
 
 
+class FastEmbedEmbedder:
+    """The same open-weight model as the `local` backend, run through ONNX Runtime.
+
+    Why this exists: `local` pulls torch, which is a 2.5GB install needing roughly 2GB of
+    RAM to serve, and a free host gives you 512MB. fastembed runs the identical
+    `BAAI/bge-small-en-v1.5` weights through onnxruntime in about 200MB, so a deployment
+    can use a real pretrained open model instead of falling back to the LSA development
+    backend, with no API key and no provider account.
+
+    The vectors are the same model's vectors, so numbers measured with the `local` backend
+    and served with this one describe the same system. That is the whole point: the
+    alternative on a small host was a backend whose numbers are not reportable.
+    """
+
+    is_pretrained = True
+
+    def __init__(self, model: str | None = None) -> None:
+        self.name = model or os.getenv("EMBED_MODEL", "BAAI/bge-small-en-v1.5")
+        try:
+            from fastembed import TextEmbedding
+        except ImportError as exc:
+            raise RuntimeError(
+                "the fastembed backend needs fastembed:\n"
+                "  pip install fastembed\n"
+                "or set EMBED_BACKEND to 'local', 'api' or 'lsa'"
+            ) from exc
+        # Downloads the weights once, to the fastembed cache. On a host with ephemeral
+        # disk, pre-download at build time (see render.yaml) so a request never waits for
+        # it: the first load took 26 seconds here against 20ms to encode a batch.
+        self._model = TextEmbedding(model_name=self.name)
+        self.dim = 0  # learned from the first batch
+
+    def encode(self, texts: list[str], is_query: bool = False) -> np.ndarray:
+        if not texts:
+            return np.zeros((0, 1), dtype=np.float32)
+        # fastembed has a separate query path that applies the model's own query
+        # instruction, so the BGE query prefix must not be added by hand here as it is in
+        # the sentence-transformers backend. Doing both would prefix it twice.
+        vectors = (
+            list(self._model.query_embed(texts))
+            if is_query
+            else list(self._model.embed(texts))
+        )
+        matrix = np.asarray(vectors, dtype=np.float32)
+        self.dim = int(matrix.shape[1]) if matrix.size else 0
+        return _normalise(matrix)
+
+
 # --------------------------------------------------------------------------- api
 
 
@@ -235,6 +283,8 @@ def get_embedder(config: dict[str, Any] | None = None, corpus: list[str] | None 
 
     if backend == "local":
         return SentenceTransformerEmbedder(cfg.get("model"))
+    if backend == "fastembed":
+        return FastEmbedEmbedder(cfg.get("model"))
     if backend == "api":
         return ApiEmbedder(cfg.get("model"), cfg.get("base_url"), cfg.get("api_key_env"))
     if backend == "lsa":
@@ -242,7 +292,9 @@ def get_embedder(config: dict[str, Any] | None = None, corpus: list[str] | None 
         if corpus:
             embedder.fit(corpus)
         return embedder
-    raise ValueError(f"unknown embedding backend {backend!r}: expected local, api or lsa")
+    raise ValueError(
+        f"unknown embedding backend {backend!r}: expected local, fastembed, api or lsa"
+    )
 
 
 def cosine_scores(query_vector: np.ndarray, matrix: np.ndarray) -> np.ndarray:

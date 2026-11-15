@@ -66,7 +66,12 @@ services:
     # the chunked index under data/processed/ is a Part B artefact that the serving path
     # never opens. Running the synthetic generator here would regenerate the corpora the
     # committed results were measured against, which is worse than useless.
-    buildCommand: pip install -e ".[persistence]"
+    buildCommand: |
+      pip install -e ".[persistence,serve]"
+      # Pre-download the embedding weights into the image. The first load takes about 26
+      # seconds; a reviewer's first click should not pay for it, and the container's disk
+      # is wiped on restart so a lazy download would be paid again after every sleep.
+      python -c "from fastembed import TextEmbedding; TextEmbedding(model_name='BAAI/bge-small-en-v1.5')"
     startCommand: uvicorn apps.api.main:app --host 0.0.0.0 --port $PORT
     healthCheckPath: /health
     envVars:
@@ -86,16 +91,16 @@ services:
       - key: OPENAI_API_KEY
         sync: false
       # Embeddings. Groq serves no embeddings endpoint, so this is Together or OpenRouter.
-      # `lsa` because this deployment has no embeddings provider: Groq serves no
-      # embeddings endpoint, so the `api` backend needs a Together or OpenRouter key and
-      # fails the first retrieval without one. `lsa` is numpy-only and fits in 512MB.
+      # fastembed: the same BAAI/bge-small-en-v1.5 the reported numbers were measured
+      # with, run through ONNX Runtime instead of torch. About 50MB installed and 200MB of
+      # RAM, so it fits a 512MB instance where the `local` backend is killed loading the
+      # model, and it needs no API key. The brief requires open models for embeddings in
+      # both profiles, and this is that model.
       #
-      # It is TF-IDF plus SVD fitted on the corpus, NOT an open-weight pretrained model,
-      # so it does not satisfy B2 and no reported number may come from it. Every figure in
-      # evals/results/ was measured locally with BAAI/bge-small-en-v1.5. To make the
-      # deployment spec-compliant, set TOGETHER_API_KEY and change this to `api`.
+      # `api` would also satisfy the rule but needs a paid Together or OpenRouter key.
+      # `lsa` is the development fallback and its numbers are not reportable.
       - key: EMBED_BACKEND
-        value: lsa
+        value: fastembed
       - key: EMBED_BASE_URL
         value: https://api.together.xyz/v1
       - key: EMBED_MODEL

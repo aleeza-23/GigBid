@@ -38,6 +38,11 @@ data = ["pandas==3.1.1", "pyarrow==26.0.1", "kagglehub==1.0.3", "pypdf==7.0.1"]
 # will actually be reported.
 rag = ["sentence-transformers==6.3.0", "torch==2.15.0"]
 
+# The same open-weight embedding model through ONNX Runtime rather than torch: a ~50MB
+# install needing ~200MB of RAM, which is what makes a real pretrained embedder possible
+# on a 512MB host. Its own extra, because reproducing the reported numbers uses `rag`.
+serve = ["fastembed==0.9.1"]
+
 # Durable checkpointing (C6). Without these the only checkpointer is in-memory, which
 # loses every pending approval on restart.
 persistence = [
