@@ -21,6 +21,27 @@ always useful.
 
 ## Install
 
+Three ways, depending on how permanent you want it.
+
+**uvx**, nothing installed permanently:
+
+```bash
+uvx --from git+https://github.com/<your-username>/gigbid gigbid-portfolio-mcp
+```
+
+**Docker**, pointed at your own portfolio:
+
+```bash
+docker build -f infra/docker/Dockerfile.portfolio-mcp -t gigbid-portfolio-mcp .
+docker run --rm -p 8701:8701 -v /path/to/your_portfolio:/portfolio:ro -e PERSONAS_DIR=/portfolio gigbid-portfolio-mcp
+```
+
+The image carries only this server: no torch, no sentence-transformers, no LangGraph,
+because the default ranker is BM25. That is about 150MB instead of several gigabytes. Run
+it without the volume to try the tools against the synthetic corpora in this repository.
+
+**From a clone**, for development:
+
 ```bash
 git clone https://github.com/<your-username>/gigbid
 cd gigbid
@@ -33,9 +54,10 @@ Then add it to your host. For Claude Desktop, in `claude_desktop_config.json`:
 {
   "mcpServers": {
     "portfolio": {
-      "command": "python",
-      "args": ["-m", "mcp_servers.portfolio.server"],
-      "cwd": "/absolute/path/to/gigbid"
+      "command": "uvx",
+      "args": ["--from", "git+https://github.com/<your-username>/gigbid",
+               "gigbid-portfolio-mcp"],
+      "env": { "PERSONAS_DIR": "/absolute/path/to/your_portfolio" }
     }
   }
 }

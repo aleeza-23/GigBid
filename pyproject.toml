@@ -59,6 +59,15 @@ all = [
   "cryptography==50.0.2", "pypdf==7.0.1",
 ]
 
+[project.scripts]
+# The Portfolio server is meant to be installable on its own, so it gets a console script
+# rather than only `python -m`. `uvx --from <this repo> gigbid-portfolio-mcp` then runs it
+# without installing anything permanently.
+gigbid-portfolio-mcp = "mcp_servers.portfolio.server:main"
+gigbid-marketplace-mcp = "mcp_servers.marketplace.server:main"
+gigbid-workspace-mcp = "mcp_servers.workspace.server:main"
+gigbid-worker = "worker.scheduler:main"
+
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["agent*", "apps*", "data*", "evals*", "gigsim*", "mcp_servers*", "rag*",

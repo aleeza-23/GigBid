@@ -1,0 +1,53 @@
+# The Portfolio MCP server on its own, for anyone who wants to run it against their own
+# portfolio without the rest of GigBid.
+#
+#   docker build -f infra/docker/Dockerfile.portfolio-mcp -t gigbid-portfolio-mcp .
+#   docker run --rm -p 8701:8701 \
+#     -v /path/to/your_portfolio:/portfolio:ro \
+#     -e PERSONAS_DIR=/portfolio \
+#     gigbid-portfolio-mcp
+#
+# Then point an MCP host at http://127.0.0.1:8701/mcp. Without the volume it serves the
+# synthetic corpora in this repository, which is enough to try the tools out.
+#
+# Deliberately not the same image as the rest of the stack: this one installs no torch, no
+# sentence-transformers and no LangGraph, because the server's own ranker is BM25 and the
+# image is meant to be small enough that someone will actually pull it. The result is
+# roughly 150MB rather than several gigabytes.
+
+FROM python:3.13-slim AS base
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PORTFOLIO_MCP_HOST=0.0.0.0 \
+    PORTFOLIO_MCP_PORT=8701
+
+WORKDIR /app
+
+# Just the server's own dependencies. The full `pip install -e .` would pull the whole
+# evaluation and agent stack for a read-only search server.
+RUN pip install --no-cache-dir \
+    "mcp==1.21.0" \
+    "fastmcp==2.15.0" \
+    "pydantic==2.14.1" \
+    "pyyaml==6.0.3" \
+    "python-dotenv==1.2.1"
+
+# Only what the server imports, plus the synthetic corpora as a default dataset.
+COPY mcp_servers/__init__.py ./mcp_servers/__init__.py
+COPY mcp_servers/_common ./mcp_servers/_common
+COPY mcp_servers/portfolio ./mcp_servers/portfolio
+COPY data/personas ./data/personas
+
+# Non-root: the server reads a mounted portfolio and should not be able to write to it.
+RUN adduser --system --uid 10001 portfolio && chown -R portfolio /app
+USER portfolio
+
+EXPOSE 8701
+
+# A read-only server with no secrets, so the health check is the corpus loading.
+HEALTHCHECK --interval=30s --timeout=5s --start-period=10s \
+    CMD python -c "import sys; from mcp_servers.portfolio.server import portfolio_health; \
+sys.exit(0 if portfolio_health().get('status') == 'ok' else 1)"
+
+ENTRYPOINT ["python", "-m", "mcp_servers.portfolio.server", "--http"]
