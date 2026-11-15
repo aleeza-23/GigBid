@@ -25,13 +25,37 @@ models:
       # Together, or a local Ollama at http://localhost:11434/v1 without touching code.
       provider: groq
       base_url: https://api.groq.com/openai/v1
-      api_key_env: GROQ_API_KEY
+      # Candidates, tried in order. Groq is OpenAI-compatible, so a Groq key often ends
+      # up in OPENAI_API_KEY; accepting both beats a silent fall back to offline mode.
+      api_key_env: [GROQ_API_KEY, OPENAI_API_KEY, OPENROUTER_API_KEY, TOGETHER_API_KEY]
       small: openai/gpt-oss-20b     # routers, classifiers, risk checks
       large: openai/gpt-oss-120b    # writer, critic, client liaison
+    # A second open configuration, which the Models section requires comparing against
+    # the first. It is also the fallback when the primary profile's daily quota is gone:
+    # these are separate models with separate daily caps.
+    open_alt:
+      provider: groq
+      base_url: https://api.groq.com/openai/v1
+      api_key_env: [GROQ_API_KEY, OPENAI_API_KEY, OPENROUTER_API_KEY, TOGETHER_API_KEY]
+      small: qwen/qwen3.8-27b
+      large: qwen/qwen3.8-27b
+      # This model's free tier caps OUTPUT at 1000 tokens/minute, so a 2000-token
+      # request is refused outright as "request too large" rather than throttled.
+      max_output_tokens: 900
+    # gpt-oss-120b for every node. Groq's free tier meters tokens per day PER MODEL, so
+    # when the 20b daily quota is gone this profile still has its own. Used for the
+    # R&D question C comparison, where all three arms must run on the same model to be
+    # comparable at all.
+    open_120b:
+      provider: groq
+      base_url: https://api.groq.com/openai/v1
+      api_key_env: [GROQ_API_KEY, OPENAI_API_KEY, OPENROUTER_API_KEY, TOGETHER_API_KEY]
+      small: openai/gpt-oss-120b
+      large: openai/gpt-oss-120b
     paid:
       provider: anthropic
       base_url: https://api.anthropic.com/v1
-      api_key_env: ANTHROPIC_API_KEY
+      api_key_env: [ANTHROPIC_API_KEY]
       small: claude-haiku-5-5
       large: claude-opus-5-5
 
@@ -61,6 +85,11 @@ models:
   writer_temperature: 0.5
   max_output_tokens: 2000
   request_timeout_sec: 60
+  # Groq's free tier meters tokens per minute, not requests. The client paces itself
+  # against this and honours Retry-After, so a 120-call evaluation completes instead of
+  # collecting refusals. Raise it if you upgrade tier (LLM_TPM_LIMIT overrides).
+  tpm_limit: 8000
+  max_attempts: 4
 
 budgets:
   max_graph_steps: 30
@@ -87,14 +116,55 @@ thresholds:
 
 retrieval:
   # Which RAG variant ships. Chosen by measurement in Part B (R6), not by default.
-  # Until that evaluation runs, the Portfolio server's built-in BM25 ranker answers.
-  variant: builtin_bm25
+  #
+  # V12 is V1's per-requirement queries over V2's hybrid retriever, with no reranking. The
+  # evaluation picked it: decomposition is worth 6.9 Recall@5 points over the naive dense
+  # baseline for about 50 ms, while reranking cost 9.8 points in the ablation and the real
+  # cross-encoder needs 11.7 seconds a query to land 1 point above that baseline. See
+  # rag/variants/v12_decompose_hybrid.py for the table and evals/results/ for the files.
+  #
+  # `builtin_bm25` falls back to the Portfolio server's own ranker, which is what answered
+  # before the evaluation had run.
+  variant: V12
   k: 8
   rerank_top_n: 4
   outcome_aware: false
+  # How many candidates the cross-encoder reranks. A real cross-encoder is a forward pass
+  # per candidate, so this is the single biggest lever on retrieval latency: at 30 the
+  # full evaluation took over an hour of CPU, at 12 it is minutes, and precision@5 rarely
+  # improves from candidates ranked below 12 by the hybrid retriever.
+  candidate_depth: 12
+
+  embeddings:
+    # Open-weight, as the assignment requires in both profiles, and small enough to run
+    # on a CPU. "lsa" is a numpy-only development fallback and is NOT spec-compliant;
+    # every results file records which backend produced it.
+    backend: local          # local | api | lsa
+    model: BAAI/bge-small-en-v1.5
+    dim: 384
 
 safety:
   # Job posts and client messages are untrusted data (E4, R9).
   delimit_untrusted_input: true
   mask_pii_in_logs: true
   injection_patterns_file: data/policy_pack/marketplace_policy.md
+
+# ------------------------------------------------------------------ agency mode (X1)
+# The signature extension: one GigBid serving a small team instead of one freelancer.
+# Off by default, because routing is only honest when every member has a real portfolio
+# behind them, and the single-freelancer product is what Parts A to E are measured on.
+#
+# Routing is by requirement coverage over each member's portfolio, not by a model's
+# opinion of the post. See agent/nodes/agency.py and docs/EXTENSION.md.
+agency:
+  enabled: false
+  members:
+    - ai_ml_engineer
+    - fullstack_web_developer
+    - data_analyst
+  # Below this coverage the team cannot do the job. The thread falls back to the default
+  # member and the decision node skips on the low coverage it then sees.
+  min_coverage: 0.34
+  # Two members closer than this are not a routing decision. The job goes to the default
+  # member and is flagged, rather than a one-requirement difference deciding who bids.
+  min_margin: 0.15
