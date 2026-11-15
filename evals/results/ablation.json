@@ -1,0 +1,187 @@
+{
+  "pipeline": "decompose (V1) -> BM25 + dense RRF (V2) -> cross-encoder rerank (V3)",
+  "setup": {
+    "configured": "builtin_bm25",
+    "available": [
+      {
+        "id": "V0",
+        "name": "naive_dense",
+        "group": "baseline"
+      },
+      {
+        "id": "V1",
+        "name": "requirement_decomposition",
+        "group": "query"
+      },
+      {
+        "id": "V2",
+        "name": "hybrid_rrf",
+        "group": "retrieval"
+      },
+      {
+        "id": "V3",
+        "name": "cross_encoder_rerank",
+        "group": "retrieval"
+      },
+      {
+        "id": "V8",
+        "name": "corrective_rag",
+        "group": "agentic"
+      }
+    ],
+    "unavailable": [],
+    "embeddings_backend": "local"
+  },
+  "embeddings_spec_compliant": true,
+  "dev_rows": 142,
+  "arms": [
+    {
+      "arm": "full",
+      "removed": null,
+      "description": "decompose + BM25 + dense (RRF) + rerank",
+      "rows": 142,
+      "errors": 0,
+      "recall_at_5": 0.563,
+      "precision_at_5": 0.6437,
+      "mrr": 0.5356,
+      "ndcg_at_10": 0.6704,
+      "recall_at_5_four_plus_requirements": 0.5064,
+      "wall_clock_sec": 148.22
+    },
+    {
+      "arm": "-decompose",
+      "removed": "requirement decomposition (V1)",
+      "description": "whole post as one query, everything else unchanged",
+      "rows": 142,
+      "errors": 0,
+      "recall_at_5": 0.5564,
+      "precision_at_5": 0.6141,
+      "mrr": 0.496,
+      "ndcg_at_10": 0.6489,
+      "recall_at_5_four_plus_requirements": 0.4963,
+      "wall_clock_sec": 26.97
+    },
+    {
+      "arm": "-rerank",
+      "removed": "cross-encoder rerank (V3)",
+      "description": "fused candidates returned in RRF order",
+      "rows": 142,
+      "errors": 0,
+      "recall_at_5": 0.6609,
+      "precision_at_5": 0.7469,
+      "mrr": 0.9351,
+      "ndcg_at_10": 0.825,
+      "recall_at_5_four_plus_requirements": 0.6355,
+      "wall_clock_sec": 0.89
+    },
+    {
+      "arm": "-bm25",
+      "removed": "the lexical half of the hybrid (V2)",
+      "description": "dense only, then rerank",
+      "rows": 142,
+      "errors": 0,
+      "recall_at_5": 0.5753,
+      "precision_at_5": 0.6634,
+      "mrr": 0.542,
+      "ndcg_at_10": 0.6953,
+      "recall_at_5_four_plus_requirements": 0.5217,
+      "wall_clock_sec": 1.7
+    },
+    {
+      "arm": "-dense",
+      "removed": "the dense half of the hybrid (V2)",
+      "description": "BM25 only, then rerank",
+      "rows": 142,
+      "errors": 0,
+      "recall_at_5": 0.5613,
+      "precision_at_5": 0.6437,
+      "mrr": 0.5367,
+      "ndcg_at_10": 0.6734,
+      "recall_at_5_four_plus_requirements": 0.5038,
+      "wall_clock_sec": 1.25
+    },
+    {
+      "arm": "-decompose-rerank",
+      "removed": "both V1 and V3",
+      "description": "plain hybrid retrieval, closest thing to V2 alone",
+      "rows": 142,
+      "errors": 0,
+      "recall_at_5": 0.5814,
+      "precision_at_5": 0.6543,
+      "mrr": 0.8053,
+      "ndcg_at_10": 0.7684,
+      "recall_at_5_four_plus_requirements": 0.5466,
+      "wall_clock_sec": 0.82
+    },
+    {
+      "arm": "-bm25 (no rerank)",
+      "removed": "the lexical half, measured without the reranker masking it",
+      "description": "dense only, RRF order kept",
+      "rows": 142,
+      "errors": 0,
+      "recall_at_5": 0.6363,
+      "precision_at_5": 0.6667,
+      "mrr": 0.7854,
+      "ndcg_at_10": 0.7486,
+      "recall_at_5_four_plus_requirements": 0.6009,
+      "wall_clock_sec": 0.41
+    },
+    {
+      "arm": "-dense (no rerank)",
+      "removed": "the dense half, measured without the reranker masking it",
+      "description": "BM25 only, RRF order kept",
+      "rows": 142,
+      "errors": 0,
+      "recall_at_5": 0.6139,
+      "precision_at_5": 0.7165,
+      "mrr": 0.939,
+      "ndcg_at_10": 0.8133,
+      "recall_at_5_four_plus_requirements": 0.5745,
+      "wall_clock_sec": 0.44
+    }
+  ],
+  "contributions_ranked": [
+    {
+      "component": "requirement decomposition (V1)",
+      "arm": "-decompose",
+      "recall_cost": 0.66,
+      "ndcg_cost": 2.15
+    },
+    {
+      "component": "the dense half of the hybrid (V2)",
+      "arm": "-dense",
+      "recall_cost": 0.17,
+      "ndcg_cost": -0.3
+    },
+    {
+      "component": "the lexical half of the hybrid (V2)",
+      "arm": "-bm25",
+      "recall_cost": -1.23,
+      "ndcg_cost": -2.49
+    },
+    {
+      "component": "both V1 and V3",
+      "arm": "-decompose-rerank",
+      "recall_cost": -1.84,
+      "ndcg_cost": -9.8
+    },
+    {
+      "component": "the dense half, measured without the reranker masking it",
+      "arm": "-dense (no rerank)",
+      "recall_cost": -5.09,
+      "ndcg_cost": -14.29
+    },
+    {
+      "component": "the lexical half, measured without the reranker masking it",
+      "arm": "-bm25 (no rerank)",
+      "recall_cost": -7.33,
+      "ndcg_cost": -7.82
+    },
+    {
+      "component": "cross-encoder rerank (V3)",
+      "arm": "-rerank",
+      "recall_cost": -9.79,
+      "ndcg_cost": -15.46
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "demonstrates": "C6 exactly-once across a real process restart",
+  "job_id": "upw-01934328d0460f74ad",
+  "connects_cost": 12,
+  "connects_spent": 12,
+  "proposals_created": 1,
+  "phases": {
+    "start": {
+      "phase": "start",
+      "job_id": "upw-01934328d0460f74ad",
+      "awaiting_approval": true,
+      "checkpointer": "sqlite",
+      "nodes": [
+        "scout",
+        "fan_out",
+        "analyst",
+        "risk_assessor",
+        "fit_matcher",
+        "join",
+        "pricing",
+        "decision",
+        "writer",
+        "verifier",
+        "critic",
+        "compliance"
+      ]
+    },
+    "approve": {
+      "phase": "approve",
+      "found_pending_approval": true,
+      "status": "submitted",
+      "proposal_id": "prop-e138aff363d4",
+      "connects_spent": 12,
+      "idempotency_key": "proposal-upw-01934328d0460f74ad-f6d1f3945d17",
+      "idempotent_replay": false
+    },
+    "retry": {
+      "phase": "retry",
+      "reused_key": "proposal-upw-01934328d0460f74ad-f6d1f3945d17",
+      "status": "submitted",
+      "proposal_id": "prop-e138aff363d4",
+      "idempotent_replay": true
+    }
+  },
+  "checks": {
+    "paused before spending anything": true,
+    "pending approval survived the restart": true,
+    "submitted after approval": true,
+    "retry did not create a second proposal": true,
+    "retry reported itself as a replay": true,
+    "connects spent exactly once": true,
+    "the same key was reused, not regenerated": true
+  },
+  "passed": true,
+  "ran_at": "2026-11-14T12:00:29Z"
+}

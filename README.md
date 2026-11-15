@@ -224,13 +224,14 @@ choice depends on which error is more expensive: 17 tools cost more tokens *and*
 worse than 11, so more tools is not simply better.
 `evals/results/rnd_a_tool_granularity.json`.
 
-**Agency mode (the signature extension, X1).** One GigBid for a small team: a routing
-node picks the member whose portfolio covers the job before any analysis runs. Over 30 dev
-jobs it committed to a member 24 times and was right 22 of those, 0.917 accuracy, declining
-the other 6 under its margin and coverage rules. Mean coverage rose from 0.878 for the best
-fixed member to 0.897, which is +1.95 points for three times the retrieval. That small gain
-is the honest headline: this dev feed is dominated by AI/ML work, so a single member is
-already near the ceiling, and agency mode pays off in proportion to how mixed the feed is.
+**Agency mode (the signature extension, X1).** One GigBid for a small team: a routing node
+picks the member whose portfolio covers the job before any analysis runs, by requirement
+coverage rather than by asking a model. Over 60 dev jobs it committed to a member 41 times
+and was right on 36 of those, 0.878 accuracy, and declined the other 19 under its margin
+and coverage rules. Mean coverage rose from 0.816 for the best fixed member to 0.840,
++2.42 points for three times the retrieval and no extra model call. The small gain is the
+honest headline: this dev feed is mostly AI/ML work, so one member is already near the
+ceiling, and agency mode pays off in proportion to how mixed the feed is.
 `make agency-eval`, design and discussion in [docs/EXTENSION.md](docs/EXTENSION.md).
 
 **Is the multi-agent design worth it (R&D question C)?** Not on decision quality, on this

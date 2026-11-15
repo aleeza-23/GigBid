@@ -53,40 +53,42 @@ like a choice.
 every job with the persona it was written for, so the router's choice can be compared with
 a label it never sees.
 
-Over the first 30 dev jobs, hybrid retrieval, three members:
+Over 60 dev jobs, the shipped retrieval variant, three members:
 
 | | |
 |---|---|
-| Routed (committed to a member) | 24 of 30 |
-| Declined to route | 6 of 30 |
-| Routing accuracy when committed | 0.917 |
-| Routing accuracy over all jobs | 0.733 |
-| Mean coverage, routed | 0.897 |
-| Mean coverage, best fixed member | 0.878 (`ai_ml_engineer`) |
-| Coverage gained | +1.95 points |
-| Cost | 3 retrieval passes per job, 5.2 s/job, no model call |
+| Routed (committed to a member) | 41 of 60 |
+| Declined to route | 19 of 60 |
+| Routing accuracy when committed | 0.878 |
+| Routing accuracy over all jobs | 0.600 |
+| Mean coverage, routed | 0.840 |
+| Mean coverage, best fixed member | 0.816 (`ai_ml_engineer`) |
+| Coverage gained | +2.42 points |
+| Cost | 3 retrieval passes per job, 1.75 s/job, no model call |
 
-Both wrong choices sent an AI/ML job elsewhere, one to the web developer and one to the
-data analyst. Nothing was routed *into* AI/ML wrongly, which fits how the routing errs:
+All five wrong choices sent an AI/ML job elsewhere, three to the web developer and two to
+the data analyst. Nothing was routed *into* AI/ML wrongly, which fits how the routing errs:
 it follows evidence, and a job whose requirements are generic enough ("Python", "API")
 finds support in more than one portfolio.
 
+The 19 declines are the rules working. Each one is a job where either no member cleared the
+coverage floor or the top two were within the margin, and in both cases the thread falls
+back to the default member and is flagged rather than a near-tie deciding who bids.
+
 ## Is it worth it?
 
-On this dev set, barely. Routing reaches 0.897 mean coverage against 0.878 for simply
-always using the AI/ML engineer, a gain of 1.95 points for three times the retrieval. The
-reason is the sample: the dev feed is dominated by AI/ML work, so the best fixed member is
-already close to the ceiling, and the measurement says so rather than flattering the
-feature.
+On this dev set, barely. Routing reaches 0.840 mean coverage against 0.816 for simply
+always using the AI/ML engineer: 2.42 points for three times the retrieval. The reason is
+the sample. The dev feed is dominated by AI/ML work, so the best fixed member is already
+close to the ceiling, and the measurement says so rather than flattering the feature.
 
-The number that does justify it is the 0.917 accuracy when the router commits, together
-with the six jobs it declined. On a feed with a real mix of work — which is what an agency
-has, and what the first 30 rows of this dev set are not — the fixed-member baseline falls
-to whatever fraction of the feed suits that one member, while routing keeps committing
-correctly. The honest claim is therefore conditional: agency mode pays off in proportion to
-how mixed the feed is, it costs one retrieval pass per member, and on a single-domain feed
-it is overhead. The full-dev-set run in the results file is the one to read for the mixed
-case, since the first 30 rows are all in-domain AI/ML jobs.
+Two numbers do justify keeping it. Accuracy when the router commits is 0.878, and the 19
+jobs it declined to route are jobs where a fixed-member setup would have bid from the wrong
+portfolio without noticing. On a feed with a real mix of work, which is what an agency has
+and what this dev set is not, the fixed-member baseline falls to whatever fraction of the
+feed suits that one member while routing keeps committing correctly. The honest claim is
+conditional: agency mode pays off in proportion to how mixed the feed is, it costs one
+retrieval pass per member and no model call, and on a single-domain feed it is overhead.
 
 What would change the verdict rather than the numbers: giving each member a portfolio of
 genuinely different work, which this synthetic corpus only partly does, and measuring reply

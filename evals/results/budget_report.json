@@ -1,0 +1,178 @@
+{
+  "declared": {
+    "p95_latency_job_analysis_sec": 25,
+    "p95_latency_proposal_sec": 90,
+    "usd_per_job_analysed": 0.01,
+    "usd_per_proposal": 0.05,
+    "max_tokens_per_job": 12000,
+    "max_tokens_per_proposal": 20000
+  },
+  "measured": {
+    "jobs_analysed": 6,
+    "proposals_drafted": 2,
+    "latency_job_analysis_sec": {
+      "n": 6,
+      "mean": 4.8658,
+      "p50": 4.103,
+      "p95": 7.642,
+      "max": 7.642
+    },
+    "latency_proposal_sec": {
+      "n": 2,
+      "mean": 45.4505,
+      "p50": 11.481,
+      "p95": 79.42,
+      "max": 79.42
+    },
+    "tokens_per_job_analysed": {
+      "n": 6,
+      "mean": 3411.5,
+      "p50": 3310.0,
+      "p95": 4068.0,
+      "max": 4068.0
+    },
+    "tokens_per_proposal": {
+      "n": 2,
+      "mean": 16474.0,
+      "p50": 8650.0,
+      "p95": 24298.0,
+      "max": 24298.0
+    },
+    "usd_per_job_analysed": {
+      "n": 6,
+      "mean": 0.0011,
+      "p50": 0.001,
+      "p95": 0.001,
+      "max": 0.0014
+    },
+    "usd_per_proposal": {
+      "n": 2,
+      "mean": 0.0069,
+      "p50": 0.003,
+      "p95": 0.01,
+      "max": 0.0103
+    }
+  },
+  "checks": [
+    {
+      "metric": "p95 latency, job analysis (s)",
+      "declared": 25,
+      "measured": 7.642,
+      "headroom": 17.358,
+      "status": "WITHIN"
+    },
+    {
+      "metric": "p95 latency, proposal (s)",
+      "declared": 90,
+      "measured": 79.42,
+      "headroom": 10.58,
+      "status": "WITHIN"
+    },
+    {
+      "metric": "USD per job analysed",
+      "declared": 0.01,
+      "measured": 0.0011,
+      "headroom": 0.0089,
+      "status": "WITHIN"
+    },
+    {
+      "metric": "USD per proposal",
+      "declared": 0.05,
+      "measured": 0.0069,
+      "headroom": 0.0431,
+      "status": "WITHIN"
+    },
+    {
+      "metric": "tokens per job",
+      "declared": 12000,
+      "measured": 4068.0,
+      "headroom": 7932.0,
+      "status": "WITHIN"
+    },
+    {
+      "metric": "tokens per proposal",
+      "declared": 20000,
+      "measured": 24298.0,
+      "headroom": -4298.0,
+      "status": "OVER"
+    }
+  ],
+  "runs_counted": 6,
+  "offline_included": false,
+  "source": "data/audit/traces/*.jsonl, written per model call by agent/tracing.py",
+  "note": "Latency is the sum of model-call durations per run, not wall clock: it excludes the client-side token-per-minute throttle, which is our own rate limit rather than a property of the system.",
+  "per_run": [
+    {
+      "trace_id": "tr-5002b456b3954640",
+      "job_id": "upw-013a661d528df57cb3",
+      "offline": false,
+      "drafted": true,
+      "analysis_sec": 4.082,
+      "analysis_tokens": 3310,
+      "analysis_usd": 0.001138,
+      "proposal_sec": 11.481,
+      "proposal_tokens": 8650,
+      "proposal_usd": 0.003459
+    },
+    {
+      "trace_id": "tr-576658da1e584683",
+      "job_id": "upw-01934328d0460f74ad",
+      "offline": false,
+      "drafted": true,
+      "analysis_sec": 7.642,
+      "analysis_tokens": 3835,
+      "analysis_usd": 0.00122,
+      "proposal_sec": 79.42,
+      "proposal_tokens": 24298,
+      "proposal_usd": 0.010348
+    },
+    {
+      "trace_id": "tr-5fcab604f73e4376",
+      "job_id": "upw-017e074ada5cd8edc2",
+      "offline": false,
+      "drafted": false,
+      "analysis_sec": 4.606,
+      "analysis_tokens": 3542,
+      "analysis_usd": 0.001193,
+      "proposal_sec": 0.0,
+      "proposal_tokens": 0,
+      "proposal_usd": 0
+    },
+    {
+      "trace_id": "tr-750a12ad52814511",
+      "job_id": "upw-01c76f5443f157ad21",
+      "offline": false,
+      "drafted": false,
+      "analysis_sec": 4.103,
+      "analysis_tokens": 3092,
+      "analysis_usd": 0.000974,
+      "proposal_sec": 0.0,
+      "proposal_tokens": 0,
+      "proposal_usd": 0
+    },
+    {
+      "trace_id": "tr-b209bc775ca54f2f",
+      "job_id": "upw-01009af5e38f8d5b37",
+      "offline": false,
+      "drafted": false,
+      "analysis_sec": 5.268,
+      "analysis_tokens": 4068,
+      "analysis_usd": 0.001427,
+      "proposal_sec": 0.0,
+      "proposal_tokens": 0,
+      "proposal_usd": 0
+    },
+    {
+      "trace_id": "tr-fa38a8b5a1124eb4",
+      "job_id": "upw-01355768a83fa742e0",
+      "offline": false,
+      "drafted": false,
+      "analysis_sec": 3.494,
+      "analysis_tokens": 2622,
+      "analysis_usd": 0.000865,
+      "proposal_sec": 0.0,
+      "proposal_tokens": 0,
+      "proposal_usd": 0
+    }
+  ]
+}

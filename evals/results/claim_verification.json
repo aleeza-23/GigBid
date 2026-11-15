@@ -1,0 +1,1766 @@
+{
+  "summary": {
+    "probes": 36,
+    "sentences": 180,
+    "fabrication_recall": 1.0,
+    "flag_precision": 0.9474,
+    "f1": 0.973,
+    "fabrications": 108,
+    "fabrications_caught": 108,
+    "supported_claims": 36,
+    "supported_wrongly_flagged": 6,
+    "questions": 36,
+    "questions_misread_as_claims": 0,
+    "unsupported_per_proposal_before": 3.167,
+    "unsupported_per_proposal_after": 0.0,
+    "supported_claims_kept_after_stripping": 30,
+    "supported_claims_total": 36,
+    "p95_latency_ms": 1.63,
+    "by_fabrication_kind": {
+      "wrong technology": {
+        "n": 36,
+        "caught": 36
+      },
+      "false credential": {
+        "n": 36,
+        "caught": 36
+      },
+      "inflated number": {
+        "n": 36,
+        "caught": 36
+      }
+    }
+  },
+  "model_assisted": false,
+  "per_probe": [
+    {
+      "evidence_id": "ai-p01-case",
+      "persona": "ai_ml_engineer",
+      "rows": [
+        {
+          "text": "I built Support ticket triage classifier using Machine Learning, Python, Natural Language Processing.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Support ticket triage classifier using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the support work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Support ticket triage classifier I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 1.63,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "ai-p02-case",
+      "persona": "ai_ml_engineer",
+      "rows": [
+        {
+          "text": "I built Retrieval-augmented assistant over insurance policy documents using Python, OpenAI API, LangChain.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Retrieval-augmented assistant over insurance policy documents using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the retrieval-augmented work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Retrieval-augmented assistant over insurance policy documents I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.88,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "ai-p03-case",
+      "persona": "ai_ml_engineer",
+      "rows": [
+        {
+          "text": "I built Daily demand forecasting for a bakery chain using Python, Forecasting, Machine Learning.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Daily demand forecasting for a bakery chain using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the daily work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Daily demand forecasting for a bakery chain I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.85,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "ai-p04-case",
+      "persona": "ai_ml_engineer",
+      "rows": [
+        {
+          "text": "I built Hairline crack detection on a production line using Computer Vision, PyTorch, Deep Learning.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Hairline crack detection on a production line using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the hairline work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Hairline crack detection on a production line I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.98,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "ai-p05-case",
+      "persona": "ai_ml_engineer",
+      "rows": [
+        {
+          "text": "I built Customer churn prediction for a telecom operator using Machine Learning, Python, scikit-learn.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Customer churn prediction for a telecom operator using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the customer work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Customer churn prediction for a telecom operator I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 1.41,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "ai-p06-case",
+      "persona": "ai_ml_engineer",
+      "rows": [
+        {
+          "text": "I built Semantic resume-to-job matching using Natural Language Processing, Python, Machine Learning.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Semantic resume-to-job matching using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the semantic work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Semantic resume-to-job matching I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.7,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "ai-p07-case",
+      "persona": "ai_ml_engineer",
+      "rows": [
+        {
+          "text": "I built Appointment booking chatbot for a dental clinic group using Chatbot Development, OpenAI API, Python.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Appointment booking chatbot for a dental clinic group using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the appointment work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Appointment booking chatbot for a dental clinic group I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.69,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "ai-p08-case",
+      "persona": "ai_ml_engineer",
+      "rows": [
+        {
+          "text": "I built Payment fraud anomaly detection using Machine Learning, Python, Data Science.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Payment fraud anomaly detection using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the payment work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Payment fraud anomaly detection I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.77,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "ai-p09-case",
+      "persona": "ai_ml_engineer",
+      "rows": [
+        {
+          "text": "I built Call-centre transcription and QA pipeline using Python, Deep Learning, Natural Language Processing.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Call-centre transcription and QA pipeline using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the call-centre work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Call-centre transcription and QA pipeline I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.79,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "ai-p10-case",
+      "persona": "ai_ml_engineer",
+      "rows": [
+        {
+          "text": "I built Product recommendation engine using Machine Learning, Python, TensorFlow.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Product recommendation engine using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the product work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Product recommendation engine I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.63,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "ai-p11-case",
+      "persona": "ai_ml_engineer",
+      "rows": [
+        {
+          "text": "I built LLM evaluation harness for prompt regressions using Python, AI Model Development, OpenAI API.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built LLM evaluation harness for prompt regressions using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the llm work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On LLM evaluation harness for prompt regressions I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.7,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "ai-p12-case",
+      "persona": "ai_ml_engineer",
+      "rows": [
+        {
+          "text": "I built Crop-health segmentation from satellite images using Computer Vision, Deep Learning, TensorFlow.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Crop-health segmentation from satellite images using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the crop-health work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Crop-health segmentation from satellite images I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 3.79,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "web-p01-case",
+      "persona": "fullstack_web_developer",
+      "rows": [
+        {
+          "text": "I built Multi-vendor marketplace MVP using React, Node.js, MongoDB.",
+          "label": "supported",
+          "verdict": "unsupported",
+          "correct": false,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Multi-vendor marketplace MVP using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the multi-vendor work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Multi-vendor marketplace MVP I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 4,
+      "removed": 4,
+      "supported_kept": 0,
+      "supported_total": 1,
+      "latency_ms": 0.94,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "web-p02-case",
+      "persona": "fullstack_web_developer",
+      "rows": [
+        {
+          "text": "I built Shopify store speed overhaul using Shopify, JavaScript, CSS.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Shopify store speed overhaul using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the shopify work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Shopify store speed overhaul I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.74,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "web-p03-case",
+      "persona": "fullstack_web_developer",
+      "rows": [
+        {
+          "text": "I built Clinic scheduling SaaS dashboard using React, TypeScript, PostgreSQL.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Clinic scheduling SaaS dashboard using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the clinic work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Clinic scheduling SaaS dashboard I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 1.19,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "web-p04-case",
+      "persona": "fullstack_web_developer",
+      "rows": [
+        {
+          "text": "I built Laravel ERP modernisation using PHP, Laravel, MySQL.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Laravel ERP modernisation using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the laravel work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Laravel ERP modernisation I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 1.45,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "web-p05-case",
+      "persona": "fullstack_web_developer",
+      "rows": [
+        {
+          "text": "I built Real-estate listings portal using React, Node.js, Web Development.",
+          "label": "supported",
+          "verdict": "unsupported",
+          "correct": false,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Real-estate listings portal using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the real-estate work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Real-estate listings portal I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 4,
+      "removed": 4,
+      "supported_kept": 0,
+      "supported_total": 1,
+      "latency_ms": 2.31,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "web-p06-case",
+      "persona": "fullstack_web_developer",
+      "rows": [
+        {
+          "text": "I built WordPress membership site with courses using WordPress, PHP, WooCommerce.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built WordPress membership site with courses using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the wordpress work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On WordPress membership site with courses I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 1.37,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "web-p07-case",
+      "persona": "fullstack_web_developer",
+      "rows": [
+        {
+          "text": "I built Real-time fleet tracking dashboard using React, Node.js, TypeScript.",
+          "label": "supported",
+          "verdict": "unsupported",
+          "correct": false,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Real-time fleet tracking dashboard using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the real-time work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Real-time fleet tracking dashboard I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 4,
+      "removed": 4,
+      "supported_kept": 0,
+      "supported_total": 1,
+      "latency_ms": 0.66,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "web-p08-case",
+      "persona": "fullstack_web_developer",
+      "rows": [
+        {
+          "text": "I built Fintech onboarding and KYC flow using React, API Integration, Node.js.",
+          "label": "supported",
+          "verdict": "unsupported",
+          "correct": false,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Fintech onboarding and KYC flow using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the fintech work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Fintech onboarding and KYC flow I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 4,
+      "removed": 4,
+      "supported_kept": 0,
+      "supported_total": 1,
+      "latency_ms": 0.63,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "web-p09-case",
+      "persona": "fullstack_web_developer",
+      "rows": [
+        {
+          "text": "I built Restaurant ordering progressive web app using JavaScript, HTML, CSS.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Restaurant ordering progressive web app using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the restaurant work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Restaurant ordering progressive web app I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.66,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "web-p10-case",
+      "persona": "fullstack_web_developer",
+      "rows": [
+        {
+          "text": "I built Headless CMS migration for a publisher using CMS Development, React, Node.js.",
+          "label": "supported",
+          "verdict": "unsupported",
+          "correct": false,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Headless CMS migration for a publisher using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the headless work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Headless CMS migration for a publisher I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 4,
+      "removed": 4,
+      "supported_kept": 0,
+      "supported_total": 1,
+      "latency_ms": 0.66,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "web-p11-case",
+      "persona": "fullstack_web_developer",
+      "rows": [
+        {
+          "text": "I built Internal admin panel with role-based access using TypeScript, React, PostgreSQL.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Internal admin panel with role-based access using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the internal work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Internal admin panel with role-based access I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.58,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "web-p12-case",
+      "persona": "fullstack_web_developer",
+      "rows": [
+        {
+          "text": "I built Subscription billing service using Node.js, Stripe, MongoDB.",
+          "label": "supported",
+          "verdict": "unsupported",
+          "correct": false,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Subscription billing service using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the subscription work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Subscription billing service I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 4,
+      "removed": 4,
+      "supported_kept": 0,
+      "supported_total": 1,
+      "latency_ms": 0.78,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "data-p01-case",
+      "persona": "data_analyst",
+      "rows": [
+        {
+          "text": "I built Sales performance dashboard using Microsoft Power BI, SQL, Dashboard.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Sales performance dashboard using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the sales work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Sales performance dashboard I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.74,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "data-p02-case",
+      "persona": "data_analyst",
+      "rows": [
+        {
+          "text": "I built Marketing attribution analysis using Google Analytics, Python, Statistics.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Marketing attribution analysis using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the marketing work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Marketing attribution analysis I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.64,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "data-p03-case",
+      "persona": "data_analyst",
+      "rows": [
+        {
+          "text": "I built Startup financial model for a seed round using Financial Modeling, Microsoft Excel, Financial Projection.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Startup financial model for a seed round using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the startup work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Startup financial model for a seed round I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.65,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "data-p04-case",
+      "persona": "data_analyst",
+      "rows": [
+        {
+          "text": "I built Emergency department wait-time analysis using Data Analysis, Python, Statistics.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Emergency department wait-time analysis using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the emergency work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Emergency department wait-time analysis I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.71,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "data-p05-case",
+      "persona": "data_analyst",
+      "rows": [
+        {
+          "text": "I built Inventory ABC analysis and reorder points using Microsoft Excel, Data Analysis, Forecasting.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Inventory ABC analysis and reorder points using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the inventory work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Inventory ABC analysis and reorder points I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.69,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "data-p06-case",
+      "persona": "data_analyst",
+      "rows": [
+        {
+          "text": "I built Donor survey analysis for an NGO using Statistics, R, Data Visualization.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Donor survey analysis for an NGO using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the donor work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Donor survey analysis for an NGO I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.68,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "data-p07-case",
+      "persona": "data_analyst",
+      "rows": [
+        {
+          "text": "I built SaaS churn cohort dashboard using SQL, Looker Studio, Data Visualization.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built SaaS churn cohort dashboard using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the saas work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On SaaS churn cohort dashboard I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 1.27,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "data-p08-case",
+      "persona": "data_analyst",
+      "rows": [
+        {
+          "text": "I built CRM data cleaning and deduplication using Python, Data Mining, Microsoft Excel.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built CRM data cleaning and deduplication using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the crm work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On CRM data cleaning and deduplication I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.89,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "data-p09-case",
+      "persona": "data_analyst",
+      "rows": [
+        {
+          "text": "I built Google Sheets automation for operations using Google Sheets, Google Apps Script, Data Analysis.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Google Sheets automation for operations using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the google work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Google Sheets automation for operations I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.95,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "data-p10-case",
+      "persona": "data_analyst",
+      "rows": [
+        {
+          "text": "I built Executive KPI suite using Tableau, SQL, Business Intelligence.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Executive KPI suite using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the executive work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Executive KPI suite I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.65,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "data-p11-case",
+      "persona": "data_analyst",
+      "rows": [
+        {
+          "text": "I built Weekly demand forecasting using Forecasting, Python, Statistics.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built Weekly demand forecasting using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the weekly work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On Weekly demand forecasting I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 1.5,
+      "llm_refinements": 0
+    },
+    {
+      "evidence_id": "data-p12-case",
+      "persona": "data_analyst",
+      "rows": [
+        {
+          "text": "I built A/B test analysis toolkit using Statistics, Python, A/B Testing.",
+          "label": "supported",
+          "verdict": "supported",
+          "correct": true,
+          "why": "restates the item's own project and skills"
+        },
+        {
+          "text": "I built A/B test analysis toolkit using COBOL.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "wrong technology: COBOL is absent from this corpus"
+        },
+        {
+          "text": "Have you decided how the a/b work should be scoped?",
+          "label": "not_a_claim",
+          "verdict": "not_a_claim",
+          "correct": true,
+          "why": "a question about the client's situation"
+        },
+        {
+          "text": "I hold a PhD in machine learning from Stanford.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "false credential: no such degree in the CV"
+        },
+        {
+          "text": "On A/B test analysis toolkit I improved the headline metric to 28115.",
+          "label": "unsupported",
+          "verdict": "unsupported",
+          "correct": true,
+          "why": "inflated number: the item states 4016"
+        }
+      ],
+      "checkable_claims": 4,
+      "unsupported_before": 3,
+      "removed": 3,
+      "supported_kept": 1,
+      "supported_total": 1,
+      "latency_ms": 0.75,
+      "llm_refinements": 0
+    }
+  ],
+  "note": "Probes are generated from the portfolio corpus by evals/runners/verify_eval.py; the absent-technology label is checked against the corpus before use. partly_supported counts as caught, because such a claim does not ship as written."
+}

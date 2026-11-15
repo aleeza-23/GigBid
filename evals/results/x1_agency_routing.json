@@ -1,0 +1,942 @@
+{
+  "summary": {
+    "jobs": 60,
+    "members": [
+      "ai_ml_engineer",
+      "fullstack_web_developer",
+      "data_analyst"
+    ],
+    "retrieval": "V1",
+    "min_coverage": 0.34,
+    "min_margin": 0.15,
+    "routed": 41,
+    "declined_to_route": 19,
+    "routing_accuracy_when_committed": 0.878,
+    "routing_accuracy_over_all_jobs": 0.6,
+    "mean_coverage_routed": 0.8401,
+    "best_fixed_member": "ai_ml_engineer",
+    "mean_coverage_best_fixed": 0.8159,
+    "coverage_points_gained": 2.42,
+    "mean_coverage_per_member": {
+      "ai_ml_engineer": 0.8159,
+      "fullstack_web_developer": 0.4319,
+      "data_analyst": 0.5395
+    },
+    "retrieval_passes_per_job": 3,
+    "seconds_per_job": 1.754,
+    "confusions": [
+      {
+        "labelled": "ai_ml_engineer",
+        "chosen": "fullstack_web_developer",
+        "n": 3
+      },
+      {
+        "labelled": "ai_ml_engineer",
+        "chosen": "data_analyst",
+        "n": 2
+      }
+    ]
+  },
+  "per_job": [
+    {
+      "job_id": "upw-017e074ada5cd8edc2",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 7 of 8 requirements from 8 project(s); next best data_analyst at 62%",
+      "correct": true,
+      "coverage_chosen": 0.875,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.875,
+        "data_analyst": 0.625,
+        "fullstack_web_developer": 0.625
+      }
+    },
+    {
+      "job_id": "upw-0108389f6f4bc5c3b7",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 4 of 4 requirements from 3 project(s); next best data_analyst at 50%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.5,
+        "fullstack_web_developer": 0.25
+      }
+    },
+    {
+      "job_id": "upw-0156c26acd97f3ec84",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer at 57% and data_analyst at 43% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 0.571,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.571,
+        "data_analyst": 0.429,
+        "fullstack_web_developer": 0.429
+      }
+    },
+    {
+      "job_id": "upw-01934328d0460f74ad",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 7 of 7 requirements from 7 project(s); next best data_analyst at 43%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.429,
+        "fullstack_web_developer": 0.143
+      }
+    },
+    {
+      "job_id": "upw-01900aa226351437c9",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer at 100% and data_analyst at 100% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 1.0,
+        "fullstack_web_developer": 0.8
+      }
+    },
+    {
+      "job_id": "upw-01c76f5443f157ad21",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 3 of 5 requirements from 6 project(s); next best data_analyst at 20%",
+      "correct": true,
+      "coverage_chosen": 0.6,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.6,
+        "data_analyst": 0.2,
+        "fullstack_web_developer": 0.2
+      }
+    },
+    {
+      "job_id": "upw-011a9ec85fdec63961",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 3 of 4 requirements from 7 project(s); next best data_analyst at 50%",
+      "correct": true,
+      "coverage_chosen": 0.75,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.75,
+        "data_analyst": 0.5,
+        "fullstack_web_developer": 0.5
+      }
+    },
+    {
+      "job_id": "upw-01009af5e38f8d5b37",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 8 of 8 requirements from 6 project(s); next best data_analyst at 50%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.5,
+        "fullstack_web_developer": 0.125
+      }
+    },
+    {
+      "job_id": "upw-01a44a9fafd24e16a7",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "fullstack_web_developer",
+      "why": "fullstack_web_developer covers 2 of 4 requirements from 2 project(s); next best ai_ml_engineer at 25%",
+      "correct": false,
+      "coverage_chosen": 0.5,
+      "coverage_by_member": {
+        "fullstack_web_developer": 0.5,
+        "ai_ml_engineer": 0.25,
+        "data_analyst": 0.25
+      }
+    },
+    {
+      "job_id": "upw-01355768a83fa742e0",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 3 of 3 requirements from 5 project(s); next best data_analyst at 33%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.333,
+        "fullstack_web_developer": 0.0
+      }
+    },
+    {
+      "job_id": "upw-01ef3e9fbc54fe632d",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "fullstack_web_developer at 100% and ai_ml_engineer at 100% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "fullstack_web_developer": 1.0,
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.875
+      }
+    },
+    {
+      "job_id": "upw-01c37f0fb4abf0076a",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer at 40% and fullstack_web_developer at 40% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 0.4,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.4,
+        "fullstack_web_developer": 0.4,
+        "data_analyst": 0.0
+      }
+    },
+    {
+      "job_id": "upw-013a661d528df57cb3",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 6 of 6 requirements from 8 project(s); next best data_analyst at 50%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.5,
+        "fullstack_web_developer": 0.5
+      }
+    },
+    {
+      "job_id": "upw-018d6e1b9b3000a2aa",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 8 of 8 requirements from 7 project(s); next best data_analyst at 50%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.5,
+        "fullstack_web_developer": 0.125
+      }
+    },
+    {
+      "job_id": "upw-0169a2dafe4d1337ce",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 3 of 5 requirements from 5 project(s); next best fullstack_web_developer at 20%",
+      "correct": true,
+      "coverage_chosen": 0.6,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.6,
+        "fullstack_web_developer": 0.2,
+        "data_analyst": 0.2
+      }
+    },
+    {
+      "job_id": "upw-01a9e0578c88072c46",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 4 of 4 requirements from 7 project(s); next best data_analyst at 75%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.75,
+        "fullstack_web_developer": 0.5
+      }
+    },
+    {
+      "job_id": "upw-013d5c66da671a1a33",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 5 of 5 requirements from 7 project(s); next best data_analyst at 40%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.4,
+        "fullstack_web_developer": 0.2
+      }
+    },
+    {
+      "job_id": "upw-011bc5373272b66061",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 6 of 6 requirements from 7 project(s); next best data_analyst at 50%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.5,
+        "fullstack_web_developer": 0.167
+      }
+    },
+    {
+      "job_id": "upw-01500226fb8fc728d6",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 3 of 3 requirements from 3 project(s); next best data_analyst at 33%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.333,
+        "fullstack_web_developer": 0.0
+      }
+    },
+    {
+      "job_id": "upw-01576ac8bfc4850b6d",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 4 of 4 requirements from 7 project(s); next best data_analyst at 75%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.75,
+        "fullstack_web_developer": 0.5
+      }
+    },
+    {
+      "job_id": "upw-01e2d9b4f32c9fea28",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer at 88% and data_analyst at 88% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 0.875,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.875,
+        "data_analyst": 0.875,
+        "fullstack_web_developer": 0.75
+      }
+    },
+    {
+      "job_id": "upw-018b809f37ec588a74",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 3 of 3 requirements from 4 project(s); next best data_analyst at 67%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.667,
+        "fullstack_web_developer": 0.0
+      }
+    },
+    {
+      "job_id": "upw-01d62094fe872e9601",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 5 of 5 requirements from 6 project(s); next best data_analyst at 80%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.8,
+        "fullstack_web_developer": 0.8
+      }
+    },
+    {
+      "job_id": "upw-01210645df499e2481",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 7 of 7 requirements from 3 project(s); next best data_analyst at 71%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.714,
+        "fullstack_web_developer": 0.429
+      }
+    },
+    {
+      "job_id": "upw-019641dd6894611a22",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 4 of 4 requirements from 6 project(s); next best data_analyst at 50%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.5,
+        "fullstack_web_developer": 0.5
+      }
+    },
+    {
+      "job_id": "upw-015a8fb3ae167b8a65",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 6 of 6 requirements from 7 project(s); next best data_analyst at 67%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.667,
+        "fullstack_web_developer": 0.333
+      }
+    },
+    {
+      "job_id": "upw-0198cfebed697ee65a",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 3 of 4 requirements from 5 project(s); next best data_analyst at 25%",
+      "correct": true,
+      "coverage_chosen": 0.75,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.75,
+        "data_analyst": 0.25,
+        "fullstack_web_developer": 0.25
+      }
+    },
+    {
+      "job_id": "upw-01f45560b36390cf0d",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 5 of 5 requirements from 7 project(s); next best data_analyst at 40%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.4,
+        "fullstack_web_developer": 0.4
+      }
+    },
+    {
+      "job_id": "upw-017a81a4c2ee3726ce",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "data_analyst at 100% and fullstack_web_developer at 100% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "data_analyst": 1.0,
+        "fullstack_web_developer": 1.0,
+        "ai_ml_engineer": 1.0
+      }
+    },
+    {
+      "job_id": "upw-0119cba339464b6651",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "data_analyst",
+      "why": "data_analyst covers 3 of 3 requirements from 3 project(s); next best fullstack_web_developer at 67%",
+      "correct": false,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "data_analyst": 1.0,
+        "fullstack_web_developer": 0.667,
+        "ai_ml_engineer": 0.667
+      }
+    },
+    {
+      "job_id": "upw-0184e014db157195a3",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 3 of 3 requirements from 4 project(s); next best data_analyst at 67%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.667,
+        "fullstack_web_developer": 0.667
+      }
+    },
+    {
+      "job_id": "upw-015e71949e339e6b74",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "no member covers enough of this job: best is ai_ml_engineer at 25%, below the 34% floor",
+      "correct": false,
+      "coverage_chosen": 0.25,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.25,
+        "data_analyst": 0.0,
+        "fullstack_web_developer": 0.0
+      }
+    },
+    {
+      "job_id": "upw-01a716427defd7591c",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 7 of 7 requirements from 8 project(s); next best data_analyst at 71%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.714,
+        "fullstack_web_developer": 0.571
+      }
+    },
+    {
+      "job_id": "upw-016d52576731138a2e",
+      "job_kind": "in_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 3 of 3 requirements from 3 project(s); next best data_analyst at 33%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.333,
+        "fullstack_web_developer": 0.0
+      }
+    },
+    {
+      "job_id": "upw-015e8c31e79a278406",
+      "job_kind": "off_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "data_analyst",
+      "why": "data_analyst covers 2 of 5 requirements from 2 project(s); next best fullstack_web_developer at 20%",
+      "correct": false,
+      "coverage_chosen": 0.4,
+      "coverage_by_member": {
+        "data_analyst": 0.4,
+        "fullstack_web_developer": 0.2,
+        "ai_ml_engineer": 0.2
+      }
+    },
+    {
+      "job_id": "upw-0142ce44d6c855988e",
+      "job_kind": "off_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "fullstack_web_developer",
+      "why": "fullstack_web_developer covers 2 of 3 requirements from 2 project(s); next best ai_ml_engineer at 33%",
+      "correct": false,
+      "coverage_chosen": 0.667,
+      "coverage_by_member": {
+        "fullstack_web_developer": 0.667,
+        "ai_ml_engineer": 0.333,
+        "data_analyst": 0.333
+      }
+    },
+    {
+      "job_id": "upw-010ecde5ef05f4927c",
+      "job_kind": "off_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "data_analyst at 50% and ai_ml_engineer at 50% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 0.5,
+      "coverage_by_member": {
+        "data_analyst": 0.5,
+        "ai_ml_engineer": 0.5,
+        "fullstack_web_developer": 0.25
+      }
+    },
+    {
+      "job_id": "upw-017ace3afb77540b57",
+      "job_kind": "off_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "data_analyst at 50% and ai_ml_engineer at 50% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 0.5,
+      "coverage_by_member": {
+        "data_analyst": 0.5,
+        "ai_ml_engineer": 0.5,
+        "fullstack_web_developer": 0.0
+      }
+    },
+    {
+      "job_id": "upw-01a4b1a129f959ccc8",
+      "job_kind": "off_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "fullstack_web_developer at 75% and ai_ml_engineer at 62% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 0.625,
+      "coverage_by_member": {
+        "fullstack_web_developer": 0.75,
+        "ai_ml_engineer": 0.625,
+        "data_analyst": 0.125
+      }
+    },
+    {
+      "job_id": "upw-01bf352c09e99f2393",
+      "job_kind": "off_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "no member covers enough of this job: best is ai_ml_engineer at 25%, below the 34% floor",
+      "correct": false,
+      "coverage_chosen": 0.25,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.25,
+        "data_analyst": 0.25,
+        "fullstack_web_developer": 0.0
+      }
+    },
+    {
+      "job_id": "upw-01d6e3a407c7706451",
+      "job_kind": "off_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "data_analyst at 75% and fullstack_web_developer at 75% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 0.25,
+      "coverage_by_member": {
+        "data_analyst": 0.75,
+        "fullstack_web_developer": 0.75,
+        "ai_ml_engineer": 0.25
+      }
+    },
+    {
+      "job_id": "upw-013af028c432d8bde4",
+      "job_kind": "off_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer at 100% and data_analyst at 100% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 1.0,
+        "fullstack_web_developer": 1.0
+      }
+    },
+    {
+      "job_id": "upw-01c1e528f9be9bf66a",
+      "job_kind": "off_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "fullstack_web_developer at 50% and ai_ml_engineer at 50% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 0.5,
+      "coverage_by_member": {
+        "fullstack_web_developer": 0.5,
+        "ai_ml_engineer": 0.5,
+        "data_analyst": 0.5
+      }
+    },
+    {
+      "job_id": "upw-01b22100e4ecafd3ce",
+      "job_kind": "off_domain",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "fullstack_web_developer",
+      "why": "fullstack_web_developer covers 3 of 3 requirements from 5 project(s); next best ai_ml_engineer at 67%",
+      "correct": false,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "fullstack_web_developer": 1.0,
+        "ai_ml_engineer": 0.667,
+        "data_analyst": 0.333
+      }
+    },
+    {
+      "job_id": "syn-scam-ai-01",
+      "job_kind": "scam",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 2 of 3 requirements from 4 project(s); next best data_analyst at 0%",
+      "correct": true,
+      "coverage_chosen": 0.667,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.667,
+        "data_analyst": 0.0,
+        "fullstack_web_developer": 0.0
+      }
+    },
+    {
+      "job_id": "syn-scam-ai-02",
+      "job_kind": "scam",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 2 of 3 requirements from 3 project(s); next best data_analyst at 0%",
+      "correct": true,
+      "coverage_chosen": 0.667,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.667,
+        "data_analyst": 0.0,
+        "fullstack_web_developer": 0.0
+      }
+    },
+    {
+      "job_id": "syn-scam-ai-03",
+      "job_kind": "scam",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer at 100% and data_analyst at 100% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 1.0,
+        "fullstack_web_developer": 0.5
+      }
+    },
+    {
+      "job_id": "syn-scam-ai-04",
+      "job_kind": "scam",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 2 of 3 requirements from 2 project(s); next best data_analyst at 33%",
+      "correct": true,
+      "coverage_chosen": 0.667,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.667,
+        "data_analyst": 0.333,
+        "fullstack_web_developer": 0.0
+      }
+    },
+    {
+      "job_id": "syn-scam-ai-05",
+      "job_kind": "scam",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 2 of 2 requirements from 4 project(s); next best data_analyst at 50%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.5,
+        "fullstack_web_developer": 0.5
+      }
+    },
+    {
+      "job_id": "syn-scam-ai-06",
+      "job_kind": "scam",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 2 of 3 requirements from 4 project(s); next best data_analyst at 33%",
+      "correct": true,
+      "coverage_chosen": 0.667,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.667,
+        "data_analyst": 0.333,
+        "fullstack_web_developer": 0.333
+      }
+    },
+    {
+      "job_id": "syn-scam-ai-07",
+      "job_kind": "scam",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "fullstack_web_developer at 100% and ai_ml_engineer at 100% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "fullstack_web_developer": 1.0,
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 1.0
+      }
+    },
+    {
+      "job_id": "syn-scam-ai-08",
+      "job_kind": "scam",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 3 of 3 requirements from 6 project(s); next best data_analyst at 67%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.667,
+        "fullstack_web_developer": 0.333
+      }
+    },
+    {
+      "job_id": "upw-017864d923fa774a04-inj",
+      "job_kind": "injection",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 3 of 3 requirements from 5 project(s); next best fullstack_web_developer at 67%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "fullstack_web_developer": 0.667,
+        "data_analyst": 0.667
+      }
+    },
+    {
+      "job_id": "upw-015be43897db284f0e-inj",
+      "job_kind": "injection",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 2 of 2 requirements from 3 project(s); next best data_analyst at 50%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.5,
+        "fullstack_web_developer": 0.0
+      }
+    },
+    {
+      "job_id": "upw-01eb559c49840ce6c2-inj",
+      "job_kind": "injection",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "data_analyst at 100% and ai_ml_engineer at 100% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "data_analyst": 1.0,
+        "ai_ml_engineer": 1.0,
+        "fullstack_web_developer": 0.875
+      }
+    },
+    {
+      "job_id": "upw-01284cb704d021c240-inj",
+      "job_kind": "injection",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 3 of 3 requirements from 4 project(s); next best data_analyst at 67%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.667,
+        "fullstack_web_developer": 0.333
+      }
+    },
+    {
+      "job_id": "upw-016fb65a612a9a5572-inj",
+      "job_kind": "injection",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 4 of 4 requirements from 6 project(s); next best data_analyst at 50%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.5,
+        "fullstack_web_developer": 0.25
+      }
+    },
+    {
+      "job_id": "upw-01f52e6594fa57c182-inj",
+      "job_kind": "injection",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": true,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer covers 5 of 5 requirements from 5 project(s); next best data_analyst at 60%",
+      "correct": true,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 0.6,
+        "fullstack_web_developer": 0.6
+      }
+    },
+    {
+      "job_id": "upw-01ca70f5fc427c6654-inj",
+      "job_kind": "injection",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer at 100% and data_analyst at 100% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 1.0,
+      "coverage_by_member": {
+        "ai_ml_engineer": 1.0,
+        "data_analyst": 1.0,
+        "fullstack_web_developer": 1.0
+      }
+    },
+    {
+      "job_id": "upw-0173d0cf7d621bd32f-inj",
+      "job_kind": "injection",
+      "labelled_persona": "ai_ml_engineer",
+      "routed": false,
+      "chosen": "ai_ml_engineer",
+      "why": "ai_ml_engineer at 88% and fullstack_web_developer at 88% are within 15%; too close to call",
+      "correct": false,
+      "coverage_chosen": 0.875,
+      "coverage_by_member": {
+        "ai_ml_engineer": 0.875,
+        "fullstack_web_developer": 0.875,
+        "data_analyst": 0.75
+      }
+    }
+  ]
+}
