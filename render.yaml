@@ -121,7 +121,10 @@ services:
     region: oregon
     branch: master
     rootDir: apps/web
-    buildCommand: npm ci && npm run build
+    # --include=dev because NODE_ENV=production is set below for the runtime, and npm
+    # omits devDependencies when it sees it. typescript and the @types packages live
+    # there, and next build type-checks, so without this the build fails asking for them.
+    buildCommand: npm ci --include=dev && npm run build
     # `next start`, not the standalone server: NEXT_OUTPUT_STANDALONE is left unset, so
     # next.config.ts does not switch on standalone output. See the comment in that file.
     startCommand: npx next start -p $PORT
