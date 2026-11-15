@@ -43,6 +43,7 @@ async def _thread_values(request: Request, user_id: str, job_id: str) -> dict[st
     return values
 THREAD_LOOKUP_TIMEOUT_S = 3.0
 SEARCH_TIMEOUT_S = 25.0
+CLIENT_HISTORY_TIMEOUT_S = 8.0
 
 
 async def _thread_values_capped(request: Request, user_id: str, job_id: str) -> dict[str, Any]:
@@ -159,7 +160,9 @@ async def job_detail(job_id: str, request: Request, user: dict = CurrentUser) ->
     from mcp_servers.marketplace import server as market
 
     try:
-        job = await market.get_job(job_id)
+        job = await asyncio.wait_for(
+            market.get_job(job_id), timeout=SEARCH_TIMEOUT_S
+        )
     except Exception as exc:
         raise HTTPException(
             status.HTTP_503_SERVICE_UNAVAILABLE, f"could not load job: {exc}"
@@ -168,11 +171,15 @@ async def job_detail(job_id: str, request: Request, user: dict = CurrentUser) ->
     client: dict[str, Any] = {}
     if job.get("client_id"):
         try:
-            client = await market.get_client_history(job["client_id"])
+            client = await asyncio.wait_for(
+                market.get_client_history(job["client_id"]), timeout=CLIENT_HISTORY_TIMEOUT_S
+            )
         except Exception:
+            # Client history is supplementary. A slow history service must not hold the
+            # entire job detail screen open; render the post and label the history missing.
             client = {}
 
-    values = await _thread_values(request, user["user_id"], job_id)
+    values = await _thread_values_capped(request, user["user_id"], job_id)
     fit = values.get("fit_report")
     risk = values.get("risk_report")
     quote = values.get("price_quote")
