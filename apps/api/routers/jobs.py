@@ -23,7 +23,7 @@ from fastapi import APIRouter, HTTPException, Query, Request, status
 
 from apps.api.deps import CurrentUser, bid_graph, thread_id
 from apps.api.schemas.models import JobDetail, JobPage, JobSummary, RequirementEvidence
-
+import asyncio
 router = APIRouter(prefix="/jobs", tags=["jobs"])
 
 
@@ -40,7 +40,17 @@ async def _thread_values(request: Request, user_id: str, job_id: str) -> dict[st
     values = dict(snapshot.values)
     values["_awaiting_approval"] = bool(snapshot.interrupts)
     return values
+THREAD_LOOKUP_TIMEOUT_S = 3.0
+SEARCH_TIMEOUT_S = 25.0
 
+
+async def _thread_values_capped(request: Request, user_id: str, job_id: str) -> dict[str, Any]:
+    try:
+        return await asyncio.wait_for(
+            _thread_values(request, user_id, job_id), timeout=THREAD_LOOKUP_TIMEOUT_S
+        )
+    except Exception:
+        return {}
 
 def _skill_overlap(job: dict[str, Any], own: set[str]) -> int:
     return len(own & {str(s).lower() for s in (job.get("skills") or [])})
@@ -93,9 +103,12 @@ async def list_jobs(
     from mcp_servers.portfolio import tools as portfolio
 
     try:
-        page = await market.search_jobs(
-            q=q, skills=skills, min_hourly=min_hourly, limit=limit, offset=offset
-        )
+       page = await asyncio.wait_for(
+    market.search_jobs(
+        q=q, skills=skills, min_hourly=min_hourly, limit=limit, offset=offset
+    ),
+    timeout=SEARCH_TIMEOUT_S,
+)
     except Exception as exc:
         # A5/A6: the marketplace being down is a degraded UI, not a 500 page.
         raise HTTPException(
@@ -103,19 +116,22 @@ async def list_jobs(
         ) from exc
 
     try:
-        own = {
-            row["skill"].lower()
-            for row in portfolio.list_skills(user["persona"])["skills"]
-        }
+        skills_result = await asyncio.wait_for(
+    asyncio.to_thread(portfolio.list_skills, user["persona"]), timeout=10.0
+)
+        own = {row["skill"].lower() for row in skills_result["skills"]}
     except Exception:
         own = set()
 
+    jobs = list(page.get("jobs") or [])
+    all_values = await asyncio.gather(
+    *(_thread_values_capped(request, user["user_id"], str(j.get("job_id"))) for j in jobs)
+)
     summaries: list[JobSummary] = []
-    for job in page.get("jobs") or []:
-        values = await _thread_values(request, user["user_id"], str(job.get("job_id")))
+    for job, values in zip(jobs, all_values):
         if analysed_only and not values:
             continue
-        summaries.append(_summary(job, values, _skill_overlap(job, own)))
+    summaries.append(_summary(job, values, _skill_overlap(job, own)))
 
     # Analysed jobs first, by coverage; then unanalysed by skill overlap. A user wants the
     # jobs the system has an opinion about at the top.
