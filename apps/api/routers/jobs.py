@@ -17,13 +17,14 @@ what to open.
 
 from __future__ import annotations
 
+import asyncio
 from typing import Any
 
 from fastapi import APIRouter, HTTPException, Query, Request, status
 
 from apps.api.deps import CurrentUser, bid_graph, thread_id
 from apps.api.schemas.models import JobDetail, JobPage, JobSummary, RequirementEvidence
-import asyncio
+
 router = APIRouter(prefix="/jobs", tags=["jobs"])
 
 
@@ -103,12 +104,12 @@ async def list_jobs(
     from mcp_servers.portfolio import tools as portfolio
 
     try:
-       page = await asyncio.wait_for(
-    market.search_jobs(
-        q=q, skills=skills, min_hourly=min_hourly, limit=limit, offset=offset
-    ),
-    timeout=SEARCH_TIMEOUT_S,
-)
+        page = await asyncio.wait_for(
+            market.search_jobs(
+                q=q, skills=skills, min_hourly=min_hourly, limit=limit, offset=offset
+            ),
+            timeout=SEARCH_TIMEOUT_S,
+        )
     except Exception as exc:
         # A5/A6: the marketplace being down is a degraded UI, not a 500 page.
         raise HTTPException(
@@ -117,21 +118,21 @@ async def list_jobs(
 
     try:
         skills_result = await asyncio.wait_for(
-    asyncio.to_thread(portfolio.list_skills, user["persona"]), timeout=10.0
-)
+            asyncio.to_thread(portfolio.list_skills, user["persona"]), timeout=10.0
+        )
         own = {row["skill"].lower() for row in skills_result["skills"]}
     except Exception:
         own = set()
 
     jobs = list(page.get("jobs") or [])
     all_values = await asyncio.gather(
-    *(_thread_values_capped(request, user["user_id"], str(j.get("job_id"))) for j in jobs)
-)
+        *(_thread_values_capped(request, user["user_id"], str(j.get("job_id"))) for j in jobs)
+    )
     summaries: list[JobSummary] = []
     for job, values in zip(jobs, all_values):
         if analysed_only and not values:
             continue
-    summaries.append(_summary(job, values, _skill_overlap(job, own)))
+        summaries.append(_summary(job, values, _skill_overlap(job, own)))
 
     # Analysed jobs first, by coverage; then unanalysed by skill overlap. A user wants the
     # jobs the system has an opinion about at the top.

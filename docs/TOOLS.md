@@ -167,7 +167,7 @@ registered, rather than every run failing on a connection error.
 | Server | URL | Transport | Used for | Trust rationale |
 |---|---|---|---|---|
 | **Upwork (official)** | `https://mcp.upwork.com/mcp` | Streamable HTTP, OAuth 2.1 | Live mode: job search, proposal and message **drafts** | Operated by Upwork itself, so it is the only live access the platform's own automation rules sanction. Every write is a draft the user confirms on Upwork, which bounds the damage any bug of ours can do. |
-| **GitHub (official)** | `https://api.githubcopilot.com/mcp/` | Streamable HTTP, PAT | Ingesting repository READMEs and code into the portfolio corpus (B1) | Operated by GitHub. Scoped to a read-only PAT over public repositories, so the worst case is reading something already public. |
+| **GitHub (official)** | `https://api.githubcopilot.com/mcp/` | Streamable HTTP, PAT | Registered as an optional MCP server; repository ingestion does not yet call it | Operated by GitHub. Scope the PAT to read-only access over public repositories. |
 
 ### Live-mode safety, enforced in code
 

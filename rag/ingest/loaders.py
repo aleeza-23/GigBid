@@ -15,8 +15,9 @@ rather than on character counts, so a chunk is a function with its signature int
 chunk that starts halfway through a function body cannot support a claim about what the
 code does.
 
-GitHub ingestion goes through the official GitHub MCP server rather than the API directly,
-so it obeys A5's rule that third-party access is an MCP tool. `github.py` holds that.
+Repository files currently come from the local persona corpus. The official GitHub MCP
+server can be registered by `agent/mcp_client.py`, but this ingestion pipeline does not
+yet call it; see the A5 limitation in `docs/TOOLS.md`.
 """
 
 from __future__ import annotations

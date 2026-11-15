@@ -147,13 +147,8 @@ jobs:
 
       - name: Playwright
         id: suite
-        # Report-only, deliberately. The specs drive a three-process stack with real
-        # retrieval, and a CI runner is slower and noisier than a laptop, so a timeout
-        # here says the runner was busy rather than that approval stopped working. The
-        # report is uploaded either way, and the properties that must never regress
-        # (exactly-once spending, injection defence, claim verification) are gated in the
-        # smoke-eval job above, where a failure does fail the build.
-        continue-on-error: true
+        # These journeys verify that the browser, API, graph and marketplace work
+        # together. A failed journey must fail CI; the report is still uploaded below.
         working-directory: apps/web
         # The config starts GigSim, the API and Next itself, on private ports so the suite
         # cannot adopt a server somebody left running.
@@ -170,8 +165,8 @@ jobs:
           if [ "${{ steps.suite.outcome }}" = "success" ]; then
             echo "::notice::end-to-end journeys passed"
           else
-            echo "::warning::the end-to-end suite did not pass. Download the"
-            echo "::warning::playwright-report artifact; it holds a trace per failure."
+            echo "::error::the end-to-end suite failed. Download the"
+            echo "::error::playwright-report artifact for a trace per failure."
           fi
 
       - name: Upload the Playwright report
