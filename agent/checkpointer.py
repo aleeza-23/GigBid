@@ -29,6 +29,7 @@ would lose the pending approval. The demonstration C6 asks for needs both.
 
 from __future__ import annotations
 
+import atexit
 import os
 from contextlib import asynccontextmanager, contextmanager
 from pathlib import Path
@@ -188,6 +189,11 @@ async def acheckpointer(config: dict[str, Any] | None = None, backend: str | Non
     raise PersistenceError(f"unknown checkpointer {name!r}: expected postgres, sqlite or memory")
 
 
+# Open stores, kept referenced so the connection pool is not garbage collected while the
+# process is still serving from it.
+_open_stores: list[tuple[Any, Any]] = []
+
+
 def store(config: dict[str, Any] | None = None, backend: str | None = None) -> Any:
     """The long-term memory store (C2).
 
@@ -213,8 +219,27 @@ def store(config: dict[str, Any] | None = None, backend: str | None = None) -> A
         url = database_url().replace("postgresql+psycopg://", "postgresql://")
         if not url:
             raise PersistenceError("DATABASE_URL is not set.")
-        instance = PostgresStore.from_conn_string(url)
+
+        # `from_conn_string` is a context manager factory, not a constructor: it returns a
+        # `_GeneratorContextManager` that owns the connection pool. Calling `.setup()` on
+        # that object raises AttributeError, so selecting this backend took the API down
+        # at startup rather than giving it a durable store.
+        #
+        # The store has to outlive any single request, so the context is entered here and
+        # kept open, and the exit is registered for process shutdown. That is the right
+        # lifetime: one pool for the process, closed when the process ends.
+        manager = PostgresStore.from_conn_string(url)
+        instance = manager.__enter__()
         instance.setup()
+
+        def _close() -> None:
+            try:
+                manager.__exit__(None, None, None)
+            except Exception:
+                pass
+
+        atexit.register(_close)
+        _open_stores.append((manager, instance))
         return instance
 
     from langgraph.store.memory import InMemoryStore

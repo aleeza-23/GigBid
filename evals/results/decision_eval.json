@@ -40,6 +40,10 @@
   "pricing": {
     "rows_with_band": 198,
     "inside_fair_band": 0.7525,
+    "rows_bid": 58,
+    "inside_fair_band_on_bids": 0.9138,
+    "underpriced_bids": 5,
+    "overpriced_bids": 0,
     "median_price": 60.0
   },
   "injection_defence": {
@@ -71,7 +75,7 @@
       "accuracy": 1.0
     }
   },
-  "wall_clock_sec": 100.81,
+  "wall_clock_sec": 81.62,
   "per_row": [
     {
       "job_id": "upw-017e074ada5cd8edc2",

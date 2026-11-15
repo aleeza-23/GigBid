@@ -291,6 +291,38 @@ def run(variant: str = "V3", personas: list[str] | None = None, limit: int = 0) 
             )
             if priced
             else 0.0,
+            # The same check restricted to jobs the system decided to bid on, which is the
+            # only population where a price was offered to anyone. The figure above spans
+            # every job with a fair band, including the ones that were skipped, where the
+            # recorded price is what the job would have been bid at rather than a number
+            # anybody saw. Both are reported because the wider one is the honest answer to
+            # "is the pricing rule sound across the feed" and the narrower one is the
+            # honest answer to "were the bids we actually made priced correctly", and they
+            # differ by about 16 points.
+            "rows_bid": sum(1 for r in priced if r["predicted_bid"]),
+            "inside_fair_band_on_bids": round(
+                sum(1 for r in priced if r["predicted_bid"] and r["price_in_band"])
+                / sum(1 for r in priced if r["predicted_bid"]),
+                4,
+            )
+            if any(r["predicted_bid"] for r in priced)
+            else 0.0,
+            # Direction of the misses on real bids. Under-pricing leaves money on the
+            # table; over-pricing loses the contract outright, so they are not equivalent.
+            "underpriced_bids": sum(
+                1
+                for r in priced
+                if r["predicted_bid"]
+                and not r["price_in_band"]
+                and r["price"] < (r["price_band"] or {}).get("low", 0)
+            ),
+            "overpriced_bids": sum(
+                1
+                for r in priced
+                if r["predicted_bid"]
+                and not r["price_in_band"]
+                and r["price"] > (r["price_band"] or {}).get("high", 0)
+            ),
             "median_price": round(statistics.median([r["price"] for r in per_row]), 2)
             if per_row
             else 0.0,
@@ -341,6 +373,8 @@ def main() -> None:
     p = report["pricing"]
     print(f"price inside fair band {p['inside_fair_band']:.3f}  over {p['rows_with_band']} jobs  "
           f"(median ${p['median_price']:.0f})")
+    print(f"       on jobs actually bid {p['inside_fair_band_on_bids']:.3f}  over "
+          f"{p['rows_bid']} bids  ({p['underpriced_bids']} under, {p['overpriced_bids']} over)")
     inj = report["injection_defence"]
     print(f"\ninjection defence      detected {inj['detection_rate']:.3f} of "
           f"{inj['labelled_injection_jobs']} planted jobs")
