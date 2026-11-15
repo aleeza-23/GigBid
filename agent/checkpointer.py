@@ -195,7 +195,12 @@ def store(config: dict[str, Any] | None = None, backend: str | None = None) -> A
     with the thread; the store holds promoted knowledge that outlives every thread, which
     is why style memory learned on one job applies to the next.
     """
-    name = (backend or _settings(config).get("store", "memory")).lower()
+    # `STORE` for the same reason `CHECKPOINTER` exists: a deployment picks its backend
+    # from the environment, not from a file baked into the image. Without it the deployed
+    # API fell back to the in-memory store, so promoted style and outcome memory (C7) was
+    # lost every time a sleeping free instance restarted, while thread checkpoints were
+    # durable in Postgres and looked fine.
+    name = (backend or os.getenv("STORE") or _settings(config).get("store", "memory")).lower()
 
     if name == "postgres":
         try:
@@ -243,7 +248,9 @@ def describe(config: dict[str, Any] | None = None) -> dict[str, Any]:
 
     return {
         "checkpointer": name,
-        "store": _settings(config).get("store", "memory"),
+        # Read the same way `store()` resolves it, or the settings screen reports a
+        # backend the process is not using.
+        "store": (os.getenv("STORE") or _settings(config).get("store", "memory")).lower(),
         "survives_restart": durable,
         "available": available,
         "detail": detail,

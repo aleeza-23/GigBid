@@ -100,6 +100,12 @@ services:
         value: lexical
       - key: CHECKPOINTER
         value: postgres
+      # The long-term memory store (C7), in the same database. Without it the API falls
+      # back to an in-memory store and promoted style and outcome memory is lost whenever
+      # a sleeping free instance restarts, while thread checkpoints stay durable and the
+      # loss is easy to miss.
+      - key: STORE
+        value: postgres
       - key: DATABASE_URL
         fromDatabase:
           name: gigbid-db
