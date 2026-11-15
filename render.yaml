@@ -1,0 +1,148 @@
+# Render blueprint: GigSim, the API and the web app as three services.
+#
+# Deploy with Render's "New > Blueprint" pointed at this repository. Every value marked
+# `sync: false` is left blank on purpose and has to be filled in the dashboard, either
+# because it is a secret or because it is a URL that only exists once the services do.
+#
+# Read docs/DEPLOY_RENDER.md first. The short version:
+#
+#   1. Deploy the blueprint. All three services build; the web app will 502 until step 3.
+#   2. Set the secrets: OPENAI_API_KEY (a Groq key works), TOGETHER_API_KEY, GIGSIM_API_TOKEN,
+#      APP_SECRET_KEY, REVIEWER_PASSWORD.
+#   3. Copy each service's URL into the three cross-reference variables and redeploy.
+#
+# Why `EMBED_BACKEND=api` rather than the `local` backend the committed results used:
+# sentence-transformers pulls torch, which is a 2.5GB install and needs about 2GB of RAM
+# to serve. Render's free and Starter instances have 512MB, so a `local` deployment needs
+# the 2GB Standard plan. The `api` backend calls an OpenAI-compatible embeddings endpoint
+# serving an open-weight model, so the deployment stays small and the model stays
+# open-weight. It is a different embedder from the one in evals/results/, which is why the
+# results were produced locally and this file says so out loud.
+
+services:
+  # --------------------------------------------------------------- the simulator
+  # The marketplace a reviewer's clicks actually reach. It holds jobs, clients,
+  # proposals, Connects balances and the idempotency store, all in memory, so a restart
+  # resets it to the seeded state. That is fine and arguably useful for a graded demo.
+  - type: web
+    name: gigbid-gigsim
+    runtime: python
+    plan: free
+    region: oregon
+    branch: master
+    buildCommand: pip install -e .
+    # gigsim/__main__.py binds Render's $PORT and 0.0.0.0 when PORT is set.
+    startCommand: python -m gigsim
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.11"
+      # The bearer token the API authenticates with. Generate one and set the same value
+      # on this service and on the API.
+      - key: GIGSIM_API_TOKEN
+        sync: false
+      # Keep the simulator honest rather than frictionless: a reviewer should see the
+      # degraded banner and the retry work at least once.
+      - key: GIGSIM_RATE_LIMIT_PER_MIN
+        value: "60"
+      - key: GIGSIM_ERROR_RATE
+        value: "0.0"
+
+  # --------------------------------------------------------------------- the API
+  - type: web
+    name: gigbid-api
+    runtime: python
+    plan: free
+    region: oregon
+    branch: master
+    # `.[persistence]` for the Postgres checkpointer: without it the only checkpointer is
+    # in-memory and every pending approval dies with the instance, which on a free plan
+    # that sleeps after 15 minutes means losing them several times a day.
+    #
+    # Nothing else is installed and nothing is generated. The persona corpora and the
+    # GigSim seed data are committed, and retrieval at request time reads those directly;
+    # the chunked index under data/processed/ is a Part B artefact that the serving path
+    # never opens. Running the synthetic generator here would regenerate the corpora the
+    # committed results were measured against, which is worse than useless.
+    buildCommand: pip install -e ".[persistence]"
+    startCommand: uvicorn apps.api.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.11"
+      - key: APP_ENV
+        value: production
+      # Signs the session cookie. Render generates one; changing it signs everyone out.
+      - key: APP_SECRET_KEY
+        generateValue: true
+      # The reviewer account. Set this, then send it in the private submission comment.
+      - key: REVIEWER_PASSWORD
+        sync: false
+      # A Groq key works here; the variable is named for the OpenAI-compatible shape.
+      - key: OPENAI_API_KEY
+        sync: false
+      # Embeddings. Groq serves no embeddings endpoint, so this is Together or OpenRouter.
+      - key: EMBED_BACKEND
+        value: api
+      - key: EMBED_BASE_URL
+        value: https://api.together.xyz/v1
+      - key: EMBED_MODEL
+        value: BAAI/bge-base-en-v1.5
+      - key: TOGETHER_API_KEY
+        sync: false
+      # No cross-encoder: it needs torch, and Part B measured it as a 9.8-point loss
+      # anyway. See rag/variants/v12_decompose_hybrid.py.
+      - key: RERANK_BACKEND
+        value: lexical
+      - key: CHECKPOINTER
+        value: postgres
+      - key: DATABASE_URL
+        fromDatabase:
+          name: gigbid-db
+          property: connectionString
+      - key: GIGSIM_API_TOKEN
+        sync: false
+      # Fill in after the first deploy: https://gigbid-gigsim.onrender.com
+      - key: GIGSIM_BASE_URL
+        sync: false
+      # Fill in after the first deploy: https://gigbid-web.onrender.com
+      - key: CORS_ORIGINS
+        sync: false
+
+  # ----------------------------------------------------------------- the web app
+  - type: web
+    name: gigbid-web
+    runtime: node
+    plan: free
+    region: oregon
+    branch: master
+    rootDir: apps/web
+    buildCommand: npm ci && npm run build
+    # `next start`, not the standalone server: NEXT_OUTPUT_STANDALONE is left unset, so
+    # next.config.ts does not switch on standalone output. See the comment in that file.
+    startCommand: npx next start -p $PORT
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: NODE_ENV
+        value: production
+      # Read per request by src/app/api/[...path]/route.ts, which is why this can be set
+      # here rather than baked into the build. Fill in after the first deploy:
+      # https://gigbid-api.onrender.com
+      - key: API_BASE_URL
+        sync: false
+
+databases:
+  # Free Postgres on Render is deleted 30 days after creation. If grading runs past that,
+  # either move to the paid instance or point DATABASE_URL at a free Neon or Supabase
+  # database, which do not expire. docs/DEPLOY_RENDER.md covers both.
+  - name: gigbid-db
+    plan: free
+    region: oregon
+    postgresMajorVersion: "16"
+
+# Not deployed here: the scheduled worker (worker/scheduler.py) and the three MCP servers
+# over HTTP. Render has no free background workers, and the agents reach the MCP tools
+# in-process rather than over the network, so neither is needed for a reviewer to use the
+# app. docs/DEPLOY_RENDER.md explains how to add the worker if you want the feed swept
+# automatically.

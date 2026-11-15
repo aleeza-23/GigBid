@@ -16,6 +16,11 @@ dependencies = [
   "mcp==1.30.0",
   "httpx==0.28.1",
   "python-dotenv==1.2.4",
+  # Core, not an extra: rag/embeddings.py and rag/index/dense.py import it, and both are
+  # in the request path for every retrieval the API serves. It used to arrive only as a
+  # transitive dependency of pandas or sentence-transformers, so a minimal
+  # `pip install -e ".[persistence]"` built a deployment that crashed on the first search.
+  "numpy==2.5.4",
 ]
 
 [project.optional-dependencies]

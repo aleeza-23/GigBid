@@ -74,6 +74,7 @@ The conversation graph, the state and the reducers are in
 - Running it, and what breaks: [docs/RUNBOOK.md](docs/RUNBOOK.md)
 - Where the data comes from: [docs/DATA_CARD.md](docs/DATA_CARD.md)
 - AI tool usage: [docs/AI_USAGE.md](docs/AI_USAGE.md)
+- Deploying it on Render: [docs/DEPLOY_RENDER.md](docs/DEPLOY_RENDER.md)
 
 ## What it does
 
