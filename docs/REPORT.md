@@ -16,12 +16,28 @@ cannot drift apart. The sections map onto the brief's ten headings.
 
 ## 1. Problem and constraints
 
-**TO WRITE.** Cover: the freelancer's workflow and where the hours go; what must never be
-automated (sending a proposal or message, spending Connects, claiming experience the
-portfolio does not support); and the declared budgets below, which are what section 10
-measures against.
+**The workflow.** A freelancer scanning a marketplace feed spends the hours in four places:
+reading posts to work out what the client actually wants, deciding whether the job is worth
+a paid bid, finding the evidence in their own past work that proves they can do it, and
+writing a proposal that refers to that evidence rather than to adjectives. Three of those
+four are search and judgement over material the freelancer already owns, which is what
+makes the problem worth automating. The fourth, deciding what to promise a client, is not.
 
-Declared budgets, from `agent/config.yaml`:
+**What must never be automated.** Nothing leaves the system without a person approving it:
+no proposal submitted, no message sent, no Connects spent. Every outward action sits behind
+a LangGraph interrupt, the Writer holds no submit tool, and live marketplace mode writes
+drafts only. No sentence survives into a draft unless the portfolio supports it, and what
+cannot be verified is removed and shown to the reviewer as removed. Job posts and client
+messages are untrusted input, sanitised before any prompt reads them.
+
+**Constraints that shaped the design.** Connects are a real budget, so a wasted bid has a
+price and the decision to skip is as important as the decision to bid. Open-weight models
+only, served through a free tier that meters 8,000 tokens a minute and 200,000 a day per
+model, which is why retrieval is rule-based wherever a rule will do and why the shipped
+retrieval path contains no model at all. The corpus is small, about 197 items per persona,
+which turned out to decide the retrieval design more than any model choice did.
+
+Declared budgets, from `agent/config.yaml`, which section 10 measures against:
 
 | Budget | Declared |
 |---|---|
@@ -31,6 +47,10 @@ Declared budgets, from `agent/config.yaml`:
 | Cost per proposal | $0.05 |
 | Tokens per job | 12,000 |
 | Tokens per proposal | 20,000 |
+
+They are deliberately not aspirational. The latency numbers are what a person will wait
+while watching a progress panel; the cost numbers are what makes bidding on a hundred jobs
+a month cheaper than the Connects they consume.
 
 
 ---
@@ -996,4 +1016,25 @@ What still gets through is in section 8: 8 clean clients wrongly flagged as scam
 
 *6 recorded run(s); runs made with the model offline are excluded, since their latency and cost are not real.*
 
-**TO ADD:** the hidden test set results against the same budgets, once released, reported without excuses. The one budget already exceeded on local runs is tokens per proposal, at 24,298 against a declared 20,000: the budget was set before the Writer was given the full evidence block, so the measurement is right and the declaration was optimistic.
+Five of the six declared budgets hold, most of them with room to spare: p95 analysis
+latency 7.6 s against 25 s declared, p95 proposal latency 79.4 s against 90 s, cost per job
+$0.0011 against $0.01, cost per proposal $0.0069 against $0.05, tokens per job 4,068
+against 12,000.
+
+One is exceeded. Tokens per proposal measured 24,298 against a declared 20,000, a 21%
+overrun. The budget was set before the Writer was given the full evidence block, and the
+Writer now receives up to 24 evidence items so that every claim it makes can cite one. The
+measurement is right and the declaration was optimistic. The two honest responses are to
+raise the budget to 28,000 and say why, or to cap the evidence block and accept thinner
+citations; I would raise the budget, because the alternative trades grounding for a number
+I chose before I had evidence.
+
+Latency here is the sum of model-call durations per run rather than wall clock, so it
+excludes the client-side token-per-minute throttle, which is our own rate limit rather than
+a property of the system. The figures come from the span logs in `data/audit/traces/`,
+written per model call, and runs made with the model offline are excluded because their
+latency is about a millisecond and their cost is zero.
+
+**Hidden test set:** not yet released. When it is, `make budget-report` produces the same
+table against those runs, and whatever it says goes in without adjustment.
+
