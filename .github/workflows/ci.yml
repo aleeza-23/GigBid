@@ -15,20 +15,32 @@ jobs:
           cache: pip
 
       - name: Install
-        run: python -m pip install -e ".[dev,data]"
+        # Deliberately not ".[all]": that pulls torch, which is a ~250MB download on
+        # every run to test code paths the conftest already forces onto the lightweight
+        # LSA and lexical backends. Reproducing the reported numbers needs ".[all]";
+        # checking the code does not.
+        run: python -m pip install -e ".[dev,data,persistence]"
 
       - name: Lint
         run: ruff check .
 
       - name: Unit and integration tests
         # testpaths in pyproject covers tests/ and mcp_servers/, so this runs the
-        # portfolio, marketplace and workspace server suites too.
+        # portfolio, marketplace and workspace server suites too. conftest.py forces the
+        # model offline and the embedding/reranker backends to their lightweight variants,
+        # so the suite tests this system rather than a provider or a 130MB download.
         run: pytest -q
 
       - name: MCP tool-schema contract (A7)
         # Run explicitly as well as via pytest, so a failure here is legible in the
         # job list rather than buried in a 90-test run.
         run: pytest tests/contract -q
+
+      - name: API contract and approval flow (D)
+        run: pytest tests/integration/test_api.py -q
+
+      - name: Graph routing, loop bounds and interrupts (C)
+        run: pytest tests/integration/test_bid_graph.py tests/integration/test_conversation_graph.py -q
 
       - name: Part A demo runs end to end
         # The deliverable must actually work, not just be present. Runs offline (no

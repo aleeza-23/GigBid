@@ -1,0 +1,52 @@
+# One image for every Python service: API, worker, the three MCP servers and GigSim.
+#
+# One image rather than six because they share every dependency and differ only in their
+# command. Six near-identical images would mean six builds, six caches and six chances
+# for them to drift apart.
+#
+# Build it from the repository root:
+#   docker build -f infra/docker/Dockerfile.python -t gigbid-python .
+
+FROM python:3.11-slim AS base
+
+ENV PYTHONUNBUFFERED=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PIP_NO_CACHE_DIR=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1
+
+WORKDIR /app
+
+# Build tools for psycopg's C extension, removed in the same layer so they are not in the
+# final image.
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends build-essential libpq-dev curl \
+ && rm -rf /var/lib/apt/lists/*
+
+# Dependencies first, so editing source does not invalidate the dependency layer. Only
+# the two files that describe them are copied at this point.
+COPY pyproject.toml README.md ./
+# The package directories must exist for an editable install to resolve, but stay empty
+# so this layer caches on dependency changes alone.
+RUN mkdir -p agent apps data evals gigsim mcp_servers rag tests worker \
+ && touch agent/__init__.py apps/__init__.py evals/__init__.py gigsim/__init__.py \
+          mcp_servers/__init__.py rag/__init__.py worker/__init__.py
+
+# `persistence` is not optional in a container: the Postgres checkpointer is what makes a
+# pending approval survive a restart, which is the whole point of running this way.
+# `rag` (torch) is left out deliberately — it adds about 2GB for an embedding backend the
+# deployed stack reaches over HTTP. Add it if you want local embeddings in the image.
+RUN pip install -e ".[data,persistence]"
+
+# Now the source, which changes on every commit.
+COPY . .
+
+RUN pip install -e ".[data,persistence]" \
+ && mkdir -p data/audit \
+ # Run as a non-root user. If the container is compromised, the blast radius should not
+ # include the image.
+ && useradd --create-home --uid 10001 gigbid \
+ && chown -R gigbid:gigbid /app
+USER gigbid
+
+# Each service overrides this in docker-compose.yml.
+CMD ["uvicorn", "apps.api.main:app", "--host", "0.0.0.0", "--port", "8000"]

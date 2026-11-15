@@ -1,0 +1,48 @@
+# The Next.js frontend.
+#
+# Build it from apps/web:
+#   docker build -f ../../infra/docker/Dockerfile.web -t gigbid-web .
+#
+# Three stages, because the runtime image should contain neither the toolchain nor the
+# source. `NEXT_OUTPUT_STANDALONE=1` turns on Next's standalone output, which is what makes
+# the last stage possible: Next traces the modules actually imported and emits a
+# self-contained server, so the final image carries a fraction of node_modules instead of
+# all of it. It is opt-in because `next start` refuses to serve a standalone build, and
+# `next start` is how the e2e suite and `make web` run the app locally.
+
+FROM node:24-alpine AS deps
+WORKDIR /app
+COPY package.json package-lock.json* ./
+# `npm ci` from the lockfile, so a build is reproducible and cannot quietly pick up a new
+# minor version between the local build and the deployed one.
+RUN npm ci --no-audit --no-fund
+
+FROM node:24-alpine AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+ENV NEXT_OUTPUT_STANDALONE=1
+ENV NEXT_TELEMETRY_DISABLED=1
+RUN npm run build
+
+FROM node:24-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV=production \
+    NEXT_TELEMETRY_DISABLED=1 \
+    PORT=3000 \
+    HOSTNAME=0.0.0.0
+
+# Non-root, same reasoning as the Python image.
+RUN addgroup -g 10001 -S nodejs && adduser -S nextjs -u 10001
+
+COPY --from=builder /app/public ./public
+COPY --from=builder --chown=nextjs:nodejs /app/.next/standalone ./
+COPY --from=builder --chown=nextjs:nodejs /app/.next/static ./.next/static
+
+USER nextjs
+EXPOSE 3000
+
+HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
+  CMD node -e "require('http').get('http://localhost:3000',r=>process.exit(r.statusCode<400?0:1)).on('error',()=>process.exit(1))"
+
+CMD ["node", "server.js"]

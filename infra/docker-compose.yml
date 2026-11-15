@@ -1,3 +1,191 @@
-# TODO: Define web, API, worker, MCP servers, GigSim, Postgres, Redis,
-# vector store and local model service as appropriate.
-services: {}
+# docker compose up starts the whole system (E6).
+#
+# Services: web, api, worker, the three MCP servers, GigSim, Postgres and Redis.
+#
+# Two things worth noting before reading further:
+#
+# * **No Ollama service.** The assignment suggests one, but the deployed link has no GPU
+#   and the open profile already runs on a hosted open-weight provider, so a local
+#   inference container would be an idle 4GB image. `MODEL_PROFILE=open` with a provider
+#   key is the supported path; a local Ollama is still possible by pointing
+#   `models.profiles.open.base_url` at it.
+#
+# * **The MCP servers run as their own services** rather than as stdio subprocesses of the
+#   API. Stdio is right for a laptop and wrong here: the API and the worker both need the
+#   same marketplace server, and two stdio copies would mean two audit logs and two
+#   idempotency stores, which defeats the point of having either.
+#
+# Secrets come from the environment only. There is no `env_file` pointing at a committed
+# file, and `.env` is git-ignored.
+
+name: gigbid
+
+x-python-env: &python-env
+  PYTHONUNBUFFERED: "1"
+  PYTHONWARNINGS: ignore
+  APP_ENV: ${APP_ENV:-production}
+  APP_SECRET_KEY: ${APP_SECRET_KEY:?set APP_SECRET_KEY}
+  DATABASE_URL: postgresql+psycopg://gigbid:${POSTGRES_PASSWORD:-gigbid}@postgres:5432/gigbid
+  REDIS_URL: redis://redis:6379/0
+  # Durable, because an in-memory checkpointer loses every pending approval on restart.
+  CHECKPOINTER: postgres
+  MARKETPLACE_MODE: ${MARKETPLACE_MODE:-gigsim}
+  GIGSIM_BASE_URL: http://gigsim:8081
+  GIGSIM_API_TOKEN: ${GIGSIM_API_TOKEN:-gigsim-dev-token}
+  MCP_TRANSPORT: http
+  PORTFOLIO_MCP_URL: http://mcp-portfolio:8701/mcp
+  MARKETPLACE_MCP_URL: http://mcp-marketplace:8702/mcp
+  WORKSPACE_MCP_URL: http://mcp-workspace:8703/mcp
+  MCP_TOKENS: ${MCP_TOKENS:-mcp-dev-token:service}
+  MCP_BEARER_TOKEN: ${MCP_BEARER_TOKEN:-mcp-dev-token}
+  MODEL_PROFILE: ${MODEL_PROFILE:-open}
+  GROQ_API_KEY: ${GROQ_API_KEY:-}
+  OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+  REVIEWER_USER: ${REVIEWER_USER:-reviewer}
+  REVIEWER_PASSWORD: ${REVIEWER_PASSWORD:?set REVIEWER_PASSWORD}
+  TOKEN_ENCRYPTION_KEY: ${TOKEN_ENCRYPTION_KEY:-}
+  LANGFUSE_PUBLIC_KEY: ${LANGFUSE_PUBLIC_KEY:-}
+  LANGFUSE_SECRET_KEY: ${LANGFUSE_SECRET_KEY:-}
+  LANGFUSE_HOST: ${LANGFUSE_HOST:-https://cloud.langfuse.com}
+
+services:
+  postgres:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_DB: gigbid
+      POSTGRES_USER: gigbid
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-gigbid}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      # Everything else waits on this: the API's lifespan creates the checkpoint tables
+      # on boot, and failing that leaves it dead rather than degraded.
+      test: ["CMD-SHELL", "pg_isready -U gigbid -d gigbid"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--save", "", "--appendonly", "no"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+
+  gigsim:
+    build:
+      context: ..
+      dockerfile: infra/docker/Dockerfile.python
+    command: ["python", "-m", "gigsim"]
+    environment:
+      <<: *python-env
+      GIGSIM_HOST: 0.0.0.0
+      GIGSIM_SEED: ${GIGSIM_SEED:-42}
+      GIGSIM_ERROR_RATE: ${GIGSIM_ERROR_RATE:-0.0}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://localhost:8081/health')"]
+      interval: 10s
+      timeout: 5s
+      retries: 6
+    expose: ["8081"]
+
+  mcp-portfolio:
+    build:
+      context: ..
+      dockerfile: infra/docker/Dockerfile.python
+    command: ["python", "-m", "mcp_servers.portfolio.server", "--http"]
+    environment:
+      <<: *python-env
+      PORTFOLIO_MCP_HOST: 0.0.0.0
+    expose: ["8701"]
+
+  mcp-marketplace:
+    build:
+      context: ..
+      dockerfile: infra/docker/Dockerfile.python
+    command: ["python", "-m", "mcp_servers.marketplace.server", "--http"]
+    environment:
+      <<: *python-env
+      MARKETPLACE_MCP_HOST: 0.0.0.0
+    depends_on:
+      gigsim:
+        condition: service_healthy
+    volumes:
+      # The audit log and the idempotency store must outlive the container: one is the
+      # record of what was spent, the other is what stops it being spent twice.
+      - audit:/app/data/audit
+    expose: ["8702"]
+
+  mcp-workspace:
+    build:
+      context: ..
+      dockerfile: infra/docker/Dockerfile.python
+    command: ["python", "-m", "mcp_servers.workspace.server", "--http"]
+    environment:
+      <<: *python-env
+      WORKSPACE_MCP_HOST: 0.0.0.0
+      WORKSPACE_BACKEND: ${WORKSPACE_BACKEND:-local}
+    volumes:
+      - audit:/app/data/audit
+    expose: ["8703"]
+
+  api:
+    build:
+      context: ..
+      dockerfile: infra/docker/Dockerfile.python
+    command:
+      ["uvicorn", "apps.api.main:app", "--host", "0.0.0.0", "--port", "8000", "--proxy-headers"]
+    environment:
+      <<: *python-env
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      gigsim:
+        condition: service_healthy
+    volumes:
+      - audit:/app/data/audit
+    ports: ["8000:8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request;urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 15s
+      timeout: 10s
+      retries: 6
+
+  worker:
+    build:
+      context: ..
+      dockerfile: infra/docker/Dockerfile.python
+    command: ["python", "-m", "worker.scheduler"]
+    environment: *python-env
+    depends_on:
+      postgres:
+        condition: service_healthy
+      gigsim:
+        condition: service_healthy
+    volumes:
+      - audit:/app/data/audit
+    # One worker. The ledger makes a restart safe, but two workers sweeping the same
+    # saved search would both pass the seen-check before either wrote to it.
+    deploy:
+      replicas: 1
+
+  web:
+    build:
+      context: ../apps/web
+      dockerfile: ../../infra/docker/Dockerfile.web
+    environment:
+      # Read per request by the proxy route, so the same image works against any API host
+      # without a rebuild.
+      API_BASE_URL: http://api:8000
+      NODE_ENV: production
+    depends_on:
+      api:
+        condition: service_started
+    ports: ["3000:3000"]
+
+volumes:
+  pgdata:
+  audit:
