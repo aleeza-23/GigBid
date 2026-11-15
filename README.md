@@ -8,6 +8,67 @@ a draft points at the portfolio item that supports it.
 Built for AI-4016 Assignment II. It runs against GigSim, the marketplace simulator, and
 against Upwork's official MCP server in live mode, where writes are drafts only.
 
+<!-- DEMO: replace this comment with the 30-second GIF once it is recorded.
+     ![GigBid: a job from the inbox to an approved proposal](docs/images/demo.gif)
+     The clip to record: inbox, analyse a job, the requirement-to-evidence matrix,
+     the studio with its evidence hovers, approve, the Connects spend. -->
+
+## The bid graph
+
+One thread per job. Scout hands the job in; a routing node picks which team member bids;
+three analyses run concurrently; a decision node bids or skips; drafting runs through a
+bounded critique loop; the graph stops for a human before anything is sent. Rendered from
+the compiled graph by `make graphs`, so it cannot drift from the code.
+
+```mermaid
+graph TD;
+	__start__([<p>__start__</p>]):::first
+	scout(scout)
+	route_member(route_member)
+	fan_out(fan_out)
+	analyst(analyst)
+	risk_assessor(risk_assessor)
+	fit_matcher(fit_matcher)
+	join(join)
+	pricing(pricing)
+	decision(decision)
+	writer(writer)
+	verifier(verifier)
+	critic(critic)
+	compliance(compliance)
+	approval(approval)
+	submit(submit)
+	halt(halt)
+	__end__([<p>__end__</p>]):::last
+	__start__ --> scout;
+	analyst --> join;
+	approval -.-> halt;
+	approval -.-> submit;
+	compliance -.-> approval;
+	compliance -.-> halt;
+	critic -.-> compliance;
+	critic -. &nbsp;rewrite&nbsp; .-> writer;
+	decision -.-> halt;
+	decision -. &nbsp;bid&nbsp; .-> writer;
+	fan_out -.-> analyst;
+	fan_out -.-> fit_matcher;
+	fan_out -.-> join;
+	fan_out -.-> risk_assessor;
+	fit_matcher --> join;
+	join --> pricing;
+	pricing --> decision;
+	risk_assessor --> join;
+	route_member --> fan_out;
+	scout --> route_member;
+	verifier --> critic;
+	writer --> verifier;
+	halt --> __end__;
+	submit --> __end__;
+```
+
+The conversation graph, the state and the reducers are in
+[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
 - Architecture, including both graphs: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 - Every MCP tool, with its annotations and allowlists: [docs/TOOLS.md](docs/TOOLS.md)
 - Running it, and what breaks: [docs/RUNBOOK.md](docs/RUNBOOK.md)
@@ -149,6 +210,34 @@ is the honest headline: this dev feed is dominated by AI/ML work, so a single me
 already near the ceiling, and agency mode pays off in proportion to how mixed the feed is.
 `make agency-eval`, design and discussion in [docs/EXTENSION.md](docs/EXTENSION.md).
 
+**Is the multi-agent design worth it (R&D question C)?** Not on decision quality, on this
+sample. Twelve dev jobs stratified across kind and gold decision, three arms, the same
+retrieved evidence shown to each so none has a retrieval advantage:
+
+| Arm | bid/skip accuracy | bid F1 | scam recall | unsupported claims / proposal | tokens / job | ms / job |
+|---|---|---|---|---|---|---|
+| Single ReAct agent | 0.750 | 0.571 | 1.000 | 0.00 | 1,638 | 2,306 |
+| Prebuilt supervisor | 0.500 | 0.000 | 1.000 | 2.00 | 8,829 | 14,049 |
+| This hand-built graph | 0.750 | 0.571 | 1.000 | 0.00 | 4,149 | 88,258 |
+
+The single agent ties the graph on accuracy and bid F1 at 40% of the tokens and under 3%
+of the latency. Twelve jobs is a small sample and one job moves accuracy by 0.083, so the
+tie is a tie and not a win for either.
+
+What separates them is not the decision. The supervisor wrote 2.00 unsupported claims per
+proposal because it has no verifier between drafting and output, which is the failure the
+graph exists to prevent and the one that costs a freelancer their account rather than one
+contract. The graph's 88 seconds a job buys three parallel analyses, retrieval per
+requirement, claim verification, a bounded critique loop, a compliance pass and a durable
+interrupt; the single agent's 2.3 seconds buys one model call and a promise.
+
+The graph also loses jobs it should win. On injected posts it scores 0.333 against the
+supervisor's 1.000, because injection detection is wired as a risk signal that can push a
+decision to skip, and these planted posts are otherwise good jobs whose gold label is bid.
+That is a conservative bias I would defend to a user and would still rather fix: the
+instruction should be stripped and ignored without the post being penalised for having
+contained one. `evals/results/rnd_c_agent_comparison.json`.
+
 **Budgets against measurements (E5).** Declared budgets live in `agent/config.yaml`;
 `make budget-report` reads the span logs and compares. On the runs recorded so far, p95
 analysis latency is 7.6 s against a declared 25 s, p95 proposal latency 79.4 s against 90 s,
@@ -174,7 +263,16 @@ fails the build. Tool schemas are snapshot-tested, so changing a tool's signatur
 until the snapshot is updated deliberately.
 
 Traces are written locally as one JSONL file per run under `data/audit/traces/`, with
-tokens, latency and cost per node, and Langfuse is used when its keys are present.
+tokens, latency and cost per node. `make trace-summary` prints one by node. Langfuse is
+used when `LANGFUSE_PUBLIC_KEY` and `LANGFUSE_SECRET_KEY` are set, and the three public
+trace links the brief asks for come from there: run `make demo` three times with those keys
+set, then copy the share links into the table below.
+
+| Run | Link |
+|---|---|
+| A job analysed and skipped | _paste the Langfuse share link_ |
+| A proposal drafted and approved | _paste the Langfuse share link_ |
+| An injected instruction ignored | _paste the Langfuse share link_ |
 
 ## Tests
 
@@ -214,10 +312,16 @@ was, how a metric bug hid it for a full evaluation run, and what I would measure
 - **Judge calibration** needs the `human_*` columns of
   `evals/datasets/hand_check_sample.csv` filled in by a person. The runner refuses to
   report a kappa against labels it generated itself.
-- **R&D question C** compares a single ReAct agent, a prebuilt supervisor and the
-  hand-built graph. The full 50-job run across three arms needs roughly 775k tokens, and
-  Groq's free tier allows 200k per day per model, so the committed result covers a smaller
-  sample and says so.
+- **R&D question C** ran on 12 stratified jobs, not the 50 the brief suggests. Three arms
+  over 50 jobs needs roughly 775k tokens against a free-tier limit of 200k per day per
+  model, and the arms are rate-limited to 8k tokens a minute, so the full run is a day of
+  wall-clock time rather than a cost problem. The committed result says its sample size on
+  every line that quotes it.
+- **The evidence-hover end-to-end spec skips when the model is offline.** A placeholder
+  draft makes no claims, so there is nothing to hover. Six of the seven journeys pass
+  offline; this one needs a provider key to execute.
+- **No demo GIF or public trace links yet.** Both need a run with a provider key and a
+  Langfuse project; the README has the slots marked.
 - **GigSim reply rate and hire rate** are columns the results table leaves as gaps. The
   simulator does not model client replies, so there is no measurement to report rather
   than a number to invent.
