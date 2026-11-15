@@ -19,7 +19,7 @@ from typing import Any
 from langchain_core.runnables import RunnableConfig
 
 from agent.handoffs import Critique
-from agent.nodes._common import call_model, compact, evidence_block, node_trace, step
+from agent.nodes._common import call_model_async, compact, evidence_block, node_trace, step
 from agent.state import GigBidState, dedupe_evidence
 
 # C4: the Critic may send a draft back at most this many times. Read from config so the
@@ -47,7 +47,7 @@ async def critic(state: GigBidState, config: RunnableConfig | None = None) -> di
     evidence = dedupe_evidence(state.get("evidence") or [])
     verification = state.get("claim_verification") or {}
 
-    parsed, meta = call_model(
+    parsed, meta = await call_model_async(
         "critic",
         prompt_values={
             "job_title": (state.get("job") or {}).get("title") or "",

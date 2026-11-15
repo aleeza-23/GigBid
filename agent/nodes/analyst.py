@@ -15,7 +15,7 @@ from typing import Any
 from langchain_core.runnables import RunnableConfig
 
 from agent.handoffs import JobSpec
-from agent.nodes._common import call_model, node_trace, step
+from agent.nodes._common import call_model_async, node_trace, step
 from agent.state import GigBidState
 
 
@@ -35,7 +35,7 @@ async def analyst(state: GigBidState, config: RunnableConfig | None = None) -> d
     job = state.get("job") or {}
     text = state.get("job_text_sanitised") or ""
 
-    parsed, meta = call_model(
+    parsed, meta = await call_model_async(
         "analyst",
         prompt_values={"job_text": text[:4000]},
         trace_id=state.get("trace_id"),

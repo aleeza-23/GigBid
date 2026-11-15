@@ -23,7 +23,7 @@ from typing import Any
 from langchain_core.runnables import RunnableConfig
 
 from agent.decide import detect_injection, strip_injection
-from agent.nodes._common import call_model, compact, evidence_block, node_trace, step
+from agent.nodes._common import call_model_async, compact, evidence_block, node_trace, step
 from agent.state import ConversationState
 
 
@@ -96,7 +96,7 @@ async def classify_intent(
     rule_risk = assess_risk({"description": message}, {})
     rule_flags = list(rule_risk.flags)
 
-    parsed, meta = call_model(
+    parsed, meta = await call_model_async(
         "intent",
         prompt_values={"message": message[:2500]},
         trace_id=state.get("trace_id"),
@@ -187,7 +187,7 @@ async def draft_reply(
         for m in (state.get("messages") or [])[-6:]
     ]
 
-    parsed, meta = call_model(
+    parsed, meta = await call_model_async(
         "client_liaison",
         prompt_values={
             "history": compact(history, 1800),

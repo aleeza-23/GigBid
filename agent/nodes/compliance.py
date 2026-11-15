@@ -24,7 +24,7 @@ from typing import Any
 from langchain_core.runnables import RunnableConfig
 
 from agent.handoffs import ComplianceVerdict
-from agent.nodes._common import call_model, node_trace, step
+from agent.nodes._common import call_model_async, node_trace, step
 from agent.state import GigBidState
 
 POLICY_PATH = Path(__file__).resolve().parents[2] / "data" / "policy_pack" / "marketplace_policy.md"
@@ -161,7 +161,7 @@ async def compliance(state: GigBidState, config: RunnableConfig | None = None) -
     meta: dict[str, Any] = {}
     tokens = 0
 
-    parsed, meta = call_model(
+    parsed, meta = await call_model_async(
         "compliance",
         prompt_values={"policy": load_policy()[:3000], "text": cleaned[:4000]},
         trace_id=state.get("trace_id"),

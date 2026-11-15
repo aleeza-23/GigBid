@@ -21,7 +21,7 @@ from typing import Any
 from langchain_core.runnables import RunnableConfig
 
 from agent.handoffs import ProposalDraft
-from agent.nodes._common import app_config, call_model, evidence_block, node_trace, step
+from agent.nodes._common import app_config, call_model_async, evidence_block, node_trace, step
 from agent.state import GigBidState, dedupe_evidence
 
 
@@ -88,7 +88,7 @@ async def writer(state: GigBidState, config: RunnableConfig | None = None) -> di
     }
     trace_id = state.get("trace_id")
     job_id = state.get("job_id")
-    parsed, meta = call_model(
+    parsed, meta = await call_model_async(
         "writer",
         prompt_values=prompt_values,
         trace_id=trace_id,
@@ -112,7 +112,7 @@ async def writer(state: GigBidState, config: RunnableConfig | None = None) -> di
         retry_limit = int(
             (app_config(config).get("models") or {}).get("writer_retry_max_tokens", 3000)
         )
-        parsed, retry_meta = call_model(
+        parsed, retry_meta = await call_model_async(
             "writer",
             prompt_values=retry_values,
             trace_id=trace_id,

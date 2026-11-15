@@ -35,7 +35,7 @@ from langgraph.graph import END, START, StateGraph
 from langgraph.types import interrupt
 
 from agent.handoffs import ComplianceVerdict
-from agent.nodes._common import call_model, error_entry, node_trace, step
+from agent.nodes._common import call_model_async, error_entry, node_trace, step
 from agent.nodes.client_liaison import classify_intent, draft_reply, read_messages
 from agent.nodes.compliance import apply_redactions, load_policy
 from agent.state import ConversationState, trace
@@ -115,7 +115,7 @@ async def compliance_check(
     cleaned, redactions, rules = apply_redactions(draft)
 
     violations: list[str] = []
-    parsed, meta = call_model(
+    parsed, meta = await call_model_async(
         "compliance", prompt_values={"policy": load_policy()[:3000], "text": cleaned[:3000]},
         trace_id=state.get("trace_id"),
         job_id=state.get("job_id"),

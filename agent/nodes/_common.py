@@ -22,6 +22,7 @@ and a failure mode for nothing.
 
 from __future__ import annotations
 
+import asyncio
 import json
 import time
 from functools import lru_cache
@@ -191,6 +192,11 @@ def call_model(
     except LLMError as exc:
         meta["error"] = f"unparseable JSON: {exc}"
         return None, meta
+
+
+async def call_model_async(node: str, **kwargs: Any) -> tuple[Any, dict[str, Any]]:
+    """Run blocking provider HTTP and token pacing off the API event loop."""
+    return await asyncio.to_thread(call_model, node, **kwargs)
 
 
 def node_trace(node: str, kind: str, meta: dict[str, Any] | None = None, **fields: Any):

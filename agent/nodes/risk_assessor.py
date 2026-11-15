@@ -18,7 +18,7 @@ from typing import Any
 from langchain_core.runnables import RunnableConfig
 
 from agent.decide import assess_risk
-from agent.nodes._common import call_model, compact, node_trace, step, thresholds
+from agent.nodes._common import call_model_async, compact, node_trace, step, thresholds
 from agent.state import GigBidState
 
 
@@ -37,7 +37,7 @@ async def risk_assessor(
 
     # Only ask a model to explain a finding worth explaining.
     if report.flags:
-        parsed, meta = call_model(
+        parsed, meta = await call_model_async(
             "risk_assessor",
             prompt_values={
                 "client_history": compact(client, 900),

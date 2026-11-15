@@ -20,7 +20,7 @@ from typing import Any
 from langchain_core.runnables import RunnableConfig
 
 from agent.decide import assess_fit
-from agent.nodes._common import call_model, compact, node_trace, retrieval_config, step
+from agent.nodes._common import call_model_async, compact, node_trace, retrieval_config, step
 from agent.state import GigBidState
 
 # Below this retrieval score a requirement is not considered covered. Taken from the
@@ -100,7 +100,7 @@ async def fit_matcher(state: GigBidState, config: RunnableConfig | None = None) 
     tokens = 0
     covered_rows = [row for row in fit.requirement_matrix if row["covered"]]
     if covered_rows:
-        parsed, meta = call_model(
+        parsed, meta = await call_model_async(
             "fit_matcher",
             prompt_values={
                 "requirement_evidence": compact(
