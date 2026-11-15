@@ -163,7 +163,24 @@ async def health(request: Request) -> Health:
 
     retrieval = retrieval_describe()
     if retrieval.get("embeddings_backend") == "lsa":
-        degraded.append("retrieval: development embedding backend, numbers not reportable")
+        # Reported as a note on the retrieval block rather than in `degraded`.
+        #
+        # `degraded` drives the banner above every page, and it is for things that change
+        # what the user can do right now: the marketplace being unreachable, pending
+        # approvals not surviving a restart, drafts being placeholders. The embedding
+        # backend is not one of those. The app works and retrieves evidence; what the
+        # development backend affects is whether a *measured number* from this instance
+        # could be reported, which is a question for whoever reads the evaluation, not for
+        # someone approving a proposal.
+        #
+        # It is still stated, on the settings screen and in /health, because a deployment
+        # that quietly ran a different retrieval stack from the one its results were
+        # measured on would be the dishonest version of this.
+        retrieval["warning"] = (
+            "development embedding backend (lsa): fine for using the app, not a source "
+            "of reportable retrieval numbers. Every figure in evals/results/ was measured "
+            "with BAAI/bge-small-en-v1.5."
+        )
 
     config = load_config()
     return Health(
