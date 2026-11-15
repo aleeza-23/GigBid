@@ -6,7 +6,7 @@
 .PHONY: snapshot-update
 .PHONY: web web-install web-build e2e e2e-report test-api openapi
 .PHONY: worker worker-once worker-stats smoke-eval budget-report trace-summary
-.PHONY: up down logs verify-eval agency-eval
+.PHONY: up down logs verify-eval agency-eval report
 install:
 	python -m pip install -e ".[dev,data]"
 
@@ -217,3 +217,8 @@ down:
 
 logs:
 	docker compose -f infra/docker-compose.yml logs -f --tail=100
+
+# Stitch docs/REPORT.md from the committed docs and result files, in the brief's
+# ten-section order. Regenerate it after any eval run so the report cannot drift.
+report:
+	python -m evals.runners.build_report
