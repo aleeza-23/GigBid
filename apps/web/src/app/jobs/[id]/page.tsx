@@ -32,6 +32,42 @@ export default function JobDetailPage() {
 
   useEffect(load, [load]);
 
+  // A bid recommendation is not the end of the run: the graph still writes, verifies,
+  // critiques and checks compliance before it pauses for approval. If this page remains
+  // open during those steps, watch the run state so the Review button appears as soon as
+  // the approval interrupt is reached.
+  useEffect(() => {
+    const threadId = detail?.thread_id;
+    if (!threadId || detail.thread_status !== "running") return;
+
+    let stopped = false;
+    let checking = false;
+    const checkRun = async () => {
+      if (checking) return;
+      checking = true;
+      try {
+        const run = await api.run(threadId);
+        if (
+          !stopped &&
+          (run.summary.awaiting_approval || run.summary.status !== "running")
+        ) {
+          load();
+        }
+      } catch {
+        // A transient poll failure should not hide the page; the next poll retries.
+      } finally {
+        checking = false;
+      }
+    };
+
+    const timer = window.setInterval(checkRun, 2500);
+    void checkRun();
+    return () => {
+      stopped = true;
+      window.clearInterval(timer);
+    };
+  }, [detail?.thread_id, detail?.thread_status, load]);
+
   async function analyse() {
     setStarting(true);
     try {
@@ -84,6 +120,13 @@ export default function JobDetailPage() {
           </Link>
         )}
       </div>
+
+      {detail.thread_status === "running" && decision?.decision === "bid" && (
+        <div className="banner" style={{ background: "var(--surface-2)" }} role="status">
+          GigBid recommends bidding and is preparing the proposal draft. The review option
+          will appear here when the draft is ready; you can follow progress in the run.
+        </div>
+      )}
 
       {!detail.analysed && (
         <div className="banner" style={{ background: "var(--surface-2)" }}>

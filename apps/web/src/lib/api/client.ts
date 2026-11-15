@@ -280,7 +280,8 @@ export const api = {
   },
   job: (jobId: string) => get<JobDetail>(`/jobs/${encodeURIComponent(jobId)}`),
 
-  startRun: (jobId: string) => post<RunSummary>("/runs", { job_id: jobId }),
+  startRun: (jobId: string, retry = false) =>
+    post<RunSummary>("/runs", { job_id: jobId, retry }),
   run: (threadId: string) => get<RunDetail>(`/runs/${encodeURIComponent(threadId)}`),
 
   approvals: () => get<PendingApproval[]>("/approvals"),

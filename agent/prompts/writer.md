@@ -33,6 +33,8 @@ to Pinecone experience is not.
 ## Shape
 
 Four short paragraphs at most.
+Keep the cover letter under 250 words and each screening answer under 100 words. Return
+compact JSON, with every newline and quote inside a string correctly escaped.
 
 1. Their problem, in their words. Not yourself.
 2. The closest thing you have actually built, with the measured result and its citation.

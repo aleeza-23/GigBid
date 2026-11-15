@@ -98,7 +98,13 @@ class Reply:
         try:
             return json.loads(raw)
         except json.JSONDecodeError as exc:
-            raise LLMError(f"model reply was not valid JSON: {self.text[:300]!r}") from exc
+            start = max(0, exc.pos - 80)
+            end = min(len(self.text), exc.pos + 80)
+            context = self.text[start:end]
+            raise LLMError(
+                f"model reply was not valid JSON ({exc.msg}) at character {exc.pos}: "
+                f"{context!r}"
+            ) from exc
 
 
 def load_config(path: Path | None = None) -> dict[str, Any]:

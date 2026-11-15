@@ -131,6 +131,10 @@ class StartRunRequest(BaseModel):
     persona: str | None = Field(
         default=None, description="Defaults to the signed-in user's persona."
     )
+    retry: bool = Field(
+        default=False,
+        description="Start a fresh thread when the previous attempt ended in needs_attention.",
+    )
 
 
 class RunSummary(BaseModel):

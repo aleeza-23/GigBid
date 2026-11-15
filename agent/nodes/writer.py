@@ -21,7 +21,7 @@ from typing import Any
 from langchain_core.runnables import RunnableConfig
 
 from agent.handoffs import ProposalDraft
-from agent.nodes._common import call_model, evidence_block, node_trace, step
+from agent.nodes._common import app_config, call_model, evidence_block, node_trace, step
 from agent.state import GigBidState, dedupe_evidence
 
 
@@ -75,22 +75,61 @@ async def writer(state: GigBidState, config: RunnableConfig | None = None) -> di
             + "Fix these specifically. Do not rewrite the parts that were not criticised."
         )
 
+    prompt_values = {
+        "job_title": (state.get("job") or {}).get("title") or "",
+        "job_text": (state.get("job_text_sanitised") or "")[:2500],
+        "screening_questions": getattr(spec, "screening_questions", []) or [],
+        "evidence": evidence_block(evidence, limit=6),
+        "unbacked_skills": unbacked or "(none)",
+        "bid_rate": f"${getattr(quote, 'amount_usd', 0):.0f}",
+        "style_rules": style_rules or "(no style rules promoted yet)",
+        "outcome_note": outcome_note,
+        "revision_note": revision_note,
+    }
+    trace_id = state.get("trace_id")
+    job_id = state.get("job_id")
     parsed, meta = call_model(
         "writer",
-        prompt_values={
-            "job_title": (state.get("job") or {}).get("title") or "",
-            "job_text": (state.get("job_text_sanitised") or "")[:2500],
-            "screening_questions": getattr(spec, "screening_questions", []) or [],
-            "evidence": evidence_block(evidence, limit=6),
-            "unbacked_skills": unbacked or "(none)",
-            "bid_rate": f"${getattr(quote, 'amount_usd', 0):.0f}",
-            "style_rules": style_rules or "(no style rules promoted yet)",
-            "outcome_note": outcome_note,
-            "revision_note": revision_note,
-        },
-        trace_id=state.get("trace_id"),
-        job_id=state.get("job_id"),
+        prompt_values=prompt_values,
+        trace_id=trace_id,
+        job_id=job_id,
     )
+
+    # Structured output can still be malformed by a provider. Retry once with a shorter
+    # draft instruction and a larger output allowance, rather than ending a good bid at
+    # the Writer. The Critic and verifier still check the retry before approval.
+    if not isinstance(parsed, dict) or not str(parsed.get("cover_letter") or "").strip():
+        retry_values = {
+            **prompt_values,
+            "revision_note": (
+                f"{revision_note}\n"
+                "The previous response could not be parsed as JSON. Return only the exact "
+                "JSON object requested, with valid escaping. Keep the cover letter under "
+                "180 words and screening answers under 60 words each. Do not use Markdown."
+            ).strip(),
+        }
+        first_meta = meta
+        retry_limit = int(
+            (app_config(config).get("models") or {}).get("writer_retry_max_tokens", 3000)
+        )
+        parsed, retry_meta = call_model(
+            "writer",
+            prompt_values=retry_values,
+            trace_id=trace_id,
+            job_id=job_id,
+            max_tokens=retry_limit,
+        )
+        meta = dict(retry_meta)
+        meta["tokens"] = int(first_meta.get("tokens") or 0) + int(retry_meta.get("tokens") or 0)
+        meta["duration_ms"] = float(first_meta.get("duration_ms") or 0) + float(
+            retry_meta.get("duration_ms") or 0
+        )
+        meta["attempts"] = 2
+        if not isinstance(parsed, dict) or not str(parsed.get("cover_letter") or "").strip():
+            meta["error"] = (
+                f"first Writer attempt: {first_meta.get('error') or 'empty draft'}; "
+                f"retry: {retry_meta.get('error') or 'empty draft'}"
+            )
 
     if not isinstance(parsed, dict) or not str(parsed.get("cover_letter") or "").strip():
         # No draft. Not recoverable by rule: a template proposal is worse than none, and

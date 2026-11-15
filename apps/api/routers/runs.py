@@ -11,6 +11,7 @@ means a sixty-second request, a proxy timeout, and no progress to show.
 
 from __future__ import annotations
 
+from uuid import uuid4
 from typing import Any
 
 from fastapi import APIRouter, HTTPException, Request, status
@@ -71,7 +72,15 @@ async def start_run(
     tid = thread_id("bid", user["user_id"], body.job_id)
     existing, awaiting = await _state(request, tid)
     if existing:
-        return _summary(tid, existing, awaiting)
+        if (
+            body.retry
+            and not awaiting
+            and existing.get("status") in {"needs_attention", "dead_letter", "failed"}
+        ):
+            # Keep prior traces intact and give the retry its own durable checkpoint.
+            tid = thread_id("bid", user["user_id"], f"{body.job_id}:retry:{uuid4().hex[:10]}")
+        else:
+            return _summary(tid, existing, awaiting)
 
     try:
         job = await market.get_job(body.job_id)

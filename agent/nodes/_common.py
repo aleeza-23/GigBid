@@ -111,6 +111,7 @@ def call_model(
     trace_id: str | None = None,
     thread_id: str | None = None,
     job_id: str | None = None,
+    max_tokens: int | None = None,
 ) -> tuple[Any, dict[str, Any]]:
     """Render this node's prompt, call its model, parse JSON. Returns (parsed, meta).
 
@@ -141,7 +142,7 @@ def call_model(
 
     started = time.perf_counter()
     try:
-        reply = client.chat(node, messages, json_mode=json_mode)
+        reply = client.chat(node, messages, json_mode=json_mode, max_tokens=max_tokens)
     except LLMError as exc:
         return None, {
             "error": str(exc),

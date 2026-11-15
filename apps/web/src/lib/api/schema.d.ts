@@ -973,6 +973,12 @@ export interface components {
              * @description Defaults to the signed-in user's persona.
              */
             persona?: string | null;
+            /**
+             * Retry
+             * @description Start a fresh thread when the previous attempt ended in needs_attention.
+             * @default false
+             */
+            retry: boolean;
         };
         /** ThreadSummary */
         ThreadSummary: {

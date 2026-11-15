@@ -84,6 +84,7 @@ models:
   temperature: 0.2
   writer_temperature: 0.5
   max_output_tokens: 2000
+  writer_retry_max_tokens: 3000
   request_timeout_sec: 60
   # Groq's free tier meters tokens per minute, not requests. The client paces itself
   # against this and honours Retry-After, so a 120-call evaluation completes instead of

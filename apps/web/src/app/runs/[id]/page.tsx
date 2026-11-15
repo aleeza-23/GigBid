@@ -105,6 +105,35 @@ export default function RunPage() {
         )}
       </p>
 
+      {detail?.summary.awaiting_approval && (
+        <p>
+          <Link
+            className="btn btn-primary"
+            href={`/studio/${encodeURIComponent(threadId)}`}
+          >
+            Review the proposal
+          </Link>
+        </p>
+      )}
+
+      {detail?.summary.status === "needs_attention" && detail.summary.job_id && (
+        <p>
+          <button
+            className="btn"
+            onClick={async () => {
+              try {
+                const retry = await api.startRun(detail.summary.job_id!, true);
+                router.push(`/runs/${encodeURIComponent(retry.thread_id)}`);
+              } catch (err) {
+                setError(err);
+              }
+            }}
+          >
+            Retry this run
+          </button>
+        </p>
+      )}
+
       {error && <ErrorState error={error} />}
 
       {detail?.summary.budget_exceeded && (
