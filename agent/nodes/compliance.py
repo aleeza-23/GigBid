@@ -116,6 +116,33 @@ def apply_redactions(text: str) -> tuple[str, list[str], list[str]]:
     return cleaned, redactions, rules
 
 
+def is_blocked(
+    violations: list[str], cleaned_text: str, parsed: dict[str, Any] | None
+) -> bool:
+    """Should this draft be stopped?
+
+    A violation the guard found and did not remove has to stop the draft, whatever the
+    model called its own verdict. The earlier rule required the model to *also* set
+    `status: "blocked"`, which meant a policy rule could be detected, quoted in the trace
+    by number, and then pass anyway. The rehearsal of the change request found it: a new
+    disclosure rule was added to the policy pack, the guard cited it correctly, and the
+    offending sentence went through.
+
+    Remediation decides it, not the model's label. If the text the guard objected to is
+    gone from the cleaned draft, the objection is satisfied. If it is still there, the
+    draft is blocked and a person is told why, which is the safe direction for the one node
+    whose job is the platform's rules.
+
+    Matching is on the first eight words of the quoted violation, because the model quotes
+    the offending sentence but rarely reproduces its punctuation exactly.
+    """
+    for quote in violations:
+        probe = " ".join(str(quote).split()[:8]).strip(" .,'\"")
+        if probe and probe.lower() in cleaned_text.lower():
+            return True
+    return bool(violations) and str((parsed or {}).get("status")) == "blocked"
+
+
 async def compliance(state: GigBidState, config: RunnableConfig | None = None) -> dict[str, Any]:
     draft = state.get("proposal_draft")
     if draft is None:
@@ -158,10 +185,7 @@ async def compliance(state: GigBidState, config: RunnableConfig | None = None) -
         ):
             cleaned = model_cleaned
 
-    blocked = bool(violations) and (
-        isinstance(parsed, dict) and str(parsed.get("status")) == "blocked"
-    )
-
+    blocked = is_blocked(violations, cleaned, parsed if isinstance(parsed, dict) else None)
     status = "blocked" if blocked else ("fixed" if redactions else "pass")
     verdict = ComplianceVerdict(
         status=status,

@@ -103,6 +103,10 @@ budgets:
   usd_per_proposal: 0.05
 
 thresholds:
+  # Keep this many Connects back rather than spending to zero. A platform rule that
+  # introduces a cost or a cap lands here: the decision node reads the number, so moving
+  # it is a config edit and not a code change. Set to 0 to spend the whole balance.
+  connects_reserve: 8
   minimum_fit_score: 0.60
   maximum_risk_score: 0.70
   # Below this coverage the decision node skips rather than bidding, and says which

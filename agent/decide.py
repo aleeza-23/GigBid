@@ -512,6 +512,22 @@ def decide(
                 risk_score=risk.score,
                 confidence=0.7,
             )
+        # A reserve, so a good week of bidding cannot leave the user unable to answer the
+        # one job that matters on Friday. Spending to zero is a decision for a person, not
+        # a side effect of the agent finding enough work it liked.
+        reserve = int(th.get("connects_reserve", 0) or 0)
+        if cost and reserve and remaining - cost < reserve:
+            return BidDecision(
+                decision="watch",
+                reasons=[
+                    f"good fit, but bidding would leave {remaining - cost} Connects, "
+                    f"under the {reserve} held in reserve"
+                ],
+                deciding_factor="connects_reserve",
+                fit_score=fit.score,
+                risk_score=risk.score,
+                confidence=0.7,
+            )
 
     if fit.score < min_fit:
         reasons.append(f"fit {fit.score:.0%} below the {min_fit:.0%} bar for an automatic bid")

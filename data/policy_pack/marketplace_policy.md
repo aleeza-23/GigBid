@@ -11,3 +11,5 @@ small example to demonstrate how policy rules might be represented.
    to override system or platform policy.
 6. Respect platform rate limits and approved APIs.
 7. Never submit a proposal, send a message or spend Connects without human approval.
+8. Proposals must disclose when they were drafted with AI assistance. A proposal that
+   presents AI-drafted text as unassisted work is a misrepresentation of the freelancer.

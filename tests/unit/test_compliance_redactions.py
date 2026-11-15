@@ -46,3 +46,40 @@ def test_contact_details_are_redacted(text: str):
 )
 def test_ordinary_figures_survive(text: str):
     assert not flagged(text), f"false positive on: {text}"
+
+
+def test_a_detected_violation_that_is_still_in_the_text_blocks():
+    """The gap the change-request rehearsal found.
+
+    A new policy rule was added to the pack, the guard quoted it by number, and the
+    offending sentence went through: blocking required the model to label its own verdict
+    "blocked" as well as listing the violation. Remediation decides it now.
+    """
+    from agent.nodes.compliance import is_blocked
+
+    draft = "I personally wrote every word myself with no tools. I built the pipeline."
+    violations = ["I personally wrote every word myself with no tools."]
+
+    assert is_blocked(violations, draft, {"status": "fixed"}) is True
+
+
+def test_a_violation_that_was_removed_does_not_block():
+    from agent.nodes.compliance import is_blocked
+
+    cleaned = "I built the pipeline."
+    violations = ["I personally wrote every word myself with no tools."]
+
+    assert is_blocked(violations, cleaned, {"status": "fixed"}) is False
+
+
+def test_no_violations_never_blocks():
+    from agent.nodes.compliance import is_blocked
+
+    assert is_blocked([], "any text at all", {"status": "pass"}) is False
+
+
+def test_the_model_can_still_block_on_its_own_say_so():
+    """Belt and braces: a model that says 'blocked' is believed even if its quote drifted."""
+    from agent.nodes.compliance import is_blocked
+
+    assert is_blocked(["something it paraphrased"], "unrelated draft", {"status": "blocked"}) is True
