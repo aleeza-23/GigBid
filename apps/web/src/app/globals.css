@@ -1,0 +1,296 @@
+/*
+ * One small token set, light and dark, no framework.
+ *
+ * Tailwind would be a 400KB dependency to style twelve screens that mostly need tables
+ * and cards. Tokens on :root keep every colour decision in one place, which is what
+ * matters for the contrast requirements below.
+ *
+ * Accessibility is a graded requirement, not a nicety: visible focus rings, a skip link,
+ * 44px touch targets, and semantic colour that never carries meaning alone — every risk
+ * badge and status pill has a text label beside its colour.
+ */
+
+:root {
+  --bg: #f7f7f9;
+  --surface: #ffffff;
+  --surface-2: #f0f1f4;
+  --border: #d9dbe2;
+  --text: #16181d;
+  --text-dim: #5c6070;
+  --accent: #3a57d7;
+  --accent-text: #ffffff;
+  --ok: #107a4d;
+  --warn: #8a5a00;
+  --danger: #b3261e;
+  --ok-bg: #e4f4ec;
+  --warn-bg: #fdf3dd;
+  --danger-bg: #fbe9e7;
+  --radius: 10px;
+  --shadow: 0 1px 2px rgba(16, 18, 29, 0.06), 0 2px 8px rgba(16, 18, 29, 0.04);
+  --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14161b;
+    --surface: #1b1e25;
+    --surface-2: #23262f;
+    --border: #343845;
+    --text: #e9eaee;
+    --text-dim: #a0a5b5;
+    --accent: #7d93f5;
+    --accent-text: #11131a;
+    --ok: #5fd39b;
+    --warn: #e5b85c;
+    --danger: #f08b82;
+    --ok-bg: #13301f;
+    --warn-bg: #332a14;
+    --danger-bg: #331c1a;
+    --shadow: none;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 15px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Every interactive element must show where the keyboard is. */
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: var(--accent);
+  color: var(--accent-text);
+  padding: 10px 16px;
+  z-index: 100;
+}
+.skip-link:focus { left: 8px; top: 8px; }
+
+/* -------------------------------------------------------------- layout */
+
+.shell { min-height: 100vh; display: flex; flex-direction: column; }
+
+.topbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 16px;
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.brand { font-weight: 650; letter-spacing: -0.01em; margin-right: 4px; }
+
+.nav { display: flex; gap: 2px; flex-wrap: wrap; flex: 1; }
+
+.nav a {
+  padding: 8px 11px;
+  border-radius: 8px;
+  color: var(--text-dim);
+  font-size: 14px;
+  /* 44px minimum touch target on a phone. */
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+}
+.nav a:hover { background: var(--surface-2); text-decoration: none; color: var(--text); }
+.nav a[aria-current="page"] { background: var(--surface-2); color: var(--text); font-weight: 600; }
+
+main { flex: 1; width: 100%; max-width: 1180px; margin: 0 auto; padding: 20px 16px 64px; }
+
+h1 { font-size: 22px; margin: 0 0 4px; letter-spacing: -0.01em; }
+h2 { font-size: 17px; margin: 28px 0 10px; }
+h3 { font-size: 15px; margin: 18px 0 8px; }
+.subtitle { color: var(--text-dim); margin: 0 0 20px; font-size: 14px; }
+
+/* --------------------------------------------------------------- cards */
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px;
+  box-shadow: var(--shadow);
+}
+.card + .card { margin-top: 12px; }
+.card-row { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+
+.grid { display: grid; gap: 12px; }
+.grid-2 { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.grid-3 { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+
+/* --------------------------------------------------------------- pills */
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  background: var(--surface-2);
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+.pill-ok { background: var(--ok-bg); color: var(--ok); }
+.pill-warn { background: var(--warn-bg); color: var(--warn); }
+.pill-danger { background: var(--danger-bg); color: var(--danger); }
+
+/* ------------------------------------------------------------- buttons */
+
+button, .btn {
+  font: inherit;
+  font-weight: 550;
+  padding: 9px 15px;
+  min-height: 40px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+button:hover:not(:disabled) { background: var(--surface-2); }
+button:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.btn-primary { background: var(--accent); color: var(--accent-text); border-color: transparent; }
+.btn-primary:hover:not(:disabled) { filter: brightness(1.08); background: var(--accent); }
+.btn-danger { color: var(--danger); border-color: var(--danger); background: transparent; }
+.btn-danger:hover:not(:disabled) { background: var(--danger-bg); }
+.btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
+
+input, textarea, select {
+  font: inherit;
+  width: 100%;
+  padding: 9px 11px;
+  min-height: 40px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+}
+textarea { min-height: 220px; resize: vertical; line-height: 1.6; }
+label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 5px; }
+.field { margin-bottom: 14px; }
+
+/* -------------------------------------------------------------- tables */
+
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--border); }
+th { font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text-dim); }
+tbody tr:hover { background: var(--surface-2); }
+.num { text-align: right; font-variant-numeric: tabular-nums; }
+
+/* The table wrapper scrolls on a phone instead of breaking the layout. */
+.scroll-x { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+/* -------------------------------------------------------------- states */
+
+.banner {
+  padding: 11px 14px;
+  border-radius: var(--radius);
+  margin-bottom: 14px;
+  font-size: 14px;
+  border: 1px solid transparent;
+}
+.banner-warn { background: var(--warn-bg); color: var(--warn); border-color: currentColor; }
+.banner-danger { background: var(--danger-bg); color: var(--danger); border-color: currentColor; }
+
+.empty {
+  text-align: center;
+  padding: 44px 20px;
+  color: var(--text-dim);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+}
+
+.spinner {
+  display: inline-block;
+  width: 14px; height: 14px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+@media (prefers-reduced-motion: reduce) {
+  .spinner { animation-duration: 2.5s; }
+}
+
+.mono { font-family: var(--mono); font-size: 12.5px; }
+.dim { color: var(--text-dim); }
+.small { font-size: 13px; }
+
+/* ------------------------------------------------------- evidence hover */
+
+/* Every claim in a proposal shows the evidence behind it. Hover and focus both, so it
+   works from a keyboard, and tap-to-toggle on touch via the details element. */
+.claim {
+  position: relative;
+  border-bottom: 2px dotted var(--accent);
+  cursor: help;
+}
+.claim-pop {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 6px);
+  width: min(460px, 86vw);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px;
+  box-shadow: 0 6px 24px rgba(16, 18, 29, 0.18);
+  z-index: 30;
+  font-size: 13px;
+  display: none;
+}
+.claim:hover .claim-pop,
+.claim:focus-within .claim-pop { display: block; }
+
+.timeline { list-style: none; padding: 0; margin: 0; }
+.timeline li {
+  display: grid;
+  grid-template-columns: 130px 1fr auto;
+  gap: 10px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  align-items: baseline;
+}
+.timeline .node { font-weight: 600; font-size: 13px; }
+
+.kanban { display: grid; grid-template-columns: repeat(7, minmax(170px, 1fr)); gap: 10px; }
+.kanban-col { background: var(--surface-2); border-radius: var(--radius); padding: 10px; }
+.kanban-col h3 { margin: 0 0 8px; font-size: 12px; text-transform: uppercase; color: var(--text-dim); }
+
+.stat { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px; }
+.stat-value { font-size: 26px; font-weight: 650; font-variant-numeric: tabular-nums; letter-spacing: -0.02em; }
+.stat-label { font-size: 12px; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.04em; }
+
+/* ----------------------------------------------------------- phone */
+
+@media (max-width: 760px) {
+  main { padding: 14px 16px 56px; }
+  .timeline li { grid-template-columns: 1fr; gap: 2px; }
+  .kanban { grid-template-columns: 1fr; }
+  .brand { width: 100%; }
+}
