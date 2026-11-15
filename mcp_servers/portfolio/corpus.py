@@ -19,7 +19,7 @@ from __future__ import annotations
 
 import json
 import os
-from dataclasses import asdict, dataclass, field
+from dataclasses import asdict, dataclass, field, fields
 from functools import lru_cache
 from pathlib import Path
 from typing import Any, Literal
@@ -67,10 +67,27 @@ class EvidenceItem:
     cited_project_ids: list[str] = field(default_factory=list)
     score: float | None = None
     rating: float | None = None
+    extra: dict[str, Any] = field(default_factory=dict)
+    """Variant annotations: which retriever found it, which requirements it covers,
+    whether the corrective loop judged the evidence sufficient. A declared field rather
+    than attributes set on the instance, because retrieval pipelines copy these objects
+    between stages and a dynamic attribute breaks the copy."""
 
     @property
     def citation(self) -> str:
         return f"portfolio://{self.type}/{self.id}"
+
+    def clone(self, **changes: Any) -> EvidenceItem:
+        """A copy with fields replaced. The safe way to re-score an item mid-pipeline."""
+        data = {f.name: getattr(self, f.name) for f in fields(self)}
+        data["extra"] = dict(self.extra)
+        data.update(changes)
+        return EvidenceItem(**data)
+
+    def annotate(self, **notes: Any) -> EvidenceItem:
+        """Attach variant metadata without touching the declared fields."""
+        self.extra.update(notes)
+        return self
 
     def to_dict(self, include_text: bool = True, text_limit: int | None = None) -> dict[str, Any]:
         out = asdict(self)
@@ -83,6 +100,8 @@ class EvidenceItem:
             out.pop("score", None)
         if out.get("rating") is None:
             out.pop("rating", None)
+        if not out.get("extra"):
+            out.pop("extra", None)
         return out
 
 

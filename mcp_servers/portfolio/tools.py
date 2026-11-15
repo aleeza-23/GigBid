@@ -134,6 +134,22 @@ class EvidenceHit(BaseModel):
         default_factory=list,
         description="For a past proposal, the projects it cited as evidence.",
     )
+    extra: dict[str, Any] = Field(
+        default_factory=dict,
+        description=(
+            "What the retrieval variant recorded about this hit: which retrievers found "
+            "it, which requirements it covers, whether the corrective loop judged the "
+            "evidence sufficient."
+        ),
+    )
+    """Annotations from the configured variant.
+
+    This field has to exist because the model forbids extra keys and `EvidenceItem.to_dict`
+    emits `extra` whenever a variant annotated the hit. With the built-in BM25 ranker
+    nothing annotates anything, so the omission was invisible until a measured variant was
+    configured, at which point every `search_evidence` call failed validation. The
+    annotations are also what the requirement-to-evidence matrix in the UI reads, so
+    dropping them rather than declaring them would have cost a screen."""
 
 
 class SearchEvidenceResult(BaseModel):

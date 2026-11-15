@@ -33,7 +33,15 @@ _WORD = re.compile(r"[a-z0-9+#.]+")
 
 # Words that match everything in a freelance corpus and so discriminate nothing.
 _STOP = frozenset(
-    ["a", "an", "the", "and", "or", "but", "if", "then", "than", "that", "this", "these", "those", "of", "in", "on", "at", "to", "for", "with", "by", "from", "as", "is", "are", "was", "were", "be", "been", "being", "do", "does", "did", "doing", "have", "has", "had", "having", "i", "you", "he", "she", "it", "we", "they", "my", "your", "our", "their", "me", "him", "her", "them", "so", "not", "no", "yes", "can", "will", "would", "should", "could", "may", "might", "must", "about", "into", "over", "under", "again", "further", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "only", "own", "same", "too", "very", "just", "also", "like", "need", "needs", "needed", "looking", "experience", "work", "working", "project", "projects", "client", "clients", "please", "want", "wanted", "using", "use", "used", "will", "able", "team", "help", "new", "good", "great", "best"]
+    """
+    a an the and or but if then than that this these those of in on at to for with by from
+    as is are was were be been being do does did doing have has had having i you he she it
+    we they my your our their me him her them so not no yes can will would should could may
+    might must about into over under again further once here there when where why how all
+    any both each few more most other some such only own same too very just also like need
+    needs needed looking experience work working project projects client clients please want
+    wanted using use used will able team help new good great best
+    """.split()
 )
 
 # BM25 constants. k1 controls how fast term frequency saturates, b how much document
