@@ -96,7 +96,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="CI quality gate (E2)")
     parser.add_argument("--limit", type=int, default=30, help="jobs to evaluate")
     # The shipped variant, so the gate guards what users get.
-    parser.add_argument("--variant", default="V12")
+    parser.add_argument("--variant", default="V1")
     parser.add_argument(
         "--write-baseline",
         action="store_true",

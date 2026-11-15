@@ -70,16 +70,20 @@ embeddings:
 
 | Variant | Recall@5 | nDCG@10 | ms/query |
 |---|---|---|---|
-| V0 naive dense | 0.582 | 0.750 | 754 |
-| V1 requirement decomposition | 0.651 | 0.774 | 56 |
-| V2 hybrid BM25 + dense RRF | 0.581 | 0.768 | 4 |
-| V3 cross-encoder rerank | 0.592 | 0.744 | 11,737 |
-| V8 corrective loop | 0.571 | 0.747 | 65 |
+| V0 naive dense | 0.582 | 0.750 | 1,325 |
+| V1 requirement decomposition | 0.651 | 0.774 | 59 |
+| V2 hybrid BM25 + dense RRF | 0.581 | 0.768 | 6 |
+| V3 cross-encoder rerank | 0.592 | 0.744 | 11,273 |
+| V8 corrective loop | 0.571 | 0.747 | 50 |
+| V12 decomposition over hybrid | 0.550 | 0.666 | 110 |
 
-Decomposition works: 6.9 points over the baseline for 56 ms. That is the one part of my
-hypothesis that survived, though at half the size I predicted.
+Decomposition works: 6.9 points over the baseline for 59 ms. That is the one part of my
+hypothesis that survived, though at half the size I predicted. The hybrid half did not:
+V2 lands on the baseline, and combining it with decomposition is worse than either alone,
+because RRF scores from six different queries are not on a common scale and I merged them
+by taking the best.
 
-The cross-encoder spends **11.7 seconds a query** to land 1.0 point above the baseline. On
+The cross-encoder spends **11.3 seconds a query** to land 1.0 point above the baseline. On
 a six-requirement job that is over a minute of reranking against a declared 25-second
 analysis budget. And the ablation, run with a cheaper lexical reranker in the same slot, is
 blunter still: removing the reranker raised Recall@5 from 0.563 to 0.661 and nDCG@10 from
@@ -108,10 +112,11 @@ embedding and a cross-encoder blur "Celery" into "task queue". BM25 does not blu
 
 ## What shipped
 
-The configured variant is decomposition over hybrid retrieval with no reranking. There is
-no model in the retrieval path at all, so retrieval cost grows by milliseconds per
-requirement instead of seconds, and the 25-second analysis budget holds with room to
-spare — measured p95 is 7.6 seconds.
+The configured variant is the plainest one that measured well: a dense query per
+requirement, merged by score, with no fusion and no reranker. There is no model in the
+retrieval path at all, so retrieval cost grows by milliseconds per requirement instead of
+seconds, and the 25-second analysis budget holds with room to spare, with measured p95 at
+7.6 seconds.
 
 The cross-encoder is still in the repository behind an environment variable, because the
 result is corpus-specific. At 10,000 items I would expect it to start earning its place.

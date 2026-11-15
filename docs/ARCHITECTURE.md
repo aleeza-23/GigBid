@@ -257,25 +257,30 @@ allowlist. LangGraph currently warns about unregistered types and will later ref
 day it refuses, an unlisted class stops every pending approval in the database from
 loading.
 
-## The retrieval configuration, and why reranking is not in it
+## The retrieval configuration, and why it is the plainest one
 
-`retrieval.variant` is `V12`: V1's per-requirement queries over V2's hybrid retriever,
-with no reranking (`rag/variants/v12_decompose_hybrid.py`). Three measurements decided it.
+`retrieval.variant` is `V1`: one dense query per requirement, merged by score
+(`rag/variants/v1_decompose.py`). Three measurements over 142 labelled dev rows chose it.
 
-Decomposition earns its place. Retrieving once per requirement rather than once per job
-post is worth 6.9 Recall@5 points over the naive dense baseline and costs about 50 ms.
+Decomposition earns its place. Retrieving once per requirement rather than once per blended
+job post is worth 6.9 Recall@5 points over the naive baseline, 0.651 against 0.582, and
+costs about 60 ms.
 
 Reranking does not. In the ablation, removing the reranker *raised* Recall@5 by 9.8 points
 and nDCG@10 by 15.5. The real cross-encoder is no better: `BAAI/bge-reranker-base` needs
-11.7 seconds a query on CPU to land 1 point above that baseline, which on a six-requirement
-job is over a minute against a declared 25-second analysis budget. The reading that fits
-both results is that reranking is a precision tool for deep candidate pools, and a
-197-item corpus is not one: the hybrid retriever has already seen every candidate, so a
-reranker can only reorder, and here it reorders worse.
+11.3 seconds a query on CPU to land 1.0 point above that baseline, which on a
+six-requirement job is over a minute against a declared 25-second analysis budget. Both
+results point the same way: reranking is a precision tool for deep candidate pools, and a
+197-item corpus the retriever has already scored in full is not one, so a reranker can only
+reorder and here it reorders worse.
 
-That is a negative result about the most sophisticated component in Part B, and it is the
-reason the shipped retrieval path contains no model at all. A job's retrieval cost
-therefore grows by a few milliseconds per requirement rather than by seconds.
+Hybrid fusion does not either. V2 scores 0.581 against the baseline's 0.582, and
+decomposition over hybrid (V12) scores 0.550, worse than either alone, because RRF scores
+from different queries are not on a common scale and cannot be merged by taking the best.
+
+So the shipped retrieval path has no reranker, no fusion and no model in it. That is a
+negative result about the two most sophisticated components in Part B, and it is why a
+job's retrieval cost grows by milliseconds per requirement instead of seconds.
 
 ## Configuration
 

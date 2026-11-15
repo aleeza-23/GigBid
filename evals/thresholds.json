@@ -10,7 +10,7 @@
     "Raise them deliberately when the system improves, in the same commit as the",
     "improvement, so the gate ratchets rather than drifting."
   ],
-  "measured_on": "198 dev jobs, retrieval V12 (the shipped variant), embeddings BAAI/bge-small-en-v1.5",
+  "measured_on": "198 dev jobs, retrieval V1 (the shipped variant), embeddings BAAI/bge-small-en-v1.5",
   "source": "evals/results/decision_eval.json",
   "minimums": {
     "bid_or_skip_accuracy": 0.7,

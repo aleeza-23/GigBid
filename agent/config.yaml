@@ -117,15 +117,19 @@ thresholds:
 retrieval:
   # Which RAG variant ships. Chosen by measurement in Part B (R6), not by default.
   #
-  # V12 is V1's per-requirement queries over V2's hybrid retriever, with no reranking. The
-  # evaluation picked it: decomposition is worth 6.9 Recall@5 points over the naive dense
-  # baseline for about 50 ms, while reranking cost 9.8 points in the ablation and the real
-  # cross-encoder needs 11.7 seconds a query to land 1 point above that baseline. See
-  # rag/variants/v12_decompose_hybrid.py for the table and evals/results/ for the files.
+  # V1 is requirement decomposition over dense retrieval: one query per requirement,
+  # merged by best score. It is the best measured variant on 142 labelled dev rows, at
+  # 0.651 Recall@5 against 0.582 for the naive single-query baseline, for about 60 ms.
+  #
+  # The two components that look more sophisticated both measured worse. Hybrid BM25 plus
+  # dense fusion scored 0.581, level with the baseline. Cross-encoder reranking scored
+  # 0.592 and took 11.3 seconds a query, and in the ablation removing the reranker raised
+  # Recall@5 by 9.8 points. V12 exists to record the combination of decomposition and
+  # hybrid fusion without reranking: 0.550, worse than either alone, so it does not ship.
   #
   # `builtin_bm25` falls back to the Portfolio server's own ranker, which is what answered
   # before the evaluation had run.
-  variant: V12
+  variant: V1
   k: 8
   rerank_top_n: 4
   outcome_aware: false

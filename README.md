@@ -151,25 +151,40 @@ The retrieval and decision tables are in
 [evals/results/results_table.md](evals/results/results_table.md). The findings worth
 stating in prose:
 
-**Requirement decomposition is the only retrieval component that earns its keep.**
-Retrieving once per requirement instead of once per job post is worth 6.9 Recall@5 points
-over the naive dense baseline, 0.651 against 0.582, and costs about 50 ms a query.
+**The simplest variant won.** 142 dev rows with gold evidence, BGE embeddings:
 
-**Reranking made retrieval worse.** This is the result I did not expect and the one worth
-reading the files for. In the ablation, *removing* the reranker raised Recall@5 by 9.8
-points, 0.563 to 0.661, and nDCG@10 by 15.5. The real cross-encoder is no better:
-`BAAI/bge-reranker-base` needs 11.7 seconds a query on CPU to finish 1.0 point above the
-baseline it was supposed to improve on, which for a six-requirement job is over a minute
-against a declared 25-second analysis budget. The reading that fits both results is that
-reranking is a precision tool for deep candidate pools, and a 197-item corpus is not one:
-the hybrid retriever has already seen every candidate, so a reranker can only reorder, and
-here it reorders worse.
+| Variant | Recall@5 | nDCG@10 | ms/query |
+|---|---|---|---|
+| V0 naive dense, one blended query | 0.582 | 0.750 | 1,325 |
+| **V1 requirement decomposition** | **0.651** | **0.774** | **59** |
+| V2 hybrid BM25 + dense RRF | 0.581 | 0.768 | 6 |
+| V3 cross-encoder rerank | 0.592 | 0.744 | 11,273 |
+| V8 corrective loop | 0.571 | 0.747 | 50 |
+| V12 decomposition over hybrid | 0.550 | 0.666 | 110 |
 
-So the shipped configuration is decomposition over hybrid retrieval with no reranking at
-all (`V12`, `rag/variants/v12_decompose_hybrid.py`). There is no model in the retrieval
-path, which is also why retrieval cost grows by milliseconds per requirement rather than
-by seconds. Shipping the cross-encoder because it is the more sophisticated component
-would have cost 9.8 points of recall and most of the latency budget.
+`V1` ships. Retrieving once per requirement instead of once per blended job post is worth
+6.9 Recall@5 points for about 60 ms, and it is the only component that paid for itself.
+
+**Reranking made retrieval worse.** This is the result I did not expect. In the ablation,
+*removing* the reranker raised Recall@5 by 9.8 points, 0.563 to 0.661, and nDCG@10 by 15.5.
+The real cross-encoder is no better: `BAAI/bge-reranker-base` needs 11.3 seconds a query on
+CPU to finish 1.0 point above the baseline it was meant to improve on, which for a
+six-requirement job is over a minute against a declared 25-second analysis budget.
+Reranking is a precision tool for deep candidate pools, and a 197-item corpus the retriever
+has already scored in full is not one: a reranker can only reorder, and here it reorders
+worse.
+
+**Hybrid fusion added nothing either.** V2 scores 0.581 against the baseline's 0.582, and
+combining it with decomposition (V12) is worse than either alone at 0.550. That one is a
+merge problem rather than a retrieval one: RRF scores depend on the ranking that produced
+them, so taking the best RRF score across six requirements compares numbers that are not
+on a common scale. V1 merges cosine similarities, which are.
+
+The shipped retrieval path therefore contains no reranker, no fusion and no model: a
+dense query per requirement, merged by score. Retrieval cost grows by milliseconds per
+requirement rather than seconds, and p95 analysis latency is 7.6 s against a declared 25 s.
+Shipping the cross-encoder because it was the most sophisticated component available would
+have cost 9.8 points of recall and most of the latency budget.
 
 **Claim verification catches every planted fabrication, and over-flags a little.** Against
 180 labelled sentences generated from the real corpora, it caught 108 of 108 fabrications,
@@ -180,6 +195,14 @@ The technology check was added because of this measurement: before it, the verif
 every inflated number and every false credential and none of the 36 wrong-technology
 claims, because substituting one word leaves the overlap score almost unchanged.
 `make verify-eval`.
+
+**Bid or skip.** Over the 198-job dev set with the shipped retrieval: accuracy 0.773,
+macro F1 0.705, bid-class F1 0.563 and skip-class F1 0.846. The asymmetry is the point and
+the weakness: the system is good at declining (0.886 precision on skips) and mediocre at
+recognising a job worth bidding on (0.500 precision, 0.644 recall), so it spends Connects
+on about one bad job for every good one it finds. Always skipping would score 0.77 accuracy
+on this label distribution, which is why macro F1 rather than accuracy is the gate in
+`evals/thresholds.json`.
 
 **Scam detection and injection defence.** Over the 198-job dev set: scam detection
 precision 0.750, recall 1.000, F1 0.857; every one of the 24 planted prompt injections was
