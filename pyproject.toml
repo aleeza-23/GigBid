@@ -25,10 +25,39 @@ dev = [
   "ruff==0.17.4",
   "mypy==2.4.1",
 ]
-data = ["pandas==3.1.1", "pyarrow==26.0.1", "kagglehub==1.0.3"]
+data = ["pandas==3.1.1", "pyarrow==26.0.1", "kagglehub==1.0.3", "pypdf==7.0.1"]
+
+# Open-weight embeddings and reranker (B2). A large install because it pulls torch, so it
+# is an extra rather than a core dependency: the graph, the API and the whole test suite
+# run without it on the LSA development backend. Needed for any retrieval number that
+# will actually be reported.
+rag = ["sentence-transformers==6.3.0", "torch==2.15.0"]
+
+# Durable checkpointing (C6). Without these the only checkpointer is in-memory, which
+# loses every pending approval on restart.
+persistence = [
+  "langgraph-checkpoint-sqlite==3.1.3",
+  "aiosqlite==0.22.1",
+  "langgraph-checkpoint-postgres==3.2.1",
+  "psycopg[binary]==3.3.9",
+]
+
+# R&D question C only: the prebuilt-supervisor baseline and a LangChain chat model to
+# drive it.
+compare = ["langgraph-supervisor==0.0.31", "langchain-openai==1.8.0"]
+
 # Live Upwork mode only: Fernet encryption for the per-user OAuth token store (A4).
 # Kept out of the default install so the graded GigSim path needs no crypto library.
 live = ["cryptography==50.0.2"]
+
+# Everything needed to reproduce every number in evals/results/.
+all = [
+  "sentence-transformers==6.3.0", "torch==2.15.0",
+  "langgraph-checkpoint-sqlite==3.1.3", "aiosqlite==0.22.1",
+  "langgraph-checkpoint-postgres==3.2.1", "psycopg[binary]==3.3.9",
+  "langgraph-supervisor==0.0.31", "langchain-openai==1.8.0",
+  "cryptography==50.0.2", "pypdf==7.0.1",
+]
 
 [tool.setuptools.packages.find]
 where = ["."]
@@ -49,11 +78,18 @@ ignore = [
   # a comment saying what it is swallowing and why.
   "BLE001",
   "S110",
+  # Same reasoning as S110, in a loop: deleting one memory observation that has already
+  # gone must not abort deleting the rest.
+  "S112",
   # Multi-line prose inside tuples and lists is deliberate throughout this codebase
   # (tool descriptions, warnings, approval text), not a missing comma.
   "ISC004",
   # A sequence of guard clauses reads better than one inverted boolean return.
   "SIM103",
+  # Stopword lists are written as wrapped `"""...""".split()` text. The autofix collapses
+  # them into 950-character single-line list literals, which is strictly less readable
+  # and unreviewable in a diff.
+  "SIM905",
 ]
 
 [tool.ruff.lint.per-file-ignores]
