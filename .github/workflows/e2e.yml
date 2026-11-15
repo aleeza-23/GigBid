@@ -1,0 +1,92 @@
+name: End-to-end
+
+# D5: the Playwright journeys, against the real stack rather than mocks. GigSim, the API
+# and Next.js are all started by the Playwright config on private ports, with the model
+# forced offline, so a failure here is a wiring failure and not a bad draft.
+#
+# Separate from ci.yml because it needs Node, a browser download and a frontend build,
+# which triples the install time of a run that otherwise takes two minutes.
+#
+# `continue-on-error` on the suite step is deliberate and worth explaining. The specs drive
+# a three-process stack with real retrieval, and a CI runner is slower and noisier than a
+# laptop: a timeout here says the runner was busy, not that approval stopped working. The
+# result is uploaded and visible either way, and the properties that must never regress
+# (exactly-once spending, injection defence, claim verification) are gated in eval.yml,
+# where a failure does fail the build.
+
+on:
+  pull_request:
+  push:
+    branches: [master, main]
+  workflow_dispatch:
+
+jobs:
+  playwright:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+          cache-dependency-path: apps/web/package-lock.json
+
+      - name: Install Python stack
+        # persistence extra: the suite runs on the SQLite checkpointer, because the
+        # "a refresh never loses a pending approval" spec is meaningless without it.
+        run: python -m pip install -e ".[dev,data,persistence]"
+
+      - name: Install web dependencies
+        working-directory: apps/web
+        run: npm ci
+
+      - name: Install Chromium
+        working-directory: apps/web
+        run: npx playwright install --with-deps chromium
+
+      - name: Seed and ingest
+        run: |
+          python -m data.synth.generate --seed 42
+          python -m rag.ingest.pipeline --all
+
+      - name: Build the frontend
+        working-directory: apps/web
+        run: npm run build
+
+      - name: Run the journeys
+        id: suite
+        continue-on-error: true
+        working-directory: apps/web
+        env:
+          GIGSIM_API_TOKEN: gigsim-dev-token
+          APP_SECRET_KEY: ci-secret-not-a-real-key
+          REVIEWER_PASSWORD: reviewer
+        run: npx playwright test --project=desktop
+
+      - name: Upload the report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: |
+            apps/web/playwright-report/
+            apps/web/test-results/
+          retention-days: 14
+
+      - name: Say what happened
+        if: always()
+        run: |
+          if [ "${{ steps.suite.outcome }}" = "success" ]; then
+            echo "::notice::end-to-end journeys passed"
+          else
+            echo "::warning::the end-to-end suite did not pass. Download the"
+            echo "::warning::playwright-report artifact; it has the trace for each failure."
+          fi
