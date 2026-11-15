@@ -14,6 +14,7 @@ PostgreSQL is not evidence of Snowflake modelling even though every word overlap
 
 from __future__ import annotations
 
+import asyncio
 from typing import Any
 
 from langchain_core.runnables import RunnableConfig
@@ -45,7 +46,7 @@ async def fit_matcher(state: GigBidState, config: RunnableConfig | None = None) 
 
     job = dict(state.get("job") or {})
     job["description"] = state.get("job_text_sanitised") or job.get("description") or ""
-    requirements = decompose(job)
+    requirements = await asyncio.to_thread(decompose, job)
 
     if not requirements:
         return {
@@ -70,7 +71,13 @@ async def fit_matcher(state: GigBidState, config: RunnableConfig | None = None) 
         # V8's corrective loop: it re-queries when the evidence is weak and reports when
         # there is none worth writing from, which is what lets the decision node skip
         # rather than let the Writer invent.
-        report = retrieve_with_report(requirement, items, 3, config=retrieval_config(config))
+        # Off the event loop. Retrieval is CPU-bound (decomposition, embedding, scoring
+        # the corpus) and this node runs inside an async request handler, so doing it
+        # inline blocks every other request the API is serving. On a 0.1-CPU instance that
+        # meant one analysis froze the inbox for minutes: the process was busy, not broken.
+        report = await asyncio.to_thread(
+            retrieve_with_report, requirement, items, 3, config=retrieval_config(config)
+        )
         hits = [hit.to_dict(text_limit=700) for hit in report["hits"]]
         hits_per_requirement[requirement] = hits
         all_evidence.extend(hits)

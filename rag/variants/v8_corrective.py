@@ -149,13 +149,18 @@ def retrieve(
     items: Sequence[EvidenceItem],
     k: int = 5,
     *,
-    max_rounds: int = 2,
+    max_rounds: int | None = None,
     llm: Any = None,
     config: dict[str, Any] | None = None,
     base_retrieve: Any = None,
     **kwargs: Any,
 ) -> list[EvidenceItem]:
     """Retrieve, grade, re-query if weak, and flag insufficiency rather than hiding it."""
+    # From config, because each extra round is another pass over the corpus and on a
+    # small host that is the difference between a demo that answers in seconds and one
+    # that looks hung. The default stays 2 for evaluation runs.
+    if max_rounds is None:
+        max_rounds = int((config or {}).get("max_corrective_rounds", 2) or 2)
     propose = base_retrieve or v2_hybrid.retrieve
     query = requirement
     history: list[dict[str, Any]] = []

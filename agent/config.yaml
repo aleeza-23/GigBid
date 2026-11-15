@@ -142,6 +142,10 @@ retrieval:
   # full evaluation took over an hour of CPU, at 12 it is minutes, and precision@5 rarely
   # improves from candidates ranked below 12 by the hybrid retriever.
   candidate_depth: 12
+  # How many corrective re-queries V8 may make per requirement. Each one is another pass
+  # over the corpus, so on a small host this is the difference between a demo that answers
+  # in seconds and one that looks hung. 1 means retrieve once and grade it.
+  max_corrective_rounds: 1
 
   embeddings:
     # Open-weight, as the assignment requires in both profiles, and small enough to run
